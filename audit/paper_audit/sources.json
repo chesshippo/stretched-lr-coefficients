@@ -1,0 +1,58 @@
+[
+  {
+    "file": "cjm_fpsac.pdf",
+    "url": "https://dmtcs.episciences.org/3592/pdf",
+    "sha256": "896975c5187f9dc3d8c93e3737d4c41375ae300f21cb0069f8795bbbbe7b0117",
+    "bytes": 160673,
+    "text_status": 0
+  },
+  {
+    "file": "rassart.pdf",
+    "url": "https://pi.math.cornell.edu/~rassart/pub/LRstretch.pdf",
+    "sha256": "07db962950e3fac55feea8c66cc061fc74b6c787accb393edbabdf32b9019807",
+    "bytes": 209231,
+    "text_status": 0
+  },
+  {
+    "file": "buch.pdf",
+    "url": "https://sites.math.rutgers.edu/~asbuch/papers/sat.pdf",
+    "sha256": "61d3e6457a8d5fec024998716fe6dd0771a4eb862db88a68b654f165cf5cab86",
+    "bytes": 156675,
+    "text_status": 0
+  },
+  {
+    "file": "milne.pdf",
+    "url": "https://www.jmilne.org/math/CourseNotes/RG.pdf",
+    "sha256": "f5d282908082622f39627e6850395fccebd4f0ed9c47eba3209deda286235291",
+    "bytes": 1188120,
+    "text_status": 0
+  },
+  {
+    "file": "ikenmeyer.pdf",
+    "url": "https://arxiv.org/pdf/1209.1521",
+    "sha256": "6452cbd1f2b38358547e504159bd518e8c88a47bfa2547b52c0e91f8d18b72d5",
+    "bytes": 437002,
+    "text_status": 0
+  },
+  {
+    "file": "ktw.pdf",
+    "url": "https://arxiv.org/pdf/math/0107011",
+    "sha256": "e1a9db86510855e2ee573ce25b57a0996f59510c7059cbc7fe8c7888bd26bec6",
+    "bytes": 388494,
+    "text_status": 0
+  },
+  {
+    "file": "kt.pdf",
+    "url": "https://arxiv.org/pdf/math/9807160",
+    "sha256": "41accfecbd547483c8c030a7d8072cf15bc07c7c206bcf79c8aa002b9f7852c3",
+    "bytes": 401882,
+    "text_status": 0
+  },
+  {
+    "file": "roth.pdf",
+    "url": "https://arxiv.org/pdf/1004.5133",
+    "sha256": "a1b8d1705ed19218931ae2af18d17ec1d98cb3e790bc5dfe806a12b13b9f8003",
+    "bytes": 283232,
+    "text_status": 0
+  }
+]

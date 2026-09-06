@@ -1,0 +1,23 @@
+[
+  {
+    "name": "ktt09_publisher_full_view.xml",
+    "url": "https://api.elsevier.com/content/article/pii/S0097316508000939?view=FULL&httpAccept=text/xml",
+    "exit_code": 22,
+    "stderr": "curl: (22) The requested URL returned error: 401\n",
+    "bytes": 0
+  },
+  {
+    "name": "ktt09_author_lipn.html",
+    "url": "https://www.lipn.fr/pages/fr/research/teams/calin/publications.html",
+    "exit_code": 0,
+    "stderr": "",
+    "bytes": 272377
+  },
+  {
+    "name": "ktt09_author_king.html",
+    "url": "https://www.southampton.ac.uk/maths/about/staff/rck.page",
+    "exit_code": 0,
+    "stderr": "",
+    "bytes": 37937
+  }
+]

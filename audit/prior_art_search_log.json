@@ -1,0 +1,67 @@
+{
+  "checked_at": "2026-09-06T12:51:48.771044+00:00",
+  "service": "web search/open; primary evidence only for conclusions",
+  "queries": [
+    "\"Littlewood-Richardson\" \"positivity\" \"30\" \"7\" polynomial",
+    "\"Littlewood-Richardson\" \"seven-row\" \"thirty\"",
+    "\"Littlewood-Richardson\" \"rectangular\" \"shortening\"",
+    "\"stretched\" \"Littlewood-Richardson\" \"counterexample\" positivity 2026",
+    "\"Littlewood-Richardson\" \"coefficient\" \"nonnegative\" \"size 30\"",
+    "\"stretched Littlewood\" \"length\" \"seven\"",
+    "\"Littlewood-Richardson\" \"rectangular\" \"reduction\" formula",
+    "\"stretched LR\" \"positivity\" \"counterexamples\"",
+    "site:arxiv.org \"stretched\" \"Littlewood-Richardson\" \"positivity\"",
+    "site:github.com \"Littlewood\" \"Richardson\" \"30\" \"positivity\"",
+    "site:leanprover-community.github.io \"Littlewood\" \"Richardson\"",
+    "\"Littlewood-Richardson\" \"358952\" OR \"358,952\" OR \"1292758\"",
+    "\"Rectangular Symmetries for Coefficients of Symmetric Functions\" arxiv"
+  ],
+  "sources": [
+    {
+      "url": "https://epoch.ai/frontiermath/open-problems/stretched-lr-coefficients",
+      "date": "2026",
+      "finding": "Exact finite target length<=7 and size<=30; still displayed Unsolved."
+    },
+    {
+      "url": "https://epoch.ai/frontiermath/open-problems/about/faq",
+      "date": "accessed 2026-09-06",
+      "finding": "Community acceptance is required for negative resolutions; no automatic Epoch adjudication."
+    },
+    {
+      "url": "https://epoch.ai/files/open-problems/stretched-lr-coefficients.pdf",
+      "date": "accessed 2026-09-06",
+      "finding": "Motivation and references; no established full finite-box exclusion supplied."
+    },
+    {
+      "url": "https://arxiv.org/html/2607.22301v1",
+      "date": "arXiv 2026-07-24; rendered manuscript date 2026-08-24",
+      "finding": "Ferudun Theorem2 states all-length<=4 positivity without size cutoff; Theorems3-4 concern selected coefficients/full-dimensional cases, and leave higher-rank gaps. Not a proof of all coefficients for length<=7,size<=30. This preprint is prior-art comparison only, not an input to v010."
+    },
+    {
+      "url": "https://arxiv.org/pdf/1410.8017",
+      "date": "2014 preprint; EJC22(3)P3.15,2015",
+      "finding": "Briand-Orellana-Rosas Theorem1/Proposition2 and page2 give rectangular duality, determinant translations and S3 symmetries. The six-representative algebra is a known-consequence family, assigned no novelty credit."
+    },
+    {
+      "url": "https://www.combinatorics.org/ojs/index.php/eljc/article/view/v22i3p15",
+      "date": "2015-07-31",
+      "finding": "Publisher metadata and DOI10.37236/4808 confirm rectangular symmetries attribution."
+    },
+    {
+      "url": "https://arxiv.org/abs/2211.06810",
+      "date": "2022-11-13; revised2024-07-09",
+      "finding": "Author Warut Thawinrak; confirms correction of archived R.Wong attribution."
+    }
+  ],
+  "negative_search_finding": "No substantive online match for the complete length<=7,size<=30 positivity theorem or exact corpus was found in returned targeted results. This is bounded search evidence, not a guarantee of priority.",
+  "additional_source_logs": [
+    "paper_audit/sources.json",
+    "paper_audit/ktt09_citation_followup.md",
+    "licensing_audit/PRIMARY_SOURCES.md"
+  ],
+  "credit_policy": "Known general symmetries/low-c results receive N0 and zero novelty credit. Unresolved novelty of standalone shortening lemmas receives N2 and zero credit. Only the newly verified finite enumeration/reduction/corpus combination and its exact finite-box conclusion are candidates for N3 within this documented search scope.",
+  "discarded_lookup": {
+    "url": "https://arxiv.org/abs/1411.1660",
+    "reason": "Wrong guessed identifier led to an unrelated statistics paper; discarded and not used as evidence."
+  }
+}

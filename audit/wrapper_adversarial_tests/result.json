@@ -1,0 +1,71 @@
+{
+  "status": "PASS",
+  "wrapper_sha256": "9e33a4732f075ea6eab2f1c27378cd11c6c37d0cb88774b968d8669a82073662",
+  "genuine_initial_cases_reparsed": 512,
+  "tests": [
+    {
+      "test": "genuine_control",
+      "status": "PASS"
+    },
+    {
+      "test": "wrong_source_input",
+      "status": "REJECTED_AS_REQUIRED",
+      "reason": "Raw input is not the exact source hive"
+    },
+    {
+      "test": "wrong_full_output",
+      "status": "REJECTED_AS_REQUIRED",
+      "reason": "Raw output polynomial differs from expected"
+    },
+    {
+      "test": "nonzero_returncode",
+      "status": "REJECTED_AS_REQUIRED",
+      "reason": "Failed Normaliz invocation"
+    },
+    {
+      "test": "wrong_launch_hash",
+      "status": "REJECTED_AS_REQUIRED",
+      "reason": "Wrong launched executable hash"
+    },
+    {
+      "test": "wrong_command",
+      "status": "REJECTED_AS_REQUIRED",
+      "reason": "Wrong engine command"
+    },
+    {
+      "test": "wrong_invocation_artifact",
+      "status": "REJECTED_AS_REQUIRED",
+      "reason": "Invocation artifact differs from receipt"
+    },
+    {
+      "test": "wrong_affine_dimension",
+      "status": "REJECTED_AS_REQUIRED",
+      "reason": "Wrong raw affine dimension"
+    },
+    {
+      "test": "period_two_output",
+      "status": "REJECTED_AS_REQUIRED",
+      "reason": "Unexpected quasi-polynomial output"
+    },
+    {
+      "test": "false_maximal_label",
+      "status": "REJECTED_AS_REQUIRED",
+      "reason": "Incorrect maximal-dimension label"
+    },
+    {
+      "test": "genuine_maximal_dimension_control",
+      "status": "PASS"
+    },
+    {
+      "test": "malformed_dimension_suffix",
+      "status": "REJECTED_AS_REQUIRED",
+      "reason": "Wrong raw affine dimension"
+    },
+    {
+      "test": "wrong_maximal_dimension",
+      "status": "REJECTED_AS_REQUIRED",
+      "reason": "Wrong raw affine dimension"
+    }
+  ],
+  "scope": "All hostile raw-byte hashes and compressed-batch hashes were recomputed, so rejection requires semantic checks."
+}

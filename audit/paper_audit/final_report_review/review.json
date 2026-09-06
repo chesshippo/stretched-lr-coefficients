@@ -1,0 +1,165 @@
+{
+  "review_kind": "bounded supervisory synthesis accuracy review; not another fresh-family vote",
+  "cutoff": "2026-09-06T13:41:06.498127+00:00",
+  "draft": "write_final_audit.py",
+  "draft_sha256": "c13f3e94d4aad0170d164d7a505b29a9fe5cf468f4227a80557f741b0efb72bd",
+  "draft_executed": false,
+  "active_raw_computation_accessed": false,
+  "engines_launched": false,
+  "frozen_inputs_modified": false,
+  "substantive_mathematical_or_count_mismatches_found": [],
+  "findings": [
+    {
+      "id": "SR01",
+      "severity": "minor_reporting",
+      "draft_lines": [
+        345
+      ],
+      "issue": "The Normaliz control row says negative coefficient and Reeve as separate descriptions, while the six actual controls include a negative-coordinate interval and only one negative-coefficient example, the Reeve simplex.",
+      "evidence": "computational_audit/actual_engine_controls.json /controls/*/name",
+      "suggested_text": "Negative-coordinate interval, period-two interval/rational point, lower-dimensional ambient-lattice segment, empty polytope, and negative-coefficient Reeve simplex.",
+      "status": "RESOLVED_IN_PARENT_DRAFT_AND_DIRECTLY_RECHECKED"
+    },
+    {
+      "id": "SR02",
+      "severity": "minor_scope_clarity",
+      "draft_lines": [
+        58,
+        107,
+        227
+      ],
+      "issue": "verification_method copies the original paper-pass check text into the combined final table. C15/C16 say separate replay is required and C19 says execution is outside this fresh paper pass, although the final report is intended to include completed root execution.",
+      "evidence": "paper_audit/claim_inventory.json /numbered_results entries15,16,19",
+      "suggested_action": "Label that column Original paper-pass deduction check and add a separate completed computational-evidence column, or replace the combined-report method text for the affected claims while preserving the original inventory unchanged.",
+      "status": "RESOLVED_IN_PARENT_DRAFT_AND_DIRECTLY_RECHECKED"
+    },
+    {
+      "id": "SR03",
+      "severity": "release_precondition_not_current_error",
+      "draft_lines": [
+        28,
+        119,
+        121,
+        130,
+        144,
+        346,
+        347
+      ],
+      "issue": "Complete regeneration, portable COMPLETE and 100% attainment are prospective assertions at this review cutoff. This static review does not observe or certify their completion, the gate implementation, active raw records, or final packaging.",
+      "evidence": "Parent explicitly reports regeneration still active; draft calls require_completed_audit before producing report.",
+      "suggested_action": "Retain completion gating and bind final observed counts, tool hashes and receipt status before generating/releasing this report. Do not treat this review as an additional execution receipt.",
+      "status": "PENDING_EXECUTION_RECEIPTS_OUTSIDE_THIS_REVIEW"
+    }
+  ],
+  "arithmetic_checks": {
+    "necessary_domain": 1292758,
+    "physical_large_domain_less_duplicate_size23": 1255228,
+    "residual_polynomials": 358952,
+    "whole_journal_computed_records": 522245,
+    "coefficient_entries_small": 73939,
+    "coefficient_entries_large_excluding_recovery": 2671131,
+    "degree13_recovery_coefficient_entries": 14,
+    "total_coefficient_entries": 2745084,
+    "horn_factor_calls": 437042,
+    "bounded_low_c_stretch_checks": 32918,
+    "paper_stretch_equalities": 529944,
+    "original_latte_subset": 23808,
+    "normaliz_only_original_subset": 335144,
+    "conventional_point_score_percent": 100,
+    "subjective_sensitivity_lower_percent": 85.5
+  },
+  "result_classification": {
+    "V": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      17
+    ],
+    "VC": [
+      14,
+      15,
+      16,
+      18,
+      19
+    ],
+    "F_prose_or_attribution": [
+      20,
+      21
+    ],
+    "N3_search_scoped": [
+      15,
+      16,
+      18,
+      19
+    ]
+  },
+  "not_independently_certified": [
+    "full regeneration completion",
+    "portable full validation completion",
+    "completion gate correctness",
+    "40 hostile tests",
+    "new wrapper/validator pinned hashes",
+    "licensing conclusions",
+    "new publication packaging",
+    "external acceptance",
+    "Lean completion",
+    "absence of all prior art"
+  ],
+  "primary_source_checks": [
+    {
+      "url": "https://arxiv.org/pdf/1410.8017",
+      "checked": "2026-09-06",
+      "title": "Rectangular Symmetries for Coefficients of Symmetric Functions",
+      "authors": [
+        "Emmanuel Briand",
+        "Rosa Orellana",
+        "Mercedes Rosas"
+      ],
+      "locator": "Introduction, printed pages1-2; Lemma1, Theorem1 and Proposition2",
+      "finding": "Direct author text documents complement/dual and determinant translations and the S3 symmetry family; the draft correctly gives no novelty credit for this mechanism. The source itself discusses earlier literature and folklore, so it is not an exclusive-origin attribution."
+    },
+    {
+      "url": "https://arxiv.org/html/2607.22301v1",
+      "checked": "2026-09-06",
+      "title": "Positivity of stretched Littlewood-Richardson coefficients for partitions of length at most four",
+      "author": "Alper Ferudun",
+      "locator": "Abstract and Theorems2-4",
+      "finding": "The stated scope is length<=4 without a size bound, plus specified full-dimensional higher-rank coefficients. The draft accurately describes these as preprint claims and expressly does not use them as an input or report a whole-proof audit."
+    },
+    {
+      "url": "https://arxiv.org/abs/2211.06810",
+      "checked": "2026-09-06",
+      "title": "A Short Proof for the Polynomiality of the Stretched Littlewood-Richardson Coefficients",
+      "author": "Warut Thawinrak",
+      "locator": "Official author and submission-history metadata",
+      "finding": "Author and first submission2022/revision2024 agree with proposed correction to spec.json:83."
+    }
+  ],
+  "corrected_draft_sha256": "cdc6fde2151e09720e5fea2ce8f979998574e4d9648104f3ec897aab3e9a6bd4",
+  "corrected_regions_directly_checked": [
+    {
+      "lines": [
+        53,
+        64
+      ],
+      "finding": "SR02"
+    },
+    {
+      "lines": [
+        351
+      ],
+      "finding": "SR01"
+    }
+  ],
+  "followup_cutoff": "2026-09-06T13:41:58.406214+00:00"
+}

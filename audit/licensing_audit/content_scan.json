@@ -1,0 +1,4708 @@
+{
+  "binary_candidates": [
+    {
+      "binary": true,
+      "extension": ".part-000",
+      "hits": 0,
+      "path": "evidence/parts/evidence.zip.part-000",
+      "scope": "outer"
+    },
+    {
+      "binary": true,
+      "extension": ".part-001",
+      "hits": 0,
+      "path": "evidence/parts/evidence.zip.part-001",
+      "scope": "outer"
+    },
+    {
+      "binary": true,
+      "extension": ".part-002",
+      "hits": 0,
+      "path": "evidence/parts/evidence.zip.part-002",
+      "scope": "outer"
+    },
+    {
+      "binary": true,
+      "extension": ".part-003",
+      "hits": 0,
+      "path": "evidence/parts/evidence.zip.part-003",
+      "scope": "outer"
+    },
+    {
+      "binary": true,
+      "extension": ".part-004",
+      "hits": 0,
+      "path": "evidence/parts/evidence.zip.part-004",
+      "scope": "outer"
+    },
+    {
+      "binary": true,
+      "extension": ".part-005",
+      "hits": 0,
+      "path": "evidence/parts/evidence.zip.part-005",
+      "scope": "outer"
+    },
+    {
+      "binary": true,
+      "extension": ".pdf",
+      "hits": 0,
+      "path": "paper.pdf",
+      "scope": "outer"
+    },
+    {
+      "binary": true,
+      "extension": ".pdf",
+      "hits": 0,
+      "path": "proof/frozen-proof.pdf",
+      "scope": "outer"
+    },
+    {
+      "binary": true,
+      "extension": ".pdf",
+      "hits": 0,
+      "path": "problems/stretched-lr-coefficients/manuscript/v010.pdf",
+      "scope": "inner"
+    },
+    {
+      "binary": true,
+      "extension": ".pdf",
+      "hits": 0,
+      "path": "proof.pdf",
+      "scope": "inner"
+    }
+  ],
+  "legal_authorship_citation_hits": [
+    {
+      "line": 3,
+      "path": "AUTHORS.md",
+      "scope": "outer",
+      "text": "**Credited author and project lead: Maseeh Ghodsi.**"
+    },
+    {
+      "line": 5,
+      "path": "AUTHORS.md",
+      "scope": "outer",
+      "text": "Maseeh Ghodsi initiated and directed this research project and its release. This"
+    },
+    {
+      "line": 16,
+      "path": "AUTHORS.md",
+      "scope": "outer",
+      "text": "licenses; see THIRD_PARTY_NOTICES.md. This attribution does not claim that"
+    },
+    {
+      "line": 17,
+      "path": "AUTHORS.md",
+      "scope": "outer",
+      "text": "Maseeh Ghodsi originated those results, packages, or the Epoch problem statement."
+    },
+    {
+      "line": 2,
+      "path": "CITATION.bib",
+      "scope": "outer",
+      "text": "author = {Ghodsi, Maseeh},"
+    },
+    {
+      "line": 2,
+      "path": "CITATION.cff",
+      "scope": "outer",
+      "text": "message: \"Please cite the credited author and this proof/evidence release. See AUTHORS.md for AI assistance and LICENSING.md for scope.\""
+    },
+    {
+      "line": 6,
+      "path": "CITATION.cff",
+      "scope": "outer",
+      "text": "- family-names: \"Ghodsi\""
+    },
+    {
+      "line": 7,
+      "path": "CITATION.cff",
+      "scope": "outer",
+      "text": "given-names: \"Maseeh\""
+    },
+    {
+      "line": 10,
+      "path": "CITATION.cff",
+      "scope": "outer",
+      "text": "license:"
+    },
+    {
+      "line": 21,
+      "path": "CITATION.cff",
+      "scope": "outer",
+      "text": "- family-names: \"Ghodsi\""
+    },
+    {
+      "line": 22,
+      "path": "CITATION.cff",
+      "scope": "outer",
+      "text": "given-names: \"Maseeh\""
+    },
+    {
+      "line": 1,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "GNU GENERAL PUBLIC LICENSE"
+    },
+    {
+      "line": 4,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>"
+    },
+    {
+      "line": 6,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "of this license document, but changing it is not allowed."
+    },
+    {
+      "line": 10,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "The GNU General Public License is a free, copyleft license for"
+    },
+    {
+      "line": 13,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "The licenses for most software and other practical works are designed"
+    },
+    {
+      "line": 15,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "the GNU General Public License is intended to guarantee your freedom to"
+    },
+    {
+      "line": 18,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "GNU General Public License for most of our software; it applies also to"
+    },
+    {
+      "line": 23,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "price.  Our General Public Licenses are designed to make sure that you"
+    },
+    {
+      "line": 41,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "(1) assert copyright on the software, and (2) offer you this License"
+    },
+    {
+      "line": 75,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "\"This License\" refers to version 3 of the GNU General Public License."
+    },
+    {
+      "line": 77,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "\"Copyright\" also means copyright-like laws that apply to other kinds of"
+    },
+    {
+      "line": 80,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "\"The Program\" refers to any copyrightable work licensed under this"
+    },
+    {
+      "line": 81,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "License.  Each licensee is addressed as \"you\".  \"Licensees\" and"
+    },
+    {
+      "line": 85,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "in a fashion requiring copyright permission, other than the making of an"
+    },
+    {
+      "line": 94,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "infringement under applicable copyright law, except executing it on a"
+    },
+    {
+      "line": 105,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "feature that (1) displays an appropriate copyright notice, and (2)"
+    },
+    {
+      "line": 107,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "extent that warranties are provided), that licensees may convey the"
+    },
+    {
+      "line": 108,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "work under this License, and how to view a copy of this License.  If"
+    },
+    {
+      "line": 156,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "All rights granted under this License are granted for the term of"
+    },
+    {
+      "line": 157,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "copyright on the Program, and are irrevocable provided the stated"
+    },
+    {
+      "line": 158,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "conditions are met.  This License explicitly affirms your unlimited"
+    },
+    {
+      "line": 160,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "covered work is covered by this License only if the output, given its"
+    },
+    {
+      "line": 161,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "content, constitutes a covered work.  This License acknowledges your"
+    },
+    {
+      "line": 162,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "rights of fair use or other equivalent, as provided by copyright law."
+    },
+    {
+      "line": 165,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "convey, without conditions so long as your license otherwise remains"
+    },
+    {
+      "line": 169,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "the terms of this License in conveying all material for which you do"
+    },
+    {
+      "line": 170,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "not control copyright.  Those thus making or running the covered works"
+    },
+    {
+      "line": 173,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "your copyrighted material outside their relationship with you."
+    },
+    {
+      "line": 176,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "the conditions stated below.  Sublicensing is not allowed; section 10"
+    },
+    {
+      "line": 183,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "11 of the WIPO copyright treaty adopted on 20 December 1996, or"
+    },
+    {
+      "line": 189,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "is effected by exercising rights under this License with respect to"
+    },
+    {
+      "line": 199,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "appropriately publish on each copy an appropriate copyright notice;"
+    },
+    {
+      "line": 200,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "keep intact all notices stating that this License and any"
+    },
+    {
+      "line": 203,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "recipients a copy of this License along with the Program."
+    },
+    {
+      "line": 218,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "released under this License and any conditions added under section"
+    },
+    {
+      "line": 222,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "c) You must license the entire work, as a whole, under this"
+    },
+    {
+      "line": 223,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "License to anyone who comes into possession of a copy.  This"
+    },
+    {
+      "line": 224,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "License will therefore apply, along with any applicable section 7"
+    },
+    {
+      "line": 226,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "regardless of how they are packaged.  This License gives no"
+    },
+    {
+      "line": 227,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "permission to license the work in any other way, but it does not"
+    },
+    {
+      "line": 239,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "\"aggregate\" if the compilation and its resulting copyright are not"
+    },
+    {
+      "line": 242,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "in an aggregate does not cause this License to apply to the other"
+    },
+    {
+      "line": 249,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "machine-readable Corresponding Source under the terms of this License,"
+    },
+    {
+      "line": 263,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "product that is covered by this License, on a durable physical"
+    },
+    {
+      "line": 346,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "License by making exceptions from one or more of its conditions."
+    },
+    {
+      "line": 348,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "be treated as though they were included in this License, to the extent"
+    },
+    {
+      "line": 352,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "this License without regard to the additional permissions."
+    },
+    {
+      "line": 359,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "for which you have or can give appropriate copyright permission."
+    },
+    {
+      "line": 361,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "Notwithstanding any other provision of this License, for material you"
+    },
+    {
+      "line": 362,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "add to a covered work, you may (if authorized by the copyright holders of"
+    },
+    {
+      "line": 363,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "that material) supplement the terms of this License with terms:"
+    },
+    {
+      "line": 366,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "terms of sections 15 and 16 of this License; or"
+    },
+    {
+      "line": 391,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "governed by this License along with a term that is a further"
+    },
+    {
+      "line": 392,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "restriction, you may remove that term.  If a license document contains"
+    },
+    {
+      "line": 393,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "a further restriction but permits relicensing or conveying under this"
+    },
+    {
+      "line": 394,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "License, you may add to a covered work material governed by the terms"
+    },
+    {
+      "line": 395,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "of that license document, provided that the further restriction does"
+    },
+    {
+      "line": 396,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "not survive such relicensing or conveying."
+    },
+    {
+      "line": 404,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "form of a separately written license, or stated as exceptions;"
+    },
+    {
+      "line": 410,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "provided under this License.  Any attempt otherwise to propagate or"
+    },
+    {
+      "line": 412,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "this License (including any patent licenses granted under the third"
+    },
+    {
+      "line": 415,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "However, if you cease all violation of this License, then your"
+    },
+    {
+      "line": 416,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "license from a particular copyright holder is reinstated (a)"
+    },
+    {
+      "line": 417,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "provisionally, unless and until the copyright holder explicitly and"
+    },
+    {
+      "line": 418,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "finally terminates your license, and (b) permanently, if the copyright"
+    },
+    {
+      "line": 422,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "Moreover, your license from a particular copyright holder is"
+    },
+    {
+      "line": 423,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "reinstated permanently if the copyright holder notifies you of the"
+    },
+    {
+      "line": 425,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "received notice of violation of this License (for any work) from that"
+    },
+    {
+      "line": 426,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "copyright holder, and you cure the violation prior to 30 days after"
+    },
+    {
+      "line": 430,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "licenses of parties who have received copies or rights from you under"
+    },
+    {
+      "line": 431,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "this License.  If your rights have been terminated and not permanently"
+    },
+    {
+      "line": 432,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "reinstated, you do not qualify to receive new licenses for the same"
+    },
+    {
+      "line": 437,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "You are not required to accept this License in order to receive or"
+    },
+    {
+      "line": 441,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "nothing other than this License grants you permission to propagate or"
+    },
+    {
+      "line": 442,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "modify any covered work.  These actions infringe copyright if you do"
+    },
+    {
+      "line": 443,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "not accept this License.  Therefore, by modifying or propagating a"
+    },
+    {
+      "line": 444,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "covered work, you indicate your acceptance of this License to do so."
+    },
+    {
+      "line": 446,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "10. Automatic Licensing of Downstream Recipients."
+    },
+    {
+      "line": 449,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "receives a license from the original licensors, to run, modify and"
+    },
+    {
+      "line": 450,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "propagate that work, subject to this License.  You are not responsible"
+    },
+    {
+      "line": 451,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "for enforcing compliance by third parties with this License."
+    },
+    {
+      "line": 458,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "licenses to the work the party's predecessor in interest had or could"
+    },
+    {
+      "line": 464,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "rights granted or affirmed under this License.  For example, you may"
+    },
+    {
+      "line": 465,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "not impose a license fee, royalty, or other charge for exercise of"
+    },
+    {
+      "line": 466,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "rights granted under this License, and you may not initiate litigation"
+    },
+    {
+      "line": 473,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "A \"contributor\" is a copyright holder who authorizes use under this"
+    },
+    {
+      "line": 474,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "License of the Program or a work on which the Program is based.  The"
+    },
+    {
+      "line": 475,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "work thus licensed is called the contributor's \"contributor version\"."
+    },
+    {
+      "line": 480,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "by this License, of making, using, or selling its contributor version,"
+    },
+    {
+      "line": 484,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "patent sublicenses in a manner consistent with the requirements of"
+    },
+    {
+      "line": 485,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "this License."
+    },
+    {
+      "line": 488,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "patent license under the contributor's essential patent claims, to"
+    },
+    {
+      "line": 492,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "In the following three paragraphs, a \"patent license\" is any express"
+    },
+    {
+      "line": 495,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "sue for patent infringement).  To \"grant\" such a patent license to a"
+    },
+    {
+      "line": 499,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "If you convey a covered work, knowingly relying on a patent license,"
+    },
+    {
+      "line": 501,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "to copy, free of charge and under the terms of this License, through a"
+    },
+    {
+      "line": 505,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "patent license for this particular work, or (3) arrange, in a manner"
+    },
+    {
+      "line": 506,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "consistent with the requirements of this License, to extend the patent"
+    },
+    {
+      "line": 507,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "license to downstream recipients.  \"Knowingly relying\" means you have"
+    },
+    {
+      "line": 508,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "actual knowledge that, but for the patent license, your conveying the"
+    },
+    {
+      "line": 515,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "covered work, and grant a patent license to some of the parties"
+    },
+    {
+      "line": 517,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "or convey a specific copy of the covered work, then the patent license"
+    },
+    {
+      "line": 521,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "A patent license is \"discriminatory\" if it does not include within"
+    },
+    {
+      "line": 524,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "specifically granted under this License.  You may not convey a covered"
+    },
+    {
+      "line": 530,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "patent license (a) in connection with copies of the covered work"
+    },
+    {
+      "line": 534,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "or that patent license was granted, prior to 28 March 2007."
+    },
+    {
+      "line": 536,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "Nothing in this License shall be construed as excluding or limiting"
+    },
+    {
+      "line": 537,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "any implied license or other defenses to infringement that may"
+    },
+    {
+      "line": 543,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "otherwise) that contradict the conditions of this License, they do not"
+    },
+    {
+      "line": 544,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "excuse you from the conditions of this License.  If you cannot convey a"
+    },
+    {
+      "line": 546,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "License and any other pertinent obligations, then as a consequence you may"
+    },
+    {
+      "line": 550,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "License would be to refrain entirely from conveying the Program."
+    },
+    {
+      "line": 552,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "13. Use with the GNU Affero General Public License."
+    },
+    {
+      "line": 554,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "Notwithstanding any other provision of this License, you have"
+    },
+    {
+      "line": 555,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "permission to link or combine any covered work with a work licensed"
+    },
+    {
+      "line": 556,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "under version 3 of the GNU Affero General Public License into a single"
+    },
+    {
+      "line": 558,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "License will continue to apply to the part which is the covered work,"
+    },
+    {
+      "line": 559,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "but the special requirements of the GNU Affero General Public License,"
+    },
+    {
+      "line": 563,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "14. Revised Versions of this License."
+    },
+    {
+      "line": 566,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "the GNU General Public License from time to time.  Such new versions will"
+    },
+    {
+      "line": 572,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "Public License \"or any later version\" applies to it, you have the"
+    },
+    {
+      "line": 576,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "GNU General Public License, you may choose any version ever published"
+    },
+    {
+      "line": 580,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "versions of the GNU General Public License can be used, that proxy's"
+    },
+    {
+      "line": 584,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "Later license versions may give you additional or different"
+    },
+    {
+      "line": 586,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "author or copyright holder as a result of your choosing to follow a"
+    },
+    {
+      "line": 592,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "APPLICABLE LAW.  EXCEPT WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT"
+    },
+    {
+      "line": 603,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MODIFIES AND/OR CONVEYS"
+    },
+    {
+      "line": 632,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "the \"copyright\" line and a pointer to where the full notice is found."
+    },
+    {
+      "line": 635,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "Copyright (C) <year>  <name of author>"
+    },
+    {
+      "line": 638,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "it under the terms of the GNU General Public License as published by"
+    },
+    {
+      "line": 639,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "the Free Software Foundation, either version 3 of the License, or"
+    },
+    {
+      "line": 645,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "GNU General Public License for more details."
+    },
+    {
+      "line": 647,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "You should have received a copy of the GNU General Public License"
+    },
+    {
+      "line": 648,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "along with this program.  If not, see <https://www.gnu.org/licenses/>."
+    },
+    {
+      "line": 655,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "<program>  Copyright (C) <year>  <name of author>"
+    },
+    {
+      "line": 661,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "parts of the General Public License.  Of course, your program's commands"
+    },
+    {
+      "line": 665,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "if any, to sign a \"copyright disclaimer\" for the program, if necessary."
+    },
+    {
+      "line": 667,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "<https://www.gnu.org/licenses/>."
+    },
+    {
+      "line": 669,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "The GNU General Public License does not permit incorporating your program"
+    },
+    {
+      "line": 673,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "Public License instead of this License.  But first, please read"
+    },
+    {
+      "line": 674,
+      "path": "LICENSE",
+      "scope": "outer",
+      "text": "<https://www.gnu.org/licenses/why-not-lgpl.html>."
+    },
+    {
+      "line": 5,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "Creative Commons Corporation (\"Creative Commons\") is not a law firm and"
+    },
+    {
+      "line": 7,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "Creative Commons public licenses does not create a lawyer-client or"
+    },
+    {
+      "line": 8,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "other relationship. Creative Commons makes its licenses and related"
+    },
+    {
+      "line": 9,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "information available on an \"as-is\" basis. Creative Commons gives no"
+    },
+    {
+      "line": 10,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "warranties regarding its licenses, any material licensed under their"
+    },
+    {
+      "line": 11,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "terms and conditions, or any related information. Creative Commons"
+    },
+    {
+      "line": 15,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "Using Creative Commons Public Licenses"
+    },
+    {
+      "line": 17,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "Creative Commons public licenses provide a standard set of terms and"
+    },
+    {
+      "line": 19,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "original works of authorship and other material subject to copyright"
+    },
+    {
+      "line": 20,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "and certain other rights specified in the public license below. The"
+    },
+    {
+      "line": 22,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "exhaustive, and do not form part of our licenses."
+    },
+    {
+      "line": 24,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "Considerations for licensors: Our public licenses are"
+    },
+    {
+      "line": 27,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "copyright and certain other rights. Our licenses are"
+    },
+    {
+      "line": 29,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "and conditions of the license they choose before applying it."
+    },
+    {
+      "line": 31,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "applying our licenses so that the public can reuse the"
+    },
+    {
+      "line": 33,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "material not subject to the license. This includes other CC-"
+    },
+    {
+      "line": 34,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "licensed material, or material used under an exception or"
+    },
+    {
+      "line": 35,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "limitation to copyright. More considerations for licensors:"
+    },
+    {
+      "line": 39,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "licenses, a licensor grants the public permission to use the"
+    },
+    {
+      "line": 40,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "licensed material under specified terms and conditions. If"
+    },
+    {
+      "line": 43,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "copyright--then that use is not regulated by the license. Our"
+    },
+    {
+      "line": 44,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "licenses grant only permissions under copyright and certain"
+    },
+    {
+      "line": 46,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "the licensed material may still be restricted for other"
+    },
+    {
+      "line": 47,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "reasons, including because others have copyright or other"
+    },
+    {
+      "line": 50,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "Although not required by our licenses, you are encouraged to"
+    },
+    {
+      "line": 53,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "wiki.creativecommons.org/Considerations_for_licensees"
+    },
+    {
+      "line": 57,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "Creative Commons Attribution 4.0 International Public License"
+    },
+    {
+      "line": 59,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "By exercising the Licensed Rights (defined below), You accept and agree"
+    },
+    {
+      "line": 60,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "to be bound by the terms and conditions of this Creative Commons"
+    },
+    {
+      "line": 61,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "Attribution 4.0 International Public License (\"Public License\"). To the"
+    },
+    {
+      "line": 62,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "extent this Public License may be interpreted as a contract, You are"
+    },
+    {
+      "line": 63,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "granted the Licensed Rights in consideration of Your acceptance of"
+    },
+    {
+      "line": 66,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "Licensed Material available under these terms and conditions."
+    },
+    {
+      "line": 71,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "a. Adapted Material means material subject to Copyright and Similar"
+    },
+    {
+      "line": 72,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "Rights that is derived from or based upon the Licensed Material"
+    },
+    {
+      "line": 73,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "and in which the Licensed Material is translated, altered,"
+    },
+    {
+      "line": 75,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "permission under the Copyright and Similar Rights held by the"
+    },
+    {
+      "line": 76,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "Licensor. For purposes of this Public License, where the Licensed"
+    },
+    {
+      "line": 78,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "Adapted Material is always produced where the Licensed Material is"
+    },
+    {
+      "line": 81,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "b. Adapter's License means the license You apply to Your Copyright"
+    },
+    {
+      "line": 83,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "accordance with the terms and conditions of this Public License."
+    },
+    {
+      "line": 85,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "c. Copyright and Similar Rights means copyright and/or similar rights"
+    },
+    {
+      "line": 86,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "closely related to copyright including, without limitation,"
+    },
+    {
+      "line": 89,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "categorized. For purposes of this Public License, the rights"
+    },
+    {
+      "line": 90,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "specified in Section 2(b)(1)-(2) are not Copyright and Similar"
+    },
+    {
+      "line": 95,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "fulfilling obligations under Article 11 of the WIPO Copyright"
+    },
+    {
+      "line": 100,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "any other exception or limitation to Copyright and Similar Rights"
+    },
+    {
+      "line": 101,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "that applies to Your use of the Licensed Material."
+    },
+    {
+      "line": 103,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "f. Licensed Material means the artistic or literary work, database,"
+    },
+    {
+      "line": 105,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "License."
+    },
+    {
+      "line": 107,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "g. Licensed Rights means the rights granted to You subject to the"
+    },
+    {
+      "line": 108,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "terms and conditions of this Public License, which are limited to"
+    },
+    {
+      "line": 109,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "all Copyright and Similar Rights that apply to Your use of the"
+    },
+    {
+      "line": 110,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "Licensed Material and that the Licensor has authority to license."
+    },
+    {
+      "line": 113,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "under this Public License."
+    },
+    {
+      "line": 116,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "process that requires permission under the Licensed Rights, such"
+    },
+    {
+      "line": 123,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "j. Sui Generis Database Rights means rights other than copyright"
+    },
+    {
+      "line": 129,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "k. You means the individual or entity exercising the Licensed Rights"
+    },
+    {
+      "line": 130,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "under this Public License. Your has a corresponding meaning."
+    },
+    {
+      "line": 135,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "a. License grant."
+    },
+    {
+      "line": 137,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "1. Subject to the terms and conditions of this Public License,"
+    },
+    {
+      "line": 139,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "non-sublicensable, non-exclusive, irrevocable license to"
+    },
+    {
+      "line": 140,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "exercise the Licensed Rights in the Licensed Material to:"
+    },
+    {
+      "line": 142,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "a. reproduce and Share the Licensed Material, in whole or"
+    },
+    {
+      "line": 149,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "License does not apply, and You do not need to comply with"
+    },
+    {
+      "line": 152,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "3. Term. The term of this Public License is specified in Section"
+    },
+    {
+      "line": 156,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "Licensor authorizes You to exercise the Licensed Rights in"
+    },
+    {
+      "line": 161,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "necessary to exercise the Licensed Rights, including"
+    },
+    {
+      "line": 163,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "Technological Measures. For purposes of this Public License,"
+    },
+    {
+      "line": 169,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "a. Offer from the Licensor -- Licensed Material. Every"
+    },
+    {
+      "line": 170,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "recipient of the Licensed Material automatically"
+    },
+    {
+      "line": 172,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "Licensed Rights under the terms and conditions of this"
+    },
+    {
+      "line": 173,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "Public License."
+    },
+    {
+      "line": 178,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "Licensed Material if doing so restricts exercise of the"
+    },
+    {
+      "line": 179,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "Licensed Rights by any recipient of the Licensed"
+    },
+    {
+      "line": 182,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "6. No endorsement. Nothing in this Public License constitutes or"
+    },
+    {
+      "line": 184,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "are, or that Your use of the Licensed Material is, connected"
+    },
+    {
+      "line": 192,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "licensed under this Public License, nor are publicity,"
+    },
+    {
+      "line": 196,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "extent necessary to allow You to exercise the Licensed"
+    },
+    {
+      "line": 199,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "2. Patent and trademark rights are not licensed under this"
+    },
+    {
+      "line": 200,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "Public License."
+    },
+    {
+      "line": 203,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "collect royalties from You for the exercise of the Licensed"
+    },
+    {
+      "line": 206,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "licensing scheme. In all other cases the Licensor expressly"
+    },
+    {
+      "line": 210,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "Section 3 -- License Conditions."
+    },
+    {
+      "line": 212,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "Your exercise of the Licensed Rights is expressly made subject to the"
+    },
+    {
+      "line": 217,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "1. If You Share the Licensed Material (including in modified"
+    },
+    {
+      "line": 221,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "with the Licensed Material:"
+    },
+    {
+      "line": 223,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "i. identification of the creator(s) of the Licensed"
+    },
+    {
+      "line": 229,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "ii. a copyright notice;"
+    },
+    {
+      "line": 231,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "iii. a notice that refers to this Public License;"
+    },
+    {
+      "line": 236,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "v. a URI or hyperlink to the Licensed Material to the"
+    },
+    {
+      "line": 239,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "b. indicate if You modified the Licensed Material and"
+    },
+    {
+      "line": 242,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "c. indicate the Licensed Material is licensed under this"
+    },
+    {
+      "line": 243,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "Public License, and include the text of, or the URI or"
+    },
+    {
+      "line": 244,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "hyperlink to, this Public License."
+    },
+    {
+      "line": 248,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "which You Share the Licensed Material. For example, it may be"
+    },
+    {
+      "line": 258,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "License You apply must not prevent recipients of the Adapted"
+    },
+    {
+      "line": 259,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "Material from complying with this Public License."
+    },
+    {
+      "line": 264,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "Where the Licensed Rights include Sui Generis Database Rights that"
+    },
+    {
+      "line": 265,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "apply to Your use of the Licensed Material:"
+    },
+    {
+      "line": 280,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "replace Your obligations under this Public License where the Licensed"
+    },
+    {
+      "line": 281,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "Rights include other Copyright and Similar Rights."
+    },
+    {
+      "line": 287,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "EXTENT POSSIBLE, THE LICENSOR OFFERS THE LICENSED MATERIAL AS-IS"
+    },
+    {
+      "line": 289,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "ANY KIND CONCERNING THE LICENSED MATERIAL, WHETHER EXPRESS,"
+    },
+    {
+      "line": 301,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "COSTS, EXPENSES, OR DAMAGES ARISING OUT OF THIS PUBLIC LICENSE OR"
+    },
+    {
+      "line": 302,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "USE OF THE LICENSED MATERIAL, EVEN IF THE LICENSOR HAS BEEN"
+    },
+    {
+      "line": 315,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "a. This Public License applies for the term of the Copyright and"
+    },
+    {
+      "line": 316,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "Similar Rights licensed here. However, if You fail to comply with"
+    },
+    {
+      "line": 317,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "this Public License, then Your rights under this Public License"
+    },
+    {
+      "line": 320,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "b. Where Your right to use the Licensed Material has terminated under"
+    },
+    {
+      "line": 331,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "of this Public License."
+    },
+    {
+      "line": 334,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "Licensed Material under separate terms or conditions or stop"
+    },
+    {
+      "line": 335,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "distributing the Licensed Material at any time; however, doing so"
+    },
+    {
+      "line": 336,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "will not terminate this Public License."
+    },
+    {
+      "line": 339,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "License."
+    },
+    {
+      "line": 348,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "Licensed Material not stated herein are separate from and"
+    },
+    {
+      "line": 349,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "independent of the terms and conditions of this Public License."
+    },
+    {
+      "line": 354,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "a. For the avoidance of doubt, this Public License does not, and"
+    },
+    {
+      "line": 356,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "conditions on any use of the Licensed Material that could lawfully"
+    },
+    {
+      "line": 357,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "be made without permission under this Public License."
+    },
+    {
+      "line": 359,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "b. To the extent possible, if any provision of this Public License is"
+    },
+    {
+      "line": 362,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "cannot be reformed, it shall be severed from this Public License"
+    },
+    {
+      "line": 366,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "c. No term or condition of this Public License will be waived and no"
+    },
+    {
+      "line": 370,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "d. Nothing in this Public License constitutes or may be interpreted"
+    },
+    {
+      "line": 378,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "Creative Commons is not a party to its public"
+    },
+    {
+      "line": 379,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "licenses. Notwithstanding, Creative Commons may elect to apply one of"
+    },
+    {
+      "line": 380,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "its public licenses to material it publishes and in those instances"
+    },
+    {
+      "line": 381,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "will be considered the \u201cLicensor.\u201d The text of the Creative Commons"
+    },
+    {
+      "line": 382,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "public licenses is dedicated to the public domain under the CC0 Public"
+    },
+    {
+      "line": 384,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "material is shared under a Creative Commons public license or as"
+    },
+    {
+      "line": 385,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "otherwise permitted by the Creative Commons policies published at"
+    },
+    {
+      "line": 386,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "creativecommons.org/policies, Creative Commons does not authorize the"
+    },
+    {
+      "line": 387,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "use of the trademark \"Creative Commons\" or any other trademark or logo"
+    },
+    {
+      "line": 388,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "of Creative Commons without its prior written consent including,"
+    },
+    {
+      "line": 390,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "to any of its public licenses or any other arrangements,"
+    },
+    {
+      "line": 391,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "understandings, or agreements concerning use of licensed material. For"
+    },
+    {
+      "line": 393,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "public licenses."
+    },
+    {
+      "line": 395,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer",
+      "text": "Creative Commons may be contacted at creativecommons.org."
+    },
+    {
+      "line": 1,
+      "path": "LICENSING.md",
+      "scope": "outer",
+      "text": "# License scope"
+    },
+    {
+      "line": 3,
+      "path": "LICENSING.md",
+      "scope": "outer",
+      "text": "Copyright (C) 2026 Maseeh Ghodsi, to the extent copyright and related rights exist"
+    },
+    {
+      "line": 7,
+      "path": "LICENSING.md",
+      "scope": "outer",
+      "text": "| Material | License |"
+    },
+    {
+      "line": 9,
+      "path": "LICENSING.md",
+      "scope": "outer",
+      "text": "| Original paper, cover, TeX prose, documentation and eligible dataset/database rights | Creative Commons Attribution 4.0 International (CC-BY-4.0), full text in LICENSES/CC-BY-4.0.txt |"
+    },
+    {
+      "line": 10,
+      "path": "LICENSING.md",
+      "scope": "outer",
+      "text": "| Original Python programs and other original software/configuration | GNU General Public License version 3 or, at your option, any later version (GPL-3.0-or-later), full text in LICENSE |"
+    },
+    {
+      "line": 11,
+      "path": "LICENSING.md",
+      "scope": "outer",
+      "text": "| Third-party material, quotations, dependency names/notices and upstream license texts | Their existing rights and terms; these project licenses do not relicense them |"
+    },
+    {
+      "line": 12,
+      "path": "LICENSING.md",
+      "scope": "outer",
+      "text": "| Mathematical facts, ideas, algorithms as ideas, and uncopyrightable raw numerical results | No ownership or copyright restriction is asserted over those elements |"
+    },
+    {
+      "line": 14,
+      "path": "LICENSING.md",
+      "scope": "outer",
+      "text": "The software license requires preservation of applicable notices and the"
+    },
+    {
+      "line": 16,
+      "path": "LICENSING.md",
+      "scope": "outer",
+      "text": "conveyed. The documentation license requires appropriate attribution, its"
+    },
+    {
+      "line": 17,
+      "path": "LICENSING.md",
+      "scope": "outer",
+      "text": "license notice/link, and indication of changes for uses covered by its terms."
+    },
+    {
+      "line": 18,
+      "path": "LICENSING.md",
+      "scope": "outer",
+      "text": "The full license texts govern; this summary adds no restrictions."
+    },
+    {
+      "line": 23,
+      "path": "LICENSING.md",
+      "scope": "outer",
+      "text": "No license can guarantee sole discovery credit, prove priority, or oblige"
+    },
+    {
+      "line": 26,
+      "path": "LICENSING.md",
+      "scope": "outer",
+      "text": "The exact archived proof and evidence remain byte-identical. Licensing is"
+    },
+    {
+      "line": 31,
+      "path": "LICENSING.md",
+      "scope": "outer",
+      "text": "license. Standard upstream license documents retain their own terms."
+    },
+    {
+      "line": 33,
+      "path": "LICENSING.md",
+      "scope": "outer",
+      "text": "Primary license sources: https://creativecommons.org/licenses/by/4.0/legalcode.en"
+    },
+    {
+      "line": 34,
+      "path": "LICENSING.md",
+      "scope": "outer",
+      "text": "and https://www.gnu.org/licenses/gpl-3.0.html."
+    },
+    {
+      "line": 2,
+      "path": "NOTICE",
+      "scope": "outer",
+      "text": "Credited author and project lead: Maseeh Ghodsi"
+    },
+    {
+      "line": 4,
+      "path": "NOTICE",
+      "scope": "outer",
+      "text": "Copyright (C) 2026 Maseeh Ghodsi, for rights held in original contributions."
+    },
+    {
+      "line": 7,
+      "path": "NOTICE",
+      "scope": "outer",
+      "text": "Original software: GPL-3.0-or-later. See LICENSING.md for exact scope."
+    },
+    {
+      "line": 12,
+      "path": "NOTICE",
+      "scope": "outer",
+      "text": "This notice does not add restrictions to either license, claim ownership of"
+    },
+    {
+      "line": 3,
+      "path": "PUBLICATION.md",
+      "scope": "outer",
+      "text": "Prepared 2026-09-06, version 1.0.1, credited author/project lead Maseeh Ghodsi."
+    },
+    {
+      "line": 5,
+      "path": "PUBLICATION.md",
+      "scope": "outer",
+      "text": "The public paper adds one attribution/license cover page to the exact reviewed"
+    },
+    {
+      "line": 23,
+      "path": "PUBLICATION.md",
+      "scope": "outer",
+      "text": "cover nor licensing changes the frozen mathematical submission or its review"
+    },
+    {
+      "line": 3,
+      "path": "README.md",
+      "scope": "outer",
+      "text": "**Credited author and project lead: Maseeh Ghodsi.** Version 1.0.1, prepared 2026-09-06."
+    },
+    {
+      "line": 5,
+      "path": "README.md",
+      "scope": "outer",
+      "text": "[Read the paper](paper.pdf) \u00b7 [Author and contribution record](AUTHORS.md) \u00b7 [Citation](CITATION.cff) \u00b7 [License scope](LICENSING.md)"
+    },
+    {
+      "line": 48,
+      "path": "README.md",
+      "scope": "outer",
+      "text": "Please cite Maseeh Ghodsi and the title/version in CITATION.cff when discussing or"
+    },
+    {
+      "line": 50,
+      "path": "README.md",
+      "scope": "outer",
+      "text": "are licensed under CC BY 4.0; original project software is GPL-3.0-or-later."
+    },
+    {
+      "line": 51,
+      "path": "README.md",
+      "scope": "outer",
+      "text": "Preserve attribution and applicable notices when those licenses require it."
+    },
+    {
+      "line": 54,
+      "path": "README.md",
+      "scope": "outer",
+      "text": "Licensing applies to rights in the covered material. It does not establish"
+    },
+    {
+      "line": 3,
+      "path": "RELEASE.json",
+      "scope": "outer",
+      "text": "\"credited_author\": \"Maseeh Ghodsi\","
+    },
+    {
+      "line": 9,
+      "path": "RELEASE.json",
+      "scope": "outer",
+      "text": "\"licenses\": {"
+    },
+    {
+      "line": 15,
+      "path": "RELEASE.json",
+      "scope": "outer",
+      "text": "\"author_given_names\": \"Maseeh\","
+    },
+    {
+      "line": 16,
+      "path": "RELEASE.json",
+      "scope": "outer",
+      "text": "\"author_family_names\": \"Ghodsi\","
+    },
+    {
+      "line": 6,
+      "path": "SHA256SUMS",
+      "scope": "outer",
+      "text": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986  LICENSE"
+    },
+    {
+      "line": 7,
+      "path": "SHA256SUMS",
+      "scope": "outer",
+      "text": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411  LICENSES/CC-BY-4.0.txt"
+    },
+    {
+      "line": 8,
+      "path": "SHA256SUMS",
+      "scope": "outer",
+      "text": "896a7a1c59e5120732fbc6be93637c42c14b1e85a5c08af7faef9263b01ddab4  LICENSING.md"
+    },
+    {
+      "line": 3,
+      "path": "THIRD_PARTY_NOTICES.md",
+      "scope": "outer",
+      "text": "The project licenses cover original project contributions only. No dependency"
+    },
+    {
+      "line": 10,
+      "path": "THIRD_PARTY_NOTICES.md",
+      "scope": "outer",
+      "text": "| Normaliz 3.11.1 | The Normaliz team and contributors. Exact Ehrhart engine; installed separately for fresh regeneration. Its own distribution license governs. https://github.com/Normaliz/Normaliz/tree/v3.11.1 |"
+    },
+    {
+      "line": 12,
+      "path": "THIRD_PARTY_NOTICES.md",
+      "scope": "outer",
+      "text": "| NumPy 2.3.4 | NumPy developers. Installed separately under its upstream license. https://numpy.org/doc/2.3/license.html |"
+    },
+    {
+      "line": 16,
+      "path": "THIRD_PARTY_NOTICES.md",
+      "scope": "outer",
+      "text": "| GNU and Creative Commons license texts | Their respective organizations. Included as standard unmodified license documents under the permissions supplied with those documents |"
+    },
+    {
+      "line": 20,
+      "path": "THIRD_PARTY_NOTICES.md",
+      "scope": "outer",
+      "text": "remains subject to its existing rights; project-level licenses do not supersede"
+    },
+    {
+      "line": 5,
+      "path": "UPLOAD_AND_REPRODUCE.md",
+      "scope": "outer",
+      "text": "LICENSES and evidence/parts. The six parts are individually at most 20 MiB;"
+    },
+    {
+      "line": 7,
+      "path": "UPLOAD_AND_REPRODUCE.md",
+      "scope": "outer",
+      "text": "2. Keep README.md, AUTHORS.md, NOTICE, LICENSE, LICENSING.md, CITATION.cff and"
+    },
+    {
+      "line": 9,
+      "path": "UPLOAD_AND_REPRODUCE.md",
+      "scope": "outer",
+      "text": "repository control from CITATION.cff. The supplied author credit is Maseeh Ghodsi."
+    },
+    {
+      "line": 5,
+      "path": "paper.tex",
+      "scope": "outer",
+      "text": "\\hypersetup{pdftitle={A finite cover for coefficient positivity of stretched Littlewood--Richardson polynomials},pdfauthor={Maseeh Ghodsi}}"
+    },
+    {
+      "line": 15,
+      "path": "paper.tex",
+      "scope": "outer",
+      "text": "{\\Large Maseeh Ghodsi\\par}"
+    },
+    {
+      "line": 34,
+      "path": "paper.tex",
+      "scope": "outer",
+      "text": "\\textbf{Credit and assistance.} Maseeh Ghodsi is the credited author and project"
+    },
+    {
+      "line": 39,
+      "path": "paper.tex",
+      "scope": "outer",
+      "text": "\\textbf{License.} Copyright \\copyright\\ 2026 Maseeh Ghodsi, for rights held in"
+    },
+    {
+      "line": 40,
+      "path": "paper.tex",
+      "scope": "outer",
+      "text": "original contributions. Paper and documentation: Creative Commons Attribution"
+    },
+    {
+      "line": 41,
+      "path": "paper.tex",
+      "scope": "outer",
+      "text": "4.0 International, \\url{https://creativecommons.org/licenses/by/4.0/}."
+    },
+    {
+      "line": 43,
+      "path": "paper.tex",
+      "scope": "outer",
+      "text": "\\texttt{LICENSING.md}, \\texttt{NOTICE}, and \\texttt{CITATION.cff}."
+    },
+    {
+      "line": 45,
+      "path": "paper.tex",
+      "scope": "outer",
+      "text": "\\textbf{Citation.} Maseeh Ghodsi (2026), \\emph{A finite cover for coefficient"
+    },
+    {
+      "line": 14,
+      "path": "proof/frozen-proof.tex",
+      "scope": "outer",
+      "text": "\\author{}"
+    },
+    {
+      "line": 1241,
+      "path": "proof/frozen-proof.tex",
+      "scope": "outer",
+      "text": "\\bibitem{Epoch} Epoch AI, \\emph{A Negative Coefficient in a Stretched"
+    },
+    {
+      "line": 1245,
+      "path": "proof/frozen-proof.tex",
+      "scope": "outer",
+      "text": "\\bibitem{Rassart} E. Rassart, \\emph{A polynomiality property for"
+    },
+    {
+      "line": 1249,
+      "path": "proof/frozen-proof.tex",
+      "scope": "outer",
+      "text": "\\bibitem{KT} A. Knutson and T. Tao, \\emph{The honeycomb model of"
+    },
+    {
+      "line": 1253,
+      "path": "proof/frozen-proof.tex",
+      "scope": "outer",
+      "text": "\\bibitem{KTW} A. Knutson, T. Tao and C. Woodward, \\emph{The honeycomb"
+    },
+    {
+      "line": 1258,
+      "path": "proof/frozen-proof.tex",
+      "scope": "outer",
+      "text": "\\bibitem{Ikenmeyer} C. Ikenmeyer, \\emph{Small Littlewood--Richardson"
+    },
+    {
+      "line": 1261,
+      "path": "proof/frozen-proof.tex",
+      "scope": "outer",
+      "text": "\\bibitem{Buch} A. S. Buch, \\emph{The saturation conjecture"
+    },
+    {
+      "line": 1265,
+      "path": "proof/frozen-proof.tex",
+      "scope": "outer",
+      "text": "\\bibitem{Milne} J. S. Milne, \\emph{Reductive Groups}, v2.00,"
+    },
+    {
+      "line": 1268,
+      "path": "proof/frozen-proof.tex",
+      "scope": "outer",
+      "text": "\\bibitem{KTT09} R. C. King, C. Tollu and F. Toumazet,"
+    },
+    {
+      "line": 1271,
+      "path": "proof/frozen-proof.tex",
+      "scope": "outer",
+      "text": "\\url{https://doi.org/10.1016/j.jcta.2008.06.005}."
+    },
+    {
+      "line": 1272,
+      "path": "proof/frozen-proof.tex",
+      "scope": "outer",
+      "text": "\\bibitem{Roth} M. Roth, \\emph{Reduction rules for Littlewood--Richardson"
+    },
+    {
+      "line": 1276,
+      "path": "proof/frozen-proof.tex",
+      "scope": "outer",
+      "text": "\\bibitem{CJMsecond} S. Cho, E.-K. Jung and D. Moon,"
+    },
+    {
+      "line": 1280,
+      "path": "proof/frozen-proof.tex",
+      "scope": "outer",
+      "text": "\\url{https://doi.org/10.4134/BKMS.2008.45.3.485}."
+    },
+    {
+      "line": 1281,
+      "path": "proof/frozen-proof.tex",
+      "scope": "outer",
+      "text": "\\bibitem{CJMfpsac} S. Cho, E.-K. Jung and D. Moon,"
+    },
+    {
+      "line": 1287,
+      "path": "proof/frozen-proof.tex",
+      "scope": "outer",
+      "text": "\\bibitem{Normaliz} The Normaliz project,"
+    },
+    {
+      "line": 2,
+      "path": "reproduce.py",
+      "scope": "outer",
+      "text": "# Copyright (C) 2026 Maseeh Ghodsi"
+    },
+    {
+      "line": 3,
+      "path": "reproduce.py",
+      "scope": "outer",
+      "text": "# SPDX-License-Identifier: GPL-3.0-or-later"
+    },
+    {
+      "line": 8,
+      "path": "problems/stretched-lr-coefficients/manuscript/v005.tex",
+      "scope": "inner",
+      "text": "\\author{}"
+    },
+    {
+      "line": 12,
+      "path": "problems/stretched-lr-coefficients/manuscript/v006.tex",
+      "scope": "inner",
+      "text": "\\author{}"
+    },
+    {
+      "line": 12,
+      "path": "problems/stretched-lr-coefficients/manuscript/v007.tex",
+      "scope": "inner",
+      "text": "\\author{}"
+    },
+    {
+      "line": 1372,
+      "path": "problems/stretched-lr-coefficients/manuscript/v007.tex",
+      "scope": "inner",
+      "text": "\"version_output\": \"Normaliz 3.11.1\\n------------------------------------------------------------\\nwith package(s) CoCoALib Flint e-antic nauty hash-library\\nCopyright (C) 2007-2025  The Normaliz Team, University of Osnabrueck.\\nThis program comes with ABSOLUTELY NO WARRANTY; This is free software,\\nand you are welcome to redistribute it under certain conditions;\\nSee COPYING for details.\""
+    },
+    {
+      "line": 14,
+      "path": "problems/stretched-lr-coefficients/manuscript/v008.tex",
+      "scope": "inner",
+      "text": "\\author{}"
+    },
+    {
+      "line": 1207,
+      "path": "problems/stretched-lr-coefficients/manuscript/v008.tex",
+      "scope": "inner",
+      "text": "\\bibitem{Epoch} Epoch AI, \\emph{A Negative Coefficient in a Stretched"
+    },
+    {
+      "line": 1211,
+      "path": "problems/stretched-lr-coefficients/manuscript/v008.tex",
+      "scope": "inner",
+      "text": "\\bibitem{Rassart} E. Rassart, \\emph{A polynomiality property for"
+    },
+    {
+      "line": 1215,
+      "path": "problems/stretched-lr-coefficients/manuscript/v008.tex",
+      "scope": "inner",
+      "text": "\\bibitem{KT} A. Knutson and T. Tao, \\emph{The honeycomb model of"
+    },
+    {
+      "line": 1219,
+      "path": "problems/stretched-lr-coefficients/manuscript/v008.tex",
+      "scope": "inner",
+      "text": "\\bibitem{KTW} A. Knutson, T. Tao and C. Woodward, \\emph{The honeycomb"
+    },
+    {
+      "line": 1224,
+      "path": "problems/stretched-lr-coefficients/manuscript/v008.tex",
+      "scope": "inner",
+      "text": "\\bibitem{Ikenmeyer} C. Ikenmeyer, \\emph{Small Littlewood--Richardson"
+    },
+    {
+      "line": 1227,
+      "path": "problems/stretched-lr-coefficients/manuscript/v008.tex",
+      "scope": "inner",
+      "text": "\\bibitem{Buch} A. S. Buch, \\emph{The saturation conjecture"
+    },
+    {
+      "line": 1231,
+      "path": "problems/stretched-lr-coefficients/manuscript/v008.tex",
+      "scope": "inner",
+      "text": "\\bibitem{Milne} J. S. Milne, \\emph{Reductive Groups}, v2.00,"
+    },
+    {
+      "line": 1234,
+      "path": "problems/stretched-lr-coefficients/manuscript/v008.tex",
+      "scope": "inner",
+      "text": "\\bibitem{KTT09} R. C. King, C. Tollu and F. Toumazet,"
+    },
+    {
+      "line": 1237,
+      "path": "problems/stretched-lr-coefficients/manuscript/v008.tex",
+      "scope": "inner",
+      "text": "\\url{https://doi.org/10.1016/j.jcta.2008.06.005}."
+    },
+    {
+      "line": 1238,
+      "path": "problems/stretched-lr-coefficients/manuscript/v008.tex",
+      "scope": "inner",
+      "text": "\\bibitem{Roth} M. Roth, \\emph{Reduction rules for Littlewood--Richardson"
+    },
+    {
+      "line": 1242,
+      "path": "problems/stretched-lr-coefficients/manuscript/v008.tex",
+      "scope": "inner",
+      "text": "\\bibitem{CJMsecond} S. Cho, E.-K. Jung and D. Moon,"
+    },
+    {
+      "line": 1246,
+      "path": "problems/stretched-lr-coefficients/manuscript/v008.tex",
+      "scope": "inner",
+      "text": "\\url{https://doi.org/10.4134/BKMS.2008.45.3.485}."
+    },
+    {
+      "line": 1247,
+      "path": "problems/stretched-lr-coefficients/manuscript/v008.tex",
+      "scope": "inner",
+      "text": "\\bibitem{CJMfpsac} S. Cho, E.-K. Jung and D. Moon,"
+    },
+    {
+      "line": 1253,
+      "path": "problems/stretched-lr-coefficients/manuscript/v008.tex",
+      "scope": "inner",
+      "text": "\\bibitem{Normaliz} The Normaliz project,"
+    },
+    {
+      "line": 14,
+      "path": "problems/stretched-lr-coefficients/manuscript/v010.tex",
+      "scope": "inner",
+      "text": "\\author{}"
+    },
+    {
+      "line": 1241,
+      "path": "problems/stretched-lr-coefficients/manuscript/v010.tex",
+      "scope": "inner",
+      "text": "\\bibitem{Epoch} Epoch AI, \\emph{A Negative Coefficient in a Stretched"
+    },
+    {
+      "line": 1245,
+      "path": "problems/stretched-lr-coefficients/manuscript/v010.tex",
+      "scope": "inner",
+      "text": "\\bibitem{Rassart} E. Rassart, \\emph{A polynomiality property for"
+    },
+    {
+      "line": 1249,
+      "path": "problems/stretched-lr-coefficients/manuscript/v010.tex",
+      "scope": "inner",
+      "text": "\\bibitem{KT} A. Knutson and T. Tao, \\emph{The honeycomb model of"
+    },
+    {
+      "line": 1253,
+      "path": "problems/stretched-lr-coefficients/manuscript/v010.tex",
+      "scope": "inner",
+      "text": "\\bibitem{KTW} A. Knutson, T. Tao and C. Woodward, \\emph{The honeycomb"
+    },
+    {
+      "line": 1258,
+      "path": "problems/stretched-lr-coefficients/manuscript/v010.tex",
+      "scope": "inner",
+      "text": "\\bibitem{Ikenmeyer} C. Ikenmeyer, \\emph{Small Littlewood--Richardson"
+    },
+    {
+      "line": 1261,
+      "path": "problems/stretched-lr-coefficients/manuscript/v010.tex",
+      "scope": "inner",
+      "text": "\\bibitem{Buch} A. S. Buch, \\emph{The saturation conjecture"
+    },
+    {
+      "line": 1265,
+      "path": "problems/stretched-lr-coefficients/manuscript/v010.tex",
+      "scope": "inner",
+      "text": "\\bibitem{Milne} J. S. Milne, \\emph{Reductive Groups}, v2.00,"
+    },
+    {
+      "line": 1268,
+      "path": "problems/stretched-lr-coefficients/manuscript/v010.tex",
+      "scope": "inner",
+      "text": "\\bibitem{KTT09} R. C. King, C. Tollu and F. Toumazet,"
+    },
+    {
+      "line": 1271,
+      "path": "problems/stretched-lr-coefficients/manuscript/v010.tex",
+      "scope": "inner",
+      "text": "\\url{https://doi.org/10.1016/j.jcta.2008.06.005}."
+    },
+    {
+      "line": 1272,
+      "path": "problems/stretched-lr-coefficients/manuscript/v010.tex",
+      "scope": "inner",
+      "text": "\\bibitem{Roth} M. Roth, \\emph{Reduction rules for Littlewood--Richardson"
+    },
+    {
+      "line": 1276,
+      "path": "problems/stretched-lr-coefficients/manuscript/v010.tex",
+      "scope": "inner",
+      "text": "\\bibitem{CJMsecond} S. Cho, E.-K. Jung and D. Moon,"
+    },
+    {
+      "line": 1280,
+      "path": "problems/stretched-lr-coefficients/manuscript/v010.tex",
+      "scope": "inner",
+      "text": "\\url{https://doi.org/10.4134/BKMS.2008.45.3.485}."
+    },
+    {
+      "line": 1281,
+      "path": "problems/stretched-lr-coefficients/manuscript/v010.tex",
+      "scope": "inner",
+      "text": "\\bibitem{CJMfpsac} S. Cho, E.-K. Jung and D. Moon,"
+    },
+    {
+      "line": 1287,
+      "path": "problems/stretched-lr-coefficients/manuscript/v010.tex",
+      "scope": "inner",
+      "text": "\\bibitem{Normaliz} The Normaliz project,"
+    },
+    {
+      "line": 18,
+      "path": "problems/stretched-lr-coefficients/runs/20260905T173132Z/engine_census_after_crash.json",
+      "scope": "inner",
+      "text": "\"version_output\": \"Normaliz 3.11.1\\n------------------------------------------------------------\\nwith package(s) CoCoALib Flint e-antic nauty hash-library\\nCopyright (C) 2007-2025  The Normaliz Team, University of Osnabrueck.\\nThis program comes with ABSOLUTELY NO WARRANTY; This is free software,\\nand you are welcome to redistribute it under certain conditions;\\nSee COPYING for details.\""
+    },
+    {
+      "line": 6,
+      "path": "problems/stretched-lr-coefficients/runs/20260905T173132Z/probe_horn_primitivity.py",
+      "scope": "inner",
+      "text": "https://doi.org/10.1016/j.jcta.2008.06.005 ."
+    },
+    {
+      "line": 108,
+      "path": "problems/stretched-lr-coefficients/runs/20260905T173132Z/probe_horn_primitivity.py",
+      "scope": "inner",
+      "text": "'original_doi':'https://doi.org/10.1016/j.jcta.2008.06.005','source_statement':'Definition 1.2 and Theorem 1.3, p.485',"
+    },
+    {
+      "line": 445,
+      "path": "problems/stretched-lr-coefficients/runs/20260906T041206Z/certificate_closure/binding_result.json",
+      "scope": "inner",
+      "text": "\"normaliz_version\": \"Normaliz 3.11.1\\n------------------------------------------------------------\\nwith package(s) CoCoALib Flint e-antic nauty hash-library\\nCopyright (C) 2007-2025  The Normaliz Team, University of Osnabrueck.\\nThis program comes with ABSOLUTELY NO WARRANTY; This is free software,\\nand you are welcome to redistribute it under certain conditions;\\nSee COPYING for details.\","
+    },
+    {
+      "line": 14,
+      "path": "proof.tex",
+      "scope": "inner",
+      "text": "\\author{}"
+    },
+    {
+      "line": 1241,
+      "path": "proof.tex",
+      "scope": "inner",
+      "text": "\\bibitem{Epoch} Epoch AI, \\emph{A Negative Coefficient in a Stretched"
+    },
+    {
+      "line": 1245,
+      "path": "proof.tex",
+      "scope": "inner",
+      "text": "\\bibitem{Rassart} E. Rassart, \\emph{A polynomiality property for"
+    },
+    {
+      "line": 1249,
+      "path": "proof.tex",
+      "scope": "inner",
+      "text": "\\bibitem{KT} A. Knutson and T. Tao, \\emph{The honeycomb model of"
+    },
+    {
+      "line": 1253,
+      "path": "proof.tex",
+      "scope": "inner",
+      "text": "\\bibitem{KTW} A. Knutson, T. Tao and C. Woodward, \\emph{The honeycomb"
+    },
+    {
+      "line": 1258,
+      "path": "proof.tex",
+      "scope": "inner",
+      "text": "\\bibitem{Ikenmeyer} C. Ikenmeyer, \\emph{Small Littlewood--Richardson"
+    },
+    {
+      "line": 1261,
+      "path": "proof.tex",
+      "scope": "inner",
+      "text": "\\bibitem{Buch} A. S. Buch, \\emph{The saturation conjecture"
+    },
+    {
+      "line": 1265,
+      "path": "proof.tex",
+      "scope": "inner",
+      "text": "\\bibitem{Milne} J. S. Milne, \\emph{Reductive Groups}, v2.00,"
+    },
+    {
+      "line": 1268,
+      "path": "proof.tex",
+      "scope": "inner",
+      "text": "\\bibitem{KTT09} R. C. King, C. Tollu and F. Toumazet,"
+    },
+    {
+      "line": 1271,
+      "path": "proof.tex",
+      "scope": "inner",
+      "text": "\\url{https://doi.org/10.1016/j.jcta.2008.06.005}."
+    },
+    {
+      "line": 1272,
+      "path": "proof.tex",
+      "scope": "inner",
+      "text": "\\bibitem{Roth} M. Roth, \\emph{Reduction rules for Littlewood--Richardson"
+    },
+    {
+      "line": 1276,
+      "path": "proof.tex",
+      "scope": "inner",
+      "text": "\\bibitem{CJMsecond} S. Cho, E.-K. Jung and D. Moon,"
+    },
+    {
+      "line": 1280,
+      "path": "proof.tex",
+      "scope": "inner",
+      "text": "\\url{https://doi.org/10.4134/BKMS.2008.45.3.485}."
+    },
+    {
+      "line": 1281,
+      "path": "proof.tex",
+      "scope": "inner",
+      "text": "\\bibitem{CJMfpsac} S. Cho, E.-K. Jung and D. Moon,"
+    },
+    {
+      "line": 1287,
+      "path": "proof.tex",
+      "scope": "inner",
+      "text": "\\bibitem{Normaliz} The Normaliz project,"
+    }
+  ],
+  "python_imports": [
+    {
+      "header": [
+        "#!/usr/bin/env python3",
+        "# Copyright (C) 2026 Maseeh Ghodsi",
+        "# SPDX-License-Identifier: GPL-3.0-or-later",
+        "\"\"\"Reconstruct the unchanged evidence packet and run its complete finite audit.\"\"\"",
+        "import argparse",
+        "from hashlib import sha256",
+        "import json",
+        "import os",
+        "from pathlib import Path, PurePosixPath",
+        "import shutil",
+        "import stat",
+        "import subprocess",
+        "import sys",
+        "import time",
+        "import zipfile",
+        "",
+        "ARCHIVE_SHA256 = '299489ce594f54e3ff0278cb6927b40e03959e528cbe8c57d561466d8aa6cd44'",
+        "ARCHIVE_BYTES = 112268985"
+      ],
+      "imports": [
+        "argparse",
+        "hashlib",
+        "json",
+        "os",
+        "pathlib",
+        "shutil",
+        "stat",
+        "subprocess",
+        "sys",
+        "time",
+        "zipfile"
+      ],
+      "path": "reproduce.py",
+      "scope": "outer"
+    },
+    {
+      "header": [
+        "\"\"\"mathharness \u2014 open-problem mathematics harness (see spec.md).\"\"\"",
+        "__version__ = \"0.1.0\""
+      ],
+      "imports": [],
+      "path": "harness/__init__.py",
+      "scope": "inner"
+    },
+    {
+      "header": [
+        "\"\"\"Configuration: repo root, budget.yaml, problems.yaml, lane/env resolution. No prices or caps live in code.\"\"\"",
+        "from __future__ import annotations",
+        "",
+        "import datetime as _dt",
+        "import os",
+        "from functools import lru_cache",
+        "from pathlib import Path",
+        "from typing import Any",
+        "",
+        "import yaml",
+        "",
+        "STATES = [\"SPEC\", \"VERIFIER\", \"EXPLORE\", \"CLAIM\", \"REVIEW\", \"REPAIR\", \"FROZEN\", \"FORMALIZE\", \"DONE\", \"PARKED\"]",
+        "MODES = [\"attack\", \"construct\", \"refute\", \"reduce\", \"repair\"]",
+        "",
+        "",
+        "def root() -> Path:",
+        "    env = os.environ.get(\"MH_ROOT\")",
+        "    if env:"
+      ],
+      "imports": [
+        "__future__",
+        "datetime",
+        "functools",
+        "os",
+        "pathlib",
+        "typing",
+        "yaml"
+      ],
+      "path": "harness/config.py",
+      "scope": "inner"
+    },
+    {
+      "header": [
+        "\"\"\"The repository is the memory: hashing, freezing, JSON/JSONL helpers, provenance, attempt numbering.\"\"\"",
+        "from __future__ import annotations",
+        "",
+        "import hashlib",
+        "import json",
+        "import os",
+        "import re",
+        "from pathlib import Path",
+        "from typing import Any, Iterable",
+        "",
+        "from . import config",
+        "",
+        "",
+        "def sha256_bytes(b: bytes) -> str:",
+        "    return hashlib.sha256(b).hexdigest()",
+        "",
+        "",
+        "def sha256_text(s: str) -> str:"
+      ],
+      "imports": [
+        ".",
+        "__future__",
+        "hashlib",
+        "json",
+        "os",
+        "pathlib",
+        "re",
+        "typing"
+      ],
+      "path": "harness/store.py",
+      "scope": "inner"
+    },
+    {
+      "header": [
+        "\"\"\"Run a problem's computational verifier on structured claims; write reports with witnesses (Idea 3).",
+        "",
+        "The verifier package at problems/<slug>/verifier/verify.py exposes:",
+        "    KINDS: dict[kind -> {\"params\": {...}, \"returns\": \"...\", \"description\": \"...\"}]",
+        "    small_cases(params) -> dict            brute-force ground truth for the smallest instances (cached in verifier/data/)",
+        "    check_claim(claim_json) -> dict        {\"pass\": bool|None, \"result\": ..., \"witness\": ...}",
+        "    check_candidate(candidate) -> dict     for constructions / counterexamples",
+        "    REGRESSION: list[dict]                 claims with known outcomes that must pass before the verifier is accepted",
+        "The verifier FILTERS; it never certifies.",
+        "\"\"\"",
+        "from __future__ import annotations",
+        "",
+        "import copy",
+        "import importlib.util",
+        "import json",
+        "import sys",
+        "import threading",
+        "import time"
+      ],
+      "imports": [
+        ".",
+        "__future__",
+        "argparse",
+        "concurrent.futures",
+        "copy",
+        "importlib.util",
+        "json",
+        "pathlib",
+        "sys",
+        "threading",
+        "time",
+        "traceback",
+        "types",
+        "typing",
+        "uuid"
+      ],
+      "path": "harness/verify.py",
+      "scope": "inner"
+    },
+    {
+      "header": [
+        "\"\"\"Audit a complete conditional minimum-witness cover, not just sampled moves.",
+        "",
+        "Replays Horn splits/strictness, new rectangle paths, and the second-reduction",
+        "exclusions independently of each selector. Existing old-path and full-domain",
+        "audits are bound by hash. No theorem is certified by accepting a data flag.",
+        "\"\"\"",
+        "from collections import Counter",
+        "from functools import lru_cache",
+        "from pathlib import Path",
+        "import json",
+        "import sys",
+        "import time",
+        "",
+        "import numpy as np",
+        "",
+        "RUN = Path(__file__).resolve().parent",
+        "sys.path.insert(0, str(RUN.parents[3]))",
+        "from harness import config, store, verify"
+      ],
+      "imports": [
+        "audit_core_certificates",
+        "collections",
+        "functools",
+        "harness",
+        "json",
+        "numpy",
+        "pathlib",
+        "sys",
+        "time"
+      ],
+      "path": "problems/stretched-lr-coefficients/runs/20260905T173132Z/audit_combined_core_cover.py",
+      "scope": "inner"
+    },
+    {
+      "header": [
+        "\"\"\"Independent local checks of every reduction path and Horn catalog entry.",
+        "",
+        "Checks proof-rule premises and conclusions, not the greedy algorithm's choices.",
+        "The entire Horn catalog is regenerated with the independent tableau DP engine.",
+        "Neither step replaces the required cross-family mathematical proof review.",
+        "\"\"\"",
+        "from collections import Counter",
+        "from itertools import combinations",
+        "from math import gcd",
+        "from pathlib import Path",
+        "import json",
+        "import sys",
+        "import time",
+        "",
+        "RUN=Path(__file__).resolve().parent",
+        "sys.path.insert(0,str(RUN.parents[3]))",
+        "from harness import config,store,verify",
+        ""
+      ],
+      "imports": [
+        "collections",
+        "harness",
+        "itertools",
+        "json",
+        "math",
+        "pathlib",
+        "sys",
+        "time"
+      ],
+      "path": "problems/stretched-lr-coefficients/runs/20260905T173132Z/audit_core_certificates.py",
+      "scope": "inner"
+    },
+    {
+      "header": [
+        "\"\"\"Audit a fixed complete-line prefix of the live exact-polynomial journal.",
+        "",
+        "This checks finite certificate integrity and signs, independently evaluates all",
+        "recorded values, and separates total computation from the proposed terminal core.",
+        "It does not independently reimplement Normaliz or certify the mathematical cover.",
+        "No live source, cache, state, ledger or journal is modified.",
+        "\"\"\"",
+        "import argparse",
+        "from collections import Counter",
+        "from fractions import Fraction",
+        "from hashlib import sha256",
+        "from math import factorial",
+        "from pathlib import Path",
+        "import sys",
+        "import time",
+        "",
+        "RUN = Path(__file__).resolve().parent",
+        "sys.path.insert(0, str(RUN.parents[3]))"
+      ],
+      "imports": [
+        "argparse",
+        "collections",
+        "fractions",
+        "harness",
+        "hashlib",
+        "json",
+        "math",
+        "pathlib",
+        "sys",
+        "time"
+      ],
+      "path": "problems/stretched-lr-coefficients/runs/20260905T173132Z/audit_core_polynomial_records.py",
+      "scope": "inner"
+    },
+    {
+      "header": [
+        "\"\"\"Independent small-domain enumeration and literal reduction-certificate audit.",
+        "",
+        "Regenerates partitions recursively and inners under kappa, independently of the",
+        "coin-DP/numpy selection that produced the data. Then checks each recorded Horn",
+        "split/rectangle exclusion and every retained strict Horn inequality. No baseline",
+        "or positivity of unchecked records is assumed.",
+        "\"\"\"",
+        "from collections import Counter,defaultdict",
+        "from functools import lru_cache",
+        "from math import gcd",
+        "from pathlib import Path",
+        "import json",
+        "import sys",
+        "import time",
+        "",
+        "import numpy as np",
+        "",
+        "RUN=Path(__file__).resolve().parent"
+      ],
+      "imports": [
+        "collections",
+        "conditional_domain_inventory",
+        "functools",
+        "harness",
+        "json",
+        "math",
+        "numpy",
+        "pathlib",
+        "sys",
+        "time"
+      ],
+      "path": "problems/stretched-lr-coefficients/runs/20260905T173132Z/audit_small_minimum_cover.py",
+      "scope": "inner"
+    },
+    {
+      "header": [
+        "\"\"\"Audit a fixed complete-line prefix of the small-domain exact-polynomial journal.",
+        "",
+        "This checks finite certificate integrity and signs, independently evaluates all",
+        "recorded values, and separates total computation from the proposed terminal core.",
+        "It does not independently reimplement Normaliz or certify the mathematical cover.",
+        "No live source, cache, state, ledger or journal is modified.",
+        "\"\"\"",
+        "import argparse",
+        "from collections import Counter",
+        "from fractions import Fraction",
+        "from hashlib import sha256",
+        "from math import factorial",
+        "from pathlib import Path",
+        "import sys",
+        "import time",
+        "",
+        "RUN = Path(__file__).resolve().parent",
+        "sys.path.insert(0, str(RUN.parents[3]))"
+      ],
+      "imports": [
+        "argparse",
+        "collections",
+        "fractions",
+        "harness",
+        "hashlib",
+        "json",
+        "math",
+        "pathlib",
+        "sys",
+        "time"
+      ],
+      "path": "problems/stretched-lr-coefficients/runs/20260905T173132Z/audit_small_polynomial_records.py",
+      "scope": "inner"
+    },
+    {
+      "header": [
+        "\"\"\"Count the domain asserted by v005, without assuming its pending proof is correct.",
+        "",
+        "This is a supervisor workload calculation, not a positivity certificate. No LR",
+        "coefficient or polynomial is computed, and no existing verifier file is changed.",
+        "The predicates transcribe Theorem 'Necessary conditions' and (18)--(20).",
+        "\"\"\"",
+        "from collections import Counter, defaultdict",
+        "from datetime import datetime, timezone",
+        "from hashlib import sha256",
+        "import json",
+        "from math import gcd",
+        "from pathlib import Path",
+        "import time",
+        "",
+        "RUN = Path(__file__).resolve().parent",
+        "PDIR = RUN.parent.parent",
+        "",
+        ""
+      ],
+      "imports": [
+        "collections",
+        "datetime",
+        "hashlib",
+        "json",
+        "math",
+        "pathlib",
+        "time"
+      ],
+      "path": "problems/stretched-lr-coefficients/runs/20260905T173132Z/conditional_domain_inventory.py",
+      "scope": "inner"
+    },
+    {
+      "header": [
+        "\"\"\"Generate the unconditional minimum-witness domain below size24.",
+        "",
+        "The mathematical necessities of v005 do not need Pos22/Pos23: their use of the",
+        "baseline only gives a lower size bound. Enumerating the same literal conditions",
+        "from size1 instead lets a future full cover avoid the older sweep dependencies.",
+        "This program generates data and fresh base LR counts, not a positivity proof.",
+        "\"\"\"",
+        "from collections import Counter",
+        "from math import gcd",
+        "from pathlib import Path",
+        "import sys",
+        "import time",
+        "",
+        "import numpy as np",
+        "",
+        "RUN = Path(__file__).resolve().parent",
+        "sys.path.insert(0,str(RUN.parents[3]))",
+        "from harness import config, store, verify"
+      ],
+      "imports": [
+        "collections",
+        "harness",
+        "independent_full_domain_enumeration",
+        "json",
+        "math",
+        "numpy",
+        "pathlib",
+        "sys",
+        "time"
+      ],
+      "path": "problems/stretched-lr-coefficients/runs/20260905T173132Z/enumerate_small_minimum_domain.py",
+      "scope": "inner"
+    },
+    {
+      "header": [
+        "\"\"\"Independently regenerate the entire conditional domain, sizes24--30.",
+        "",
+        "Uses integer-part coin DP and literal theorem conditions, not the original",
+        "contained-ceiling recursion or its outer-shape pruning. Fresh base LR counts",
+        "are compared bijectively with the original c>=3 records, one outer at a time.",
+        "This is a completeness audit of finite code/data, not a Lean proof or a new",
+        "positivity certificate. It writes only independent supervisor run leaves.",
+        "\"\"\"",
+        "from collections import Counter, defaultdict",
+        "from math import gcd",
+        "from pathlib import Path",
+        "import json",
+        "import sys",
+        "import time",
+        "",
+        "import numpy as np",
+        "",
+        "RUN = Path(__file__).resolve().parent"
+      ],
+      "imports": [
+        "collections",
+        "harness",
+        "json",
+        "math",
+        "numpy",
+        "pathlib",
+        "sys",
+        "time"
+      ],
+      "path": "problems/stretched-lr-coefficients/runs/20260905T173132Z/independent_full_domain_enumeration.py",
+      "scope": "inner"
+    },
+    {
+      "header": [
+        "\"\"\"Create a narrowly scoped mathematical evidence manifest or portable ZIP.",
+        "",
+        "Only named mathematical source, inputs, audit outputs and manuscripts are",
+        "included. No ledger, provider conversation, review report, credentials or live",
+        "campaign state is copied. Frozen artifacts are preserved byte for byte.",
+        "\"\"\"",
+        "import argparse",
+        "from hashlib import sha256",
+        "import json",
+        "from pathlib import Path",
+        "import sys",
+        "import zipfile",
+        "",
+        "RUN=Path(__file__).resolve().parent",
+        "ROOT=RUN.parents[3]",
+        "PDIR=RUN.parents[1]",
+        "",
+        "def digest(path):"
+      ],
+      "imports": [
+        "argparse",
+        "hashlib",
+        "json",
+        "pathlib",
+        "sys",
+        "zipfile"
+      ],
+      "path": "problems/stretched-lr-coefficients/runs/20260905T173132Z/package_full_box_evidence.py",
+      "scope": "inner"
+    },
+    {
+      "header": [
+        "\"\"\"Test the broad minimum-counterexample reduction from KTT factorization.",
+        "",
+        "Source: Cho, Jung, Moon, DMTCS FPSAC 2008, Definition 1.2 and Theorem 1.3,",
+        "https://dmtcs.episciences.org/3592/pdf (p.485). This cites the KTT theorem,",
+        "not its earlier conjectural version. Published original:",
+        "https://doi.org/10.1016/j.jcta.2008.06.005 .",
+        "",
+        "An essential equality factors the stretching polynomial into subpartition",
+        "polynomials. Both outer sizes are strictly smaller when the original outer",
+        "has n positive parts. Hence a minimum-size negative-coefficient witness has",
+        "no such equality: if both factors had nonnegative monomial coefficients,",
+        "their product would as well. This implication still requires referee review",
+        "before it becomes certified pruning in this campaign.",
+        "\"\"\"",
+        "from collections import Counter",
+        "from itertools import combinations",
+        "import json",
+        "from pathlib import Path"
+      ],
+      "imports": [
+        "collections",
+        "harness",
+        "itertools",
+        "json",
+        "pathlib",
+        "sys",
+        "time"
+      ],
+      "path": "problems/stretched-lr-coefficients/runs/20260905T173132Z/probe_horn_primitivity.py",
+      "scope": "inner"
+    },
+    {
+      "header": [
+        "\"\"\"Replay the finite certificate audits in a private, relocatable directory.",
+        "",
+        "The immutable inputs are bound by the adjacent evidence manifest. This reruns",
+        "both enumerations, every reduction-certificate audit, and all polynomial-record",
+        "audits with fresh LR base counts. It does not rerun every Ehrhart computation.",
+        "No original report, ledger, cache or campaign state is overwritten.",
+        "\"\"\"",
+        "import argparse",
+        "from hashlib import sha256",
+        "import json",
+        "import os",
+        "from pathlib import Path",
+        "import shutil",
+        "import subprocess",
+        "import sys",
+        "import tempfile",
+        "import time",
+        ""
+      ],
+      "imports": [
+        "argparse",
+        "hashlib",
+        "json",
+        "os",
+        "pathlib",
+        "shutil",
+        "subprocess",
+        "sys",
+        "tempfile",
+        "time"
+      ],
+      "path": "problems/stretched-lr-coefficients/runs/20260905T173132Z/replay_full_box_certificate.py",
+      "scope": "inner"
+    },
+    {
+      "header": [
+        "\"\"\"Resume the full conditional domain with the proposed combined terminal core first.",
+        "",
+        "This supplements live research, using unchanged verifier functions. All writes",
+        "are run leaves. No shared cache, ledger, state, manuscript or verifier is edited.",
+        "It pauses for live attempt checks. Journals retain errors as unresolved; neither",
+        "this script nor an empty negative list certifies absence in the frozen box.",
+        "\"\"\"",
+        "import argparse",
+        "from collections import Counter",
+        "from concurrent.futures import FIRST_COMPLETED, ThreadPoolExecutor, wait",
+        "import fcntl",
+        "from fractions import Fraction",
+        "import json",
+        "import os",
+        "from pathlib import Path",
+        "import signal",
+        "import sys",
+        "import time"
+      ],
+      "imports": [
+        "argparse",
+        "collections",
+        "concurrent.futures",
+        "fcntl",
+        "fractions",
+        "harness",
+        "json",
+        "os",
+        "pathlib",
+        "signal",
+        "sys",
+        "time"
+      ],
+      "path": "problems/stretched-lr-coefficients/runs/20260905T173132Z/scan_conditional_domain_combined_core.py",
+      "scope": "inner"
+    },
+    {
+      "header": [
+        "\"\"\"Resume the conditional domain with core priority and durable journal checkpoints.",
+        "",
+        "This supplements live research, using unchanged verifier functions. All writes",
+        "are run leaves. No shared cache, ledger, state, manuscript or verifier is edited.",
+        "It pauses for live attempt checks. Journals retain errors as unresolved; neither",
+        "this script nor an empty negative list certifies absence in the frozen box.",
+        "\"\"\"",
+        "import argparse",
+        "from collections import Counter",
+        "from concurrent.futures import FIRST_COMPLETED, ThreadPoolExecutor, wait",
+        "import fcntl",
+        "from fractions import Fraction",
+        "import json",
+        "import os",
+        "from pathlib import Path",
+        "import signal",
+        "import sys",
+        "import time"
+      ],
+      "imports": [
+        "argparse",
+        "collections",
+        "concurrent.futures",
+        "fcntl",
+        "fractions",
+        "harness",
+        "json",
+        "os",
+        "pathlib",
+        "signal",
+        "sys",
+        "time"
+      ],
+      "path": "problems/stretched-lr-coefficients/runs/20260905T173132Z/scan_conditional_domain_durable.py",
+      "scope": "inner"
+    },
+    {
+      "header": [
+        "\"\"\"Fresh exact signs on the unconditional minimum-witness domain, sizes1--23.",
+        "",
+        "Uses two independent worker calls alongside the six-worker large scan, with",
+        "separate files/lock and no shared cache. Stops for any error or negative result;",
+        "every result remains available for the full cover audit and normal proof gates.",
+        "\"\"\"",
+        "from concurrent.futures import ThreadPoolExecutor, FIRST_COMPLETED, wait",
+        "import fcntl",
+        "from fractions import Fraction",
+        "import json",
+        "import os",
+        "from pathlib import Path",
+        "import signal",
+        "import sys",
+        "import time",
+        "",
+        "RUN=Path(__file__).resolve().parent",
+        "sys.path.insert(0,str(RUN.parents[3]))"
+      ],
+      "imports": [
+        "concurrent.futures",
+        "fcntl",
+        "fractions",
+        "harness",
+        "json",
+        "os",
+        "pathlib",
+        "scan_conditional_domain_combined_core",
+        "signal",
+        "sys",
+        "time"
+      ],
+      "path": "problems/stretched-lr-coefficients/runs/20260905T173132Z/scan_small_minimum_domain.py",
+      "scope": "inner"
+    },
+    {
+      "header": [
+        "\"\"\"Bounded independent source/input/engine-semantics audit of the frozen proof.",
+        "",
+        "Does not infer polynomial identities from samples, repeat the Ehrhart scan, or",
+        "claim a small-checker proof of Normaliz. Writes only beside this script.",
+        "\"\"\"",
+        "from collections import Counter",
+        "from fractions import Fraction",
+        "import hashlib",
+        "import importlib.util",
+        "import json",
+        "from pathlib import Path",
+        "import re",
+        "import resource",
+        "import shutil",
+        "import subprocess",
+        "import time",
+        "",
+        "HERE = Path(__file__).resolve().parent"
+      ],
+      "imports": [
+        "collections",
+        "fractions",
+        "hashlib",
+        "importlib.util",
+        "json",
+        "pathlib",
+        "re",
+        "resource",
+        "shutil",
+        "subprocess",
+        "time"
+      ],
+      "path": "problems/stretched-lr-coefficients/runs/20260906T041206Z/certificate_closure/audit_binding.py",
+      "scope": "inner"
+    },
+    {
+      "header": [
+        "#!/usr/bin/env python3",
+        "\"\"\"Read-only frozen mathematical supplement, plus two fixed bounded runners.",
+        "",
+        "MCP JSON-RPC over newline-delimited stdio. No arbitrary file, shell, or network",
+        "tool is exposed. All execution output is outside the readable evidence root.",
+        "\"\"\"",
+        "import argparse",
+        "import hashlib",
+        "import json",
+        "import os",
+        "from pathlib import Path, PurePosixPath",
+        "import re",
+        "import signal",
+        "import shutil",
+        "import stat",
+        "import subprocess",
+        "import sys",
+        "import time"
+      ],
+      "imports": [
+        "argparse",
+        "codecs",
+        "hashlib",
+        "json",
+        "os",
+        "pathlib",
+        "re",
+        "shutil",
+        "signal",
+        "stat",
+        "subprocess",
+        "sys",
+        "time"
+      ],
+      "path": "problems/stretched-lr-coefficients/runs/20260906T041206Z/certificate_closure/manuscript_mcp_server.py",
+      "scope": "inner"
+    },
+    {
+      "header": [
+        "#!/usr/bin/env python3",
+        "\"\"\"Optional sequential Ehrhart regeneration, with immutable resumable receipts.",
+        "",
+        "The frozen verifier is imported unchanged. Only its time-limit setting and the",
+        "subprocess transport (to retain temporary raw files) are adapted in memory.",
+        "\"\"\"",
+        "import argparse",
+        "from fractions import Fraction",
+        "import fcntl",
+        "import hashlib",
+        "import importlib.metadata",
+        "import importlib.util",
+        "import json",
+        "import os",
+        "from pathlib import Path",
+        "import platform",
+        "import re",
+        "import shutil"
+      ],
+      "imports": [
+        "argparse",
+        "fcntl",
+        "fractions",
+        "hashlib",
+        "importlib.metadata",
+        "importlib.util",
+        "json",
+        "lrcalc",
+        "os",
+        "pathlib",
+        "platform",
+        "re",
+        "shutil",
+        "sqlite3",
+        "subprocess",
+        "sys",
+        "time",
+        "urllib.parse"
+      ],
+      "path": "problems/stretched-lr-coefficients/runs/20260906T041206Z/certificate_closure/recompute_core_polynomials.py",
+      "scope": "inner"
+    },
+    {
+      "header": [
+        "\"\"\"Bounded real-backend failure-path checks; never edits frozen evidence.\"\"\"",
+        "import importlib.util",
+        "import json",
+        "from pathlib import Path",
+        "import shutil",
+        "import sqlite3",
+        "import sys",
+        "",
+        "sys.dont_write_bytecode = True",
+        "HERE = Path(__file__).resolve().parent",
+        "spec = importlib.util.spec_from_file_location('regeneration_under_test', HERE / 'recompute_core_polynomials.py')",
+        "m = importlib.util.module_from_spec(spec)",
+        "spec.loader.exec_module(m)",
+        "work = HERE / 'regeneration_test'",
+        "root = HERE.parents[4]",
+        "spec = importlib.util.spec_from_file_location('frozen_test_verifier', root / f'problems/{m.SLUG}/verifier/verify.py')",
+        "v = importlib.util.module_from_spec(spec)",
+        "spec.loader.exec_module(v)"
+      ],
+      "imports": [
+        "importlib.util",
+        "json",
+        "pathlib",
+        "shutil",
+        "sqlite3",
+        "sys"
+      ],
+      "path": "problems/stretched-lr-coefficients/runs/20260906T041206Z/certificate_closure/test_recompute_route.py",
+      "scope": "inner"
+    },
+    {
+      "header": [
+        "\"\"\"Fresh v008 literal necessary-domain enumeration, without harness imports.",
+        "",
+        "Independent implementation: iterative first-part stack generates the entire",
+        "partition universe; direct masks transcribe the six conditions, and lrcalc is",
+        "called afresh only after the exact structural filter. No shipped generator,",
+        "verifier, selector, or acceptance flag is called or trusted.",
+        "\"\"\"",
+        "from collections import Counter, defaultdict",
+        "from datetime import datetime, timezone",
+        "from hashlib import sha256",
+        "import json",
+        "from math import gcd",
+        "from pathlib import Path",
+        "import time",
+        "",
+        "import lrcalc",
+        "import numpy as np",
+        ""
+      ],
+      "imports": [
+        "collections",
+        "datetime",
+        "hashlib",
+        "json",
+        "lrcalc",
+        "math",
+        "numpy",
+        "pathlib",
+        "time"
+      ],
+      "path": "problems/stretched-lr-coefficients/runs/20260906T041206Z/proof_supervisor/independent_e.py",
+      "scope": "inner"
+    },
+    {
+      "header": [
+        "\"\"\"Fresh stratified numerical reduction audit, importing no shipped implementation.",
+        "",
+        "The archived source/target bytes are data. Direct lrcalc values test those data",
+        "at t=1,2,3; this does not itself prove an identity for every t. Reservoirs see",
+        "every archived path/edge/exclusion. Case selection does not inspect LR values.",
+        "\"\"\"",
+        "from collections import Counter",
+        "from datetime import datetime, timezone",
+        "from hashlib import sha256",
+        "import json",
+        "from pathlib import Path",
+        "import random",
+        "import signal",
+        "import time",
+        "",
+        "import lrcalc",
+        "",
+        "HERE = Path(__file__).resolve().parent"
+      ],
+      "imports": [
+        "collections",
+        "datetime",
+        "hashlib",
+        "json",
+        "lrcalc",
+        "pathlib",
+        "random",
+        "signal",
+        "time"
+      ],
+      "path": "problems/stretched-lr-coefficients/runs/20260906T041206Z/proof_supervisor/independent_r.py",
+      "scope": "inner"
+    },
+    {
+      "header": [
+        "\"\"\"Numerical second-reduction tests on exactly the final 16,194 exclusions.",
+        "",
+        "No shipped implementation is imported. The before/after formula and its",
+        "hypotheses are written directly; t=1,2,3 values use the LR backend afresh.",
+        "\"\"\"",
+        "from collections import Counter",
+        "from hashlib import sha256",
+        "import json",
+        "from pathlib import Path",
+        "import random",
+        "import time",
+        "",
+        "import lrcalc",
+        "",
+        "HERE = Path(__file__).resolve().parent",
+        "OLD = HERE.parents[2]/'runs/20260905T173132Z'",
+        "SEED = 202609060516",
+        ""
+      ],
+      "imports": [
+        "collections",
+        "hashlib",
+        "json",
+        "lrcalc",
+        "pathlib",
+        "random",
+        "time"
+      ],
+      "path": "problems/stretched-lr-coefficients/runs/20260906T041206Z/proof_supervisor/independent_r_final_second.py",
+      "scope": "inner"
+    },
+    {
+      "header": [
+        "\"\"\"Computational verifier for stretched-lr-coefficients (FrontierMath: Open Problems, Epoch AI).",
+        "",
+        "Frozen statement (spec sha256 pinned in EXPECTED_SPEC_SHA256; checked against the CONTENT of ../spec.json and line 1 of",
+        "../problem.md): exhibit integer partitions \u03bb (outer), \u03bc, \u03bd with |\u03bb| = |\u03bc| + |\u03bd|, each of length \u2264 7 and size \u2264 30, such",
+        "that the unique polynomial P(t) \u2208 \u211a[t] with P(t) = c^{t\u03bb}_{t\u03bc,t\u03bd} for every integer t \u2265 1 has a STRICTLY NEGATIVE",
+        "coefficient in the monomial basis 1, t, t\u00b2, \u2026. Conventions follow the source: \u03bb is the outer partition; the answer is",
+        "three lists in the order \u03bb, \u03bc, \u03bd. An exhaustive certified sweep of the whole box would settle this finite existential",
+        "problem negatively (it would not prove the unrestricted King\u2013Tollu\u2013Toumazet conjecture); a partial sweep settles nothing.",
+        "",
+        "Engines (independent of each other):",
+        "  (1) lrcalc 2.1 (A. Buch's C library, Python bindings): single LR coefficients c^{\u03bb}_{\u03bc\u03bd} by LR-tableau enumeration.",
+        "  (2) a pure-Python Littlewood\u2013Richardson tableau counter (row-by-row DP with the lattice-word and column-strictness",
+        "      conditions), used to cross-check small values without any shared code with (1).",
+        "  (3) the hive polytope H(\u03bb,\u03bc,\u03bd) of Knutson\u2013Tao / Buch (rhombus inequalities on a size-n triangular array, n = number of",
+        "      parts) whose lattice points in the t-th dilate are exactly c^{t\u03bb}_{t\u03bc,t\u03bd}. Normaliz 3.11.1 (triangulation and",
+        "      Stanley decomposition, exact arithmetic) returns its Ehrhart polynomial P directly; LattE integrale 1.7.6",
+        "      (Barvinok's signed cone decomposition, an independent algorithm and code base) returns the values for t = 0..N.",
+        "      (3) shares the hive encoding between Normaliz and LattE; the encoding itself is validated on every triple by the"
+      ],
+      "imports": [
+        "__future__",
+        "concurrent.futures",
+        "contextlib",
+        "fractions",
+        "hashlib",
+        "json",
+        "lrcalc",
+        "math",
+        "os",
+        "pathlib",
+        "random",
+        "re",
+        "shutil",
+        "site",
+        "subprocess",
+        "sys",
+        "tempfile",
+        "threading",
+        "time",
+        "unittest.mock"
+      ],
+      "path": "problems/stretched-lr-coefficients/verifier/verify.py",
+      "scope": "inner"
+    },
+    {
+      "header": [
+        "\"\"\"Separate v010 release builder, derived from ../build_submission.py.",
+        "",
+        "Copies source bytes (never hardlinks), preserves both frozen evidence sets,",
+        "closes nested manifest dependencies, and seals a self-contained ZIP. Run this",
+        "builder in the source repository; extracted packets use their top verify.py.",
+        "\"\"\"",
+        "import argparse",
+        "from hashlib import sha256",
+        "import json",
+        "from pathlib import Path",
+        "import shutil",
+        "import time",
+        "import zipfile",
+        "",
+        "HERE = Path(__file__).resolve().parent",
+        "NEW = HERE.parent",
+        "PROBLEM = NEW.parents[1]",
+        "ROOT = PROBLEM.parents[1]"
+      ],
+      "imports": [
+        "argparse",
+        "hashlib",
+        "json",
+        "pathlib",
+        "shutil",
+        "time",
+        "zipfile"
+      ],
+      "path": "release_builder.py",
+      "scope": "inner"
+    },
+    {
+      "header": [
+        "\"\"\"Verify the complete v010 packet, every nested file manifest, and seven audits.",
+        "",
+        "Saved polynomial records are checked; full Ehrhart regeneration is a separate",
+        "optional command documented in REPRODUCE.md. No review verdict is asserted.",
+        "\"\"\"",
+        "import argparse",
+        "from hashlib import sha256",
+        "import json",
+        "import os",
+        "from pathlib import Path",
+        "import subprocess",
+        "import sys",
+        "import time",
+        "",
+        "",
+        "def digest(path):",
+        "    h = sha256()",
+        "    with path.open('rb') as stream:"
+      ],
+      "imports": [
+        "argparse",
+        "hashlib",
+        "json",
+        "os",
+        "pathlib",
+        "subprocess",
+        "sys",
+        "time"
+      ],
+      "path": "verify.py",
+      "scope": "inner"
+    }
+  ],
+  "scanned_files": [
+    {
+      "binary": false,
+      "extension": "",
+      "hits": 0,
+      "path": ".gitattributes",
+      "scope": "outer"
+    },
+    {
+      "binary": false,
+      "extension": "",
+      "hits": 0,
+      "path": ".gitignore",
+      "scope": "outer"
+    },
+    {
+      "binary": false,
+      "extension": ".md",
+      "hits": 4,
+      "path": "AUTHORS.md",
+      "scope": "outer"
+    },
+    {
+      "binary": false,
+      "extension": ".bib",
+      "hits": 1,
+      "path": "CITATION.bib",
+      "scope": "outer"
+    },
+    {
+      "binary": false,
+      "extension": ".cff",
+      "hits": 6,
+      "path": "CITATION.cff",
+      "scope": "outer"
+    },
+    {
+      "binary": false,
+      "extension": "",
+      "hits": 141,
+      "path": "LICENSE",
+      "scope": "outer"
+    },
+    {
+      "binary": false,
+      "extension": ".txt",
+      "hits": 138,
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "outer"
+    },
+    {
+      "binary": false,
+      "extension": ".md",
+      "hits": 16,
+      "path": "LICENSING.md",
+      "scope": "outer"
+    },
+    {
+      "binary": false,
+      "extension": "",
+      "hits": 4,
+      "path": "NOTICE",
+      "scope": "outer"
+    },
+    {
+      "binary": false,
+      "extension": ".md",
+      "hits": 3,
+      "path": "PUBLICATION.md",
+      "scope": "outer"
+    },
+    {
+      "binary": false,
+      "extension": ".md",
+      "hits": 6,
+      "path": "README.md",
+      "scope": "outer"
+    },
+    {
+      "binary": false,
+      "extension": ".json",
+      "hits": 4,
+      "path": "RELEASE.json",
+      "scope": "outer"
+    },
+    {
+      "binary": false,
+      "extension": "",
+      "hits": 3,
+      "path": "SHA256SUMS",
+      "scope": "outer"
+    },
+    {
+      "binary": false,
+      "extension": ".md",
+      "hits": 5,
+      "path": "THIRD_PARTY_NOTICES.md",
+      "scope": "outer"
+    },
+    {
+      "binary": false,
+      "extension": ".md",
+      "hits": 3,
+      "path": "UPLOAD_AND_REPRODUCE.md",
+      "scope": "outer"
+    },
+    {
+      "binary": false,
+      "extension": ".md",
+      "hits": 0,
+      "path": "docs/ARCHIVED_REPRODUCE.md",
+      "scope": "outer"
+    },
+    {
+      "binary": false,
+      "extension": ".md",
+      "hits": 0,
+      "path": "docs/EVIDENCE.md",
+      "scope": "outer"
+    },
+    {
+      "binary": false,
+      "extension": ".md",
+      "hits": 0,
+      "path": "docs/FORMALIZATION.md",
+      "scope": "outer"
+    },
+    {
+      "binary": false,
+      "extension": ".json",
+      "hits": 0,
+      "path": "evidence/PARTS.json",
+      "scope": "outer"
+    },
+    {
+      "binary": true,
+      "extension": ".part-000",
+      "hits": 0,
+      "path": "evidence/parts/evidence.zip.part-000",
+      "scope": "outer"
+    },
+    {
+      "binary": true,
+      "extension": ".part-001",
+      "hits": 0,
+      "path": "evidence/parts/evidence.zip.part-001",
+      "scope": "outer"
+    },
+    {
+      "binary": true,
+      "extension": ".part-002",
+      "hits": 0,
+      "path": "evidence/parts/evidence.zip.part-002",
+      "scope": "outer"
+    },
+    {
+      "binary": true,
+      "extension": ".part-003",
+      "hits": 0,
+      "path": "evidence/parts/evidence.zip.part-003",
+      "scope": "outer"
+    },
+    {
+      "binary": true,
+      "extension": ".part-004",
+      "hits": 0,
+      "path": "evidence/parts/evidence.zip.part-004",
+      "scope": "outer"
+    },
+    {
+      "binary": true,
+      "extension": ".part-005",
+      "hits": 0,
+      "path": "evidence/parts/evidence.zip.part-005",
+      "scope": "outer"
+    },
+    {
+      "binary": true,
+      "extension": ".pdf",
+      "hits": 0,
+      "path": "paper.pdf",
+      "scope": "outer"
+    },
+    {
+      "binary": false,
+      "extension": ".tex",
+      "hits": 8,
+      "path": "paper.tex",
+      "scope": "outer"
+    },
+    {
+      "binary": true,
+      "extension": ".pdf",
+      "hits": 0,
+      "path": "proof/frozen-proof.pdf",
+      "scope": "outer"
+    },
+    {
+      "binary": false,
+      "extension": ".tex",
+      "hits": 15,
+      "path": "proof/frozen-proof.tex",
+      "scope": "outer"
+    },
+    {
+      "binary": false,
+      "extension": ".py",
+      "hits": 2,
+      "path": "reproduce.py",
+      "scope": "outer"
+    },
+    {
+      "binary": false,
+      "extension": ".txt",
+      "hits": 0,
+      "path": "requirements-audit.txt",
+      "scope": "outer"
+    },
+    {
+      "binary": false,
+      "extension": ".json",
+      "hits": 0,
+      "path": "ARCHIVAL_METADATA.json",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".md",
+      "hits": 0,
+      "path": "EVIDENCE.md",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".md",
+      "hits": 0,
+      "path": "FORMALIZATION.md",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".json",
+      "hits": 0,
+      "path": "FROZEN_READABLE_MANIFEST.json",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".json",
+      "hits": 0,
+      "path": "MANIFEST.json",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".md",
+      "hits": 0,
+      "path": "README.md",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".md",
+      "hits": 0,
+      "path": "REPRODUCE.md",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".py",
+      "hits": 0,
+      "path": "harness/__init__.py",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".py",
+      "hits": 0,
+      "path": "harness/config.py",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".py",
+      "hits": 0,
+      "path": "harness/store.py",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".py",
+      "hits": 0,
+      "path": "harness/verify.py",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".json",
+      "hits": 0,
+      "path": "mathematical_appendix_extra_manifest.json",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".tex",
+      "hits": 1,
+      "path": "problems/stretched-lr-coefficients/manuscript/v005.tex",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".tex",
+      "hits": 1,
+      "path": "problems/stretched-lr-coefficients/manuscript/v006.tex",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".tex",
+      "hits": 2,
+      "path": "problems/stretched-lr-coefficients/manuscript/v007.tex",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".tex",
+      "hits": 15,
+      "path": "problems/stretched-lr-coefficients/manuscript/v008.tex",
+      "scope": "inner"
+    },
+    {
+      "binary": true,
+      "extension": ".pdf",
+      "hits": 0,
+      "path": "problems/stretched-lr-coefficients/manuscript/v010.pdf",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".tex",
+      "hits": 15,
+      "path": "problems/stretched-lr-coefficients/manuscript/v010.tex",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".sha256",
+      "hits": 0,
+      "path": "problems/stretched-lr-coefficients/manuscript/v010.tex.sha256",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".md",
+      "hits": 0,
+      "path": "problems/stretched-lr-coefficients/problem.md",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".py",
+      "hits": 0,
+      "path": "problems/stretched-lr-coefficients/runs/20260905T173132Z/audit_combined_core_cover.py",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".py",
+      "hits": 0,
+      "path": "problems/stretched-lr-coefficients/runs/20260905T173132Z/audit_core_certificates.py",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".py",
+      "hits": 0,
+      "path": "problems/stretched-lr-coefficients/runs/20260905T173132Z/audit_core_polynomial_records.py",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".py",
+      "hits": 0,
+      "path": "problems/stretched-lr-coefficients/runs/20260905T173132Z/audit_small_minimum_cover.py",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".py",
+      "hits": 0,
+      "path": "problems/stretched-lr-coefficients/runs/20260905T173132Z/audit_small_polynomial_records.py",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".json",
+      "hits": 0,
+      "path": "problems/stretched-lr-coefficients/runs/20260905T173132Z/classical_second_affected_core_indices.json",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".json",
+      "hits": 0,
+      "path": "problems/stretched-lr-coefficients/runs/20260905T173132Z/combined_core_cover_audit.json",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".json",
+      "hits": 0,
+      "path": "problems/stretched-lr-coefficients/runs/20260905T173132Z/combined_terminal_core_indices.json",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".json",
+      "hits": 0,
+      "path": "problems/stretched-lr-coefficients/runs/20260905T173132Z/combined_terminal_core_info.json",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".json",
+      "hits": 0,
+      "path": "problems/stretched-lr-coefficients/runs/20260905T173132Z/conditional_domain_c_ge3.json",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".py",
+      "hits": 0,
+      "path": "problems/stretched-lr-coefficients/runs/20260905T173132Z/conditional_domain_inventory.py",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".json",
+      "hits": 0,
+      "path": "problems/stretched-lr-coefficients/runs/20260905T173132Z/conditional_domain_multiplicities.json",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".json",
+      "hits": 0,
+      "path": "problems/stretched-lr-coefficients/runs/20260905T173132Z/conditional_scan/manifest.json",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".jsonl",
+      "hits": 0,
+      "path": "problems/stretched-lr-coefficients/runs/20260905T173132Z/conditional_scan/results.jsonl",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".json",
+      "hits": 0,
+      "path": "problems/stretched-lr-coefficients/runs/20260905T173132Z/core_certificate_audit.json",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".json",
+      "hits": 0,
+      "path": "problems/stretched-lr-coefficients/runs/20260905T173132Z/core_polynomial_audit_complete.json",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".json",
+      "hits": 1,
+      "path": "problems/stretched-lr-coefficients/runs/20260905T173132Z/engine_census_after_crash.json",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".py",
+      "hits": 0,
+      "path": "problems/stretched-lr-coefficients/runs/20260905T173132Z/enumerate_small_minimum_domain.py",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".tex",
+      "hits": 0,
+      "path": "problems/stretched-lr-coefficients/runs/20260905T173132Z/full_box_composition.tex",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".json",
+      "hits": 0,
+      "path": "problems/stretched-lr-coefficients/runs/20260905T173132Z/full_box_computational_admission.json",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".json",
+      "hits": 0,
+      "path": "problems/stretched-lr-coefficients/runs/20260905T173132Z/full_box_evidence_manifest.json",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".json",
+      "hits": 0,
+      "path": "problems/stretched-lr-coefficients/runs/20260905T173132Z/full_box_replay.json",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".json",
+      "hits": 0,
+      "path": "problems/stretched-lr-coefficients/runs/20260905T173132Z/general_rectangular_closure_fixed_indices.json",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".jsonl",
+      "hits": 0,
+      "path": "problems/stretched-lr-coefficients/runs/20260905T173132Z/general_rectangular_closure_paths.jsonl",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".json",
+      "hits": 0,
+      "path": "problems/stretched-lr-coefficients/runs/20260905T173132Z/general_rectangular_closure_progress.json",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".json",
+      "hits": 0,
+      "path": "problems/stretched-lr-coefficients/runs/20260905T173132Z/hard_case_current_source.json",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".jsonl",
+      "hits": 0,
+      "path": "problems/stretched-lr-coefficients/runs/20260905T173132Z/horn_core_boundary_certificates.jsonl",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".json",
+      "hits": 0,
+      "path": "problems/stretched-lr-coefficients/runs/20260905T173132Z/horn_core_source_indices.json",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".json",
+      "hits": 0,
+      "path": "problems/stretched-lr-coefficients/runs/20260905T173132Z/horn_essential_catalog.json",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".json",
+      "hits": 0,
+      "path": "problems/stretched-lr-coefficients/runs/20260905T173132Z/independent_full_domain_enumeration.json",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".py",
+      "hits": 0,
+      "path": "problems/stretched-lr-coefficients/runs/20260905T173132Z/independent_full_domain_enumeration.py",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".py",
+      "hits": 0,
+      "path": "problems/stretched-lr-coefficients/runs/20260905T173132Z/package_full_box_evidence.py",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".py",
+      "hits": 2,
+      "path": "problems/stretched-lr-coefficients/runs/20260905T173132Z/probe_horn_primitivity.py",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".json",
+      "hits": 0,
+      "path": "problems/stretched-lr-coefficients/runs/20260905T173132Z/real_negative_ehrhart_engine_control.json",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".json",
+      "hits": 0,
+      "path": "problems/stretched-lr-coefficients/runs/20260905T173132Z/reduction_closure_fixed_points.json",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".jsonl",
+      "hits": 0,
+      "path": "problems/stretched-lr-coefficients/runs/20260905T173132Z/reduction_closure_map_paths.jsonl",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".json",
+      "hits": 0,
+      "path": "problems/stretched-lr-coefficients/runs/20260905T173132Z/reduction_closure_map_progress.json",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".py",
+      "hits": 0,
+      "path": "problems/stretched-lr-coefficients/runs/20260905T173132Z/replay_full_box_certificate.py",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".py",
+      "hits": 0,
+      "path": "problems/stretched-lr-coefficients/runs/20260905T173132Z/scan_conditional_domain_combined_core.py",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".py",
+      "hits": 0,
+      "path": "problems/stretched-lr-coefficients/runs/20260905T173132Z/scan_conditional_domain_durable.py",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".py",
+      "hits": 0,
+      "path": "problems/stretched-lr-coefficients/runs/20260905T173132Z/scan_small_minimum_domain.py",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".jsonl",
+      "hits": 0,
+      "path": "problems/stretched-lr-coefficients/runs/20260905T173132Z/small_minimum_core_exclusions.jsonl",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".json",
+      "hits": 0,
+      "path": "problems/stretched-lr-coefficients/runs/20260905T173132Z/small_minimum_core_indices.json",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".json",
+      "hits": 0,
+      "path": "problems/stretched-lr-coefficients/runs/20260905T173132Z/small_minimum_core_info.json",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".json",
+      "hits": 0,
+      "path": "problems/stretched-lr-coefficients/runs/20260905T173132Z/small_minimum_cover_audit.json",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".json",
+      "hits": 0,
+      "path": "problems/stretched-lr-coefficients/runs/20260905T173132Z/small_minimum_domain.json",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".json",
+      "hits": 0,
+      "path": "problems/stretched-lr-coefficients/runs/20260905T173132Z/small_minimum_domain_enumeration.json",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".json",
+      "hits": 0,
+      "path": "problems/stretched-lr-coefficients/runs/20260905T173132Z/small_minimum_signs/manifest.json",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".jsonl",
+      "hits": 0,
+      "path": "problems/stretched-lr-coefficients/runs/20260905T173132Z/small_minimum_signs/results.jsonl",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".json",
+      "hits": 0,
+      "path": "problems/stretched-lr-coefficients/runs/20260905T173132Z/small_polynomial_audit_complete.json",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".json",
+      "hits": 0,
+      "path": "problems/stretched-lr-coefficients/runs/20260906T041206Z/certificate_closure/MANIFEST.json",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".md",
+      "hits": 0,
+      "path": "problems/stretched-lr-coefficients/runs/20260906T041206Z/certificate_closure/RECOMPUTE.md",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".md",
+      "hits": 0,
+      "path": "problems/stretched-lr-coefficients/runs/20260906T041206Z/certificate_closure/REPORT.md",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".py",
+      "hits": 0,
+      "path": "problems/stretched-lr-coefficients/runs/20260906T041206Z/certificate_closure/audit_binding.py",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".json",
+      "hits": 1,
+      "path": "problems/stretched-lr-coefficients/runs/20260906T041206Z/certificate_closure/binding_result.json",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".json",
+      "hits": 0,
+      "path": "problems/stretched-lr-coefficients/runs/20260906T041206Z/certificate_closure/current_linked_engines.json",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".in",
+      "hits": 0,
+      "path": "problems/stretched-lr-coefficients/runs/20260906T041206Z/certificate_closure/empty_interval/hive.in",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".out",
+      "hits": 0,
+      "path": "problems/stretched-lr-coefficients/runs/20260906T041206Z/certificate_closure/empty_interval/hive.out",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".txt",
+      "hits": 0,
+      "path": "problems/stretched-lr-coefficients/runs/20260906T041206Z/certificate_closure/empty_interval/stderr.txt",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".txt",
+      "hits": 0,
+      "path": "problems/stretched-lr-coefficients/runs/20260906T041206Z/certificate_closure/empty_interval/stdout.txt",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".json",
+      "hits": 0,
+      "path": "problems/stretched-lr-coefficients/runs/20260906T041206Z/certificate_closure/full_box_replay.json",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".log",
+      "hits": 0,
+      "path": "problems/stretched-lr-coefficients/runs/20260906T041206Z/certificate_closure/full_box_replay.log",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".txt",
+      "hits": 0,
+      "path": "problems/stretched-lr-coefficients/runs/20260906T041206Z/certificate_closure/full_box_replay.resources.txt",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".in",
+      "hits": 0,
+      "path": "problems/stretched-lr-coefficients/runs/20260906T041206Z/certificate_closure/integral_diagonal_segment/hive.in",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".out",
+      "hits": 0,
+      "path": "problems/stretched-lr-coefficients/runs/20260906T041206Z/certificate_closure/integral_diagonal_segment/hive.out",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".txt",
+      "hits": 0,
+      "path": "problems/stretched-lr-coefficients/runs/20260906T041206Z/certificate_closure/integral_diagonal_segment/stderr.txt",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".txt",
+      "hits": 0,
+      "path": "problems/stretched-lr-coefficients/runs/20260906T041206Z/certificate_closure/integral_diagonal_segment/stdout.txt",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".py",
+      "hits": 0,
+      "path": "problems/stretched-lr-coefficients/runs/20260906T041206Z/certificate_closure/manuscript_mcp_server.py",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".in",
+      "hits": 0,
+      "path": "problems/stretched-lr-coefficients/runs/20260906T041206Z/certificate_closure/negative_coefficient_simplex/hive.in",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".out",
+      "hits": 0,
+      "path": "problems/stretched-lr-coefficients/runs/20260906T041206Z/certificate_closure/negative_coefficient_simplex/hive.out",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".txt",
+      "hits": 0,
+      "path": "problems/stretched-lr-coefficients/runs/20260906T041206Z/certificate_closure/negative_coefficient_simplex/stderr.txt",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".txt",
+      "hits": 0,
+      "path": "problems/stretched-lr-coefficients/runs/20260906T041206Z/certificate_closure/negative_coefficient_simplex/stdout.txt",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".in",
+      "hits": 0,
+      "path": "problems/stretched-lr-coefficients/runs/20260906T041206Z/certificate_closure/negative_interval/hive.in",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".out",
+      "hits": 0,
+      "path": "problems/stretched-lr-coefficients/runs/20260906T041206Z/certificate_closure/negative_interval/hive.out",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".txt",
+      "hits": 0,
+      "path": "problems/stretched-lr-coefficients/runs/20260906T041206Z/certificate_closure/negative_interval/stderr.txt",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".txt",
+      "hits": 0,
+      "path": "problems/stretched-lr-coefficients/runs/20260906T041206Z/certificate_closure/negative_interval/stdout.txt",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".in",
+      "hits": 0,
+      "path": "problems/stretched-lr-coefficients/runs/20260906T041206Z/certificate_closure/negative_interval_fixed/hive.in",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".out",
+      "hits": 0,
+      "path": "problems/stretched-lr-coefficients/runs/20260906T041206Z/certificate_closure/negative_interval_fixed/hive.out",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".txt",
+      "hits": 0,
+      "path": "problems/stretched-lr-coefficients/runs/20260906T041206Z/certificate_closure/negative_interval_fixed/stderr.txt",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".txt",
+      "hits": 0,
+      "path": "problems/stretched-lr-coefficients/runs/20260906T041206Z/certificate_closure/negative_interval_fixed/stdout.txt",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".in",
+      "hits": 0,
+      "path": "problems/stretched-lr-coefficients/runs/20260906T041206Z/certificate_closure/rational_interval_period2/hive.in",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".out",
+      "hits": 0,
+      "path": "problems/stretched-lr-coefficients/runs/20260906T041206Z/certificate_closure/rational_interval_period2/hive.out",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".txt",
+      "hits": 0,
+      "path": "problems/stretched-lr-coefficients/runs/20260906T041206Z/certificate_closure/rational_interval_period2/stderr.txt",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".txt",
+      "hits": 0,
+      "path": "problems/stretched-lr-coefficients/runs/20260906T041206Z/certificate_closure/rational_interval_period2/stdout.txt",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".in",
+      "hits": 0,
+      "path": "problems/stretched-lr-coefficients/runs/20260906T041206Z/certificate_closure/rational_point_period2/hive.in",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".out",
+      "hits": 0,
+      "path": "problems/stretched-lr-coefficients/runs/20260906T041206Z/certificate_closure/rational_point_period2/hive.out",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".txt",
+      "hits": 0,
+      "path": "problems/stretched-lr-coefficients/runs/20260906T041206Z/certificate_closure/rational_point_period2/stderr.txt",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".txt",
+      "hits": 0,
+      "path": "problems/stretched-lr-coefficients/runs/20260906T041206Z/certificate_closure/rational_point_period2/stdout.txt",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".py",
+      "hits": 0,
+      "path": "problems/stretched-lr-coefficients/runs/20260906T041206Z/certificate_closure/recompute_core_polynomials.py",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".json",
+      "hits": 0,
+      "path": "problems/stretched-lr-coefficients/runs/20260906T041206Z/certificate_closure/regeneration_failure_tests/result.json",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".log",
+      "hits": 0,
+      "path": "problems/stretched-lr-coefficients/runs/20260906T041206Z/certificate_closure/regeneration_resume.log",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".txt",
+      "hits": 0,
+      "path": "problems/stretched-lr-coefficients/runs/20260906T041206Z/certificate_closure/regeneration_test.resources.txt",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".log",
+      "hits": 0,
+      "path": "problems/stretched-lr-coefficients/runs/20260906T041206Z/certificate_closure/regeneration_third.log",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".json",
+      "hits": 0,
+      "path": "problems/stretched-lr-coefficients/runs/20260906T041206Z/certificate_closure/relocation_test.json",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".json",
+      "hits": 0,
+      "path": "problems/stretched-lr-coefficients/runs/20260906T041206Z/certificate_closure/runtime_dependency_snapshot.json",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".py",
+      "hits": 0,
+      "path": "problems/stretched-lr-coefficients/runs/20260906T041206Z/certificate_closure/test_recompute_route.py",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".txt",
+      "hits": 0,
+      "path": "problems/stretched-lr-coefficients/runs/20260906T041206Z/computational_appendix/README.txt",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".json",
+      "hits": 0,
+      "path": "problems/stretched-lr-coefficients/runs/20260906T041206Z/computational_appendix/degree12_full_latte.json",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".json",
+      "hits": 0,
+      "path": "problems/stretched-lr-coefficients/runs/20260906T041206Z/proof_supervisor/fresh_er_manifest.json",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".py",
+      "hits": 0,
+      "path": "problems/stretched-lr-coefficients/runs/20260906T041206Z/proof_supervisor/independent_e.py",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".json",
+      "hits": 0,
+      "path": "problems/stretched-lr-coefficients/runs/20260906T041206Z/proof_supervisor/independent_e_result.json",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".py",
+      "hits": 0,
+      "path": "problems/stretched-lr-coefficients/runs/20260906T041206Z/proof_supervisor/independent_r.py",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".py",
+      "hits": 0,
+      "path": "problems/stretched-lr-coefficients/runs/20260906T041206Z/proof_supervisor/independent_r_final_second.py",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".json",
+      "hits": 0,
+      "path": "problems/stretched-lr-coefficients/runs/20260906T041206Z/proof_supervisor/independent_r_final_second_result.json",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".json",
+      "hits": 0,
+      "path": "problems/stretched-lr-coefficients/runs/20260906T041206Z/proof_supervisor/independent_r_result.json",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".json",
+      "hits": 0,
+      "path": "problems/stretched-lr-coefficients/spec.json",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".py",
+      "hits": 0,
+      "path": "problems/stretched-lr-coefficients/verifier/verify.py",
+      "scope": "inner"
+    },
+    {
+      "binary": true,
+      "extension": ".pdf",
+      "hits": 0,
+      "path": "proof.pdf",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".tex",
+      "hits": 15,
+      "path": "proof.tex",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".py",
+      "hits": 0,
+      "path": "release_builder.py",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".txt",
+      "hits": 0,
+      "path": "requirements-audit.txt",
+      "scope": "inner"
+    },
+    {
+      "binary": false,
+      "extension": ".py",
+      "hits": 0,
+      "path": "verify.py",
+      "scope": "inner"
+    }
+  ]
+}

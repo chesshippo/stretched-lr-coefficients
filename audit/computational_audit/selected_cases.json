@@ -1,0 +1,271 @@
+{
+  "full": {
+    "elapsed_s": 0.2529774590002489,
+    "finished_at": "2026-09-05T20:42:52+00:00",
+    "index": 34867,
+    "polynomial": {
+      "box_violations": [],
+      "c": 22,
+      "coefficients": [
+        "1",
+        "223/60",
+        "2213/360",
+        "6",
+        "131/36",
+        "77/60",
+        "77/360"
+      ],
+      "cross_checks": {
+        "latte_hidden_equalities": 1,
+        "latte_mode": "taylor",
+        "latte_triangulation": "default",
+        "latte_values_t0_to": 8,
+        "lr_tableau_dp_t1": 22,
+        "lrcalc_t1": 22,
+        "lrcalc_t2": 194,
+        "lrcalc_t3": 992
+      },
+      "degree": 6,
+      "degree_bound": 6,
+      "engines": [
+        "lrcalc",
+        "normaliz",
+        "lr_tableau_dp",
+        "latte"
+      ],
+      "has_negative": false,
+      "hive_variables": 6,
+      "in_box": true,
+      "lambda": [
+        8,
+        6,
+        4,
+        3,
+        2
+      ],
+      "latte_crosscheck": "full",
+      "leading_coefficient": "77/360",
+      "min_coefficient": "77/360",
+      "min_coefficient_index": 6,
+      "min_interior_coefficient": "77/60",
+      "min_interior_index": 5,
+      "mu": [
+        5,
+        4,
+        2,
+        1
+      ],
+      "n": 5,
+      "negative_indices": [],
+      "normaliz_vertices": 26,
+      "nu": [
+        5,
+        3,
+        2,
+        1
+      ],
+      "triangulation_size": 162,
+      "values": [
+        1,
+        22,
+        194,
+        992,
+        3620,
+        10550,
+        26215,
+        57856,
+        116523
+      ],
+      "values_note": "P(t) for t = 0..8; independently reproduced by LattE when latte_crosscheck == 'full'"
+    },
+    "status": "COMPUTED"
+  },
+  "large": {
+    "elapsed_s": 9.4304,
+    "finished_at": "2026-09-05T18:27:19+00:00",
+    "index": 989721,
+    "polynomial": {
+      "box_violations": [],
+      "c": 126,
+      "coefficients": [
+        "1",
+        "145883/27720",
+        "7529383/554400",
+        "828287/36288",
+        "4170529/151200",
+        "6034529/241920",
+        "124367051/7257600",
+        "135253/15120",
+        "8473747/2419200",
+        "724799/725760",
+        "473839/2419200",
+        "1163/49280",
+        "104837/79833600"
+      ],
+      "cross_checks": {
+        "latte_skipped": "n = 7 \u2265 6 and full_crosscheck not requested",
+        "lr_tableau_dp_t1": 126,
+        "lrcalc_t1": 126,
+        "lrcalc_t2": 5392,
+        "lrcalc_t3": 100189
+      },
+      "degree": 12,
+      "degree_bound": 15,
+      "engines": [
+        "lrcalc",
+        "normaliz",
+        "lr_tableau_dp"
+      ],
+      "has_negative": false,
+      "hive_variables": 15,
+      "in_box": true,
+      "lambda": [
+        9,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1
+      ],
+      "latte_crosscheck": "skipped (n \u2265 6; request full_crosscheck or submit as a candidate)",
+      "leading_coefficient": "104837/79833600",
+      "min_coefficient": "104837/79833600",
+      "min_coefficient_index": 12,
+      "min_interior_coefficient": "1163/49280",
+      "min_interior_index": 11,
+      "mu": [
+        6,
+        4,
+        3,
+        2,
+        1
+      ],
+      "n": 7,
+      "negative_indices": [],
+      "normaliz_vertices": 449,
+      "nu": [
+        6,
+        4,
+        2,
+        1,
+        1
+      ],
+      "triangulation_size": 775875,
+      "values": [
+        1,
+        126,
+        5392,
+        100189,
+        1068801,
+        7769491,
+        42750091,
+        190537644,
+        720272978,
+        2385666299,
+        7090167747,
+        19249724793,
+        48408514466,
+        113993230482,
+        253563799914,
+        536574645344,
+        1086550187487,
+        2115758766868
+      ],
+      "values_note": "P(t) for t = 0..17; independently reproduced by LattE when latte_crosscheck == 'full'"
+    },
+    "status": "COMPUTED"
+  },
+  "small": {
+    "elapsed_s": 0.06408100000044215,
+    "finished_at": "2026-09-05T20:42:50+00:00",
+    "index": 29034,
+    "polynomial": {
+      "box_violations": [],
+      "c": 35,
+      "coefficients": [
+        "1",
+        "10217/2520",
+        "8557/1120",
+        "406577/45360",
+        "41521/5760",
+        "70319/17280",
+        "4577/2880",
+        "24719/60480",
+        "2503/40320",
+        "1523/362880"
+      ],
+      "cross_checks": {
+        "latte_skipped": "n = 7 \u2265 6 and full_crosscheck not requested",
+        "lr_tableau_dp_t1": 35,
+        "lrcalc_t1": 35,
+        "lrcalc_t2": 529,
+        "lrcalc_t3": 4439
+      },
+      "degree": 9,
+      "degree_bound": 15,
+      "engines": [
+        "lrcalc",
+        "normaliz",
+        "lr_tableau_dp"
+      ],
+      "has_negative": false,
+      "hive_variables": 15,
+      "in_box": true,
+      "lambda": [
+        7,
+        5,
+        4,
+        3,
+        2,
+        1,
+        1
+      ],
+      "latte_crosscheck": "skipped (n \u2265 6; request full_crosscheck or submit as a candidate)",
+      "leading_coefficient": "1523/362880",
+      "min_coefficient": "1523/362880",
+      "min_coefficient_index": 9,
+      "min_interior_coefficient": "2503/40320",
+      "min_interior_index": 8,
+      "mu": [
+        5,
+        3,
+        2,
+        1,
+        1
+      ],
+      "n": 7,
+      "negative_indices": [],
+      "normaliz_vertices": 70,
+      "nu": [
+        5,
+        3,
+        2,
+        1
+      ],
+      "triangulation_size": 2113,
+      "values": [
+        1,
+        35,
+        529,
+        4439,
+        25100,
+        107764,
+        378347,
+        1139978,
+        3046538,
+        7392495,
+        16569982,
+        34757229,
+        68917147,
+        130201072,
+        235870410,
+        411868180,
+        696193231,
+        1143252211
+      ],
+      "values_note": "P(t) for t = 0..17; independently reproduced by LattE when latte_crosscheck == 'full'"
+    },
+    "status": "COMPUTED"
+  }
+}

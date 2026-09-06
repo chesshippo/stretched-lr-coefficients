@@ -1,0 +1,83 @@
+[
+  {
+    "bytes": 35149,
+    "content_type": "text/plain",
+    "final_url": "https://www.gnu.org/licenses/gpl-3.0.txt",
+    "id": "gnu_gpl3",
+    "retrieved_utc": "2026-09-06T12:12:16.981776+00:00",
+    "saved_file": "gnu_gpl3.txt",
+    "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+    "status": 200,
+    "tls_certificate_verification": true,
+    "url": "https://www.gnu.org/licenses/gpl-3.0.txt"
+  },
+  {
+    "error": "HTTP Error 403: Forbidden",
+    "id": "cc_by4",
+    "retrieved_utc": "2026-09-06T12:12:16.981920+00:00",
+    "tls_certificate_verification": true,
+    "url": "https://creativecommons.org/licenses/by/4.0/legalcode.txt"
+  },
+  {
+    "bytes": 35470,
+    "content_type": "text/plain; charset=utf-8",
+    "final_url": "https://raw.githubusercontent.com/Normaliz/Normaliz/v3.11.1/COPYING",
+    "id": "normaliz_license",
+    "retrieved_utc": "2026-09-06T12:12:16.981990+00:00",
+    "saved_file": "normaliz_license.txt",
+    "sha256": "c89a6e85cfc10fccd653d25f2bc75950c5b50fe4e3e92e33b4a0ca577c04af6a",
+    "status": 200,
+    "tls_certificate_verification": true,
+    "url": "https://raw.githubusercontent.com/Normaliz/Normaliz/v3.11.1/COPYING"
+  },
+  {
+    "bytes": 2091,
+    "content_type": "text/plain; charset=utf-8",
+    "final_url": "https://raw.githubusercontent.com/Normaliz/Normaliz/v3.11.1/source/libnormaliz/libnormaliz.h",
+    "id": "normaliz_header",
+    "retrieved_utc": "2026-09-06T12:12:16.982039+00:00",
+    "saved_file": "normaliz_header.txt",
+    "sha256": "3833d2e3b39e5a9f3254d3b29e3d93be1f71a467caaf85af176e6b1dfe86995b",
+    "status": 200,
+    "tls_certificate_verification": true,
+    "url": "https://raw.githubusercontent.com/Normaliz/Normaliz/v3.11.1/source/libnormaliz/libnormaliz.h"
+  },
+  {
+    "bytes": 17992,
+    "content_type": "text/plain; charset=utf-8",
+    "final_url": "https://raw.githubusercontent.com/latte-int/latte/master/COPYING",
+    "id": "latte_license",
+    "retrieved_utc": "2026-09-06T12:12:17.085332+00:00",
+    "saved_file": "latte_license.txt",
+    "sha256": "32b1062f7da84967e7019d01ab805935caa7ab7321a7ced0e30ebe75e5df1670",
+    "status": 200,
+    "tls_certificate_verification": true,
+    "url": "https://raw.githubusercontent.com/latte-int/latte/master/COPYING"
+  },
+  {
+    "bytes": 103106,
+    "content_type": "text/html",
+    "final_url": "https://epoch.ai/frontiermath/open-problems/stretched-lr-coefficients",
+    "id": "epoch",
+    "retrieved_utc": "2026-09-06T12:12:17.140696+00:00",
+    "saved_file": "epoch.txt",
+    "sha256": "b3bf78c7bdc2ff8daf83d88eef5c8108ddf63633e9a866e5e5a288da0e855803",
+    "status": 200,
+    "tls_certificate_verification": true,
+    "url": "https://epoch.ai/frontiermath/open-problems/stretched-lr-coefficients"
+  },
+  {
+    "error": "HTTP Error 404: Not Found",
+    "id": "ams_fonts_ofl",
+    "retrieved_utc": "2026-09-06T12:12:17.149255+00:00",
+    "tls_certificate_verification": true,
+    "url": "https://mirrors.ctan.org/fonts/amsfonts/OFL.txt"
+  },
+  {
+    "error": "HTTP Error 404: Not Found",
+    "id": "latin_modern_license",
+    "retrieved_utc": "2026-09-06T12:12:17.168030+00:00",
+    "tls_certificate_verification": true,
+    "url": "https://mirrors.ctan.org/fonts/lm/GUST-FONT-LICENSE.txt"
+  }
+]

@@ -1,0 +1,117 @@
+{
+  "by_outer_size": {
+    "0": {
+      "base_c_1": 1,
+      "low_c_stretch_controls": 2,
+      "triples": 1
+    },
+    "1": {
+      "base_c_1": 1,
+      "low_c_stretch_controls": 2,
+      "triples": 1
+    },
+    "2": {
+      "base_c_0": 2,
+      "base_c_1": 4,
+      "low_c_stretch_controls": 12,
+      "triples": 6
+    },
+    "3": {
+      "base_c_0": 8,
+      "base_c_1": 7,
+      "low_c_stretch_controls": 30,
+      "triples": 15
+    },
+    "4": {
+      "base_c_0": 35,
+      "base_c_1": 20,
+      "low_c_stretch_controls": 110,
+      "triples": 55
+    },
+    "5": {
+      "base_c_0": 89,
+      "base_c_1": 37,
+      "low_c_stretch_controls": 252,
+      "triples": 126
+    },
+    "6": {
+      "base_c_0": 285,
+      "base_c_1": 88,
+      "base_c_2": 1,
+      "low_c_stretch_controls": 748,
+      "triples": 374
+    },
+    "7": {
+      "base_c_0": 656,
+      "base_c_1": 167,
+      "base_c_2": 2,
+      "low_c_stretch_controls": 1650,
+      "triples": 825
+    },
+    "8": {
+      "base_c_0": 1611,
+      "base_c_1": 353,
+      "base_c_2": 10,
+      "low_c_stretch_controls": 3948,
+      "triples": 1974
+    },
+    "9": {
+      "base_c_0": 3438,
+      "base_c_1": 652,
+      "base_c_2": 26,
+      "low_c_stretch_controls": 8232,
+      "triples": 4116
+    },
+    "10": {
+      "base_c_0": 7614,
+      "base_c_1": 1272,
+      "base_c_2": 80,
+      "base_c_3_or_more": 2,
+      "low_c_stretch_controls": 17932,
+      "triples": 8968
+    }
+  },
+  "elapsed_s": 0.1740857920012786,
+  "literal_cell_vs_lrcalc_counts": {
+    "base_c_0": 13738,
+    "base_c_1": 2602,
+    "base_c_2": 119,
+    "base_c_3_or_more": 2,
+    "low_c_stretch_controls": 32918,
+    "triples": 16461
+  },
+  "partition_set_equality_sizes_0_to30": {
+    "0": 1,
+    "1": 1,
+    "2": 2,
+    "3": 3,
+    "4": 5,
+    "5": 7,
+    "6": 11,
+    "7": 15,
+    "8": 21,
+    "9": 28,
+    "10": 38,
+    "11": 49,
+    "12": 65,
+    "13": 82,
+    "14": 105,
+    "15": 131,
+    "16": 164,
+    "17": 201,
+    "18": 248,
+    "19": 300,
+    "20": 364,
+    "21": 436,
+    "22": 522,
+    "23": 618,
+    "24": 733,
+    "25": 860,
+    "26": 1009,
+    "27": 1175,
+    "28": 1367,
+    "29": 1579,
+    "30": 1824
+  },
+  "scope": "All normalized balanced triples of outer size 0..10 and lengths<=7. Low-c stretches t=2,3 are finite controls, not proofs of the all-stretch theorems."
+}

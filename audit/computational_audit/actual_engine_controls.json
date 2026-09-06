@@ -1,0 +1,100 @@
+{
+  "controls": [
+    {
+      "name": "negative_coordinate_interval",
+      "raw_files": {
+        "hive.in": "637cc14986f5e8b1f09ae9726b831a9f65e7ef164ce4dcb89db7942367f49eb4",
+        "hive.out": "0a7163980ac09bcf95e2488b37879c9a8e4ddef4e4a4601f1bf92e1103224983",
+        "invocation.json": "c1673a333a96c213aa2266640f4e328ebf617f5843a8ffe20cc558d75efbcd7a",
+        "stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "stdout.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "result": {
+        "coefficients": [
+          "1",
+          "1"
+        ],
+        "mode": "normaliz"
+      }
+    },
+    {
+      "name": "period2_interval",
+      "raw_files": {
+        "hive.in": "ae8092b706bf2ae5d70901e37fa6742dfb674657a46a30e325f125c385f92ff8",
+        "hive.out": "be90028647daa33c53749d3beafbd0908c99eb9ad95a1bb8ff9603f2bcecad7a",
+        "invocation.json": "38e9999270d8d844bae22d1506d942774d865f131bd0d91ea13edee52b92bd96",
+        "stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "stdout.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "result": {
+        "expected_rejection": "Normaliz reports an Ehrhart quasi-polynomial of period 2: contradicts the polynomiality theorem for LR hives"
+      }
+    },
+    {
+      "name": "period2_point",
+      "raw_files": {
+        "hive.in": "752bb4d4fc69d27109a3e931664bdf3014c6d052013fdeef7bc529dfdcbbcee1",
+        "hive.out": "b690f47c9f719348ce7ceb28601cf2d292a33ddefbc9bfabfe562462f23aabf6",
+        "invocation.json": "681a45c5b3c12c8473fbb1d7479050d8b1605aa6dd151f48d80bc856a27020b9",
+        "stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "stdout.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "result": {
+        "expected_rejection": "Normaliz reports an Ehrhart quasi-polynomial of period 2: contradicts the polynomiality theorem for LR hives"
+      }
+    },
+    {
+      "name": "full_lattice_diagonal_segment",
+      "raw_files": {
+        "hive.in": "edced99334c9f690ae86ae046e3b40a5b763912ad579f2516215ea3b1cffe70d",
+        "hive.out": "b68b2fc4b1921b1836a4d2f0d9924cef39f79f97731393c28bfc67e9115dfb75",
+        "invocation.json": "8537cfaa2181fd8559c004409506860f1b865e47e7409c990647f5aa2542a82d",
+        "stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "stdout.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "result": {
+        "coefficients": [
+          "1",
+          "2"
+        ],
+        "mode": "normaliz"
+      }
+    },
+    {
+      "name": "empty_interval",
+      "raw_files": {
+        "hive.in": "38454988e4bd64a03be5272ac9fe58867693509dd440a1e8fa6916a893141d0c",
+        "hive.out": "09a959f689f35295be64081349854e15a6c86db514add5e0586e35071912a99e",
+        "invocation.json": "01fe3f4281cd9fa7e119982606e2612e1fb347ecf932e96a3cdda2af3b5e86df",
+        "stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "stdout.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "result": {
+        "coefficients": [],
+        "mode": "empty"
+      }
+    },
+    {
+      "name": "reeve_m13_negative_linear",
+      "raw_files": {
+        "hive.in": "050e56c87280d66d1857483dda9e1188c91395bf3db8ecbe4c0d9c4c29734886",
+        "hive.out": "712f5b214b9337ae16fdb4123b11ea0f0fd533f94faf641efa0eeb4b9e8861b0",
+        "invocation.json": "68fef2958ac947fcc8e8a4c55517555bef402a4bd05bd6a43be934b4250dcf67",
+        "stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "stdout.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "result": {
+        "coefficients": [
+          "1",
+          "-1/6",
+          "1",
+          "13/6"
+        ],
+        "mode": "normaliz"
+      }
+    }
+  ],
+  "executable": "/Users/masee/.local/opt/normaliz-3.11.1/normaliz",
+  "sha256": "b09969f149e1d1f39aad3b1a60595553e9dad81792a7f94a9d903da5e066241d",
+  "version": "Normaliz 3.11.1\n------------------------------------------------------------\nwith package(s) CoCoALib Flint e-antic nauty hash-library\nCopyright (C) 2007-2025  The Normaliz Team, University of Osnabrueck.\nThis program comes with ABSOLUTELY NO WARRANTY; This is free software,\nand you are welcome to redistribute it under certain conditions;\nSee COPYING for details.\n"
+}

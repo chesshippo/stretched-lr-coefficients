@@ -1,0 +1,30 @@
+[
+  {
+    "name": "ktt09_hal_doi.json",
+    "url": "https://api.archives-ouvertes.fr/search/?q=doiId_s%3A%2210.1016%2Fj.jcta.2008.06.005%22&wt=json&rows=20",
+    "exit_code": 0,
+    "stderr": "",
+    "bytes": 116,
+    "response": {
+      "numFound": 0,
+      "start": 0,
+      "maxScore": 0.0,
+      "numFoundExact": true,
+      "docs": []
+    }
+  },
+  {
+    "name": "ktt09_hal_title.json",
+    "url": "https://api.archives-ouvertes.fr/search/?q=title_t%3A%22Factorisation+of+Littlewood-Richardson+coefficients%22&wt=json&rows=20",
+    "exit_code": 0,
+    "stderr": "",
+    "bytes": 116,
+    "response": {
+      "numFound": 0,
+      "start": 0,
+      "maxScore": 0.0,
+      "numFoundExact": true,
+      "docs": []
+    }
+  }
+]

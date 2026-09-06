@@ -1,0 +1,553 @@
+{
+  "claim_universe": 21,
+  "claims": [
+    {
+      "confidence": "High within this conventional mathematical audit; not formally verified.",
+      "dependencies": [
+        "LR tableau rule"
+      ],
+      "evidence": [
+        "paper_audit/audit_report.md",
+        "paper_audit/claim_inventory.json"
+      ],
+      "id": "C01",
+      "line": 94,
+      "normalized_statement": "\\begin{lemma}[Array description]\\label{lem:arrays}\nSuppose \\(\\mu\\subseteq\\lambda\\) and all partitions have length at most \\(n\\). At stretch \\(t\\ge1\\), LR tableaux correspond to nonnegative integer arrays \\(x_{j,i}\\), \\(1\\le j,i\\le n\\), satisfying\n\\begin{align}\n\\sum_i x_{j,i}&=t(\\lambda_j-\\mu_j),\n&\n\\sum_j x_{j,i}&=t\\nu_i,                                      \\label{eq:margins}\\\\\nx_{j,i}&=0\\quad(i>j),                                        \\label{eq:support}\\\\\n\\sum_{h<j}x_{h,i}-\\sum_{h\\le j}x_{h,i+1}&\\ge0\n\\quad(1\\le i<n),                                            \\label{eq:lattice}\\\\\nt(\\mu_{j-1}-\\mu_j)+\\sum_{i<b}x_{j-1,i}\n-\\sum_{i\\le b}x_{j,i}&\\ge0\n\\quad(2\\le j\\le n,\\ 1\\le b\\le n).                            \\label{eq:columns}\n\\end{align}\nDefine\n\\[\nq_k=\\sum_{j\\le k}(\\mu_j+\\nu_j-\\lambda_j).\n\\]\nThe number of labels at most \\(k\\) below the first \\(k\\) rows is \\(tq_k\\). Existence of a tableau therefore implies \\(q_k\\ge0\\). It also implies\n\\[\n\\lambda_j-\\mu_j\\le\\nu_1.\n                                                               \\tag{5}\n\\]\n\\end{lemma}",
+      "notation_scope": "Frozen v010 definitions, hypotheses and referenced displayed equations; see the complete source and the dependency list.",
+      "novelty": "N0",
+      "number": 1,
+      "premises": "Standard cited mathematical inputs and the publication typing conventions.",
+      "prior_art": "Standard published input, known-consequence symmetry/array calculation, or logical implication; no novelty credit assigned.",
+      "progress_credit": "0",
+      "source": "manuscript/v010.tex",
+      "title": "Array description",
+      "validity": "V",
+      "verification_method": "Row fillings, lattice prefixes, column endpoints, triangular support, deficit and row-length bounds."
+    },
+    {
+      "confidence": "High within this conventional mathematical audit; not formally verified.",
+      "dependencies": [
+        1,
+        "polynomial uniqueness"
+      ],
+      "evidence": [
+        "paper_audit/audit_report.md",
+        "paper_audit/claim_inventory.json"
+      ],
+      "id": "C02",
+      "line": 145,
+      "normalized_statement": "\\begin{theorem}[Strengthened shortening]\\label{thm:shortening}\nLet \\(\\mu\\subseteq\\lambda\\), with all partitions of length at most \\(n\\). Fix \\(1\\le k<n\\), suppose \\(q_k\\ge0\\), and put\n\\[\nr_{k+1}=\\lambda_{k+1}-\\mu_{k+1},\\qquad\nb_k=\\min(q_k,r_{k+1}).\n\\]\nIf an integer \\(a\\ge0\\) satisfies\n\\[\na\\le\\lambda_k-\\lambda_{k+1},\\qquad\na\\le\\mu_k-\\mu_{k+1}-b_k,\n                                                               \\tag{6}\n\\]\ndefine\n\\[\n\\lambda^-_j=\\lambda_j-a\\,1_{\\{j\\le k\\}},\\qquad\n\\mu^-_j=\\mu_j-a\\,1_{\\{j\\le k\\}}.\n\\]\nThese are partitions after zero parts are dropped, and\n\\[\nP^\\lambda_{\\mu\\nu}=P^{\\lambda^-}_{\\mu^-,\\nu}.\n                                                               \\tag{7}\n\\]\nThe analogous exchanged-inner identity holds.\n\\end{theorem}",
+      "notation_scope": "Frozen v010 definitions, hypotheses and referenced displayed equations; see the complete source and the dependency list.",
+      "novelty": "N2",
+      "number": 2,
+      "premises": "Standard cited mathematical inputs and the publication typing conventions.",
+      "prior_art": "Standalone novelty unresolved; no novelty or progress credit assigned.",
+      "progress_credit": "0",
+      "source": "manuscript/v010.tex",
+      "title": "Strengthened shortening",
+      "validity": "V",
+      "verification_method": "The two threshold regimes cover every changed crossing inequality; inverse increases all changed slacks."
+    },
+    {
+      "confidence": "High within this conventional mathematical audit; not formally verified.",
+      "dependencies": [
+        "LR tableau rule",
+        "polynomial uniqueness"
+      ],
+      "evidence": [
+        "paper_audit/audit_report.md",
+        "paper_audit/claim_inventory.json"
+      ],
+      "id": "C03",
+      "line": 188,
+      "normalized_statement": "\\begin{lemma}[Empty-row deletion]\\label{lem:emptyrow}\nIf \\(\\mu\\subseteq\\lambda\\) and \\(\\lambda_j=\\mu_j\\), deleting part \\(j\\) from both gives\n\\[\nP^\\lambda_{\\mu\\nu}\n=\nP^{\\widehat\\lambda}_{\\widehat\\mu,\\nu}.\n                                                               \\tag{8}\n\\]\nIf \\(j\\le\\ell(\\lambda)\\), the outer size decreases by \\(\\lambda_j>0\\).\n\\end{lemma}",
+      "notation_scope": "Frozen v010 definitions, hypotheses and referenced displayed equations; see the complete source and the dependency list.",
+      "novelty": "N0",
+      "number": 3,
+      "premises": "Standard cited mathematical inputs and the publication typing conventions.",
+      "prior_art": "Standard published input, known-consequence symmetry/array calculation, or logical implication; no novelty credit assigned.",
+      "progress_credit": "0",
+      "source": "manuscript/v010.tex",
+      "title": "Empty-row deletion",
+      "validity": "V",
+      "verification_method": "Disjoint column ranges across the empty row; positive deletion gives strict outer-size decrease."
+    },
+    {
+      "confidence": "High within this conventional mathematical audit; not formally verified.",
+      "dependencies": [
+        1,
+        "polynomial uniqueness"
+      ],
+      "evidence": [
+        "paper_audit/audit_report.md",
+        "paper_audit/claim_inventory.json"
+      ],
+      "id": "C04",
+      "line": 205,
+      "normalized_statement": "\\begin{theorem}[Initial-sum factorization]\\label{thm:factor}\nSuppose explicitly that $|\\lambda|=|\\mu|+|\\nu|$,\n$\\mu\\subseteq\\lambda$, and $1\\le k<n$ for a rank $n$, with $q_k=0$.\nSplitting all three partitions after part $k$ gives\n\\[\nP^\\lambda_{\\mu\\nu}\n=\nP^{\\lambda_{\\le k}}_{\\mu_{\\le k},\\nu_{\\le k}}\\,\nP^{\\lambda_{>k}}_{\\mu_{>k},\\nu_{>k}}.\n                                                               \\tag{9}\n\\]\nBoth triples are balanced. If \\(1\\le k<\\ell(\\lambda)\\), both outer sizes are strictly smaller.\n\\end{theorem}",
+      "notation_scope": "Frozen v010 definitions, hypotheses and referenced displayed equations; see the complete source and the dependency list.",
+      "novelty": "N0",
+      "number": 4,
+      "premises": "Standard cited mathematical inputs and the publication typing conventions.",
+      "prior_art": "Standard published input, known-consequence symmetry/array calculation, or logical implication; no novelty credit assigned.",
+      "progress_credit": "0",
+      "source": "manuscript/v010.tex",
+      "title": "Initial-sum factorization",
+      "validity": "V",
+      "verification_method": "Exhausted upper label range; concatenation cross-label comparison uses the partition inequality."
+    },
+    {
+      "confidence": "High within this conventional mathematical audit; not formally verified.",
+      "dependencies": [
+        "LR tableau rule",
+        "polynomial uniqueness"
+      ],
+      "evidence": [
+        "paper_audit/audit_report.md",
+        "paper_audit/claim_inventory.json"
+      ],
+      "id": "C05",
+      "line": 229,
+      "normalized_statement": "\\begin{lemma}[Full columns and scaling]\\label{lem:basic}\nIf $\\ell(\\lambda),\\ell(\\mu),\\ell(\\nu)\\le n$,\n$\\mu\\subseteq\\lambda$, and $\\lambda_n,\\mu_n\\ge1$, subtracting $1$\nfrom all $n$ parts of $\\lambda$ and $\\mu$ preserves $P$.\nThe exchanged-inner version holds as well. If all parts are divisible by \\(g\\ge1\\), and \\(Q\\) is the divided triple's polynomial, then\n\\[\nP(t)=Q(gt),\\qquad [t^i]P=g^i[t^i]Q.\n                                                               \\tag{10}\n\\]\n\\end{lemma}",
+      "notation_scope": "Frozen v010 definitions, hypotheses and referenced displayed equations; see the complete source and the dependency list.",
+      "novelty": "N0",
+      "number": 5,
+      "premises": "Standard cited mathematical inputs and the publication typing conventions.",
+      "prior_art": "Standard published input, known-consequence symmetry/array calculation, or logical implication; no novelty credit assigned.",
+      "progress_credit": "0",
+      "source": "manuscript/v010.tex",
+      "title": "Full columns and scaling",
+      "validity": "V",
+      "verification_method": "Translation by t at stretch t; positive g^i preserves signs."
+    },
+    {
+      "confidence": "High within this conventional mathematical audit; not formally verified.",
+      "dependencies": [
+        "Schur character rule",
+        "complete reducibility"
+      ],
+      "evidence": [
+        "paper_audit/audit_report.md",
+        "paper_audit/claim_inventory.json"
+      ],
+      "id": "C06",
+      "line": 248,
+      "normalized_statement": "\\begin{lemma}[Rectangular complement]\\label{lem:complement}\nFor \\(\\ell(\\alpha)\\le n\\) and \\(M\\ge\\alpha_1\\), put\n\\[\n\\alpha^{c,M}=(M-\\alpha_n,\\ldots,M-\\alpha_1).\n\\]\nThen\n\\[\ns_{\\alpha^{c,M}}(x_1,\\ldots,x_n)\n=(x_1\\cdots x_n)^M s_\\alpha(x_1^{-1},\\ldots,x_n^{-1}),\n                                                               \\tag{11}\n\\]\nand consequently\n\\[\nV_\\alpha^*\\cong\\det^{-M}\\otimes V_{\\alpha^{c,M}}.\n                                                               \\tag{12}\n\\]\n\\end{lemma}",
+      "notation_scope": "Frozen v010 definitions, hypotheses and referenced displayed equations; see the complete source and the dependency list.",
+      "novelty": "N0",
+      "number": 6,
+      "premises": "Standard cited mathematical inputs and the publication typing conventions.",
+      "prior_art": "Standard published input, known-consequence symmetry/array calculation, or logical implication; no novelty credit assigned.",
+      "progress_credit": "0",
+      "source": "manuscript/v010.tex",
+      "title": "Rectangular complement",
+      "validity": "V",
+      "verification_method": "Complement and reverse columns is a weight-reversing involution. Explicitly type M as integer."
+    },
+    {
+      "confidence": "High within this conventional mathematical audit; not formally verified.",
+      "dependencies": [
+        1,
+        6,
+        "tensor-Hom",
+        "complete reducibility"
+      ],
+      "evidence": [
+        "paper_audit/audit_report.md",
+        "paper_audit/claim_inventory.json"
+      ],
+      "id": "C07",
+      "line": 279,
+      "normalized_statement": "\\begin{theorem}[Six polynomial-preserving representatives]\\label{thm:six}\nSuppose \\(c^\\lambda_{\\mu\\nu}>0\\), pad to \\(n\\), and assume \\(\\mu_n=\\nu_n=0\\). Write\n\\[\nN=|\\lambda|,\\ m=|\\mu|,\\ v=|\\nu|,\\quad\nL=\\lambda_1,\\ h=\\lambda_n,\\ u=\\mu_1,\\ w=\\nu_1.\n\\]\nSix balanced partition triples of length at most \\(n\\) have polynomial \\(P^\\lambda_{\\mu\\nu}\\) and outer sizes\n\\[\nN,\\quad nL-m,\\quad nL-v,\\quad n(u+w)-N,\\quad\nn(u-h)+v,\\quad n(w-h)+m.\n                                                               \\tag{13}\n\\]\n\\end{theorem}",
+      "notation_scope": "Frozen v010 definitions, hypotheses and referenced displayed equations; see the complete source and the dependency list.",
+      "novelty": "N0",
+      "number": 7,
+      "premises": "Standard cited mathematical inputs and the publication typing conventions.",
+      "prior_art": "Standard published input, known-consequence symmetry/array calculation, or logical implication; no novelty credit assigned.",
+      "progress_credit": "0",
+      "source": "manuscript/v010.tex",
+      "title": "Six polynomial-preserving representatives",
+      "validity": "V",
+      "verification_method": "Three permutations and three determinant-adjusted dual permutations; width bounds and sizes correct. Explicit n>=1 removes unused empty-rank ambiguity."
+    },
+    {
+      "confidence": "High within this conventional mathematical audit; not formally verified.",
+      "dependencies": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        "saturation",
+        "finite minimality"
+      ],
+      "evidence": [
+        "paper_audit/audit_report.md",
+        "paper_audit/claim_inventory.json"
+      ],
+      "id": "C08",
+      "line": 343,
+      "normalized_statement": "\\begin{theorem}[Necessary conditions]\\label{thm:domain}\nAssume \\(\\mathcal B_B\\), and choose a counterexample of minimum outer size \\(N\\), if one exists. Put \\(n=\\ell(\\lambda)\\). Then:\n\\begin{enumerate}\n\\item \\(B<N\\le30\\), the base multiplicity is positive, and the gcd of all positive parts is one.\n\\item \\(\\mu_n=\\nu_n=0\\), and \\(q_k>0\\) for \\(1\\le k<n\\).\n\\item \\(\\lambda_j>\\mu_j,\\nu_j\\) for every \\(j\\le n\\).\n\\item \\(\\mu_k,\\nu_k\\le\\lambda_{k+1}\\) for \\(k<n\\).\n\\item For every $1\\le k<n$ with $\\lambda_k>\\lambda_{k+1}$,\n\\[\n\\begin{split}\n\\mu_k-\\mu_{k+1}&\\le\\min(q_k,\\lambda_{k+1}-\\mu_{k+1}),\\\\\n\\nu_k-\\nu_{k+1}&\\le\\min(q_k,\\lambda_{k+1}-\\nu_{k+1}).\n\\end{split}                                                    \\tag{16}\n\\]\n\\item All six sizes in (13) are at least \\(N\\), equivalently\n\\[\n\\max(m,v)\\le nL-N,\\quad 2N\\le n(u+w),\\quad\nm\\le n(u-h),\\quad v\\le n(w-h).\n                                                               \\tag{17}\n\\]\n\\end{enumerate}\n\\end{theorem}",
+      "notation_scope": "Frozen v010 definitions, hypotheses and referenced displayed equations; see the complete source and the dependency list.",
+      "novelty": "N2",
+      "number": 8,
+      "premises": "Standard cited mathematical inputs and the publication typing conventions.",
+      "prior_art": "Standalone novelty unresolved; no novelty or progress credit assigned.",
+      "progress_credit": "0",
+      "source": "manuscript/v010.tex",
+      "title": "Necessary conditions",
+      "validity": "V",
+      "verification_method": "Every failed necessary condition gives smaller in-box negative witness."
+    },
+    {
+      "confidence": "High within this conventional mathematical audit; not formally verified.",
+      "dependencies": [
+        8
+      ],
+      "evidence": [
+        "paper_audit/audit_report.md",
+        "paper_audit/claim_inventory.json"
+      ],
+      "id": "C09",
+      "line": 384,
+      "normalized_statement": "\\begin{corollary}[The containing partition and deficit]\\label{cor:kappa}\nUnder Theorem~\\ref{thm:domain}, put \\(\\lambda_{n+1}=0\\) and\n\\[\n\\kappa_j=\\min(\\lambda_j-1,\\lambda_{j+1}),\\qquad\ne=\\#\\{j<n:\\lambda_j=\\lambda_{j+1}\\}.\n\\]\nThen \\(\\kappa\\) is a partition with last part zero,\n\\[\n\\mu,\\nu\\subseteq\\kappa,\\qquad |\\kappa|=N-L-e,\n                                                               \\tag{18}\n\\]\nand\n\\[\ns=N-2(L+e)\\ge0,\\qquad\n(|\\kappa|-|\\mu|)+(|\\kappa|-|\\nu|)=s.\n                                                               \\tag{19}\n\\]\nIf \\(s=0\\), necessarily \\(\\mu=\\nu=\\kappa\\). If \\(s=1\\), up to exchange, one inner partition is \\(\\kappa\\) and the other is obtained by removing one removable corner.\n\\end{corollary}",
+      "notation_scope": "Frozen v010 definitions, hypotheses and referenced displayed equations; see the complete source and the dependency list.",
+      "novelty": "N2",
+      "number": 9,
+      "premises": "Standard cited mathematical inputs and the publication typing conventions.",
+      "prior_art": "Standalone novelty unresolved; no novelty or progress credit assigned.",
+      "progress_credit": "0",
+      "source": "manuscript/v010.tex",
+      "title": "Containing partition and deficit",
+      "validity": "V",
+      "verification_method": "Coordinatewise ceilings, exact sum and zero/one deficit descriptions."
+    },
+    {
+      "confidence": "High within this conventional mathematical audit; not formally verified.",
+      "dependencies": [
+        1
+      ],
+      "evidence": [
+        "paper_audit/audit_report.md",
+        "paper_audit/claim_inventory.json"
+      ],
+      "id": "C10",
+      "line": 426,
+      "normalized_statement": "\\begin{lemma}\\label{rect:lem:bounds}\nFor an array in Lemma~\\ref{lem:arrays}, put\n\\[\nR_j(b)=\\sum_{i=b}^{n}x_{j,i}.\n\\]\nThen\n\\begin{equation}\\label{rect:eq:suffix}\nR_j(b)\\le S_{j,b}\\le\\nu_b.\n\\end{equation}\nWhenever $j>b$,\n\\begin{equation}\\label{rect:eq:diagonal}\ny_{j,b}\\le\\mu_{j-b}.\n\\end{equation}\nConsequently, for $p,q\\ge1$,\n\\begin{equation}\\label{rect:eq:weyl}\n\\lambda_{p+q+1}\\le\\mu_{p+1}+\\nu_{q+1},\n\\end{equation}\nwhere a part beyond the chosen length is zero.\n\\end{lemma}",
+      "notation_scope": "Frozen v010 definitions, hypotheses and referenced displayed equations; see the complete source and the dependency list.",
+      "novelty": "N2",
+      "number": 10,
+      "premises": "Standard cited mathematical inputs and the publication typing conventions.",
+      "prior_art": "Standalone novelty unresolved; no novelty or progress credit assigned.",
+      "progress_credit": "0",
+      "source": "manuscript/v010.tex",
+      "title": "Array bounds",
+      "validity": "V",
+      "verification_method": "Telescoping suffix, iterated diagonal and consequent Weyl bound."
+    },
+    {
+      "confidence": "High within this conventional mathematical audit; not formally verified.",
+      "dependencies": [
+        1,
+        10,
+        "polynomial uniqueness"
+      ],
+      "evidence": [
+        "paper_audit/audit_report.md",
+        "paper_audit/claim_inventory.json"
+      ],
+      "id": "C11",
+      "line": 483,
+      "normalized_statement": "\\begin{theorem}\\label{rect:thm:rectangle}\nSuppose $\\lambda,\\mu,\\nu$ are balanced partitions with\n$\\mu,\\nu\\subseteq\\lambda$. Let $p,q\\ge1$, put $r=p+q$,\nand let $a\\ge1$ be an integer satisfying\n\\begin{equation}\\label{rect:eq:hypotheses}\n\\mu_p-a\\ge\\mu_{p+1},\\qquad\n\\nu_q-a\\ge\\nu_{q+1},\\qquad\n\\lambda_r-a\\ge\n\\max\\{\\lambda_{r+1},\\mu_{p+1}+\\nu_{q+1}\\}.\n\\end{equation}\nDefine\n\\[\n\\widehat\\lambda=\\lambda-a(1^r),\\qquad\n\\widehat\\mu=\\mu-a(1^p),\\qquad\n\\widehat\\nu=\\nu-a(1^q).\n\\]\nThese are balanced partitions, and\n\\begin{equation}\\label{rect:eq:identity}\nP^\\lambda_{\\mu\\nu}\n =\nP^{\\widehat\\lambda}_{\\widehat\\mu\\,\\widehat\\nu}.\n\\end{equation}\n\\end{theorem}",
+      "notation_scope": "Frozen v010 definitions, hypotheses and referenced displayed equations; see the complete source and the dependency list.",
+      "novelty": "N2",
+      "number": 11,
+      "premises": "Standard cited mathematical inputs and the publication typing conventions.",
+      "prior_art": "Standalone novelty unresolved; no novelty or progress credit assigned.",
+      "progress_credit": "0",
+      "source": "manuscript/v010.tex",
+      "title": "Rectangular shortening",
+      "validity": "V",
+      "verification_method": "Forced entries, full slack changes and their bounds, unconditional algebraic inverse, uniform ta subtraction."
+    },
+    {
+      "confidence": "High within this conventional mathematical audit; not formally verified.",
+      "dependencies": [
+        "CJM Definition 1.2/Theorem 1.3",
+        "saturation",
+        "polynomial uniqueness"
+      ],
+      "evidence": [
+        "paper_audit/audit_report.md",
+        "paper_audit/claim_inventory.json"
+      ],
+      "id": "C12",
+      "line": 659,
+      "normalized_statement": "\\begin{theorem}[Essential Horn factorization]\\label{thm:horn}\nLet $n\\ge2$, $|\\lambda|=|\\mu|+|\\nu|$,\n$\\max(\\ell(\\lambda),\\ell(\\mu),\\ell(\\nu))\\le n$, and\n$c^\\lambda_{\\mu\\nu}>0$.\nFor $1\\le r<n$ and $r$-subsets $I,J,K$ of $[n]=\\{1,\\ldots,n\\}$,\nwrite $I=\\{i_1<\\cdots<i_r\\}$ and\n$\\tau(I)=(i_r-r,\\ldots,i_1-1)$, dropping zeros; define $\\tau(J)$ and\n$\\tau(K)$ in the same way. Suppose\n\\[\n c^{\\tau(K)}_{\\tau(I),\\tau(J)}=1,\\qquad\n \\sum_{k\\in K}\\lambda_k=\\sum_{i\\in I}\\mu_i+\\sum_{j\\in J}\\nu_j.\n\\]\nFor a subset, parts are selected in increasing index order; complements\nare taken in $[n]$. Then\n\\[\n P^\\lambda_{\\mu\\nu}\n =P^{\\lambda_K}_{\\mu_I,\\nu_J}\n  P^{\\lambda_{K^c}}_{\\mu_{I^c},\\nu_{J^c}}.\n\\]\nBoth factors are balanced.\n\\end{theorem}",
+      "notation_scope": "Frozen v010 definitions, hypotheses and referenced displayed equations; see the complete source and the dependency list.",
+      "novelty": "N0",
+      "number": 12,
+      "premises": "Standard cited mathematical inputs and the publication typing conventions.",
+      "prior_art": "Standard published input, known-consequence symmetry/array calculation, or logical implication; no novelty credit assigned.",
+      "progress_credit": "0",
+      "source": "manuscript/v010.tex",
+      "title": "Essential Horn factorization",
+      "validity": "V",
+      "verification_method": "Exact subset orientation and hypotheses verified; no regularity/other-strictness assumption in operative theorem."
+    },
+    {
+      "confidence": "High within this conventional mathematical audit; not formally verified.",
+      "dependencies": [
+        "CJM BKMS Theorem 2.6",
+        "CJM FPSAC Theorem 3.1",
+        "polynomial uniqueness"
+      ],
+      "evidence": [
+        "paper_audit/audit_report.md",
+        "paper_audit/claim_inventory.json"
+      ],
+      "id": "C13",
+      "line": 708,
+      "normalized_statement": "\\begin{theorem}[Second reduction at all stretches]\\label{thm:second}\nLet $\\lambda,\\mu,\\nu$ be balanced partitions with\n$\\mu,\\nu\\subseteq\\lambda$. Let $p,q\\ge1$, set $r=p+q$, and choose\nan integer $n\\ge\\max\\{\\ell(\\lambda),\\ell(\\mu),\\ell(\\nu),r+1\\}$.\nAssume\n\\[\n \\mu_p>\\mu_{p+1},\\qquad \\nu_q>\\nu_{q+1},\\qquad\n \\lambda_r>\\lambda_{r+1},\\qquad\n \\mu_p+\\nu_q\\ge\\lambda_1+\\lambda_{r+1}+1.\n\\]\nThen $\\lambda^- =\\lambda-(1^r)$,\n$\\mu^- =\\mu-(1^p)$ and $\\nu^- =\\nu-(1^q)$ are balanced partitions,\nand\n\\[\n \\forall t\\ge1,\\quad\n c^{t\\lambda}_{t\\mu,t\\nu}=c^{t\\lambda^-}_{t\\mu^-,t\\nu^-},\n \\qquad P^\\lambda_{\\mu\\nu}=P^{\\lambda^-}_{\\mu^-,\\nu^-}.\n\\]\nHere $t$ is an integer. Padding to $n$ changes no coefficient.\n\\end{theorem}",
+      "notation_scope": "Frozen v010 definitions, hypotheses and referenced displayed equations; see the complete source and the dependency list.",
+      "novelty": "N0",
+      "number": 13,
+      "premises": "Standard cited mathematical inputs and the publication typing conventions.",
+      "prior_art": "Standard published input, known-consequence symmetry/array calculation, or logical implication; no novelty credit assigned.",
+      "progress_credit": "0",
+      "source": "manuscript/v010.tex",
+      "title": "Second reduction at all stretches",
+      "validity": "V",
+      "verification_method": "Rectangle parameters match; t unit steps retain positive gaps and unit excess; lost containment remains lost."
+    },
+    {
+      "confidence": "High in the checked deduction; conditional on the named software/finite-execution premises.",
+      "dependencies": [
+        8,
+        11,
+        12,
+        13,
+        "E",
+        "R",
+        "P",
+        "finite minimality"
+      ],
+      "evidence": [
+        "paper_audit/audit_report.md",
+        "paper_audit/claim_inventory.json"
+      ],
+      "id": "C14",
+      "line": 831,
+      "normalized_statement": "\\begin{theorem}[Finite cover implication]\\label{thm:globalcover}\nSuppose the two enumerations are complete, every certificate just\nspecified is valid, and every polynomial attached to\n$\\mathcal C_{\\rm small}\\cup\\mathcal C_{\\rm large}$ has nonnegative\nmonomial coefficients. Then every stretched Littlewood--Richardson\npolynomial in the frozen box has nonnegative monomial coefficients.\n\\end{theorem}",
+      "notation_scope": "Frozen v010 definitions, hypotheses and referenced displayed equations; see the complete source and the dependency list.",
+      "novelty": "N0",
+      "number": 14,
+      "premises": "Explicit finite obligations E, R and P in the manuscript.",
+      "prior_art": "Standard published input, known-consequence symmetry/array calculation, or logical implication; no novelty credit assigned.",
+      "progress_credit": "0",
+      "source": "manuscript/v010.tex",
+      "title": "Finite cover implication",
+      "validity": "VC",
+      "verification_method": "Least normalized key survives only into residual sets; endpoint must lie in box, no assumed baseline positivity."
+    },
+    {
+      "confidence": "High in the checked deduction; conditional on the named software/finite-execution premises.",
+      "dependencies": [
+        1,
+        8,
+        9,
+        "complete domain enumeration",
+        "exact base LR engine"
+      ],
+      "evidence": [
+        "paper_audit/audit_report.md",
+        "paper_audit/claim_inventory.json",
+        "replay/verification.json",
+        "computational_audit/corpus_inventory.json",
+        "computational_audit/horn_and_final_cover.json"
+      ],
+      "id": "C15",
+      "line": 916,
+      "normalized_statement": "\\begin{proposition}[Finite dependency E]\\label{comp:E}\nThe supplied small and large domain lists have no duplicate normalized\ntriple and equal $\\mathcal D_{\\rm small}$ and $\\mathcal D_{\\rm large}$,\nrespectively. Their cardinalities are $37,530$ and $1,255,228$.\n\\end{proposition}",
+      "notation_scope": "Frozen v010 definitions, hypotheses and referenced displayed equations; see the complete source and the dependency list.",
+      "novelty": "N3",
+      "number": 15,
+      "premises": "Correct exact LR/Normaliz software and source-bound observed finite execution, as applicable.",
+      "prior_art": "Complete finite-box E/R/P corpus and resulting theorem: no substantive match found in the documented search.",
+      "progress_credit": "Supports the E/R/P obligations; the same conclusion is not counted twice.",
+      "source": "manuscript/v010.tex",
+      "title": "Finite dependency E",
+      "validity": "VC",
+      "verification_method": "Complete finite-domain replay and independent strict journal/source inventory passed; exact domain and residual source bindings were checked."
+    },
+    {
+      "confidence": "High in the checked deduction; conditional on the named software/finite-execution premises.",
+      "dependencies": [
+        2,
+        3,
+        4,
+        5,
+        7,
+        11,
+        12,
+        13,
+        15,
+        "path checker",
+        "source coverage"
+      ],
+      "evidence": [
+        "paper_audit/audit_report.md",
+        "paper_audit/claim_inventory.json",
+        "replay/verification.json",
+        "computational_audit/corpus_inventory.json",
+        "computational_audit/horn_and_final_cover.json"
+      ],
+      "id": "C16",
+      "line": 958,
+      "normalized_statement": "\\begin{proposition}[Finite dependency R]\\label{comp:R}\nEvery source index in E occurs exactly once in the appropriate coverage\nstage; the stages define the residual sets as in\nTheorem~\\ref{thm:globalcover}. All local rule, path endpoint and\nfactorization checks pass. The counts are the following.\n\\[\n\\begin{array}{lrr}\n\\toprule\n\\text{Small domain stage}&\\text{excluded}&\\text{remaining}\\\\\n\\midrule\n\\text{Initial domain}&&37,530\\\\\n\\text{Horn factorization}&17,883&19,647\\\\\n\\text{Rectangular shortening}&6,300&13,347\\\\\n\\text{Second reduction}&932&12,415\\\\\n\\midrule\n\\text{Large domain stage}&\\text{excluded}&\\text{remaining}\\\\\n\\midrule\n\\text{Initial domain}&&1,255,228\\\\\n\\text{First paths with smaller endpoint key}&494,925&760,303\\\\\n\\text{Horn factorization}&200,638&559,665\\\\\n\\text{Second paths with smaller endpoint key}&196,934&362,731\\\\\n\\text{Second reduction}&16,194&346,537\\\\\n\\bottomrule\n\\end{array}\n\\]\nIn particular $|\\mathcal C_{\\rm small}|=12,415$,\n$|\\mathcal C_{\\rm large}|=346,537$, and their disjoint union has\n$358,952$ members.\n\\end{proposition}",
+      "notation_scope": "Frozen v010 definitions, hypotheses and referenced displayed equations; see the complete source and the dependency list.",
+      "novelty": "N3",
+      "number": 16,
+      "premises": "Correct exact LR/Normaliz software and source-bound observed finite execution, as applicable.",
+      "prior_art": "Complete finite-box E/R/P corpus and resulting theorem: no substantive match found in the documented search.",
+      "progress_credit": "Supports the E/R/P obligations; the same conclusion is not counted twice.",
+      "source": "manuscript/v010.tex",
+      "title": "Finite dependency R",
+      "validity": "VC",
+      "verification_method": "Every actual path/exclusion, target, accumulated scale and fixed/residual set was independently checked; all supplied edges meet strict validity requirements."
+    },
+    {
+      "confidence": "High within this conventional mathematical audit; not formally verified.",
+      "dependencies": [
+        1,
+        "integer cumulative sums and mixed differences"
+      ],
+      "evidence": [
+        "paper_audit/audit_report.md",
+        "paper_audit/claim_inventory.json"
+      ],
+      "id": "C17",
+      "line": 1013,
+      "normalized_statement": "\\begin{lemma}[Literal array--hive correspondence]\\label{lem:hivebinding}\nFor every integer $t\\ge1$,\n\\[\n \\#(tH_T\\cap\\mathbb Z^D)=c^{t\\lambda}_{t\\mu,t\\nu}.\n\\]\n\\end{lemma}",
+      "notation_scope": "Frozen v010 definitions, hypotheses and referenced displayed equations; see the complete source and the dependency list.",
+      "novelty": "N0",
+      "number": 17,
+      "premises": "Standard cited mathematical inputs and the publication typing conventions.",
+      "prior_art": "Standard published input, known-consequence symmetry/array calculation, or logical implication; no novelty credit assigned.",
+      "progress_credit": "0",
+      "source": "manuscript/v010.tex",
+      "title": "Literal array-hive correspondence",
+      "validity": "V",
+      "verification_method": "Literal boundaries, three slack families, omitted cases, diagonal nonnegativity and full integer-lattice inverse verified."
+    },
+    {
+      "confidence": "High in the checked deduction; conditional on the named software/finite-execution premises.",
+      "dependencies": [
+        17,
+        "Rassart polynomiality/degree",
+        "Normaliz exact execution",
+        "LattE counts on declared subset",
+        "record source binding"
+      ],
+      "evidence": [
+        "paper_audit/audit_report.md",
+        "paper_audit/claim_inventory.json",
+        "full_regeneration/complete.json",
+        "portable_full_validation.json",
+        "computational_audit/COMPUTATIONAL_AUDIT.md"
+      ],
+      "id": "C18",
+      "line": 1077,
+      "normalized_statement": "\\begin{proposition}[Finite dependency P]\\label{comp:P}\nFor each $T\\in\\mathcal C_{\\rm small}\\cup\\mathcal C_{\\rm large}$,\nthe supplied record contains a rational coefficient vector\n$(a_{T,0},\\ldots,a_{T,d_T})$, $d_T\\le15$, which the specified exact\nEhrhart computation identifies with $P_T$. Every entry is nonnegative.\nThere is one accepted polynomial for every residual triple and no\nunresolved or mismatched source. Consequently\n\\[\n \\forall T\\in\\mathcal C_{\\rm small}\\cup\\mathcal C_{\\rm large},\\quad\n \\forall t\\in\\mathbb Z_{\\ge1},\\quad\n c^{t\\lambda}_{t\\mu,t\\nu}=\\sum_{i=0}^{d_T}a_{T,i}t^i,\n \\qquad a_{T,i}\\ge0.\n\\]\n\\end{proposition}",
+      "notation_scope": "Frozen v010 definitions, hypotheses and referenced displayed equations; see the complete source and the dependency list.",
+      "novelty": "N3",
+      "number": 18,
+      "premises": "Correct exact LR/Normaliz software and source-bound observed finite execution, as applicable.",
+      "prior_art": "Complete finite-box E/R/P corpus and resulting theorem: no substantive match found in the documented search.",
+      "progress_credit": "Supports the E/R/P obligations; the same conclusion is not counted twice.",
+      "source": "manuscript/v010.tex",
+      "title": "Finite dependency P",
+      "validity": "VC",
+      "verification_method": "Every complete source polynomial was freshly recomputed, then its literal hive input and full rational output vector were independently parsed and matched; Normaliz remains trusted."
+    },
+    {
+      "confidence": "High in the checked deduction; conditional on the named software/finite-execution premises.",
+      "dependencies": [
+        14,
+        15,
+        16,
+        18
+      ],
+      "evidence": [
+        "paper_audit/audit_report.md",
+        "paper_audit/claim_inventory.json",
+        "full_regeneration/complete.json",
+        "portable_full_validation.json",
+        "computational_audit/COMPUTATIONAL_AUDIT.md"
+      ],
+      "id": "C19",
+      "line": 1209,
+      "normalized_statement": "\\begin{theorem}[Computed finite-box positivity]\\label{thm:box}\nFor every balanced triple\n$T=(\\lambda,\\mu,\\nu)$ of partitions satisfying\n\\[\n \\max\\{\\ell(\\lambda),\\ell(\\mu),\\ell(\\nu)\\}\\le7,\n \\qquad\\max\\{|\\lambda|,|\\mu|,|\\nu|\\}\\le30,\n\\]\nevery coefficient of $P^\\lambda_{\\mu\\nu}$ in the monomial basis is\nnonnegative. Thus no triple requested by the bounded problem exists.\n\\end{theorem}",
+      "notation_scope": "Frozen v010 definitions, hypotheses and referenced displayed equations; see the complete source and the dependency list.",
+      "novelty": "N3",
+      "number": 19,
+      "premises": "Correct exact LR/Normaliz software and source-bound observed finite execution, as applicable.",
+      "prior_art": "Complete finite-box E/R/P corpus and resulting theorem: no substantive match found in the documented search.",
+      "progress_credit": "Supports the E/R/P obligations; the same conclusion is not counted twice.",
+      "source": "manuscript/v010.tex",
+      "title": "Computed finite-box positivity",
+      "validity": "VC",
+      "verification_method": "C14 together with the checked E, R and P establishes the exact finite-box conclusion under the explicitly stated software assumptions."
+    },
+    {
+      "confidence": "Definite wording error; every actual supplied certificate passed the stricter requirement.",
+      "correction": "ARCHIVAL_ERRATA.md item 3; distinguishes validity requirement from original parser behavior.",
+      "dependencies": [
+        "original local parser"
+      ],
+      "evidence": [
+        "computational_audit/parser_and_reduction_mutations.json",
+        "computational_audit/corpus_inventory.json"
+      ],
+      "id": "C20",
+      "line": 932,
+      "normalized_statement": "The general-purpose checker rejects every malformed partition and invalid reduction parameter before relying on a certificate.",
+      "novelty": "N0",
+      "premises": "Universal statement over arbitrary submitted records.",
+      "prior_art": "Software behavior, not a novel theorem.",
+      "progress_credit": "0",
+      "source": "manuscript/v010.tex",
+      "title": "General parser rejects all invalid certificate inputs",
+      "validity": "F",
+      "verification_method": "Constructed accepted internal-zero and invalid-selector mutations; inspected every actual frozen edge with a strict independent parser."
+    },
+    {
+      "confidence": "Definite archival attribution error, absent from v010 bibliography.",
+      "correction": "ARCHIVAL_ERRATA.md item 4; frozen bytes preserved.",
+      "dependencies": [],
+      "evidence": [
+        "licensing_audit/arxiv_primary_receipt.json",
+        "licensing_audit/result.json"
+      ],
+      "id": "C21",
+      "line": 83,
+      "normalized_statement": "The author of arXiv:2211.06810 is R. Wong.",
+      "novelty": "N0",
+      "premises": "Bibliographic attribution.",
+      "prior_art": "The paper is by Warut Thawinrak, first submitted 2022 and revised 2024.",
+      "progress_credit": "0",
+      "source": "spec.json",
+      "title": "Archived polynomiality-paper authorship",
+      "validity": "F",
+      "verification_method": "Direct official arXiv metadata and bibliography inventory."
+    }
+  ],
+  "counts": {
+    "F": 2,
+    "V": 14,
+    "VC": 5
+  },
+  "coverage": "19/19 numbered manuscript results plus two specific prose/attribution assertions; not every historical workflow claim.",
+  "cutoff": "2026-09-06T14:12:06.328618+00:00"
+}

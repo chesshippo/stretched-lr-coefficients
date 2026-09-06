@@ -1,0 +1,4505 @@
+{
+  "all_pass": true,
+  "failed": 0,
+  "informational": 0,
+  "n": 28,
+  "passed": 28,
+  "problem": "stretched-lr-coefficients",
+  "results": [
+    {
+      "claim": 1,
+      "error": null,
+      "expected": {
+        "c": 160,
+        "coefficients": [
+          "1",
+          "208581/40040",
+          "22691293/1663200",
+          "79992643/3326400",
+          "171585559/5443200",
+          "12873893/403200",
+          "275968153/10886400",
+          "5463001/345600",
+          "27875983/3628800",
+          "6907559/2419200",
+          "8540011/10886400",
+          "1330493/8870400",
+          "2128963/119750400",
+          "338929/345945600"
+        ],
+        "degree": 13,
+        "has_negative": false
+      },
+      "explanation": "ok",
+      "kind": "stretched_polynomial",
+      "ms": 15152.9,
+      "params": {
+        "lambda": [
+          8,
+          7,
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "mu": [
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "nu": [
+          5,
+          4,
+          3,
+          2,
+          1
+        ]
+      },
+      "pass": true,
+      "result": {
+        "box_violations": [],
+        "c": 160,
+        "cached": true,
+        "coefficients": [
+          "1",
+          "208581/40040",
+          "22691293/1663200",
+          "79992643/3326400",
+          "171585559/5443200",
+          "12873893/403200",
+          "275968153/10886400",
+          "5463001/345600",
+          "27875983/3628800",
+          "6907559/2419200",
+          "8540011/10886400",
+          "1330493/8870400",
+          "2128963/119750400",
+          "338929/345945600"
+        ],
+        "cross_checks": {
+          "latte_skipped": "n = 7 ≥ 6 and full_crosscheck not requested",
+          "lr_tableau_dp_t1": 160,
+          "lrcalc_t1": 160,
+          "lrcalc_t2": 10050,
+          "lrcalc_t3": 254656
+        },
+        "degree": 13,
+        "degree_bound": 15,
+        "engines": [
+          "lrcalc",
+          "normaliz",
+          "lr_tableau_dp"
+        ],
+        "has_negative": false,
+        "hive_variables": 15,
+        "in_box": true,
+        "lambda": [
+          8,
+          7,
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "latte_crosscheck": "skipped (n ≥ 6; request full_crosscheck or submit as a candidate)",
+        "leading_coefficient": "338929/345945600",
+        "min_coefficient": "338929/345945600",
+        "min_coefficient_index": 13,
+        "min_interior_coefficient": "2128963/119750400",
+        "min_interior_index": 12,
+        "mu": [
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "n": 7,
+        "negative_indices": [],
+        "normaliz_vertices": 1474,
+        "nu": [
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "triangulation_size": 15983299,
+        "values": [
+          1,
+          160,
+          10050,
+          254656,
+          3473010,
+          30852404,
+          200925962,
+          1035303314,
+          4444160280,
+          16481696710,
+          54229869334,
+          161498100040,
+          442040844977,
+          1125561616912,
+          2692060569700,
+          6095627345956,
+          13151550325579,
+          27183086588124
+        ],
+        "values_note": "P(t) for t = 0..17; independently reproduced by LattE when latte_crosscheck == 'full'"
+      },
+      "witness": {
+        "coefficients": [
+          "1",
+          "208581/40040",
+          "22691293/1663200",
+          "79992643/3326400",
+          "171585559/5443200",
+          "12873893/403200",
+          "275968153/10886400",
+          "5463001/345600",
+          "27875983/3628800",
+          "6907559/2419200",
+          "8540011/10886400",
+          "1330493/8870400",
+          "2128963/119750400",
+          "338929/345945600"
+        ],
+        "cross_checks": {
+          "latte_skipped": "n = 7 ≥ 6 and full_crosscheck not requested",
+          "lr_tableau_dp_t1": 160,
+          "lrcalc_t1": 160,
+          "lrcalc_t2": 10050,
+          "lrcalc_t3": 254656
+        },
+        "degree": 13,
+        "engines": [
+          "lrcalc",
+          "normaliz",
+          "lr_tableau_dp"
+        ],
+        "latte_crosscheck": "skipped (n ≥ 6; request full_crosscheck or submit as a candidate)",
+        "negative_indices": [],
+        "values": [
+          1,
+          160,
+          10050,
+          254656,
+          3473010,
+          30852404,
+          200925962,
+          1035303314,
+          4444160280,
+          16481696710,
+          54229869334,
+          161498100040,
+          442040844977,
+          1125561616912,
+          2692060569700,
+          6095627345956,
+          13151550325579,
+          27183086588124
+        ]
+      }
+    },
+    {
+      "claim": 2,
+      "error": null,
+      "expected": {
+        "c": 122,
+        "coefficients": [
+          "1",
+          "70003/13860",
+          "93754/7425",
+          "67937/3240",
+          "139487939/5443200",
+          "103481/4320",
+          "53916091/3110400",
+          "29303/3024",
+          "4276933/1036800",
+          "16819/12960",
+          "6211879/21772800",
+          "233/5940",
+          "86923/34214400"
+        ],
+        "degree": 12,
+        "has_negative": false
+      },
+      "explanation": "ok",
+      "kind": "stretched_polynomial",
+      "ms": 1.4,
+      "params": {
+        "lambda": [
+          8,
+          6,
+          5,
+          4,
+          3,
+          2,
+          2
+        ],
+        "mu": [
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "nu": [
+          5,
+          4,
+          3,
+          2,
+          1
+        ]
+      },
+      "pass": true,
+      "result": {
+        "box_violations": [],
+        "c": 122,
+        "cached": true,
+        "coefficients": [
+          "1",
+          "70003/13860",
+          "93754/7425",
+          "67937/3240",
+          "139487939/5443200",
+          "103481/4320",
+          "53916091/3110400",
+          "29303/3024",
+          "4276933/1036800",
+          "16819/12960",
+          "6211879/21772800",
+          "233/5940",
+          "86923/34214400"
+        ],
+        "cross_checks": {
+          "latte_dilation": 12,
+          "latte_hidden_equalities": null,
+          "latte_mode": "latte_integral_dilation_ehrhart_polynomial",
+          "latte_polynomiality_bridge": "Q(s)=P(12s) at all positive integers; LR polynomiality gives P(t)=Q(t/12).",
+          "latte_recovery_evidence": "/Users/masee/Documents/AI_Programs/OpenMath/new_workflow/problems/stretched-lr-coefficients/runs/20260905T173132Z/latte_check6_d12/result.json",
+          "latte_recovery_evidence_sha256": "cc370082eb91901944cbab9745b11c8a20d2bd0407da66a8f99e964f23975c5d",
+          "latte_recovery_method": "exact integral-dilation Ehrhart polynomial",
+          "latte_values_t0_to": 17,
+          "lr_tableau_dp_t1": 122,
+          "lrcalc_t1": 122,
+          "lrcalc_t2": 5859,
+          "lrcalc_t3": 120176
+        },
+        "degree": 12,
+        "degree_bound": 15,
+        "engines": [
+          "lrcalc",
+          "normaliz",
+          "lr_tableau_dp",
+          "latte"
+        ],
+        "has_negative": false,
+        "hive_variables": 15,
+        "in_box": true,
+        "lambda": [
+          8,
+          6,
+          5,
+          4,
+          3,
+          2,
+          2
+        ],
+        "latte_crosscheck": "full",
+        "leading_coefficient": "86923/34214400",
+        "min_coefficient": "86923/34214400",
+        "min_coefficient_index": 12,
+        "min_interior_coefficient": "233/5940",
+        "min_interior_index": 11,
+        "mu": [
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "n": 7,
+        "negative_indices": [],
+        "normaliz_vertices": 724,
+        "nu": [
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "triangulation_size": 1547480,
+        "values": [
+          1,
+          122,
+          5859,
+          120176,
+          1379274,
+          10589532,
+          60765343,
+          279959104,
+          1087031255,
+          3680770778,
+          11143327652,
+          30732999934,
+          78337346672,
+          186648383702,
+          419472182082,
+          895773574536,
+          1828675273325,
+          3586787463298
+        ],
+        "values_note": "P(t) for t = 0..17; independently reproduced by LattE when latte_crosscheck == 'full'"
+      },
+      "witness": {
+        "coefficients": [
+          "1",
+          "70003/13860",
+          "93754/7425",
+          "67937/3240",
+          "139487939/5443200",
+          "103481/4320",
+          "53916091/3110400",
+          "29303/3024",
+          "4276933/1036800",
+          "16819/12960",
+          "6211879/21772800",
+          "233/5940",
+          "86923/34214400"
+        ],
+        "cross_checks": {
+          "latte_dilation": 12,
+          "latte_hidden_equalities": null,
+          "latte_mode": "latte_integral_dilation_ehrhart_polynomial",
+          "latte_polynomiality_bridge": "Q(s)=P(12s) at all positive integers; LR polynomiality gives P(t)=Q(t/12).",
+          "latte_recovery_evidence": "/Users/masee/Documents/AI_Programs/OpenMath/new_workflow/problems/stretched-lr-coefficients/runs/20260905T173132Z/latte_check6_d12/result.json",
+          "latte_recovery_evidence_sha256": "cc370082eb91901944cbab9745b11c8a20d2bd0407da66a8f99e964f23975c5d",
+          "latte_recovery_method": "exact integral-dilation Ehrhart polynomial",
+          "latte_values_t0_to": 17,
+          "lr_tableau_dp_t1": 122,
+          "lrcalc_t1": 122,
+          "lrcalc_t2": 5859,
+          "lrcalc_t3": 120176
+        },
+        "degree": 12,
+        "engines": [
+          "lrcalc",
+          "normaliz",
+          "lr_tableau_dp",
+          "latte"
+        ],
+        "latte_crosscheck": "full",
+        "negative_indices": [],
+        "values": [
+          1,
+          122,
+          5859,
+          120176,
+          1379274,
+          10589532,
+          60765343,
+          279959104,
+          1087031255,
+          3680770778,
+          11143327652,
+          30732999934,
+          78337346672,
+          186648383702,
+          419472182082,
+          895773574536,
+          1828675273325,
+          3586787463298
+        ]
+      }
+    },
+    {
+      "claim": 3,
+      "error": null,
+      "expected": {
+        "c": 18,
+        "coefficients": [
+          "1",
+          "74/21",
+          "1933/360",
+          "671/144",
+          "179/72",
+          "29/36",
+          "13/90",
+          "11/1008"
+        ],
+        "degree": 7,
+        "has_negative": false
+      },
+      "explanation": "ok",
+      "kind": "stretched_polynomial",
+      "ms": 680.1,
+      "params": {
+        "full_crosscheck": true,
+        "lambda": [
+          8,
+          7,
+          5,
+          4,
+          2,
+          2,
+          2
+        ],
+        "mu": [
+          6,
+          5,
+          2,
+          2,
+          1
+        ],
+        "nu": [
+          5,
+          5,
+          2,
+          1,
+          1
+        ]
+      },
+      "pass": true,
+      "result": {
+        "box_violations": [],
+        "c": 18,
+        "coefficients": [
+          "1",
+          "74/21",
+          "1933/360",
+          "671/144",
+          "179/72",
+          "29/36",
+          "13/90",
+          "11/1008"
+        ],
+        "cross_checks": {
+          "latte_hidden_equalities": 8,
+          "latte_mode": "taylor",
+          "latte_triangulation": "default",
+          "latte_values_t0_to": 17,
+          "lr_tableau_dp_t1": 18,
+          "lrcalc_t1": 18,
+          "lrcalc_t2": 143,
+          "lrcalc_t3": 712
+        },
+        "degree": 7,
+        "degree_bound": 15,
+        "engines": [
+          "lrcalc",
+          "normaliz",
+          "lr_tableau_dp",
+          "latte"
+        ],
+        "has_negative": false,
+        "hive_variables": 15,
+        "in_box": true,
+        "lambda": [
+          8,
+          7,
+          5,
+          4,
+          2,
+          2,
+          2
+        ],
+        "latte_crosscheck": "full",
+        "leading_coefficient": "11/1008",
+        "min_coefficient": "11/1008",
+        "min_coefficient_index": 7,
+        "min_interior_coefficient": "13/90",
+        "min_interior_index": 6,
+        "mu": [
+          6,
+          5,
+          2,
+          2,
+          1
+        ],
+        "n": 7,
+        "negative_indices": [],
+        "normaliz_vertices": 21,
+        "nu": [
+          5,
+          5,
+          2,
+          1,
+          1
+        ],
+        "triangulation_size": 63,
+        "values": [
+          1,
+          18,
+          143,
+          712,
+          2631,
+          7916,
+          20502,
+          47376,
+          100089,
+          196702,
+          364221,
+          641576,
+          1083199,
+          1763256,
+          2780588,
+          4264416,
+          6380865,
+          9340362
+        ],
+        "values_note": "P(t) for t = 0..17; independently reproduced by LattE when latte_crosscheck == 'full'"
+      },
+      "witness": {
+        "coefficients": [
+          "1",
+          "74/21",
+          "1933/360",
+          "671/144",
+          "179/72",
+          "29/36",
+          "13/90",
+          "11/1008"
+        ],
+        "cross_checks": {
+          "latte_hidden_equalities": 8,
+          "latte_mode": "taylor",
+          "latte_triangulation": "default",
+          "latte_values_t0_to": 17,
+          "lr_tableau_dp_t1": 18,
+          "lrcalc_t1": 18,
+          "lrcalc_t2": 143,
+          "lrcalc_t3": 712
+        },
+        "degree": 7,
+        "engines": [
+          "lrcalc",
+          "normaliz",
+          "lr_tableau_dp",
+          "latte"
+        ],
+        "latte_crosscheck": "full",
+        "negative_indices": [],
+        "values": [
+          1,
+          18,
+          143,
+          712,
+          2631,
+          7916,
+          20502,
+          47376,
+          100089,
+          196702,
+          364221,
+          641576,
+          1083199,
+          1763256,
+          2780588,
+          4264416,
+          6380865,
+          9340362
+        ]
+      }
+    },
+    {
+      "claim": 4,
+      "error": null,
+      "expected": {
+        "c": 32,
+        "coefficients": [
+          "1",
+          "995/252",
+          "20211/2800",
+          "1484999/181440",
+          "115337/18144",
+          "120757/34560",
+          "235013/172800",
+          "44299/120960",
+          "1565/24192",
+          "4873/725760",
+          "1121/3628800"
+        ],
+        "degree": 10,
+        "has_negative": false
+      },
+      "explanation": "ok",
+      "kind": "stretched_polynomial",
+      "ms": 17990.8,
+      "params": {
+        "full_crosscheck": true,
+        "lambda": [
+          7,
+          6,
+          5,
+          5,
+          3,
+          3,
+          1
+        ],
+        "mu": [
+          5,
+          4,
+          3,
+          2,
+          2,
+          1
+        ],
+        "nu": [
+          5,
+          3,
+          2,
+          2,
+          1
+        ]
+      },
+      "pass": true,
+      "result": {
+        "box_violations": [],
+        "c": 32,
+        "coefficients": [
+          "1",
+          "995/252",
+          "20211/2800",
+          "1484999/181440",
+          "115337/18144",
+          "120757/34560",
+          "235013/172800",
+          "44299/120960",
+          "1565/24192",
+          "4873/725760",
+          "1121/3628800"
+        ],
+        "cross_checks": {
+          "latte_hidden_equalities": 5,
+          "latte_mode": "taylor",
+          "latte_triangulation": "default",
+          "latte_values_t0_to": 17,
+          "lr_tableau_dp_t1": 32,
+          "lrcalc_t1": 32,
+          "lrcalc_t2": 471,
+          "lrcalc_t3": 4030
+        },
+        "degree": 10,
+        "degree_bound": 15,
+        "engines": [
+          "lrcalc",
+          "normaliz",
+          "lr_tableau_dp",
+          "latte"
+        ],
+        "has_negative": false,
+        "hive_variables": 15,
+        "in_box": true,
+        "lambda": [
+          7,
+          6,
+          5,
+          5,
+          3,
+          3,
+          1
+        ],
+        "latte_crosscheck": "full",
+        "leading_coefficient": "1121/3628800",
+        "min_coefficient": "1121/3628800",
+        "min_coefficient_index": 10,
+        "min_interior_coefficient": "4873/725760",
+        "min_interior_index": 9,
+        "mu": [
+          5,
+          4,
+          3,
+          2,
+          2,
+          1
+        ],
+        "n": 7,
+        "negative_indices": [],
+        "normaliz_vertices": 54,
+        "nu": [
+          5,
+          3,
+          2,
+          2,
+          1
+        ],
+        "triangulation_size": 1647,
+        "values": [
+          1,
+          32,
+          471,
+          4030,
+          23756,
+          107379,
+          398435,
+          1269928,
+          3587991,
+          9192183,
+          21716838,
+          47925384,
+          99787896,
+          197602458,
+          374544306,
+          683124328,
+          1204151429,
+          2058922650
+        ],
+        "values_note": "P(t) for t = 0..17; independently reproduced by LattE when latte_crosscheck == 'full'"
+      },
+      "witness": {
+        "coefficients": [
+          "1",
+          "995/252",
+          "20211/2800",
+          "1484999/181440",
+          "115337/18144",
+          "120757/34560",
+          "235013/172800",
+          "44299/120960",
+          "1565/24192",
+          "4873/725760",
+          "1121/3628800"
+        ],
+        "cross_checks": {
+          "latte_hidden_equalities": 5,
+          "latte_mode": "taylor",
+          "latte_triangulation": "default",
+          "latte_values_t0_to": 17,
+          "lr_tableau_dp_t1": 32,
+          "lrcalc_t1": 32,
+          "lrcalc_t2": 471,
+          "lrcalc_t3": 4030
+        },
+        "degree": 10,
+        "engines": [
+          "lrcalc",
+          "normaliz",
+          "lr_tableau_dp",
+          "latte"
+        ],
+        "latte_crosscheck": "full",
+        "negative_indices": [],
+        "values": [
+          1,
+          32,
+          471,
+          4030,
+          23756,
+          107379,
+          398435,
+          1269928,
+          3587991,
+          9192183,
+          21716838,
+          47925384,
+          99787896,
+          197602458,
+          374544306,
+          683124328,
+          1204151429,
+          2058922650
+        ]
+      }
+    },
+    {
+      "claim": 5,
+      "error": null,
+      "expected": {
+        "c": 12,
+        "coefficients": [
+          "1",
+          "61/20",
+          "703/180",
+          "131/48",
+          "155/144",
+          "53/240",
+          "13/720"
+        ],
+        "degree": 6
+      },
+      "explanation": "ok",
+      "kind": "stretched_polynomial",
+      "ms": 367.7,
+      "params": {
+        "full_crosscheck": true,
+        "lambda": [
+          7,
+          5,
+          4,
+          4,
+          4,
+          4,
+          2
+        ],
+        "mu": [
+          5,
+          4,
+          3,
+          2,
+          1,
+          1
+        ],
+        "nu": [
+          4,
+          4,
+          3,
+          2,
+          1
+        ]
+      },
+      "pass": true,
+      "result": {
+        "box_violations": [],
+        "c": 12,
+        "cached": true,
+        "coefficients": [
+          "1",
+          "61/20",
+          "703/180",
+          "131/48",
+          "155/144",
+          "53/240",
+          "13/720"
+        ],
+        "cross_checks": {
+          "latte_hidden_equalities": 9,
+          "latte_mode": "taylor",
+          "latte_skipped": "n = 7 ≥ 6 and full_crosscheck not requested",
+          "latte_triangulation": "default",
+          "latte_values_t0_to": 17,
+          "lr_tableau_dp_t1": 12,
+          "lrcalc_t1": 12,
+          "lrcalc_t2": 70,
+          "lrcalc_t3": 273
+        },
+        "degree": 6,
+        "degree_bound": 15,
+        "engines": [
+          "lrcalc",
+          "normaliz",
+          "lr_tableau_dp",
+          "latte"
+        ],
+        "has_negative": false,
+        "hive_variables": 15,
+        "in_box": true,
+        "lambda": [
+          7,
+          5,
+          4,
+          4,
+          4,
+          4,
+          2
+        ],
+        "latte_crosscheck": "full",
+        "leading_coefficient": "13/720",
+        "min_coefficient": "13/720",
+        "min_coefficient_index": 6,
+        "min_interior_coefficient": "53/240",
+        "min_interior_index": 5,
+        "mu": [
+          5,
+          4,
+          3,
+          2,
+          1,
+          1
+        ],
+        "n": 7,
+        "negative_indices": [],
+        "normaliz_vertices": 12,
+        "nu": [
+          4,
+          4,
+          3,
+          2,
+          1
+        ],
+        "triangulation_size": 13,
+        "values": [
+          1,
+          12,
+          70,
+          273,
+          826,
+          2100,
+          4704,
+          9570,
+          18051,
+          32032,
+          54054,
+          87451,
+          136500,
+          206584,
+          304368,
+          437988,
+          617253,
+          853860
+        ],
+        "values_note": "P(t) for t = 0..17; independently reproduced by LattE when latte_crosscheck == 'full'"
+      },
+      "witness": {
+        "coefficients": [
+          "1",
+          "61/20",
+          "703/180",
+          "131/48",
+          "155/144",
+          "53/240",
+          "13/720"
+        ],
+        "cross_checks": {
+          "latte_hidden_equalities": 9,
+          "latte_mode": "taylor",
+          "latte_skipped": "n = 7 ≥ 6 and full_crosscheck not requested",
+          "latte_triangulation": "default",
+          "latte_values_t0_to": 17,
+          "lr_tableau_dp_t1": 12,
+          "lrcalc_t1": 12,
+          "lrcalc_t2": 70,
+          "lrcalc_t3": 273
+        },
+        "degree": 6,
+        "engines": [
+          "lrcalc",
+          "normaliz",
+          "lr_tableau_dp",
+          "latte"
+        ],
+        "latte_crosscheck": "full",
+        "negative_indices": [],
+        "values": [
+          1,
+          12,
+          70,
+          273,
+          826,
+          2100,
+          4704,
+          9570,
+          18051,
+          32032,
+          54054,
+          87451,
+          136500,
+          206584,
+          304368,
+          437988,
+          617253,
+          853860
+        ]
+      }
+    },
+    {
+      "claim": 6,
+      "error": null,
+      "expected": {
+        "c": 9,
+        "coefficients": [
+          "1",
+          "35/12",
+          "77/24",
+          "19/12",
+          "7/24"
+        ],
+        "degree": 4
+      },
+      "explanation": "ok",
+      "kind": "stretched_polynomial",
+      "ms": 125.5,
+      "params": {
+        "full_crosscheck": true,
+        "lambda": [
+          7,
+          5,
+          5,
+          3,
+          1,
+          1
+        ],
+        "mu": [
+          5,
+          4,
+          2
+        ],
+        "nu": [
+          5,
+          3,
+          2,
+          1
+        ]
+      },
+      "pass": true,
+      "result": {
+        "box_violations": [],
+        "c": 9,
+        "cached": true,
+        "coefficients": [
+          "1",
+          "35/12",
+          "77/24",
+          "19/12",
+          "7/24"
+        ],
+        "cross_checks": {
+          "latte_hidden_equalities": 6,
+          "latte_mode": "taylor",
+          "latte_skipped": "n = 6 ≥ 6 and full_crosscheck not requested",
+          "latte_triangulation": "default",
+          "latte_values_t0_to": 12,
+          "lr_tableau_dp_t1": 9,
+          "lrcalc_t1": 9,
+          "lrcalc_t2": 37,
+          "lrcalc_t3": 105
+        },
+        "degree": 4,
+        "degree_bound": 10,
+        "engines": [
+          "lrcalc",
+          "normaliz",
+          "lr_tableau_dp",
+          "latte"
+        ],
+        "has_negative": false,
+        "hive_variables": 10,
+        "in_box": true,
+        "lambda": [
+          7,
+          5,
+          5,
+          3,
+          1,
+          1
+        ],
+        "latte_crosscheck": "full",
+        "leading_coefficient": "7/24",
+        "min_coefficient": "7/24",
+        "min_coefficient_index": 4,
+        "min_interior_coefficient": "19/12",
+        "min_interior_index": 3,
+        "mu": [
+          5,
+          4,
+          2
+        ],
+        "n": 6,
+        "negative_indices": [],
+        "normaliz_vertices": 8,
+        "nu": [
+          5,
+          3,
+          2,
+          1
+        ],
+        "triangulation_size": 5,
+        "values": [
+          1,
+          9,
+          37,
+          105,
+          240,
+          476,
+          854,
+          1422,
+          2235,
+          3355,
+          4851,
+          6799,
+          9282
+        ],
+        "values_note": "P(t) for t = 0..12; independently reproduced by LattE when latte_crosscheck == 'full'"
+      },
+      "witness": {
+        "coefficients": [
+          "1",
+          "35/12",
+          "77/24",
+          "19/12",
+          "7/24"
+        ],
+        "cross_checks": {
+          "latte_hidden_equalities": 6,
+          "latte_mode": "taylor",
+          "latte_skipped": "n = 6 ≥ 6 and full_crosscheck not requested",
+          "latte_triangulation": "default",
+          "latte_values_t0_to": 12,
+          "lr_tableau_dp_t1": 9,
+          "lrcalc_t1": 9,
+          "lrcalc_t2": 37,
+          "lrcalc_t3": 105
+        },
+        "degree": 4,
+        "engines": [
+          "lrcalc",
+          "normaliz",
+          "lr_tableau_dp",
+          "latte"
+        ],
+        "latte_crosscheck": "full",
+        "negative_indices": [],
+        "values": [
+          1,
+          9,
+          37,
+          105,
+          240,
+          476,
+          854,
+          1422,
+          2235,
+          3355,
+          4851,
+          6799,
+          9282
+        ]
+      }
+    },
+    {
+      "claim": 7,
+      "error": null,
+      "expected": {
+        "c": 7,
+        "coefficients": [
+          "1",
+          "7/2",
+          "5/2"
+        ],
+        "degree": 2
+      },
+      "explanation": "ok",
+      "kind": "stretched_polynomial",
+      "ms": 0.8,
+      "params": {
+        "lambda": [
+          11,
+          7,
+          4,
+          1
+        ],
+        "mu": [
+          7,
+          4,
+          1
+        ],
+        "nu": [
+          7,
+          4
+        ]
+      },
+      "pass": true,
+      "result": {
+        "box_violations": [],
+        "c": 7,
+        "cached": true,
+        "coefficients": [
+          "1",
+          "7/2",
+          "5/2"
+        ],
+        "cross_checks": {
+          "latte_hidden_equalities": 1,
+          "latte_mode": "taylor",
+          "latte_triangulation": "default",
+          "latte_values_t0_to": 5,
+          "lr_tableau_dp_t1": 7,
+          "lrcalc_t1": 7,
+          "lrcalc_t2": 18,
+          "lrcalc_t3": 34
+        },
+        "degree": 2,
+        "degree_bound": 3,
+        "engines": [
+          "lrcalc",
+          "normaliz",
+          "lr_tableau_dp",
+          "latte"
+        ],
+        "has_negative": false,
+        "hive_variables": 3,
+        "in_box": true,
+        "lambda": [
+          11,
+          7,
+          4,
+          1
+        ],
+        "latte_crosscheck": "full",
+        "leading_coefficient": "5/2",
+        "min_coefficient": "1",
+        "min_coefficient_index": 0,
+        "min_interior_coefficient": "7/2",
+        "min_interior_index": 1,
+        "mu": [
+          7,
+          4,
+          1
+        ],
+        "n": 4,
+        "negative_indices": [],
+        "normaliz_vertices": 4,
+        "nu": [
+          7,
+          4
+        ],
+        "triangulation_size": 2,
+        "values": [
+          1,
+          7,
+          18,
+          34,
+          55,
+          81
+        ],
+        "values_note": "P(t) for t = 0..5; independently reproduced by LattE when latte_crosscheck == 'full'"
+      },
+      "witness": {
+        "coefficients": [
+          "1",
+          "7/2",
+          "5/2"
+        ],
+        "cross_checks": {
+          "latte_hidden_equalities": 1,
+          "latte_mode": "taylor",
+          "latte_triangulation": "default",
+          "latte_values_t0_to": 5,
+          "lr_tableau_dp_t1": 7,
+          "lrcalc_t1": 7,
+          "lrcalc_t2": 18,
+          "lrcalc_t3": 34
+        },
+        "degree": 2,
+        "engines": [
+          "lrcalc",
+          "normaliz",
+          "lr_tableau_dp",
+          "latte"
+        ],
+        "latte_crosscheck": "full",
+        "negative_indices": [],
+        "values": [
+          1,
+          7,
+          18,
+          34,
+          55,
+          81
+        ]
+      }
+    },
+    {
+      "claim": 8,
+      "error": null,
+      "expected": {
+        "c": 7,
+        "coefficients": [
+          "1",
+          "7/2",
+          "5/2"
+        ],
+        "degree": 2
+      },
+      "explanation": "ok",
+      "kind": "stretched_polynomial",
+      "ms": 141.0,
+      "params": {
+        "lambda": [
+          14,
+          11,
+          7,
+          4,
+          1
+        ],
+        "mu": [
+          7,
+          7,
+          4,
+          1
+        ],
+        "nu": [
+          7,
+          7,
+          4
+        ]
+      },
+      "pass": true,
+      "result": {
+        "box_violations": [
+          "|lambda| = 37 > 30"
+        ],
+        "c": 7,
+        "coefficients": [
+          "1",
+          "7/2",
+          "5/2"
+        ],
+        "cross_checks": {
+          "latte_hidden_equalities": 4,
+          "latte_mode": "taylor",
+          "latte_triangulation": "default",
+          "latte_values_t0_to": 8,
+          "lr_tableau_dp_t1": 7,
+          "lrcalc_t1": 7,
+          "lrcalc_t2": 18,
+          "lrcalc_t3": 34
+        },
+        "degree": 2,
+        "degree_bound": 6,
+        "engines": [
+          "lrcalc",
+          "normaliz",
+          "lr_tableau_dp",
+          "latte"
+        ],
+        "has_negative": false,
+        "hive_variables": 6,
+        "in_box": false,
+        "lambda": [
+          14,
+          11,
+          7,
+          4,
+          1
+        ],
+        "latte_crosscheck": "full",
+        "leading_coefficient": "5/2",
+        "min_coefficient": "1",
+        "min_coefficient_index": 0,
+        "min_interior_coefficient": "7/2",
+        "min_interior_index": 1,
+        "mu": [
+          7,
+          7,
+          4,
+          1
+        ],
+        "n": 5,
+        "negative_indices": [],
+        "normaliz_vertices": 4,
+        "nu": [
+          7,
+          7,
+          4
+        ],
+        "triangulation_size": 2,
+        "values": [
+          1,
+          7,
+          18,
+          34,
+          55,
+          81,
+          112,
+          148,
+          189
+        ],
+        "values_note": "P(t) for t = 0..8; independently reproduced by LattE when latte_crosscheck == 'full'"
+      },
+      "witness": {
+        "coefficients": [
+          "1",
+          "7/2",
+          "5/2"
+        ],
+        "cross_checks": {
+          "latte_hidden_equalities": 4,
+          "latte_mode": "taylor",
+          "latte_triangulation": "default",
+          "latte_values_t0_to": 8,
+          "lr_tableau_dp_t1": 7,
+          "lrcalc_t1": 7,
+          "lrcalc_t2": 18,
+          "lrcalc_t3": 34
+        },
+        "degree": 2,
+        "engines": [
+          "lrcalc",
+          "normaliz",
+          "lr_tableau_dp",
+          "latte"
+        ],
+        "latte_crosscheck": "full",
+        "negative_indices": [],
+        "values": [
+          1,
+          7,
+          18,
+          34,
+          55,
+          81,
+          112,
+          148,
+          189
+        ]
+      }
+    },
+    {
+      "claim": 9,
+      "error": null,
+      "expected": {
+        "c": 3,
+        "coefficients": [
+          "1",
+          "3/2",
+          "1/2"
+        ]
+      },
+      "explanation": "ok",
+      "kind": "stretched_polynomial",
+      "ms": 1.1,
+      "params": {
+        "lambda": [
+          6,
+          4,
+          2,
+          1
+        ],
+        "mu": [
+          4,
+          2,
+          1
+        ],
+        "nu": [
+          5,
+          1
+        ]
+      },
+      "pass": true,
+      "result": {
+        "box_violations": [],
+        "c": 3,
+        "cached": true,
+        "coefficients": [
+          "1",
+          "3/2",
+          "1/2"
+        ],
+        "cross_checks": {
+          "latte_hidden_equalities": 1,
+          "latte_mode": "taylor",
+          "latte_triangulation": "default",
+          "latte_values_t0_to": 5,
+          "lr_tableau_dp_t1": 3,
+          "lrcalc_t1": 3,
+          "lrcalc_t2": 6,
+          "lrcalc_t3": 10
+        },
+        "degree": 2,
+        "degree_bound": 3,
+        "engines": [
+          "lrcalc",
+          "normaliz",
+          "lr_tableau_dp",
+          "latte"
+        ],
+        "has_negative": false,
+        "hive_variables": 3,
+        "in_box": true,
+        "lambda": [
+          6,
+          4,
+          2,
+          1
+        ],
+        "latte_crosscheck": "full",
+        "leading_coefficient": "1/2",
+        "min_coefficient": "1/2",
+        "min_coefficient_index": 2,
+        "min_interior_coefficient": "3/2",
+        "min_interior_index": 1,
+        "mu": [
+          4,
+          2,
+          1
+        ],
+        "n": 4,
+        "negative_indices": [],
+        "normaliz_vertices": 3,
+        "nu": [
+          5,
+          1
+        ],
+        "triangulation_size": 1,
+        "values": [
+          1,
+          3,
+          6,
+          10,
+          15,
+          21
+        ],
+        "values_note": "P(t) for t = 0..5; independently reproduced by LattE when latte_crosscheck == 'full'"
+      },
+      "witness": {
+        "coefficients": [
+          "1",
+          "3/2",
+          "1/2"
+        ],
+        "cross_checks": {
+          "latte_hidden_equalities": 1,
+          "latte_mode": "taylor",
+          "latte_triangulation": "default",
+          "latte_values_t0_to": 5,
+          "lr_tableau_dp_t1": 3,
+          "lrcalc_t1": 3,
+          "lrcalc_t2": 6,
+          "lrcalc_t3": 10
+        },
+        "degree": 2,
+        "engines": [
+          "lrcalc",
+          "normaliz",
+          "lr_tableau_dp",
+          "latte"
+        ],
+        "latte_crosscheck": "full",
+        "negative_indices": [],
+        "values": [
+          1,
+          3,
+          6,
+          10,
+          15,
+          21
+        ]
+      }
+    },
+    {
+      "claim": 10,
+      "error": null,
+      "expected": {
+        "c": 3,
+        "coefficients": [
+          "1",
+          "3/2",
+          "1/2"
+        ]
+      },
+      "explanation": "ok",
+      "kind": "stretched_polynomial",
+      "ms": 1.1,
+      "params": {
+        "lambda": [
+          5,
+          4,
+          2,
+          1
+        ],
+        "mu": [
+          4,
+          2,
+          1
+        ],
+        "nu": [
+          4,
+          1
+        ]
+      },
+      "pass": true,
+      "result": {
+        "box_violations": [],
+        "c": 3,
+        "cached": true,
+        "coefficients": [
+          "1",
+          "3/2",
+          "1/2"
+        ],
+        "cross_checks": {
+          "latte_hidden_equalities": 1,
+          "latte_mode": "taylor",
+          "latte_triangulation": "default",
+          "latte_values_t0_to": 5,
+          "lr_tableau_dp_t1": 3,
+          "lrcalc_t1": 3,
+          "lrcalc_t2": 6,
+          "lrcalc_t3": 10
+        },
+        "degree": 2,
+        "degree_bound": 3,
+        "engines": [
+          "lrcalc",
+          "normaliz",
+          "lr_tableau_dp",
+          "latte"
+        ],
+        "has_negative": false,
+        "hive_variables": 3,
+        "in_box": true,
+        "lambda": [
+          5,
+          4,
+          2,
+          1
+        ],
+        "latte_crosscheck": "full",
+        "leading_coefficient": "1/2",
+        "min_coefficient": "1/2",
+        "min_coefficient_index": 2,
+        "min_interior_coefficient": "3/2",
+        "min_interior_index": 1,
+        "mu": [
+          4,
+          2,
+          1
+        ],
+        "n": 4,
+        "negative_indices": [],
+        "normaliz_vertices": 3,
+        "nu": [
+          4,
+          1
+        ],
+        "triangulation_size": 1,
+        "values": [
+          1,
+          3,
+          6,
+          10,
+          15,
+          21
+        ],
+        "values_note": "P(t) for t = 0..5; independently reproduced by LattE when latte_crosscheck == 'full'"
+      },
+      "witness": {
+        "coefficients": [
+          "1",
+          "3/2",
+          "1/2"
+        ],
+        "cross_checks": {
+          "latte_hidden_equalities": 1,
+          "latte_mode": "taylor",
+          "latte_triangulation": "default",
+          "latte_values_t0_to": 5,
+          "lr_tableau_dp_t1": 3,
+          "lrcalc_t1": 3,
+          "lrcalc_t2": 6,
+          "lrcalc_t3": 10
+        },
+        "degree": 2,
+        "engines": [
+          "lrcalc",
+          "normaliz",
+          "lr_tableau_dp",
+          "latte"
+        ],
+        "latte_crosscheck": "full",
+        "negative_indices": [],
+        "values": [
+          1,
+          3,
+          6,
+          10,
+          15,
+          21
+        ]
+      }
+    },
+    {
+      "claim": 11,
+      "error": null,
+      "expected": {
+        "c": 6,
+        "coefficients": [
+          "1",
+          "3",
+          "2"
+        ]
+      },
+      "explanation": "ok",
+      "kind": "stretched_polynomial",
+      "ms": 0.7,
+      "params": {
+        "lambda": [
+          11,
+          8,
+          5,
+          5
+        ],
+        "mu": [
+          8,
+          5,
+          2
+        ],
+        "nu": [
+          6,
+          5,
+          3
+        ]
+      },
+      "pass": true,
+      "result": {
+        "box_violations": [],
+        "c": 6,
+        "cached": true,
+        "coefficients": [
+          "1",
+          "3",
+          "2"
+        ],
+        "cross_checks": {
+          "latte_hidden_equalities": 1,
+          "latte_mode": "taylor",
+          "latte_triangulation": "default",
+          "latte_values_t0_to": 5,
+          "lr_tableau_dp_t1": 6,
+          "lrcalc_t1": 6,
+          "lrcalc_t2": 15,
+          "lrcalc_t3": 28
+        },
+        "degree": 2,
+        "degree_bound": 3,
+        "engines": [
+          "lrcalc",
+          "normaliz",
+          "lr_tableau_dp",
+          "latte"
+        ],
+        "has_negative": false,
+        "hive_variables": 3,
+        "in_box": true,
+        "lambda": [
+          11,
+          8,
+          5,
+          5
+        ],
+        "latte_crosscheck": "full",
+        "leading_coefficient": "2",
+        "min_coefficient": "1",
+        "min_coefficient_index": 0,
+        "min_interior_coefficient": "3",
+        "min_interior_index": 1,
+        "mu": [
+          8,
+          5,
+          2
+        ],
+        "n": 4,
+        "negative_indices": [],
+        "normaliz_vertices": 4,
+        "nu": [
+          6,
+          5,
+          3
+        ],
+        "triangulation_size": 2,
+        "values": [
+          1,
+          6,
+          15,
+          28,
+          45,
+          66
+        ],
+        "values_note": "P(t) for t = 0..5; independently reproduced by LattE when latte_crosscheck == 'full'"
+      },
+      "witness": {
+        "coefficients": [
+          "1",
+          "3",
+          "2"
+        ],
+        "cross_checks": {
+          "latte_hidden_equalities": 1,
+          "latte_mode": "taylor",
+          "latte_triangulation": "default",
+          "latte_values_t0_to": 5,
+          "lr_tableau_dp_t1": 6,
+          "lrcalc_t1": 6,
+          "lrcalc_t2": 15,
+          "lrcalc_t3": 28
+        },
+        "degree": 2,
+        "engines": [
+          "lrcalc",
+          "normaliz",
+          "lr_tableau_dp",
+          "latte"
+        ],
+        "latte_crosscheck": "full",
+        "negative_indices": [],
+        "values": [
+          1,
+          6,
+          15,
+          28,
+          45,
+          66
+        ]
+      }
+    },
+    {
+      "claim": 12,
+      "error": null,
+      "expected": {
+        "c": 6,
+        "coefficients": [
+          "1",
+          "3",
+          "2"
+        ]
+      },
+      "explanation": "ok",
+      "kind": "stretched_polynomial",
+      "ms": 0.5,
+      "params": {
+        "lambda": [
+          9,
+          6,
+          3,
+          1
+        ],
+        "mu": [
+          6,
+          3,
+          1
+        ],
+        "nu": [
+          6,
+          3
+        ]
+      },
+      "pass": true,
+      "result": {
+        "box_violations": [],
+        "c": 6,
+        "cached": true,
+        "coefficients": [
+          "1",
+          "3",
+          "2"
+        ],
+        "cross_checks": {
+          "latte_hidden_equalities": 1,
+          "latte_mode": "taylor",
+          "latte_triangulation": "default",
+          "latte_values_t0_to": 5,
+          "lr_tableau_dp_t1": 6,
+          "lrcalc_t1": 6,
+          "lrcalc_t2": 15,
+          "lrcalc_t3": 28
+        },
+        "degree": 2,
+        "degree_bound": 3,
+        "engines": [
+          "lrcalc",
+          "normaliz",
+          "lr_tableau_dp",
+          "latte"
+        ],
+        "has_negative": false,
+        "hive_variables": 3,
+        "in_box": true,
+        "lambda": [
+          9,
+          6,
+          3,
+          1
+        ],
+        "latte_crosscheck": "full",
+        "leading_coefficient": "2",
+        "min_coefficient": "1",
+        "min_coefficient_index": 0,
+        "min_interior_coefficient": "3",
+        "min_interior_index": 1,
+        "mu": [
+          6,
+          3,
+          1
+        ],
+        "n": 4,
+        "negative_indices": [],
+        "normaliz_vertices": 4,
+        "nu": [
+          6,
+          3
+        ],
+        "triangulation_size": 2,
+        "values": [
+          1,
+          6,
+          15,
+          28,
+          45,
+          66
+        ],
+        "values_note": "P(t) for t = 0..5; independently reproduced by LattE when latte_crosscheck == 'full'"
+      },
+      "witness": {
+        "coefficients": [
+          "1",
+          "3",
+          "2"
+        ],
+        "cross_checks": {
+          "latte_hidden_equalities": 1,
+          "latte_mode": "taylor",
+          "latte_triangulation": "default",
+          "latte_values_t0_to": 5,
+          "lr_tableau_dp_t1": 6,
+          "lrcalc_t1": 6,
+          "lrcalc_t2": 15,
+          "lrcalc_t3": 28
+        },
+        "degree": 2,
+        "engines": [
+          "lrcalc",
+          "normaliz",
+          "lr_tableau_dp",
+          "latte"
+        ],
+        "latte_crosscheck": "full",
+        "negative_indices": [],
+        "values": [
+          1,
+          6,
+          15,
+          28,
+          45,
+          66
+        ]
+      }
+    },
+    {
+      "claim": 13,
+      "error": null,
+      "expected": {
+        "c": 5,
+        "values": [
+          1,
+          5,
+          12,
+          22
+        ]
+      },
+      "explanation": "ok",
+      "kind": "stretched_polynomial",
+      "ms": 0.5,
+      "params": {
+        "lambda": [
+          9,
+          9,
+          6,
+          4,
+          1
+        ],
+        "mu": [
+          7,
+          5,
+          3
+        ],
+        "nu": [
+          6,
+          4,
+          4
+        ]
+      },
+      "pass": true,
+      "result": {
+        "box_violations": [],
+        "c": 5,
+        "cached": true,
+        "coefficients": [
+          "1",
+          "5/2",
+          "3/2"
+        ],
+        "cross_checks": {
+          "latte_hidden_equalities": 4,
+          "latte_mode": "taylor",
+          "latte_triangulation": "default",
+          "latte_values_t0_to": 8,
+          "lr_tableau_dp_t1": 5,
+          "lrcalc_t1": 5,
+          "lrcalc_t2": 12,
+          "lrcalc_t3": 22
+        },
+        "degree": 2,
+        "degree_bound": 6,
+        "engines": [
+          "lrcalc",
+          "normaliz",
+          "lr_tableau_dp",
+          "latte"
+        ],
+        "has_negative": false,
+        "hive_variables": 6,
+        "in_box": true,
+        "lambda": [
+          9,
+          9,
+          6,
+          4,
+          1
+        ],
+        "latte_crosscheck": "full",
+        "leading_coefficient": "3/2",
+        "min_coefficient": "1",
+        "min_coefficient_index": 0,
+        "min_interior_coefficient": "5/2",
+        "min_interior_index": 1,
+        "mu": [
+          7,
+          5,
+          3
+        ],
+        "n": 5,
+        "negative_indices": [],
+        "normaliz_vertices": 4,
+        "nu": [
+          6,
+          4,
+          4
+        ],
+        "triangulation_size": 2,
+        "values": [
+          1,
+          5,
+          12,
+          22,
+          35,
+          51,
+          70,
+          92,
+          117
+        ],
+        "values_note": "P(t) for t = 0..8; independently reproduced by LattE when latte_crosscheck == 'full'"
+      },
+      "witness": {
+        "coefficients": [
+          "1",
+          "5/2",
+          "3/2"
+        ],
+        "cross_checks": {
+          "latte_hidden_equalities": 4,
+          "latte_mode": "taylor",
+          "latte_triangulation": "default",
+          "latte_values_t0_to": 8,
+          "lr_tableau_dp_t1": 5,
+          "lrcalc_t1": 5,
+          "lrcalc_t2": 12,
+          "lrcalc_t3": 22
+        },
+        "degree": 2,
+        "engines": [
+          "lrcalc",
+          "normaliz",
+          "lr_tableau_dp",
+          "latte"
+        ],
+        "latte_crosscheck": "full",
+        "negative_indices": [],
+        "values": [
+          1,
+          5,
+          12,
+          22,
+          35,
+          51,
+          70,
+          92,
+          117
+        ]
+      }
+    },
+    {
+      "claim": 14,
+      "error": null,
+      "expected": {
+        "c": 5,
+        "values": [
+          1,
+          5,
+          12,
+          22
+        ]
+      },
+      "explanation": "ok",
+      "kind": "stretched_polynomial",
+      "ms": 0.5,
+      "params": {
+        "lambda": [
+          8,
+          8,
+          5,
+          3,
+          1
+        ],
+        "mu": [
+          6,
+          5,
+          3
+        ],
+        "nu": [
+          5,
+          3,
+          3
+        ]
+      },
+      "pass": true,
+      "result": {
+        "box_violations": [],
+        "c": 5,
+        "cached": true,
+        "coefficients": [
+          "1",
+          "5/2",
+          "3/2"
+        ],
+        "cross_checks": {
+          "latte_hidden_equalities": 4,
+          "latte_mode": "taylor",
+          "latte_triangulation": "default",
+          "latte_values_t0_to": 8,
+          "lr_tableau_dp_t1": 5,
+          "lrcalc_t1": 5,
+          "lrcalc_t2": 12,
+          "lrcalc_t3": 22
+        },
+        "degree": 2,
+        "degree_bound": 6,
+        "engines": [
+          "lrcalc",
+          "normaliz",
+          "lr_tableau_dp",
+          "latte"
+        ],
+        "has_negative": false,
+        "hive_variables": 6,
+        "in_box": true,
+        "lambda": [
+          8,
+          8,
+          5,
+          3,
+          1
+        ],
+        "latte_crosscheck": "full",
+        "leading_coefficient": "3/2",
+        "min_coefficient": "1",
+        "min_coefficient_index": 0,
+        "min_interior_coefficient": "5/2",
+        "min_interior_index": 1,
+        "mu": [
+          6,
+          5,
+          3
+        ],
+        "n": 5,
+        "negative_indices": [],
+        "normaliz_vertices": 4,
+        "nu": [
+          5,
+          3,
+          3
+        ],
+        "triangulation_size": 2,
+        "values": [
+          1,
+          5,
+          12,
+          22,
+          35,
+          51,
+          70,
+          92,
+          117
+        ],
+        "values_note": "P(t) for t = 0..8; independently reproduced by LattE when latte_crosscheck == 'full'"
+      },
+      "witness": {
+        "coefficients": [
+          "1",
+          "5/2",
+          "3/2"
+        ],
+        "cross_checks": {
+          "latte_hidden_equalities": 4,
+          "latte_mode": "taylor",
+          "latte_triangulation": "default",
+          "latte_values_t0_to": 8,
+          "lr_tableau_dp_t1": 5,
+          "lrcalc_t1": 5,
+          "lrcalc_t2": 12,
+          "lrcalc_t3": 22
+        },
+        "degree": 2,
+        "engines": [
+          "lrcalc",
+          "normaliz",
+          "lr_tableau_dp",
+          "latte"
+        ],
+        "latte_crosscheck": "full",
+        "negative_indices": [],
+        "values": [
+          1,
+          5,
+          12,
+          22,
+          35,
+          51,
+          70,
+          92,
+          117
+        ]
+      }
+    },
+    {
+      "claim": 15,
+      "error": null,
+      "expected": {
+        "c": 4,
+        "coefficients": [
+          "1",
+          "3"
+        ]
+      },
+      "explanation": "ok",
+      "kind": "stretched_polynomial",
+      "ms": 128.3,
+      "params": {
+        "lambda": [
+          14,
+          11,
+          3
+        ],
+        "mu": [
+          11,
+          3
+        ],
+        "nu": [
+          11,
+          3
+        ]
+      },
+      "pass": true,
+      "result": {
+        "box_violations": [],
+        "c": 4,
+        "coefficients": [
+          "1",
+          "3"
+        ],
+        "cross_checks": {
+          "latte_hidden_equalities": 1,
+          "latte_mode": "taylor",
+          "latte_triangulation": "default",
+          "latte_values_t0_to": 3,
+          "lr_tableau_dp_t1": 4,
+          "lrcalc_t1": 4,
+          "lrcalc_t2": 7,
+          "lrcalc_t3": 10
+        },
+        "degree": 1,
+        "degree_bound": 1,
+        "engines": [
+          "lrcalc",
+          "normaliz",
+          "lr_tableau_dp",
+          "latte"
+        ],
+        "has_negative": false,
+        "hive_variables": 1,
+        "in_box": true,
+        "lambda": [
+          14,
+          11,
+          3
+        ],
+        "latte_crosscheck": "full",
+        "leading_coefficient": "3",
+        "min_coefficient": "1",
+        "min_coefficient_index": 0,
+        "min_interior_coefficient": "1",
+        "min_interior_index": 0,
+        "mu": [
+          11,
+          3
+        ],
+        "n": 3,
+        "negative_indices": [],
+        "normaliz_vertices": 2,
+        "nu": [
+          11,
+          3
+        ],
+        "triangulation_size": 1,
+        "values": [
+          1,
+          4,
+          7,
+          10
+        ],
+        "values_note": "P(t) for t = 0..3; independently reproduced by LattE when latte_crosscheck == 'full'"
+      },
+      "witness": {
+        "coefficients": [
+          "1",
+          "3"
+        ],
+        "cross_checks": {
+          "latte_hidden_equalities": 1,
+          "latte_mode": "taylor",
+          "latte_triangulation": "default",
+          "latte_values_t0_to": 3,
+          "lr_tableau_dp_t1": 4,
+          "lrcalc_t1": 4,
+          "lrcalc_t2": 7,
+          "lrcalc_t3": 10
+        },
+        "degree": 1,
+        "engines": [
+          "lrcalc",
+          "normaliz",
+          "lr_tableau_dp",
+          "latte"
+        ],
+        "latte_crosscheck": "full",
+        "negative_indices": [],
+        "values": [
+          1,
+          4,
+          7,
+          10
+        ]
+      }
+    },
+    {
+      "claim": 16,
+      "error": null,
+      "expected": {
+        "c": 4,
+        "coefficients": [
+          "1",
+          "3"
+        ]
+      },
+      "explanation": "ok",
+      "kind": "stretched_polynomial",
+      "ms": 0.3,
+      "params": {
+        "lambda": [
+          9,
+          6,
+          3
+        ],
+        "mu": [
+          6,
+          3
+        ],
+        "nu": [
+          6,
+          3
+        ]
+      },
+      "pass": true,
+      "result": {
+        "box_violations": [],
+        "c": 4,
+        "cached": true,
+        "coefficients": [
+          "1",
+          "3"
+        ],
+        "cross_checks": {
+          "latte_hidden_equalities": 1,
+          "latte_mode": "taylor",
+          "latte_triangulation": "default",
+          "latte_values_t0_to": 3,
+          "lr_tableau_dp_t1": 4,
+          "lrcalc_t1": 4,
+          "lrcalc_t2": 7,
+          "lrcalc_t3": 10
+        },
+        "degree": 1,
+        "degree_bound": 1,
+        "engines": [
+          "lrcalc",
+          "normaliz",
+          "lr_tableau_dp",
+          "latte"
+        ],
+        "has_negative": false,
+        "hive_variables": 1,
+        "in_box": true,
+        "lambda": [
+          9,
+          6,
+          3
+        ],
+        "latte_crosscheck": "full",
+        "leading_coefficient": "3",
+        "min_coefficient": "1",
+        "min_coefficient_index": 0,
+        "min_interior_coefficient": "1",
+        "min_interior_index": 0,
+        "mu": [
+          6,
+          3
+        ],
+        "n": 3,
+        "negative_indices": [],
+        "normaliz_vertices": 2,
+        "nu": [
+          6,
+          3
+        ],
+        "triangulation_size": 1,
+        "values": [
+          1,
+          4,
+          7,
+          10
+        ],
+        "values_note": "P(t) for t = 0..3; independently reproduced by LattE when latte_crosscheck == 'full'"
+      },
+      "witness": {
+        "coefficients": [
+          "1",
+          "3"
+        ],
+        "cross_checks": {
+          "latte_hidden_equalities": 1,
+          "latte_mode": "taylor",
+          "latte_triangulation": "default",
+          "latte_values_t0_to": 3,
+          "lr_tableau_dp_t1": 4,
+          "lrcalc_t1": 4,
+          "lrcalc_t2": 7,
+          "lrcalc_t3": 10
+        },
+        "degree": 1,
+        "engines": [
+          "lrcalc",
+          "normaliz",
+          "lr_tableau_dp",
+          "latte"
+        ],
+        "latte_crosscheck": "full",
+        "negative_indices": [],
+        "values": [
+          1,
+          4,
+          7,
+          10
+        ]
+      }
+    },
+    {
+      "claim": 17,
+      "error": null,
+      "expected": {
+        "c": 9,
+        "coefficients": [
+          "1",
+          "7/2",
+          "7/2",
+          "1"
+        ]
+      },
+      "explanation": "ok",
+      "kind": "stretched_polynomial",
+      "ms": 147.1,
+      "params": {
+        "lambda": [
+          11,
+          8,
+          6,
+          3
+        ],
+        "mu": [
+          8,
+          4,
+          3
+        ],
+        "nu": [
+          8,
+          3,
+          2
+        ]
+      },
+      "pass": true,
+      "result": {
+        "box_violations": [],
+        "c": 9,
+        "coefficients": [
+          "1",
+          "7/2",
+          "7/2",
+          "1"
+        ],
+        "cross_checks": {
+          "latte_hidden_equalities": 1,
+          "latte_mode": "taylor",
+          "latte_triangulation": "default",
+          "latte_values_t0_to": 5,
+          "lr_tableau_dp_t1": 9,
+          "lrcalc_t1": 9,
+          "lrcalc_t2": 30,
+          "lrcalc_t3": 70
+        },
+        "degree": 3,
+        "degree_bound": 3,
+        "engines": [
+          "lrcalc",
+          "normaliz",
+          "lr_tableau_dp",
+          "latte"
+        ],
+        "has_negative": false,
+        "hive_variables": 3,
+        "in_box": true,
+        "lambda": [
+          11,
+          8,
+          6,
+          3
+        ],
+        "latte_crosscheck": "full",
+        "leading_coefficient": "1",
+        "min_coefficient": "1",
+        "min_coefficient_index": 0,
+        "min_interior_coefficient": "7/2",
+        "min_interior_index": 1,
+        "mu": [
+          8,
+          4,
+          3
+        ],
+        "n": 4,
+        "negative_indices": [],
+        "normaliz_vertices": 6,
+        "nu": [
+          8,
+          3,
+          2
+        ],
+        "triangulation_size": 3,
+        "values": [
+          1,
+          9,
+          30,
+          70,
+          135,
+          231
+        ],
+        "values_note": "P(t) for t = 0..5; independently reproduced by LattE when latte_crosscheck == 'full'"
+      },
+      "witness": {
+        "coefficients": [
+          "1",
+          "7/2",
+          "7/2",
+          "1"
+        ],
+        "cross_checks": {
+          "latte_hidden_equalities": 1,
+          "latte_mode": "taylor",
+          "latte_triangulation": "default",
+          "latte_values_t0_to": 5,
+          "lr_tableau_dp_t1": 9,
+          "lrcalc_t1": 9,
+          "lrcalc_t2": 30,
+          "lrcalc_t3": 70
+        },
+        "degree": 3,
+        "engines": [
+          "lrcalc",
+          "normaliz",
+          "lr_tableau_dp",
+          "latte"
+        ],
+        "latte_crosscheck": "full",
+        "negative_indices": [],
+        "values": [
+          1,
+          9,
+          30,
+          70,
+          135,
+          231
+        ]
+      }
+    },
+    {
+      "claim": 18,
+      "error": null,
+      "expected": {
+        "c": 9,
+        "coefficients": [
+          "1",
+          "7/2",
+          "7/2",
+          "1"
+        ]
+      },
+      "explanation": "ok",
+      "kind": "stretched_polynomial",
+      "ms": 143.5,
+      "params": {
+        "lambda": [
+          10,
+          7,
+          6,
+          3
+        ],
+        "mu": [
+          7,
+          4,
+          3
+        ],
+        "nu": [
+          7,
+          3,
+          2
+        ]
+      },
+      "pass": true,
+      "result": {
+        "box_violations": [],
+        "c": 9,
+        "coefficients": [
+          "1",
+          "7/2",
+          "7/2",
+          "1"
+        ],
+        "cross_checks": {
+          "latte_hidden_equalities": 1,
+          "latte_mode": "taylor",
+          "latte_triangulation": "default",
+          "latte_values_t0_to": 5,
+          "lr_tableau_dp_t1": 9,
+          "lrcalc_t1": 9,
+          "lrcalc_t2": 30,
+          "lrcalc_t3": 70
+        },
+        "degree": 3,
+        "degree_bound": 3,
+        "engines": [
+          "lrcalc",
+          "normaliz",
+          "lr_tableau_dp",
+          "latte"
+        ],
+        "has_negative": false,
+        "hive_variables": 3,
+        "in_box": true,
+        "lambda": [
+          10,
+          7,
+          6,
+          3
+        ],
+        "latte_crosscheck": "full",
+        "leading_coefficient": "1",
+        "min_coefficient": "1",
+        "min_coefficient_index": 0,
+        "min_interior_coefficient": "7/2",
+        "min_interior_index": 1,
+        "mu": [
+          7,
+          4,
+          3
+        ],
+        "n": 4,
+        "negative_indices": [],
+        "normaliz_vertices": 6,
+        "nu": [
+          7,
+          3,
+          2
+        ],
+        "triangulation_size": 3,
+        "values": [
+          1,
+          9,
+          30,
+          70,
+          135,
+          231
+        ],
+        "values_note": "P(t) for t = 0..5; independently reproduced by LattE when latte_crosscheck == 'full'"
+      },
+      "witness": {
+        "coefficients": [
+          "1",
+          "7/2",
+          "7/2",
+          "1"
+        ],
+        "cross_checks": {
+          "latte_hidden_equalities": 1,
+          "latte_mode": "taylor",
+          "latte_triangulation": "default",
+          "latte_values_t0_to": 5,
+          "lr_tableau_dp_t1": 9,
+          "lrcalc_t1": 9,
+          "lrcalc_t2": 30,
+          "lrcalc_t3": 70
+        },
+        "degree": 3,
+        "engines": [
+          "lrcalc",
+          "normaliz",
+          "lr_tableau_dp",
+          "latte"
+        ],
+        "latte_crosscheck": "full",
+        "negative_indices": [],
+        "values": [
+          1,
+          9,
+          30,
+          70,
+          135,
+          231
+        ]
+      }
+    },
+    {
+      "claim": 19,
+      "error": null,
+      "expected": {
+        "c": 8,
+        "values": [
+          1,
+          8,
+          35,
+          112
+        ]
+      },
+      "explanation": "ok",
+      "kind": "stretched_polynomial",
+      "ms": 67.0,
+      "params": {
+        "lambda": [
+          7,
+          7,
+          6,
+          4,
+          3,
+          1
+        ],
+        "mu": [
+          5,
+          4,
+          3,
+          3
+        ],
+        "nu": [
+          4,
+          3,
+          3,
+          2,
+          1
+        ]
+      },
+      "pass": true,
+      "result": {
+        "box_violations": [],
+        "c": 8,
+        "coefficients": [
+          "1",
+          "157/60",
+          "949/360",
+          "4/3",
+          "13/36",
+          "1/20",
+          "1/360"
+        ],
+        "cross_checks": {
+          "latte_skipped": "n = 6 ≥ 6 and full_crosscheck not requested",
+          "lr_tableau_dp_t1": 8,
+          "lrcalc_t1": 8,
+          "lrcalc_t2": 35,
+          "lrcalc_t3": 112
+        },
+        "degree": 6,
+        "degree_bound": 10,
+        "engines": [
+          "lrcalc",
+          "normaliz",
+          "lr_tableau_dp"
+        ],
+        "has_negative": false,
+        "hive_variables": 10,
+        "in_box": true,
+        "lambda": [
+          7,
+          7,
+          6,
+          4,
+          3,
+          1
+        ],
+        "latte_crosscheck": "skipped (n ≥ 6; request full_crosscheck or submit as a candidate)",
+        "leading_coefficient": "1/360",
+        "min_coefficient": "1/360",
+        "min_coefficient_index": 6,
+        "min_interior_coefficient": "1/20",
+        "min_interior_index": 5,
+        "mu": [
+          5,
+          4,
+          3,
+          3
+        ],
+        "n": 6,
+        "negative_indices": [],
+        "normaliz_vertices": 8,
+        "nu": [
+          4,
+          3,
+          3,
+          2,
+          1
+        ],
+        "triangulation_size": 2,
+        "values": [
+          1,
+          8,
+          35,
+          112,
+          294,
+          672,
+          1386,
+          2640,
+          4719,
+          8008,
+          13013,
+          20384,
+          30940
+        ],
+        "values_note": "P(t) for t = 0..12; independently reproduced by LattE when latte_crosscheck == 'full'"
+      },
+      "witness": {
+        "coefficients": [
+          "1",
+          "157/60",
+          "949/360",
+          "4/3",
+          "13/36",
+          "1/20",
+          "1/360"
+        ],
+        "cross_checks": {
+          "latte_skipped": "n = 6 ≥ 6 and full_crosscheck not requested",
+          "lr_tableau_dp_t1": 8,
+          "lrcalc_t1": 8,
+          "lrcalc_t2": 35,
+          "lrcalc_t3": 112
+        },
+        "degree": 6,
+        "engines": [
+          "lrcalc",
+          "normaliz",
+          "lr_tableau_dp"
+        ],
+        "latte_crosscheck": "skipped (n ≥ 6; request full_crosscheck or submit as a candidate)",
+        "negative_indices": [],
+        "values": [
+          1,
+          8,
+          35,
+          112,
+          294,
+          672,
+          1386,
+          2640,
+          4719,
+          8008,
+          13013,
+          20384,
+          30940
+        ]
+      }
+    },
+    {
+      "claim": 20,
+      "error": null,
+      "expected": {
+        "c": 8,
+        "values": [
+          1,
+          8,
+          35,
+          112
+        ]
+      },
+      "explanation": "ok",
+      "kind": "stretched_polynomial",
+      "ms": 50.9,
+      "params": {
+        "lambda": [
+          8,
+          6,
+          5,
+          3,
+          2,
+          2
+        ],
+        "mu": [
+          5,
+          5,
+          2,
+          2,
+          1
+        ],
+        "nu": [
+          4,
+          3,
+          2,
+          1,
+          1
+        ]
+      },
+      "pass": true,
+      "result": {
+        "box_violations": [],
+        "c": 8,
+        "coefficients": [
+          "1",
+          "157/60",
+          "949/360",
+          "4/3",
+          "13/36",
+          "1/20",
+          "1/360"
+        ],
+        "cross_checks": {
+          "latte_skipped": "n = 6 ≥ 6 and full_crosscheck not requested",
+          "lr_tableau_dp_t1": 8,
+          "lrcalc_t1": 8,
+          "lrcalc_t2": 35,
+          "lrcalc_t3": 112
+        },
+        "degree": 6,
+        "degree_bound": 10,
+        "engines": [
+          "lrcalc",
+          "normaliz",
+          "lr_tableau_dp"
+        ],
+        "has_negative": false,
+        "hive_variables": 10,
+        "in_box": true,
+        "lambda": [
+          8,
+          6,
+          5,
+          3,
+          2,
+          2
+        ],
+        "latte_crosscheck": "skipped (n ≥ 6; request full_crosscheck or submit as a candidate)",
+        "leading_coefficient": "1/360",
+        "min_coefficient": "1/360",
+        "min_coefficient_index": 6,
+        "min_interior_coefficient": "1/20",
+        "min_interior_index": 5,
+        "mu": [
+          5,
+          5,
+          2,
+          2,
+          1
+        ],
+        "n": 6,
+        "negative_indices": [],
+        "normaliz_vertices": 8,
+        "nu": [
+          4,
+          3,
+          2,
+          1,
+          1
+        ],
+        "triangulation_size": 2,
+        "values": [
+          1,
+          8,
+          35,
+          112,
+          294,
+          672,
+          1386,
+          2640,
+          4719,
+          8008,
+          13013,
+          20384,
+          30940
+        ],
+        "values_note": "P(t) for t = 0..12; independently reproduced by LattE when latte_crosscheck == 'full'"
+      },
+      "witness": {
+        "coefficients": [
+          "1",
+          "157/60",
+          "949/360",
+          "4/3",
+          "13/36",
+          "1/20",
+          "1/360"
+        ],
+        "cross_checks": {
+          "latte_skipped": "n = 6 ≥ 6 and full_crosscheck not requested",
+          "lr_tableau_dp_t1": 8,
+          "lrcalc_t1": 8,
+          "lrcalc_t2": 35,
+          "lrcalc_t3": 112
+        },
+        "degree": 6,
+        "engines": [
+          "lrcalc",
+          "normaliz",
+          "lr_tableau_dp"
+        ],
+        "latte_crosscheck": "skipped (n ≥ 6; request full_crosscheck or submit as a candidate)",
+        "negative_indices": [],
+        "values": [
+          1,
+          8,
+          35,
+          112,
+          294,
+          672,
+          1386,
+          2640,
+          4719,
+          8008,
+          13013,
+          20384,
+          30940
+        ]
+      }
+    },
+    {
+      "claim": 21,
+      "error": null,
+      "expected": {
+        "c": 5,
+        "values": [
+          1,
+          5,
+          14,
+          30
+        ]
+      },
+      "explanation": "ok",
+      "kind": "stretched_polynomial",
+      "ms": 54.6,
+      "params": {
+        "lambda": [
+          10,
+          9,
+          7,
+          6,
+          2,
+          2
+        ],
+        "mu": [
+          6,
+          6,
+          4,
+          3,
+          2
+        ],
+        "nu": [
+          5,
+          5,
+          3,
+          1,
+          1
+        ]
+      },
+      "pass": true,
+      "result": {
+        "box_violations": [
+          "|lambda| = 36 > 30"
+        ],
+        "c": 5,
+        "coefficients": [
+          "1",
+          "13/6",
+          "3/2",
+          "1/3"
+        ],
+        "cross_checks": {
+          "latte_skipped": "n = 6 ≥ 6 and full_crosscheck not requested",
+          "lr_tableau_dp_t1": 5,
+          "lrcalc_t1": 5,
+          "lrcalc_t2": 14,
+          "lrcalc_t3": 30
+        },
+        "degree": 3,
+        "degree_bound": 10,
+        "engines": [
+          "lrcalc",
+          "normaliz",
+          "lr_tableau_dp"
+        ],
+        "has_negative": false,
+        "hive_variables": 10,
+        "in_box": false,
+        "lambda": [
+          10,
+          9,
+          7,
+          6,
+          2,
+          2
+        ],
+        "latte_crosscheck": "skipped (n ≥ 6; request full_crosscheck or submit as a candidate)",
+        "leading_coefficient": "1/3",
+        "min_coefficient": "1/3",
+        "min_coefficient_index": 3,
+        "min_interior_coefficient": "3/2",
+        "min_interior_index": 2,
+        "mu": [
+          6,
+          6,
+          4,
+          3,
+          2
+        ],
+        "n": 6,
+        "negative_indices": [],
+        "normaliz_vertices": 5,
+        "nu": [
+          5,
+          5,
+          3,
+          1,
+          1
+        ],
+        "triangulation_size": 2,
+        "values": [
+          1,
+          5,
+          14,
+          30,
+          55,
+          91,
+          140,
+          204,
+          285,
+          385,
+          506,
+          650,
+          819
+        ],
+        "values_note": "P(t) for t = 0..12; independently reproduced by LattE when latte_crosscheck == 'full'"
+      },
+      "witness": {
+        "coefficients": [
+          "1",
+          "13/6",
+          "3/2",
+          "1/3"
+        ],
+        "cross_checks": {
+          "latte_skipped": "n = 6 ≥ 6 and full_crosscheck not requested",
+          "lr_tableau_dp_t1": 5,
+          "lrcalc_t1": 5,
+          "lrcalc_t2": 14,
+          "lrcalc_t3": 30
+        },
+        "degree": 3,
+        "engines": [
+          "lrcalc",
+          "normaliz",
+          "lr_tableau_dp"
+        ],
+        "latte_crosscheck": "skipped (n ≥ 6; request full_crosscheck or submit as a candidate)",
+        "negative_indices": [],
+        "values": [
+          1,
+          5,
+          14,
+          30,
+          55,
+          91,
+          140,
+          204,
+          285,
+          385,
+          506,
+          650,
+          819
+        ]
+      }
+    },
+    {
+      "claim": 22,
+      "error": null,
+      "expected": {
+        "c": 5,
+        "values": [
+          1,
+          5,
+          14,
+          30
+        ]
+      },
+      "explanation": "ok",
+      "kind": "stretched_polynomial",
+      "ms": 129.2,
+      "params": {
+        "lambda": [
+          10,
+          9,
+          7,
+          6,
+          2
+        ],
+        "mu": [
+          6,
+          6,
+          4,
+          3
+        ],
+        "nu": [
+          5,
+          5,
+          3,
+          1,
+          1
+        ]
+      },
+      "pass": true,
+      "result": {
+        "box_violations": [
+          "|lambda| = 34 > 30"
+        ],
+        "c": 5,
+        "coefficients": [
+          "1",
+          "13/6",
+          "3/2",
+          "1/3"
+        ],
+        "cross_checks": {
+          "latte_hidden_equalities": 3,
+          "latte_mode": "taylor",
+          "latte_triangulation": "default",
+          "latte_values_t0_to": 8,
+          "lr_tableau_dp_t1": 5,
+          "lrcalc_t1": 5,
+          "lrcalc_t2": 14,
+          "lrcalc_t3": 30
+        },
+        "degree": 3,
+        "degree_bound": 6,
+        "engines": [
+          "lrcalc",
+          "normaliz",
+          "lr_tableau_dp",
+          "latte"
+        ],
+        "has_negative": false,
+        "hive_variables": 6,
+        "in_box": false,
+        "lambda": [
+          10,
+          9,
+          7,
+          6,
+          2
+        ],
+        "latte_crosscheck": "full",
+        "leading_coefficient": "1/3",
+        "min_coefficient": "1/3",
+        "min_coefficient_index": 3,
+        "min_interior_coefficient": "3/2",
+        "min_interior_index": 2,
+        "mu": [
+          6,
+          6,
+          4,
+          3
+        ],
+        "n": 5,
+        "negative_indices": [],
+        "normaliz_vertices": 5,
+        "nu": [
+          5,
+          5,
+          3,
+          1,
+          1
+        ],
+        "triangulation_size": 2,
+        "values": [
+          1,
+          5,
+          14,
+          30,
+          55,
+          91,
+          140,
+          204,
+          285
+        ],
+        "values_note": "P(t) for t = 0..8; independently reproduced by LattE when latte_crosscheck == 'full'"
+      },
+      "witness": {
+        "coefficients": [
+          "1",
+          "13/6",
+          "3/2",
+          "1/3"
+        ],
+        "cross_checks": {
+          "latte_hidden_equalities": 3,
+          "latte_mode": "taylor",
+          "latte_triangulation": "default",
+          "latte_values_t0_to": 8,
+          "lr_tableau_dp_t1": 5,
+          "lrcalc_t1": 5,
+          "lrcalc_t2": 14,
+          "lrcalc_t3": 30
+        },
+        "degree": 3,
+        "engines": [
+          "lrcalc",
+          "normaliz",
+          "lr_tableau_dp",
+          "latte"
+        ],
+        "latte_crosscheck": "full",
+        "negative_indices": [],
+        "values": [
+          1,
+          5,
+          14,
+          30,
+          55,
+          91,
+          140,
+          204,
+          285
+        ]
+      }
+    },
+    {
+      "claim": 23,
+      "error": null,
+      "expected": {
+        "c": 3,
+        "coefficients": [
+          "1",
+          "2"
+        ]
+      },
+      "explanation": "ok",
+      "kind": "stretched_polynomial",
+      "ms": 0.6,
+      "params": {
+        "lambda": [
+          10,
+          8,
+          3
+        ],
+        "mu": [
+          6,
+          4,
+          1
+        ],
+        "nu": [
+          6,
+          4
+        ]
+      },
+      "pass": true,
+      "result": {
+        "box_violations": [],
+        "c": 3,
+        "cached": true,
+        "coefficients": [
+          "1",
+          "2"
+        ],
+        "cross_checks": {
+          "latte_hidden_equalities": 1,
+          "latte_mode": "taylor",
+          "latte_triangulation": "default",
+          "latte_values_t0_to": 3,
+          "lr_tableau_dp_t1": 3,
+          "lrcalc_t1": 3,
+          "lrcalc_t2": 5,
+          "lrcalc_t3": 7
+        },
+        "degree": 1,
+        "degree_bound": 1,
+        "engines": [
+          "lrcalc",
+          "normaliz",
+          "lr_tableau_dp",
+          "latte"
+        ],
+        "has_negative": false,
+        "hive_variables": 1,
+        "in_box": true,
+        "lambda": [
+          10,
+          8,
+          3
+        ],
+        "latte_crosscheck": "full",
+        "leading_coefficient": "2",
+        "min_coefficient": "1",
+        "min_coefficient_index": 0,
+        "min_interior_coefficient": "1",
+        "min_interior_index": 0,
+        "mu": [
+          6,
+          4,
+          1
+        ],
+        "n": 3,
+        "negative_indices": [],
+        "normaliz_vertices": 2,
+        "nu": [
+          6,
+          4
+        ],
+        "triangulation_size": 1,
+        "values": [
+          1,
+          3,
+          5,
+          7
+        ],
+        "values_note": "P(t) for t = 0..3; independently reproduced by LattE when latte_crosscheck == 'full'"
+      },
+      "witness": {
+        "coefficients": [
+          "1",
+          "2"
+        ],
+        "cross_checks": {
+          "latte_hidden_equalities": 1,
+          "latte_mode": "taylor",
+          "latte_triangulation": "default",
+          "latte_values_t0_to": 3,
+          "lr_tableau_dp_t1": 3,
+          "lrcalc_t1": 3,
+          "lrcalc_t2": 5,
+          "lrcalc_t3": 7
+        },
+        "degree": 1,
+        "engines": [
+          "lrcalc",
+          "normaliz",
+          "lr_tableau_dp",
+          "latte"
+        ],
+        "latte_crosscheck": "full",
+        "negative_indices": [],
+        "values": [
+          1,
+          3,
+          5,
+          7
+        ]
+      }
+    },
+    {
+      "claim": 24,
+      "error": null,
+      "expected": {
+        "c": 3,
+        "coefficients": [
+          "1",
+          "2"
+        ]
+      },
+      "explanation": "ok",
+      "kind": "stretched_polynomial",
+      "ms": 0.4,
+      "params": {
+        "lambda": [
+          9,
+          7,
+          2
+        ],
+        "mu": [
+          6,
+          4
+        ],
+        "nu": [
+          5,
+          3
+        ]
+      },
+      "pass": true,
+      "result": {
+        "box_violations": [],
+        "c": 3,
+        "cached": true,
+        "coefficients": [
+          "1",
+          "2"
+        ],
+        "cross_checks": {
+          "latte_hidden_equalities": 1,
+          "latte_mode": "taylor",
+          "latte_triangulation": "default",
+          "latte_values_t0_to": 3,
+          "lr_tableau_dp_t1": 3,
+          "lrcalc_t1": 3,
+          "lrcalc_t2": 5,
+          "lrcalc_t3": 7
+        },
+        "degree": 1,
+        "degree_bound": 1,
+        "engines": [
+          "lrcalc",
+          "normaliz",
+          "lr_tableau_dp",
+          "latte"
+        ],
+        "has_negative": false,
+        "hive_variables": 1,
+        "in_box": true,
+        "lambda": [
+          9,
+          7,
+          2
+        ],
+        "latte_crosscheck": "full",
+        "leading_coefficient": "2",
+        "min_coefficient": "1",
+        "min_coefficient_index": 0,
+        "min_interior_coefficient": "1",
+        "min_interior_index": 0,
+        "mu": [
+          6,
+          4
+        ],
+        "n": 3,
+        "negative_indices": [],
+        "normaliz_vertices": 2,
+        "nu": [
+          5,
+          3
+        ],
+        "triangulation_size": 1,
+        "values": [
+          1,
+          3,
+          5,
+          7
+        ],
+        "values_note": "P(t) for t = 0..3; independently reproduced by LattE when latte_crosscheck == 'full'"
+      },
+      "witness": {
+        "coefficients": [
+          "1",
+          "2"
+        ],
+        "cross_checks": {
+          "latte_hidden_equalities": 1,
+          "latte_mode": "taylor",
+          "latte_triangulation": "default",
+          "latte_values_t0_to": 3,
+          "lr_tableau_dp_t1": 3,
+          "lrcalc_t1": 3,
+          "lrcalc_t2": 5,
+          "lrcalc_t3": 7
+        },
+        "degree": 1,
+        "engines": [
+          "lrcalc",
+          "normaliz",
+          "lr_tableau_dp",
+          "latte"
+        ],
+        "latte_crosscheck": "full",
+        "negative_indices": [],
+        "values": [
+          1,
+          3,
+          5,
+          7
+        ]
+      }
+    },
+    {
+      "claim": 25,
+      "error": null,
+      "expected": {
+        "c": 6,
+        "values": [
+          1,
+          6,
+          21,
+          56
+        ]
+      },
+      "explanation": "ok",
+      "kind": "stretched_polynomial",
+      "ms": 69.7,
+      "params": {
+        "lambda": [
+          8,
+          7,
+          5,
+          4,
+          4,
+          2,
+          2
+        ],
+        "mu": [
+          5,
+          4,
+          3,
+          2,
+          1,
+          1
+        ],
+        "nu": [
+          4,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      "pass": true,
+      "result": {
+        "box_violations": [
+          "|lambda| = 32 > 30"
+        ],
+        "c": 6,
+        "coefficients": [
+          "1",
+          "137/60",
+          "15/8",
+          "17/24",
+          "1/8",
+          "1/120"
+        ],
+        "cross_checks": {
+          "latte_skipped": "n = 7 ≥ 6 and full_crosscheck not requested",
+          "lr_tableau_dp_t1": 6,
+          "lrcalc_t1": 6,
+          "lrcalc_t2": 21,
+          "lrcalc_t3": 56
+        },
+        "degree": 5,
+        "degree_bound": 15,
+        "engines": [
+          "lrcalc",
+          "normaliz",
+          "lr_tableau_dp"
+        ],
+        "has_negative": false,
+        "hive_variables": 15,
+        "in_box": false,
+        "lambda": [
+          8,
+          7,
+          5,
+          4,
+          4,
+          2,
+          2
+        ],
+        "latte_crosscheck": "skipped (n ≥ 6; request full_crosscheck or submit as a candidate)",
+        "leading_coefficient": "1/120",
+        "min_coefficient": "1/120",
+        "min_coefficient_index": 5,
+        "min_interior_coefficient": "1/8",
+        "min_interior_index": 4,
+        "mu": [
+          5,
+          4,
+          3,
+          2,
+          1,
+          1
+        ],
+        "n": 7,
+        "negative_indices": [],
+        "normaliz_vertices": 6,
+        "nu": [
+          4,
+          3,
+          3,
+          3,
+          3
+        ],
+        "triangulation_size": 1,
+        "values": [
+          1,
+          6,
+          21,
+          56,
+          126,
+          252,
+          462,
+          792,
+          1287,
+          2002,
+          3003,
+          4368,
+          6188,
+          8568,
+          11628,
+          15504,
+          20349,
+          26334
+        ],
+        "values_note": "P(t) for t = 0..17; independently reproduced by LattE when latte_crosscheck == 'full'"
+      },
+      "witness": {
+        "coefficients": [
+          "1",
+          "137/60",
+          "15/8",
+          "17/24",
+          "1/8",
+          "1/120"
+        ],
+        "cross_checks": {
+          "latte_skipped": "n = 7 ≥ 6 and full_crosscheck not requested",
+          "lr_tableau_dp_t1": 6,
+          "lrcalc_t1": 6,
+          "lrcalc_t2": 21,
+          "lrcalc_t3": 56
+        },
+        "degree": 5,
+        "engines": [
+          "lrcalc",
+          "normaliz",
+          "lr_tableau_dp"
+        ],
+        "latte_crosscheck": "skipped (n ≥ 6; request full_crosscheck or submit as a candidate)",
+        "negative_indices": [],
+        "values": [
+          1,
+          6,
+          21,
+          56,
+          126,
+          252,
+          462,
+          792,
+          1287,
+          2002,
+          3003,
+          4368,
+          6188,
+          8568,
+          11628,
+          15504,
+          20349,
+          26334
+        ]
+      }
+    },
+    {
+      "claim": 26,
+      "error": null,
+      "expected": {
+        "c": 6,
+        "values": [
+          1,
+          6,
+          21,
+          56
+        ]
+      },
+      "explanation": "ok",
+      "kind": "stretched_polynomial",
+      "ms": 65.6,
+      "params": {
+        "lambda": [
+          7,
+          6,
+          4,
+          3,
+          3,
+          2,
+          2
+        ],
+        "mu": [
+          5,
+          4,
+          3,
+          2,
+          1,
+          1
+        ],
+        "nu": [
+          3,
+          2,
+          2,
+          2,
+          2
+        ]
+      },
+      "pass": true,
+      "result": {
+        "box_violations": [],
+        "c": 6,
+        "coefficients": [
+          "1",
+          "137/60",
+          "15/8",
+          "17/24",
+          "1/8",
+          "1/120"
+        ],
+        "cross_checks": {
+          "latte_skipped": "n = 7 ≥ 6 and full_crosscheck not requested",
+          "lr_tableau_dp_t1": 6,
+          "lrcalc_t1": 6,
+          "lrcalc_t2": 21,
+          "lrcalc_t3": 56
+        },
+        "degree": 5,
+        "degree_bound": 15,
+        "engines": [
+          "lrcalc",
+          "normaliz",
+          "lr_tableau_dp"
+        ],
+        "has_negative": false,
+        "hive_variables": 15,
+        "in_box": true,
+        "lambda": [
+          7,
+          6,
+          4,
+          3,
+          3,
+          2,
+          2
+        ],
+        "latte_crosscheck": "skipped (n ≥ 6; request full_crosscheck or submit as a candidate)",
+        "leading_coefficient": "1/120",
+        "min_coefficient": "1/120",
+        "min_coefficient_index": 5,
+        "min_interior_coefficient": "1/8",
+        "min_interior_index": 4,
+        "mu": [
+          5,
+          4,
+          3,
+          2,
+          1,
+          1
+        ],
+        "n": 7,
+        "negative_indices": [],
+        "normaliz_vertices": 6,
+        "nu": [
+          3,
+          2,
+          2,
+          2,
+          2
+        ],
+        "triangulation_size": 1,
+        "values": [
+          1,
+          6,
+          21,
+          56,
+          126,
+          252,
+          462,
+          792,
+          1287,
+          2002,
+          3003,
+          4368,
+          6188,
+          8568,
+          11628,
+          15504,
+          20349,
+          26334
+        ],
+        "values_note": "P(t) for t = 0..17; independently reproduced by LattE when latte_crosscheck == 'full'"
+      },
+      "witness": {
+        "coefficients": [
+          "1",
+          "137/60",
+          "15/8",
+          "17/24",
+          "1/8",
+          "1/120"
+        ],
+        "cross_checks": {
+          "latte_skipped": "n = 7 ≥ 6 and full_crosscheck not requested",
+          "lr_tableau_dp_t1": 6,
+          "lrcalc_t1": 6,
+          "lrcalc_t2": 21,
+          "lrcalc_t3": 56
+        },
+        "degree": 5,
+        "engines": [
+          "lrcalc",
+          "normaliz",
+          "lr_tableau_dp"
+        ],
+        "latte_crosscheck": "skipped (n ≥ 6; request full_crosscheck or submit as a candidate)",
+        "negative_indices": [],
+        "values": [
+          1,
+          6,
+          21,
+          56,
+          126,
+          252,
+          462,
+          792,
+          1287,
+          2002,
+          3003,
+          4368,
+          6188,
+          8568,
+          11628,
+          15504,
+          20349,
+          26334
+        ]
+      }
+    },
+    {
+      "claim": 27,
+      "error": null,
+      "expected": {
+        "all_hold": true
+      },
+      "explanation": "violations []",
+      "kind": "structural_checks",
+      "ms": 1.9,
+      "params": {
+        "lambda": [
+          8,
+          7,
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "mu": [
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "nu": [
+          5,
+          4,
+          3,
+          2,
+          1
+        ]
+      },
+      "pass": true,
+      "result": {
+        "all_hold": true,
+        "c": 160,
+        "checks": {
+          "P0_is_1": {
+            "detail": "1",
+            "ok": true
+          },
+          "P1_equals_c": {
+            "detail": "160 vs c = 160",
+            "ok": true
+          },
+          "conjugation_symmetry_t1": {
+            "detail": "c^{λ'}_{μ'ν'} = 160 vs c = 160",
+            "ok": true
+          },
+          "degree_le_bound": {
+            "detail": "deg 13 ≤ 15",
+            "ok": true
+          },
+          "full_column_removal": "not applicable (no common full column)",
+          "leading_positive": {
+            "detail": "338929/345945600",
+            "ok": true
+          },
+          "nonneg_integer_valued": {
+            "detail": "t = 0..D+3",
+            "ok": true
+          },
+          "scaling_by_2": "skipped (2|λ| exceeds the resource cap)",
+          "symmetry_mu_nu": "mu == nu (trivial)",
+          "values_match_polynomial": {
+            "detail": "18 values",
+            "ok": true
+          }
+        },
+        "coefficients": [
+          "1",
+          "208581/40040",
+          "22691293/1663200",
+          "79992643/3326400",
+          "171585559/5443200",
+          "12873893/403200",
+          "275968153/10886400",
+          "5463001/345600",
+          "27875983/3628800",
+          "6907559/2419200",
+          "8540011/10886400",
+          "1330493/8870400",
+          "2128963/119750400",
+          "338929/345945600"
+        ],
+        "degree": 13,
+        "violations": []
+      },
+      "witness": {
+        "coefficients": [
+          "1",
+          "208581/40040",
+          "22691293/1663200",
+          "79992643/3326400",
+          "171585559/5443200",
+          "12873893/403200",
+          "275968153/10886400",
+          "5463001/345600",
+          "27875983/3628800",
+          "6907559/2419200",
+          "8540011/10886400",
+          "1330493/8870400",
+          "2128963/119750400",
+          "338929/345945600"
+        ],
+        "degree": 13
+      }
+    },
+    {
+      "claim": 28,
+      "error": null,
+      "expected": {
+        "found": false
+      },
+      "explanation": "ok",
+      "kind": "search",
+      "ms": 672.9,
+      "params": {
+        "max_length": 7,
+        "max_size": 14,
+        "time_limit_s": 900
+      },
+      "pass": true,
+      "result": {
+        "complete": true,
+        "count_negative": 0,
+        "count_negative_note": "computed polynomials (reduction representatives) with a negative coefficient; see negatives_including_reductions",
+        "covered_by_reduction": 4,
+        "elapsed_s": 0.7,
+        "errors": [],
+        "found": false,
+        "incomplete_reason": "",
+        "max_degree": 4,
+        "negatives": [],
+        "negatives_including_reductions": 0,
+        "polynomials_computed": 624,
+        "polynomials_scheduled": 624,
+        "representatives_computed_late": 0,
+        "scope": {
+          "fixed": null,
+          "max_length": 7,
+          "max_size": 14,
+          "min_c": 1,
+          "min_length": 0,
+          "min_size": 0,
+          "primitive_only": true,
+          "skip_c_le_2": true
+        },
+        "settles_frozen_statement_negatively": false,
+        "settles_note": "true only for a complete sweep of the entire box (min_size 0, max_size 30, max_length 7, no min_length, no fixed lambda, min_c 1; skip_c_le_2 pruning rests on the proved c = 1, 2 theorems; reductions rest on the proved scaling/full-column identities); any other absence result is scoped to its parameters",
+        "skipped": {
+          "below_min_c": 0,
+          "below_min_length": 0,
+          "c_le_2_theorem": 32410,
+          "c_le_2_theorem_via_scaling": 3,
+          "c_zero": 27530,
+          "symmetry_duplicate": 5682
+        },
+        "smallest_interior_coefficients": [
+          {
+            "degree": 4,
+            "index": 3,
+            "lambda": [
+              5,
+              3,
+              2,
+              2,
+              1,
+              1
+            ],
+            "mu": [
+              3,
+              2,
+              1,
+              1
+            ],
+            "nu": [
+              3,
+              2,
+              1,
+              1
+            ],
+            "value": "5/12"
+          },
+          {
+            "degree": 4,
+            "index": 3,
+            "lambda": [
+              4,
+              3,
+              3,
+              2,
+              1,
+              1
+            ],
+            "mu": [
+              3,
+              2,
+              1,
+              1
+            ],
+            "nu": [
+              3,
+              2,
+              1,
+              1
+            ],
+            "value": "5/12"
+          },
+          {
+            "degree": 3,
+            "index": 2,
+            "lambda": [
+              5,
+              4,
+              2,
+              1
+            ],
+            "mu": [
+              3,
+              2,
+              1
+            ],
+            "nu": [
+              3,
+              2,
+              1
+            ],
+            "value": "1"
+          },
+          {
+            "degree": 3,
+            "index": 2,
+            "lambda": [
+              5,
+              3,
+              2,
+              1,
+              1
+            ],
+            "mu": [
+              3,
+              2,
+              1
+            ],
+            "nu": [
+              3,
+              2,
+              1
+            ],
+            "value": "1"
+          },
+          {
+            "degree": 3,
+            "index": 2,
+            "lambda": [
+              4,
+              3,
+              2,
+              2,
+              1
+            ],
+            "mu": [
+              3,
+              2,
+              1
+            ],
+            "nu": [
+              3,
+              2,
+              1
+            ],
+            "value": "1"
+          },
+          {
+            "degree": 3,
+            "index": 2,
+            "lambda": [
+              6,
+              4,
+              2,
+              1
+            ],
+            "mu": [
+              4,
+              2,
+              1
+            ],
+            "nu": [
+              3,
+              2,
+              1
+            ],
+            "value": "1"
+          },
+          {
+            "degree": 3,
+            "index": 2,
+            "lambda": [
+              6,
+              3,
+              2,
+              1,
+              1
+            ],
+            "mu": [
+              4,
+              2,
+              1
+            ],
+            "nu": [
+              3,
+              2,
+              1
+            ],
+            "value": "1"
+          },
+          {
+            "degree": 3,
+            "index": 2,
+            "lambda": [
+              5,
+              4,
+              3,
+              1
+            ],
+            "mu": [
+              4,
+              2,
+              1
+            ],
+            "nu": [
+              3,
+              2,
+              1
+            ],
+            "value": "1"
+          },
+          {
+            "degree": 3,
+            "index": 2,
+            "lambda": [
+              5,
+              4,
+              2,
+              1,
+              1
+            ],
+            "mu": [
+              4,
+              2,
+              1
+            ],
+            "nu": [
+              3,
+              2,
+              1
+            ],
+            "value": "1"
+          },
+          {
+            "degree": 3,
+            "index": 2,
+            "lambda": [
+              5,
+              4,
+              2,
+              1,
+              1
+            ],
+            "mu": [
+              3,
+              2,
+              1,
+              1
+            ],
+            "nu": [
+              3,
+              2,
+              1
+            ],
+            "value": "1"
+          }
+        ],
+        "triples_in_scope": 60571,
+        "workers": 8
+      },
+      "witness": {
+        "complete": true,
+        "covered_by_reduction": 4,
+        "negatives": [],
+        "polynomials_computed": 624,
+        "smallest_interior_coefficients": [
+          {
+            "degree": 4,
+            "index": 3,
+            "lambda": [
+              5,
+              3,
+              2,
+              2,
+              1,
+              1
+            ],
+            "mu": [
+              3,
+              2,
+              1,
+              1
+            ],
+            "nu": [
+              3,
+              2,
+              1,
+              1
+            ],
+            "value": "5/12"
+          },
+          {
+            "degree": 4,
+            "index": 3,
+            "lambda": [
+              4,
+              3,
+              3,
+              2,
+              1,
+              1
+            ],
+            "mu": [
+              3,
+              2,
+              1,
+              1
+            ],
+            "nu": [
+              3,
+              2,
+              1,
+              1
+            ],
+            "value": "5/12"
+          },
+          {
+            "degree": 3,
+            "index": 2,
+            "lambda": [
+              5,
+              4,
+              2,
+              1
+            ],
+            "mu": [
+              3,
+              2,
+              1
+            ],
+            "nu": [
+              3,
+              2,
+              1
+            ],
+            "value": "1"
+          },
+          {
+            "degree": 3,
+            "index": 2,
+            "lambda": [
+              5,
+              3,
+              2,
+              1,
+              1
+            ],
+            "mu": [
+              3,
+              2,
+              1
+            ],
+            "nu": [
+              3,
+              2,
+              1
+            ],
+            "value": "1"
+          },
+          {
+            "degree": 3,
+            "index": 2,
+            "lambda": [
+              4,
+              3,
+              2,
+              2,
+              1
+            ],
+            "mu": [
+              3,
+              2,
+              1
+            ],
+            "nu": [
+              3,
+              2,
+              1
+            ],
+            "value": "1"
+          }
+        ]
+      }
+    }
+  ],
+  "spec_hash": "2b9f91614a3e5aa0af887391442819935a5e45d8198edb086bfdca19f99111b0",
+  "tag": "referee1",
+  "ts": "2026-09-06T12:44:31+00:00",
+  "verifier_sha256": "65220dd44908959312cc38fbc0ec6bd55c292e193fe074ffd69a6854298312a8"
+}

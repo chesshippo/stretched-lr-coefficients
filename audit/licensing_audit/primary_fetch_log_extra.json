@@ -1,0 +1,79 @@
+[
+  {
+    "bytes": 10130440,
+    "final_url": "https://api.github.com/repos/creativecommons/cc-legal-tools-data/git/trees/main?recursive=1",
+    "id": "cc_github_tree",
+    "retrieved_utc": "2026-09-06T12:16:57.389282+00:00",
+    "saved_file": "cc_github_tree.txt",
+    "sha256": "f2b6257f2cb1ce960bd53ba9511c3b37302e999a790b4dbd6b50a97fb2339819",
+    "status": 200,
+    "tls_certificate_verification": true,
+    "url": "https://api.github.com/repos/creativecommons/cc-legal-tools-data/git/trees/main?recursive=1"
+  },
+  {
+    "bytes": 33548,
+    "final_url": "https://ctan.math.illinois.edu/fonts/lm/README",
+    "id": "lm_readme",
+    "retrieved_utc": "2026-09-06T12:16:57.389554+00:00",
+    "saved_file": "lm_readme.txt",
+    "sha256": "7cac4a4a78985ccb1ed429bb2eddf32eeb2e413c94493c7b268385bb7b525250",
+    "status": 200,
+    "tls_certificate_verification": true,
+    "url": "https://ctan.math.illinois.edu/fonts/lm/README"
+  },
+  {
+    "bytes": 14649,
+    "final_url": "https://ctan.math.illinois.edu/fonts/amsfonts/README",
+    "id": "ams_readme",
+    "retrieved_utc": "2026-09-06T12:16:57.389625+00:00",
+    "saved_file": "ams_readme.txt",
+    "sha256": "2e2ced3494d3e5f04345804b85c1acb67c23bdd742f3e71f8772f768a59ed451",
+    "status": 200,
+    "tls_certificate_verification": true,
+    "url": "https://ctan.math.illinois.edu/fonts/amsfonts/README"
+  },
+  {
+    "bytes": 197518,
+    "final_url": "https://www.gnu.org/licenses/gpl-faq.en.html",
+    "id": "gnu_faq",
+    "retrieved_utc": "2026-09-06T12:16:57.389677+00:00",
+    "saved_file": "gnu_faq.txt",
+    "sha256": "5053fe23f1da3b76245b17c416640cde37ce21b8175effc0c6619d6673a25d2e",
+    "status": 200,
+    "tls_certificate_verification": true,
+    "url": "https://www.gnu.org/licenses/gpl-faq.en.html"
+  },
+  {
+    "bytes": 27311,
+    "final_url": "https://www.latex-project.org/lppl/lppl-1-3c/",
+    "id": "lppl",
+    "retrieved_utc": "2026-09-06T12:16:57.698541+00:00",
+    "saved_file": "lppl.txt",
+    "sha256": "39b4c0f3bb0038b61cdbd902f500fa1f73b3ad3568fd35eeebbfd686bc20d3c9",
+    "status": 200,
+    "tls_certificate_verification": true,
+    "url": "https://www.latex-project.org/lppl/lppl-1-3c/"
+  },
+  {
+    "bytes": 3038,
+    "final_url": "https://pypi.org/project/lrcalc/2.1/",
+    "id": "lrcalc_pypi",
+    "retrieved_utc": "2026-09-06T12:16:57.746111+00:00",
+    "saved_file": "lrcalc_pypi.txt",
+    "sha256": "32ed63159c77e21ee19ca1b9aa3213ccf0218eb59539560b132a8e68ef0e18ea",
+    "status": 200,
+    "tls_certificate_verification": true,
+    "url": "https://pypi.org/project/lrcalc/2.1/"
+  },
+  {
+    "bytes": 251817,
+    "final_url": "https://api.github.com/repos/latte-int/latte/git/trees/master?recursive=1",
+    "id": "latte_tree",
+    "retrieved_utc": "2026-09-06T12:16:57.883415+00:00",
+    "saved_file": "latte_tree.txt",
+    "sha256": "5c3ca15cec15ec3875e071d4fe9ccdfcae5ce0fcb7a4b03f169f2e1e4142ecb3",
+    "status": 200,
+    "tls_certificate_verification": true,
+    "url": "https://api.github.com/repos/latte-int/latte/git/trees/master?recursive=1"
+  }
+]

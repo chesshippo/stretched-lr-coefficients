@@ -1,0 +1,20 @@
+{
+  "status": "COMPLETE",
+  "all_core_regeneration_complete": true,
+  "verified_cases": 358952,
+  "total": 358952,
+  "identity": {
+    "wrapper_sha256": "9e33a4732f075ea6eab2f1c27378cd11c6c37d0cb88774b968d8669a82073662",
+    "regenerator_sha256": "afe22abfec744a2396952f509e7a147323afd081d316a930321700a09d627298",
+    "verifier_sha256": "65220dd44908959312cc38fbc0ec6bd55c292e193fe074ffd69a6854298312a8",
+    "binding_sha256": "daa1014bf8fe887170a7084ce7d12733551d8ebf10fc2067119f979cd53e4550",
+    "engines_sha256": "00d859c495d6d050ead68445848c8b13cc7e9b54094825b616bee5fa53d86ef5",
+    "catalog_sha256": "eba8a09ea6bd9487b879530f3f88bebc50f0f866f5e9ac76fab8c4aeb9d2697b",
+    "batch_size": 128,
+    "case_order_sha256": "c5501631ed3c555cf869e419beaaf8d5045470a88421ae23a3ca4b042c8b3d56"
+  },
+  "full_latte": false,
+  "elapsed_s": 5021.323128791999,
+  "completed_at": "2026-09-06T14:07:38.206648+00:00",
+  "statement": "Every selected entire rational polynomial freshly recomputed with raw input/output retained and coefficientwise matched; Normaliz remains trusted."
+}

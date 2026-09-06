@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "fresh_v010_compilation_matches_frozen_pdf": true,
+  "publication_pages": 20,
+  "outside_page_words": [],
+  "unresolved_references": false,
+  "poppler_xml_control_codes_removed_for_bbox_parsing": [
+    1
+  ]
+}

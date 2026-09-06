@@ -1,0 +1,52 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb,pdfpages}
+\usepackage[hidelinks]{hyperref}
+\hypersetup{pdftitle={A finite cover for coefficient positivity of stretched Littlewood--Richardson polynomials},pdfauthor={Maseeh Ghodsi}}
+\begin{document}
+\thispagestyle{empty}
+\begin{center}
+{\LARGE\bfseries A finite cover for coefficient positivity\par}
+\vspace{0.25cm}
+{\Large\bfseries of stretched Littlewood--Richardson polynomials\par}
+\vspace{0.25cm}
+{\large in the seven-row, size-thirty box\par}
+\vspace{0.85cm}
+{\Large Maseeh Ghodsi\par}
+\vspace{0.3cm}
+AI-assisted computer-assisted proof\par
+Version 1.0.2 --- prepared 2026-09-06\par
+\end{center}
+\vspace{0.55cm}
+For every balanced partition triple $(\lambda,\mu,\nu)$ with all lengths at
+most seven and all sizes at most thirty, every ordinary monomial coefficient
+of its stretched Littlewood--Richardson polynomial is nonnegative.
+\[
+ [t^i]P^{\lambda}_{\mu\nu}(t)\ge0\qquad(i\ge0).
+\]
+The next page gives publication clarifications; the subsequent 19 pages
+are the unchanged reviewed manuscript. The full
+computational supplement, source programs, exact records, and a reproducible
+audit accompany this release. The proof relies on the identified exact
+Normaliz and lrcalc computations; full Lean verification remains unfinished.
+Two internal AI referee sessions passed the full argument. External
+mathematical acceptance and Epoch endorsement are not asserted.
+\par\medskip
+\textbf{Credit and assistance.} Maseeh Ghodsi is the credited author and project
+lead. Substantial AI assistance contributed mathematical exploration,
+drafting, programming and review. Published mathematical inputs and external
+software retain the credit recorded in the bibliography and notices.
+\par\medskip
+\textbf{License.} Copyright \copyright\ 2026 Maseeh Ghodsi, for rights held in
+original contributions. Paper and documentation: Creative Commons Attribution
+4.0 International, \url{https://creativecommons.org/licenses/by/4.0/}.
+Original project software: GPL version 3 or later. See the accompanying
+\texttt{LICENSING.md}, \texttt{NOTICE}, and \texttt{CITATION.cff}.
+\par\medskip
+\textbf{Citation.} Maseeh Ghodsi (2026), \emph{A finite cover for coefficient
+positivity of stretched Littlewood--Richardson polynomials in the seven-row,
+size-thirty box}, version 1.0.2.
+\clearpage
+\input{clarifications.tex}
+\includepdf[pages=-,pagecommand={\thispagestyle{empty}},fitpaper=true]{proof/frozen-proof.pdf}
+\end{document}

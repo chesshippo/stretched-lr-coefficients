@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "attainment": 1.0,
+      "description": "Complete necessary finite domain and base-count coverage",
+      "evidence": [
+        "C15"
+      ],
+      "id": "E",
+      "lower": 0.9,
+      "upper": 1.0,
+      "weight": 25
+    },
+    {
+      "attainment": 1.0,
+      "description": "Strictly valid reductions and exhaustive residual coverage",
+      "evidence": [
+        "C16"
+      ],
+      "id": "R",
+      "lower": 0.9,
+      "upper": 1.0,
+      "weight": 30
+    },
+    {
+      "attainment": 1.0,
+      "description": "Entire source-bound core polynomial vectors and finite-box consequence",
+      "evidence": [
+        "C18",
+        "C19"
+      ],
+      "id": "P",
+      "lower": 0.8,
+      "upper": 1.0,
+      "weight": 45
+    }
+  ],
+  "scope": "Conventional full finite-box proof under the explicitly trusted exact-software model; not Lean completion or external acceptance.",
+  "uncertainty": "Subjective sensitivity to more conservative evidence-credit assessments, not a probability or rigorous error bound."
+}

@@ -1,0 +1,28 @@
+{
+  "cc_exact_official_repository_match": true,
+  "cc_normalized_whitespace_match": true,
+  "cc_release_sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411",
+  "cc_upstream_sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411",
+  "gnu_exact_official_match": true,
+  "gnu_sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+  "sources": [
+    {
+      "bytes": 18657,
+      "final_url": "https://raw.githubusercontent.com/creativecommons/cc-legal-tools-data/main/legacy/legalcode/by_4.0.txt",
+      "id": "cc_by4_upstream",
+      "retrieved_utc": "2026-09-06T12:17:51.621004+00:00",
+      "sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411",
+      "tls_certificate_verification": true,
+      "url": "https://raw.githubusercontent.com/creativecommons/cc-legal-tools-data/main/legacy/legalcode/by_4.0.txt"
+    },
+    {
+      "bytes": 5947,
+      "final_url": "https://raw.githubusercontent.com/latte-int/latte/master/code/latte/ReadLatteStyle.cpp",
+      "id": "latte_header",
+      "retrieved_utc": "2026-09-06T12:17:51.772468+00:00",
+      "sha256": "a269fcacde819550dfebff510684f9ff69b2938c763b0e02fb5ba458acbe31aa",
+      "tls_certificate_verification": true,
+      "url": "https://raw.githubusercontent.com/latte-int/latte/master/code/latte/ReadLatteStyle.cpp"
+    }
+  ]
+}

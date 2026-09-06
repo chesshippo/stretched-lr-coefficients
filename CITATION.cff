@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "Please cite the credited author and this proof/evidence release. See AUTHORS.md for AI assistance and LICENSING.md for scope."
+type: software
+title: "A finite cover for coefficient positivity of stretched Littlewood–Richardson polynomials in the seven-row, size-thirty box"
+authors:
+  - family-names: "Ghodsi"
+    given-names: "Maseeh"
+version: "1.0.2"
+date-released: "2026-09-06"
+license:
+  - CC-BY-4.0
+  - GPL-3.0-or-later
+keywords:
+  - Littlewood-Richardson coefficients
+  - computer-assisted proof
+  - finite enumeration
+preferred-citation:
+  type: unpublished
+  title: "A finite cover for coefficient positivity of stretched Littlewood–Richardson polynomials in the seven-row, size-thirty box"
+  authors:
+    - family-names: "Ghodsi"
+      given-names: "Maseeh"
+  year: 2026
+  month: 9
+  notes: "Version 1.0.2; AI-assisted computer-assisted proof. Internal automated review; external acceptance and full Lean verification pending."

@@ -1,0 +1,27 @@
+{
+  "all_final_shortening_premises_and_targets_checked": true,
+  "all_horn_factor_box_size_and_balance_checks": true,
+  "all_partition_cover_unions_disjoint_complete": true,
+  "cell_count_catalog_sizes": {
+    "2": 3,
+    "3": 12,
+    "4": 41,
+    "5": 142,
+    "6": 521,
+    "7": 2042
+  },
+  "counts": {
+    "large_horn": 200638,
+    "large_second": 16194,
+    "second_probe_already_excluded_earlier": 67300,
+    "small_horn": 17883,
+    "small_rectangular": 6300,
+    "small_second_reduction": 932
+  },
+  "elapsed_s": 7.166708875003678,
+  "fresh_lrcalc_factor_calls": 437042,
+  "independent_literal_cell_catalog_tests": 5521,
+  "large_core": 346537,
+  "small_core": 12415,
+  "status": "PASS"
+}

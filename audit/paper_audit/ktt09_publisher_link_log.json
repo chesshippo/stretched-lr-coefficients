@@ -1,0 +1,23 @@
+[
+  {
+    "name": "ktt09_publisher_public.pdf",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0097316508000939/pdf",
+    "exit_code": 22,
+    "stderr": "curl: (22) The requested URL returned error: 403\n",
+    "bytes": 0
+  },
+  {
+    "name": "ktt09_publisher_advertised.xml",
+    "url": "https://api.elsevier.com/content/article/PII:S0097316508000939?httpAccept=text/xml",
+    "exit_code": 0,
+    "stderr": "",
+    "bytes": 1950
+  },
+  {
+    "name": "ktt09_publisher_advertised.txt",
+    "url": "https://api.elsevier.com/content/article/PII:S0097316508000939?httpAccept=text/plain",
+    "exit_code": 22,
+    "stderr": "curl: (22) The requested URL returned error: 400\n",
+    "bytes": 0
+  }
+]

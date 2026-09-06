@@ -1,0 +1,8 @@
+{
+  "synthetic_not_proof_evidence": true,
+  "wrapper_sha256": "1c026ad02a3922f628c6b9ccfeaefb2b435f71bf902a65a9a480a0d0e924a780",
+  "case": "Correct-looking LR coefficient receipt paired with actual raw Reeve-simplex input/output, different polynomial and dimension",
+  "verify_batch_accepts": true,
+  "error": null,
+  "meaning": "Demonstrates missing semantic raw-input/output binding inside the batch verifier; does not show a bad genuine production receipt."
+}

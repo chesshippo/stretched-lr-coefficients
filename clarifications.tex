@@ -1,0 +1,46 @@
+\thispagestyle{empty}
+\begin{center}
+{\Large\bfseries Publication clarifications and archival errata\par}
+\medskip
+Maseeh Ghodsi --- version 1.0.2 --- 6 September 2026
+\end{center}
+\medskip
+Read this page together with the unchanged v010 manuscript that follows.
+These corrections make implicit conventions explicit and correct descriptions
+and attribution. They change no coefficient, reduction formula, residual set,
+or finite-box conclusion.
+\begin{enumerate}
+\item \textbf{Lemma 6: complement width.} The rectangle width is an integer
+$M\in\mathbb Z_{\ge0}$ with $M\ge\alpha_1$. Its proof counts columns;
+all applications use integer partition parts as widths.
+\item \textbf{Theorem 7: ambient rank.} Take an integer $n\ge1$ at least as
+large as the lengths of the three partitions, so $h=\lambda_n$ is defined.
+The all-empty input separately has polynomial $P=1$. Every nonempty
+least-witness application has positive rank.
+\item \textbf{Certificate validation description.} The sentence in
+the subsection ``R: local certificates and complete coverage'' saying that
+malformed partitions and invalid parameters are
+rejected overstates the original parser's general behavior. It removes
+internal zero parts and treats an unrecognized inner selector as $\nu$.
+The independent exhaustive strict audit instead validates the original raw
+frozen records before normalization. Every actual edge has valid partition
+order, selector and integer parameters, and satisfies its rule and target
+conditions. The supplied certificates therefore meet the validity requirements
+of dependency R. See the accompanying computational audit and source.
+\item \textbf{Archived reference attribution.} The frozen specification's
+reference to arXiv:2211.06810 should credit \textbf{Warut Thawinrak}, correcting
+the recorded name ``R. Wong.'' The title is \emph{A Short Proof for the
+Polynomiality of the Stretched Littlewood--Richardson Coefficients}
+(2022, revised 2024), \url{https://arxiv.org/abs/2211.06810}.
+This error is absent from the current manuscript's bibliography.
+\end{enumerate}
+The exact archival paths, TeX line references and hashes are listed in
+\texttt{ARCHIVAL\_ERRATA.md}. Frozen manuscript and evidence bytes are retained
+for reproducibility. The new audit records and this addendum are separately
+identified; they do not rewrite historical referee reports.
+\par\medskip
+The result remains a computer-assisted proof for the entire seven-row,
+size-thirty box under the stated exact-software assumptions. It does not
+establish the unrestricted positivity conjecture. Full Lean verification
+and external mathematical acceptance remain unestablished.
+\clearpage

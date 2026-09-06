@@ -1,0 +1,11 @@
+{
+  "synthetic_not_proof_evidence": true,
+  "wrapper_sha256": "fdc1a6997fb3a66e4071cf5358e3c9cf53cc4108ab9e666af7ac28b2f92877cc",
+  "genuine_cases_semantically_rechecked": 128,
+  "genuine_batch_passed": true,
+  "genuine_batch_recheck_elapsed_s": 0.08873404200130608,
+  "rehashed_wrong_polytope_rejected": true,
+  "error": "RuntimeError('Raw input is not the exact source hive')",
+  "blocking_issue_found": false,
+  "scope": "Current corrected-wrapper source and one genuine 128-case batch plus complete-invocation wrong-polytope mutation; no new Ehrhart calls."
+}

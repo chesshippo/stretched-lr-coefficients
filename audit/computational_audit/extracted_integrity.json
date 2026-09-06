@@ -1,0 +1,105 @@
+{
+  "ehrhart_computations_repeated": false,
+  "elapsed_s": 2.769270708995464,
+  "full_lean_verification_complete": false,
+  "integrity_after": {
+    "all_manifest_entries_pass": true,
+    "files_checked": 131,
+    "nested_file_manifests": [
+      {
+        "all_entries_pass": true,
+        "files_checked": 53,
+        "path": "problems/stretched-lr-coefficients/runs/20260905T173132Z/full_box_evidence_manifest.json",
+        "sha256": "ba391e5b641153601826a22056300533b1c74fbb12eec0084150c888f789cff4"
+      },
+      {
+        "all_entries_pass": true,
+        "files_checked": 93,
+        "path": "FROZEN_READABLE_MANIFEST.json",
+        "sha256": "0c0cf5e476155d11228259ae515827179023f01e3aede851fd2bb6d35e663465"
+      },
+      {
+        "all_entries_pass": true,
+        "files_checked": 44,
+        "path": "mathematical_appendix_extra_manifest.json",
+        "sha256": "39f70c9fc68b54fcfeb3aef85acd7d70de6b9e0dbdc03835cced956878b6e68f"
+      },
+      {
+        "all_entries_pass": true,
+        "files_checked": 36,
+        "path": "problems/stretched-lr-coefficients/runs/20260906T041206Z/certificate_closure/MANIFEST.json",
+        "sha256": "ace919157e29af0f6ac538e4f4dd7fb73c6e3c82fa0941b252b895f315cb1f0b"
+      },
+      {
+        "all_entries_pass": true,
+        "files_checked": 6,
+        "path": "problems/stretched-lr-coefficients/runs/20260906T041206Z/proof_supervisor/fresh_er_manifest.json",
+        "sha256": "12cf332aba9d96c1aa9c924dcec0e3372ce42a67f152c8961181caa0c465c5c7"
+      }
+    ],
+    "scan_binding_manifests": [
+      {
+        "all_bindings_pass": true,
+        "domain_count": 1255228,
+        "path": "problems/stretched-lr-coefficients/runs/20260905T173132Z/conditional_scan/manifest.json"
+      },
+      {
+        "all_bindings_pass": true,
+        "domain_count": 37530,
+        "path": "problems/stretched-lr-coefficients/runs/20260905T173132Z/small_minimum_signs/manifest.json"
+      }
+    ]
+  },
+  "integrity_before": {
+    "all_manifest_entries_pass": true,
+    "files_checked": 131,
+    "nested_file_manifests": [
+      {
+        "all_entries_pass": true,
+        "files_checked": 53,
+        "path": "problems/stretched-lr-coefficients/runs/20260905T173132Z/full_box_evidence_manifest.json",
+        "sha256": "ba391e5b641153601826a22056300533b1c74fbb12eec0084150c888f789cff4"
+      },
+      {
+        "all_entries_pass": true,
+        "files_checked": 93,
+        "path": "FROZEN_READABLE_MANIFEST.json",
+        "sha256": "0c0cf5e476155d11228259ae515827179023f01e3aede851fd2bb6d35e663465"
+      },
+      {
+        "all_entries_pass": true,
+        "files_checked": 44,
+        "path": "mathematical_appendix_extra_manifest.json",
+        "sha256": "39f70c9fc68b54fcfeb3aef85acd7d70de6b9e0dbdc03835cced956878b6e68f"
+      },
+      {
+        "all_entries_pass": true,
+        "files_checked": 36,
+        "path": "problems/stretched-lr-coefficients/runs/20260906T041206Z/certificate_closure/MANIFEST.json",
+        "sha256": "ace919157e29af0f6ac538e4f4dd7fb73c6e3c82fa0941b252b895f315cb1f0b"
+      },
+      {
+        "all_entries_pass": true,
+        "files_checked": 6,
+        "path": "problems/stretched-lr-coefficients/runs/20260906T041206Z/proof_supervisor/fresh_er_manifest.json",
+        "sha256": "12cf332aba9d96c1aa9c924dcec0e3372ce42a67f152c8961181caa0c465c5c7"
+      }
+    ],
+    "scan_binding_manifests": [
+      {
+        "all_bindings_pass": true,
+        "domain_count": 1255228,
+        "path": "problems/stretched-lr-coefficients/runs/20260905T173132Z/conditional_scan/manifest.json"
+      },
+      {
+        "all_bindings_pass": true,
+        "domain_count": 37530,
+        "path": "problems/stretched-lr-coefficients/runs/20260905T173132Z/small_minimum_signs/manifest.json"
+      }
+    ]
+  },
+  "manifest_sha256": "f835cbc7ae315eb181139a812d24c11ee29bd747735311eb510bcd09b0aa56f3",
+  "manuscript_sha256": "3deebd9376714584ad6f6156d8fed5f26872bdd09541470f408f2403d664fd45",
+  "scope": "all manifests only",
+  "status": "PASS"
+}

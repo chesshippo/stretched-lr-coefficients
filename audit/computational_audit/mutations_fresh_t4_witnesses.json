@@ -1,0 +1,18 @@
+[
+  {
+    "band": "small",
+    "elapsed_s": 0.0017547919997014105,
+    "fresh_lrcalc_t4": 25100,
+    "index": 29034,
+    "mutated_polynomial_t4": 25101,
+    "mutation_wrong_for_actual_triple": true
+  },
+  {
+    "band": "large",
+    "elapsed_s": 0.07643916600500233,
+    "fresh_lrcalc_t4": 1068801,
+    "index": 989721,
+    "mutated_polynomial_t4": 1068802,
+    "mutation_wrong_for_actual_triple": true
+  }
+]

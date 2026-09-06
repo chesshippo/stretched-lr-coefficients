@@ -1,0 +1,206 @@
+{
+  "elapsed_s": 134.29536608299532,
+  "journals": {
+    "large": {
+      "core": 346537,
+      "core_elapsed_p50_p95_p99_max_s": [
+        0.070972,
+        0.386541,
+        0.892757,
+        57.876913
+      ],
+      "core_missing_after_resolution": [],
+      "core_polynomials_distinct_excluding_resolution": 23015,
+      "core_sum_record_elapsed_s_excluding_resolution": 43997.216219,
+      "coverage_excluding_resolution": {
+        "dp_present": 346536,
+        "dp_skipped": 0,
+        "full": 20824,
+        "skipped (n \u2265 6; request full_crosscheck or submit as a candidate)": 325712,
+        "t1_present": 346536,
+        "t1_skipped": 0,
+        "t2_present": 346536,
+        "t2_skipped": 0,
+        "t3_present": 346536,
+        "t3_skipped": 0
+      },
+      "degree_rank_histogram_excluding_resolution": {
+        "(4, 1)": 1,
+        "(4, 2)": 114,
+        "(4, 3)": 483,
+        "(5, 2)": 238,
+        "(5, 3)": 2728,
+        "(5, 4)": 8551,
+        "(5, 5)": 7344,
+        "(5, 6)": 1365,
+        "(6, 10)": 5,
+        "(6, 2)": 160,
+        "(6, 3)": 1997,
+        "(6, 4)": 11128,
+        "(6, 5)": 28869,
+        "(6, 6)": 37556,
+        "(6, 7)": 27586,
+        "(6, 8)": 8768,
+        "(6, 9)": 699,
+        "(7, 10)": 12797,
+        "(7, 11)": 2445,
+        "(7, 12)": 164,
+        "(7, 13)": 1,
+        "(7, 2)": 55,
+        "(7, 3)": 706,
+        "(7, 4)": 4382,
+        "(7, 5)": 16459,
+        "(7, 6)": 35780,
+        "(7, 7)": 51194,
+        "(7, 8)": 51532,
+        "(7, 9)": 33429
+      },
+      "domain_by_size": {
+        "23": 16153,
+        "24": 27388,
+        "25": 47038,
+        "26": 81251,
+        "27": 122768,
+        "28": 188023,
+        "29": 301559,
+        "30": 487201
+      },
+      "domain_rows": 1271381,
+      "earliest_finished_at": "2026-09-05T18:27:19+00:00",
+      "historical_errors": [
+        1104809
+      ],
+      "journal_bytes": 544824662,
+      "journal_sha256": "ec8fa3340c55a12da8ed8c4f822aa0129030690e5ddd7d69c4f5b286bbb8a264",
+      "journal_statuses": {
+        "COMPUTED": 509105,
+        "ERROR": 1
+      },
+      "latest_finished_at": "2026-09-05T21:29:47+00:00",
+      "noncore_computed": 162569,
+      "sum_record_elapsed_s": 55707.589782
+    },
+    "small": {
+      "core": 12415,
+      "core_elapsed_p50_p95_p99_max_s": [
+        0.10384170900005074,
+        0.5264709999992192,
+        0.8284715830013738,
+        2.525213708000024
+      ],
+      "core_missing_after_resolution": [],
+      "core_polynomials_distinct_excluding_resolution": 537,
+      "core_sum_record_elapsed_s_excluding_resolution": 2311.7956450689576,
+      "coverage_excluding_resolution": {
+        "dp_present": 12415,
+        "dp_skipped": 0,
+        "full": 2984,
+        "skipped (n \u2265 6; request full_crosscheck or submit as a candidate)": 9431,
+        "t1_present": 12415,
+        "t1_skipped": 0,
+        "t2_present": 12415,
+        "t2_skipped": 0,
+        "t3_present": 12415,
+        "t3_skipped": 0
+      },
+      "degree_rank_histogram_excluding_resolution": {
+        "(4, 2)": 87,
+        "(4, 3)": 140,
+        "(5, 2)": 176,
+        "(5, 3)": 855,
+        "(5, 4)": 1211,
+        "(5, 5)": 483,
+        "(5, 6)": 32,
+        "(6, 2)": 58,
+        "(6, 3)": 501,
+        "(6, 4)": 1415,
+        "(6, 5)": 1974,
+        "(6, 6)": 1287,
+        "(6, 7)": 391,
+        "(6, 8)": 31,
+        "(7, 10)": 5,
+        "(7, 2)": 10,
+        "(7, 3)": 114,
+        "(7, 4)": 438,
+        "(7, 5)": 776,
+        "(7, 6)": 966,
+        "(7, 7)": 942,
+        "(7, 8)": 435,
+        "(7, 9)": 88
+      },
+      "domain_by_size": {
+        "10": 2,
+        "11": 3,
+        "12": 14,
+        "13": 12,
+        "14": 39,
+        "15": 98,
+        "16": 215,
+        "17": 396,
+        "18": 939,
+        "19": 1543,
+        "20": 2838,
+        "21": 5217,
+        "22": 10061,
+        "23": 16153
+      },
+      "domain_rows": 37530,
+      "earliest_finished_at": "2026-09-05T20:42:50+00:00",
+      "historical_errors": [],
+      "journal_bytes": 13383091,
+      "journal_sha256": "5f9fca8c6847a35cafb09d49499e99e13faa4391018632288d2ea29513ffca67",
+      "journal_statuses": {
+        "COMPUTED": 13139
+      },
+      "latest_finished_at": "2026-09-05T21:10:47+00:00",
+      "noncore_computed": 724,
+      "sum_record_elapsed_s": 2423.156818116943
+    }
+  },
+  "literal_small_stored_horn_factors": 17883,
+  "paths": {
+    "general_rectangular_closure_paths.jsonl": {
+      "accumulated_scales": {
+        "1": 559603,
+        "2": 58,
+        "3": 2,
+        "4": 2
+      },
+      "edge_counts": {
+        "attempt022_rectangular": 217415,
+        "full_columns": 24,
+        "gcd": 62,
+        "row_deletion": 7592,
+        "shortening": 5859,
+        "six_representative": 19024
+      },
+      "fixed": 362731,
+      "max_edges": 7,
+      "max_intermediate_outer_size": 45,
+      "out_of_box_paths": 1532,
+      "smaller_keys": 196934,
+      "sources": 559665
+    },
+    "reduction_closure_map_paths.jsonl": {
+      "accumulated_scales": {
+        "1": 1253795,
+        "2": 1373,
+        "3": 57,
+        "4": 3
+      },
+      "edge_counts": {
+        "full_columns": 106732,
+        "gcd": 1433,
+        "row_deletion": 428840,
+        "shortening": 470514,
+        "six_representative": 865549
+      },
+      "fixed": 760303,
+      "max_edges": 11,
+      "max_intermediate_outer_size": 89,
+      "out_of_box_paths": 415847,
+      "smaller_keys": 494925,
+      "sources": 1255228
+    }
+  }
+}

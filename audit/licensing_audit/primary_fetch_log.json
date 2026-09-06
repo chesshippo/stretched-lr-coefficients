@@ -1,0 +1,50 @@
+[
+  {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)>",
+    "id": "gnu_gpl3",
+    "retrieved_utc": "2026-09-06T12:11:43.571337+00:00",
+    "url": "https://www.gnu.org/licenses/gpl-3.0.txt"
+  },
+  {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)>",
+    "id": "cc_by4",
+    "retrieved_utc": "2026-09-06T12:11:43.571473+00:00",
+    "url": "https://creativecommons.org/licenses/by/4.0/legalcode.txt"
+  },
+  {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)>",
+    "id": "normaliz_license",
+    "retrieved_utc": "2026-09-06T12:11:43.571533+00:00",
+    "url": "https://raw.githubusercontent.com/Normaliz/Normaliz/v3.11.1/COPYING"
+  },
+  {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)>",
+    "id": "normaliz_header",
+    "retrieved_utc": "2026-09-06T12:11:43.571568+00:00",
+    "url": "https://raw.githubusercontent.com/Normaliz/Normaliz/v3.11.1/source/libnormaliz/libnormaliz.h"
+  },
+  {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)>",
+    "id": "latte_license",
+    "retrieved_utc": "2026-09-06T12:11:43.671598+00:00",
+    "url": "https://raw.githubusercontent.com/latte-int/latte/master/COPYING"
+  },
+  {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)>",
+    "id": "epoch",
+    "retrieved_utc": "2026-09-06T12:11:43.671699+00:00",
+    "url": "https://epoch.ai/frontiermath/open-problems/stretched-lr-coefficients"
+  },
+  {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)>",
+    "id": "ams_fonts_ofl",
+    "retrieved_utc": "2026-09-06T12:11:43.683990+00:00",
+    "url": "https://mirrors.ctan.org/fonts/amsfonts/OFL.txt"
+  },
+  {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)>",
+    "id": "latin_modern_license",
+    "retrieved_utc": "2026-09-06T12:11:43.716785+00:00",
+    "url": "https://mirrors.ctan.org/fonts/lm/GUST-FONT-LICENSE.txt"
+  }
+]

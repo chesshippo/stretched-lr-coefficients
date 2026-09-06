@@ -1,0 +1,97 @@
+{
+  "strengthened_without_bk": {
+    "source": [
+      [
+        3,
+        2,
+        1
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "target": [
+      [
+        2,
+        2,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "parameters": {
+      "k": 1,
+      "a": 1,
+      "qk": 1,
+      "bk": 1
+    },
+    "source_values": [
+      2,
+      3,
+      4
+    ],
+    "target_values": [
+      1,
+      1,
+      1
+    ]
+  },
+  "rectangular_without_tail_sum": {
+    "source": [
+      [
+        3,
+        2,
+        1
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "target": [
+      [
+        2,
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "parameters": {
+      "p": 1,
+      "q": 1,
+      "a": 1
+    },
+    "source_values": [
+      2,
+      3,
+      4
+    ],
+    "target_values": [
+      1,
+      1,
+      1
+    ]
+  }
+}

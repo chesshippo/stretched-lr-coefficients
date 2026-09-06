@@ -1,0 +1,300 @@
+{
+  "frozen_spec_sha256": "2b9f91614a3e5aa0af887391442819935a5e45d8198edb086bfdca19f99111b0",
+  "frozen_manuscript_sha256": "3deebd9376714584ad6f6156d8fed5f26872bdd09541470f408f2403d664fd45",
+  "numbered_results": [
+    {
+      "number": 1,
+      "name": "Array description",
+      "tex_line_start": 94,
+      "tex_line_end": 143,
+      "assessment": "CHECKED_DIRECTLY",
+      "dependencies": [
+        "LR tableau rule"
+      ],
+      "check": "Row fillings, lattice prefixes, column endpoints, triangular support, deficit and row-length bounds."
+    },
+    {
+      "number": 2,
+      "name": "Strengthened shortening",
+      "tex_line_start": 145,
+      "tex_line_end": 184,
+      "assessment": "CHECKED_DIRECTLY",
+      "dependencies": [
+        1,
+        "polynomial uniqueness"
+      ],
+      "check": "The two threshold regimes cover every changed crossing inequality; inverse increases all changed slacks."
+    },
+    {
+      "number": 3,
+      "name": "Empty-row deletion",
+      "tex_line_start": 188,
+      "tex_line_end": 203,
+      "assessment": "CHECKED_DIRECTLY",
+      "dependencies": [
+        "LR tableau rule",
+        "polynomial uniqueness"
+      ],
+      "check": "Disjoint column ranges across the empty row; positive deletion gives strict outer-size decrease."
+    },
+    {
+      "number": 4,
+      "name": "Initial-sum factorization",
+      "tex_line_start": 205,
+      "tex_line_end": 227,
+      "assessment": "CHECKED_DIRECTLY",
+      "dependencies": [
+        1,
+        "polynomial uniqueness"
+      ],
+      "check": "Exhausted upper label range; concatenation cross-label comparison uses the partition inequality."
+    },
+    {
+      "number": 5,
+      "name": "Full columns and scaling",
+      "tex_line_start": 229,
+      "tex_line_end": 244,
+      "assessment": "CHECKED_DIRECTLY",
+      "dependencies": [
+        "LR tableau rule",
+        "polynomial uniqueness"
+      ],
+      "check": "Translation by t at stretch t; positive g^i preserves signs."
+    },
+    {
+      "number": 6,
+      "name": "Rectangular complement",
+      "tex_line_start": 248,
+      "tex_line_end": 277,
+      "assessment": "CHECKED_WITH_MINOR_TYPING_CLARIFICATION",
+      "dependencies": [
+        "Schur character rule",
+        "complete reducibility"
+      ],
+      "check": "Complement and reverse columns is a weight-reversing involution. Explicitly type M as integer."
+    },
+    {
+      "number": 7,
+      "name": "Six polynomial-preserving representatives",
+      "tex_line_start": 279,
+      "tex_line_end": 339,
+      "assessment": "CHECKED_WITH_MINOR_RANK_CLARIFICATION",
+      "dependencies": [
+        1,
+        6,
+        "tensor-Hom",
+        "complete reducibility"
+      ],
+      "check": "Three permutations and three determinant-adjusted dual permutations; width bounds and sizes correct. Explicit n>=1 removes unused empty-rank ambiguity."
+    },
+    {
+      "number": 8,
+      "name": "Necessary conditions",
+      "tex_line_start": 343,
+      "tex_line_end": 382,
+      "assessment": "CHECKED_DIRECTLY",
+      "dependencies": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        "saturation",
+        "finite minimality"
+      ],
+      "check": "Every failed necessary condition gives smaller in-box negative witness."
+    },
+    {
+      "number": 9,
+      "name": "Containing partition and deficit",
+      "tex_line_start": 384,
+      "tex_line_end": 410,
+      "assessment": "CHECKED_DIRECTLY",
+      "dependencies": [
+        8
+      ],
+      "check": "Coordinatewise ceilings, exact sum and zero/one deficit descriptions."
+    },
+    {
+      "number": 10,
+      "name": "Array bounds",
+      "tex_line_start": 426,
+      "tex_line_end": 476,
+      "assessment": "CHECKED_DIRECTLY",
+      "dependencies": [
+        1
+      ],
+      "check": "Telescoping suffix, iterated diagonal and consequent Weyl bound."
+    },
+    {
+      "number": 11,
+      "name": "Rectangular shortening",
+      "tex_line_start": 483,
+      "tex_line_end": 656,
+      "assessment": "CHECKED_DIRECTLY",
+      "dependencies": [
+        1,
+        10,
+        "polynomial uniqueness"
+      ],
+      "check": "Forced entries, full slack changes and their bounds, unconditional algebraic inverse, uniform ta subtraction."
+    },
+    {
+      "number": 12,
+      "name": "Essential Horn factorization",
+      "tex_line_start": 659,
+      "tex_line_end": 706,
+      "assessment": "CHECKED_PUBLISHED_INPUT_AND_DERIVATION",
+      "dependencies": [
+        "CJM Definition 1.2/Theorem 1.3",
+        "saturation",
+        "polynomial uniqueness"
+      ],
+      "check": "Exact subset orientation and hypotheses verified; no regularity/other-strictness assumption in operative theorem."
+    },
+    {
+      "number": 13,
+      "name": "Second reduction at all stretches",
+      "tex_line_start": 708,
+      "tex_line_end": 774,
+      "assessment": "CHECKED_PUBLISHED_INPUT_AND_DERIVATION",
+      "dependencies": [
+        "CJM BKMS Theorem 2.6",
+        "CJM FPSAC Theorem 3.1",
+        "polynomial uniqueness"
+      ],
+      "check": "Rectangle parameters match; t unit steps retain positive gaps and unit excess; lost containment remains lost."
+    },
+    {
+      "number": 14,
+      "name": "Finite cover implication",
+      "tex_line_start": 776,
+      "tex_line_end": 865,
+      "assessment": "CHECKED_CONDITIONALLY",
+      "dependencies": [
+        8,
+        11,
+        12,
+        13,
+        "E",
+        "R",
+        "P",
+        "finite minimality"
+      ],
+      "check": "Least normalized key survives only into residual sets; endpoint must lie in box, no assumed baseline positivity."
+    },
+    {
+      "number": 15,
+      "name": "Finite dependency E",
+      "tex_line_start": 873,
+      "tex_line_end": 925,
+      "assessment": "COMPUTATIONAL_ASSERTION_NOT_REPLAYED",
+      "dependencies": [
+        1,
+        8,
+        9,
+        "complete domain enumeration",
+        "exact base LR engine"
+      ],
+      "check": "Literal finite recursion is correct. Exact listed domains and counts require full separate replay."
+    },
+    {
+      "number": 16,
+      "name": "Finite dependency R",
+      "tex_line_start": 927,
+      "tex_line_end": 989,
+      "assessment": "COMPUTATIONAL_ASSERTION_NOT_REPLAYED",
+      "dependencies": [
+        2,
+        3,
+        4,
+        5,
+        7,
+        11,
+        12,
+        13,
+        15,
+        "path checker",
+        "source coverage"
+      ],
+      "check": "Certificate obligations suffice; actual all-edge and exactly-once coverage checks require separate replay."
+    },
+    {
+      "number": 17,
+      "name": "Literal array-hive correspondence",
+      "tex_line_start": 991,
+      "tex_line_end": 1046,
+      "assessment": "CHECKED_DIRECTLY",
+      "dependencies": [
+        1,
+        "integer cumulative sums and mixed differences"
+      ],
+      "check": "Literal boundaries, three slack families, omitted cases, diagonal nonnegativity and full integer-lattice inverse verified."
+    },
+    {
+      "number": 18,
+      "name": "Finite dependency P",
+      "tex_line_start": 1048,
+      "tex_line_end": 1098,
+      "assessment": "COMPUTATIONAL_ASSERTION_NOT_REPLAYED",
+      "dependencies": [
+        17,
+        "Rassart polynomiality/degree",
+        "Normaliz exact execution",
+        "LattE counts on declared subset",
+        "record source binding"
+      ],
+      "check": "Correct mathematical identification if computed Ehrhart outputs are correct. Stored signs and limited LR values alone insufficient at high rank."
+    },
+    {
+      "number": 19,
+      "name": "Computed finite-box positivity",
+      "tex_line_start": 1209,
+      "tex_line_end": 1226,
+      "assessment": "CHECKED_CONSEQUENCE_CONDITIONAL_ON_E_R_P",
+      "dependencies": [
+        14,
+        15,
+        16,
+        18
+      ],
+      "check": "Statement matches frozen negative-resolution criterion; E,R,P execution is outside this fresh paper pass."
+    }
+  ],
+  "substantive_mathematical_errors_found": [],
+  "minor_formal_issues": [
+    {
+      "lines": [
+        248,
+        252
+      ],
+      "issue": "Complement width M should be explicitly integral; all applications already integral."
+    },
+    {
+      "lines": [
+        279,
+        283
+      ],
+      "issue": "The six-representative theorem should specify n>=1 or define its unused empty n=0 case."
+    }
+  ],
+  "citation_access_limitations": [
+    {
+      "lines": [
+        681,
+        681
+      ],
+      "issue": "KTT09 Theorem1.4 numbering not verified from inaccessible full text; exact operative CJM theorem independently checked."
+    }
+  ],
+  "not_claimed": [
+    "complete independent E replay",
+    "complete independent R replay",
+    "complete residual Ehrhart regeneration",
+    "proof-assistant verification",
+    "two-family acceptance",
+    "license clearance",
+    "novelty certification"
+  ]
+}

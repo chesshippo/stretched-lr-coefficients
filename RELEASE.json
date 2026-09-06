@@ -1,0 +1,22 @@
+{
+  "release_version": "1.0.2",
+  "credited_author": "Maseeh Ghodsi",
+  "prepared_date": "2026-09-06",
+  "proof_status": "Full conventional computer-assisted proof; internal AI review passed. External acceptance and full Lean verification pending.",
+  "source_archive_sha256": "299489ce594f54e3ff0278cb6927b40e03959e528cbe8c57d561466d8aa6cd44",
+  "manuscript_sha256": "3deebd9376714584ad6f6156d8fed5f26872bdd09541470f408f2403d664fd45",
+  "source_checkpoint": "ef7f4d9d05e61a65c2255e85288ae3ba6ea25f09",
+  "licenses": {
+    "original_software": "GPL-3.0-or-later",
+    "original_paper_documentation_eligible_data": "CC-BY-4.0"
+  },
+  "full_lean_verified": false,
+  "external_acceptance_asserted": false,
+  "author_given_names": "Maseeh",
+  "author_family_names": "Ghodsi",
+  "revision": "Exhaustive proof and licensing audit; explicit manuscript clarifications, corrected archival attribution, complete fresh polynomial reproduction. Frozen original bytes unchanged.",
+  "full_core_ehrhart_regenerated": true,
+  "fresh_core_count": 358952,
+  "fresh_evidence_manifest": "audit/FRESH_EVIDENCE.json",
+  "publication_addendum": "ARCHIVAL_ERRATA.md"
+}

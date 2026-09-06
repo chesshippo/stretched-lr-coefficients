@@ -1,0 +1,28 @@
+{
+  "scope": "bounded PUB2 publication source review",
+  "verdict": "FIX_PUBLICATION_GATES_BEFORE_SEALING",
+  "full_publication_built": false,
+  "engines_run": false,
+  "files": {
+    "PUBLICATION_REVIEW.md": {
+      "sha256": "251c4ea302e8c9c21eec6a1deb453929abdf23ba389b426b86f98d7de3484786",
+      "bytes": 9624
+    },
+    "PUBLICATION_WORDING_REVIEW.md": {
+      "sha256": "1198dce45fb237a6c0a871da97023cf25dfe3ec733a50a200790b158ce6bcada",
+      "bytes": 6499
+    },
+    "WORDING_LICENSE_REVIEW.md": {
+      "sha256": "26be3d0be61ebf6ac224670e0e475235f53635ff7330a31b2fd4d96d8586610d",
+      "bytes": 3767
+    },
+    "bounded_probe_results.json": {
+      "sha256": "e9850a748fed0acf808511360a491ebdb0d365106538846d94d01d96e9a3198d",
+      "bytes": 3219
+    },
+    "bounded_probes.py": {
+      "sha256": "2303ab72bbd018f5ff95e0c4854d0f432f6f891bbb2d68f1adb294e950a44cdf",
+      "bytes": 6186
+    }
+  }
+}

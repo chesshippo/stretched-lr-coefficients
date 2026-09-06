@@ -1,0 +1,119 @@
+{
+  "artifacts": {
+    "PRIMARY_SOURCES.md": {
+      "bytes": 9976,
+      "sha256": "aaee457ff832b459017ec655a9fb350c2651e7636c190b7d3610ae1f2f810c13"
+    },
+    "REPORT.md": {
+      "bytes": 18792,
+      "sha256": "b837e83ac8ee11db87a3f701ab46128f05b97a0857f36e91304957fdaf6775b0"
+    },
+    "arxiv_primary_receipt.json": {
+      "bytes": 323,
+      "sha256": "0e60dfc265e83705ab93cfb453dc4c8ec0fab2976888659f75e856b189a021c5"
+    },
+    "bibliography_inventory.json": {
+      "bytes": 11856,
+      "sha256": "50cf88975e4e25897b2923525423f3ba515bc74c626871f452176b0ecce52843"
+    },
+    "content_scan.json": {
+      "bytes": 138499,
+      "sha256": "41039ac4fa82a0847d65c802e245aea981ab624f3b7ec6ecbfa7a40481affce8"
+    },
+    "file_inventory.json": {
+      "bytes": 37855,
+      "sha256": "8f55ec01a52eade156361a48462f7e54867b226e415aaed50c8d2c545a0d9ec3"
+    },
+    "license_text_comparison.json": {
+      "bytes": 1369,
+      "sha256": "55e05cc3b5b3530c7e2c3f62c50590e1e5cd8ac159f99fa5b578774897ad1e46"
+    },
+    "metadata_checks.json": {
+      "bytes": 8515,
+      "sha256": "11b0c3bde98ed5bd7c411a12f662e6f3440cc3c0d2f83cb2062bb2a154c8c804"
+    },
+    "public_cover_text.txt": {
+      "bytes": 1676,
+      "sha256": "cd0953d6c652d543d375b7666f3536c0c3400776f1f9e53685629e0a4483e6ad"
+    },
+    "reviewed_file_inventory.csv": {
+      "bytes": 55639,
+      "sha256": "d802aee36b6c39f4830d0dafe3012c0d9edc790b1fa09d2a12302a70d44e2ae9"
+    }
+  },
+  "audit_kind": "supervisory_licensing_authorship_citation_review",
+  "completed_utc": "2026-09-06T12:29:32.719632+00:00",
+  "coverage": {
+    "all_inner_top_manifest_entries_pass": true,
+    "all_outer_checksum_rows_pass": true,
+    "cc_license_exact_official_match": true,
+    "file_instances": 163,
+    "gnu_license_exact_official_match": true,
+    "inner_files": 132,
+    "outer_checksum_rows": 30,
+    "outer_files": 31,
+    "python_sources": 29
+  },
+  "findings": [
+    {
+      "certainty": "definite",
+      "correct_author": "Warut Thawinrak",
+      "frozen_sha256": "2b9f91614a3e5aa0af887391442819935a5e45d8198edb086bfdca19f99111b0",
+      "id": "F-01",
+      "incorrect_author": "R. Wong",
+      "json_pointer": "/known_partial_results/0/citation",
+      "kind": "archived citation misattribution",
+      "line": 83,
+      "minimal_fix": "Publish an outer archival erratum naming the exact frozen path/hash/JSON pointer; preserve original inner bytes.",
+      "path": "inner:problems/stretched-lr-coefficients/spec.json",
+      "severity": "minor",
+      "source": "https://arxiv.org/abs/2211.06810"
+    }
+  ],
+  "inner_archive_sha256": "299489ce594f54e3ff0278cb6927b40e03959e528cbe8c57d561466d8aa6cd44",
+  "limits": [
+    "Does not adjudicate legal title or jurisdiction-specific AI copyright.",
+    "Does not establish actual provider customer/employment assignments.",
+    "Does not certify absence of all possible unmarked third-party copying.",
+    "Does not establish mathematical priority or serve as a new independent-family referee.",
+    "No complete fresh Ehrhart regeneration performed in this licensing audit.",
+    "Direct KTT09 full text restricted; theorem numbering not independently certified here."
+  ],
+  "mutations": {
+    "publication_performed": false,
+    "release_changed": false,
+    "sources_changed": false,
+    "writes_confined_to_audit_leaf": true
+  },
+  "not_found": [
+    "No concrete license incompatibility in supplied aggregate",
+    "No distributed dependency executable/shared library/wheel/installed package",
+    "No missing distributed project source identified",
+    "No own DOI, fabricated affiliation or ORCID",
+    "No asserted Epoch endorsement or external mathematical acceptance",
+    "No assertion of completed full Lean verification"
+  ],
+  "optional_clarifications": [
+    {
+      "classification": "clarity; no demonstrated infringement",
+      "id": "C-01",
+      "path": "THIRD_PARTY_NOTICES.md:14",
+      "proposal": "Name Epoch CC-BY-4.0 explicitly and say formal definitions/conventions were added to the adapted statement."
+    },
+    {
+      "classification": "clarity; complete aggregate currently includes notices",
+      "id": "C-02",
+      "path": "UPLOAD_AND_REPRODUCE.md",
+      "proposal": "Tell downstream users to carry the outer license and attribution documents when redistributing extracted inner subsets."
+    },
+    {
+      "classification": "clarity; no concrete embedding violation found",
+      "id": "C-03",
+      "path": "THIRD_PARTY_NOTICES.md",
+      "proposal": "Optionally credit Latin Modern/Computer Modern/AMS PDF font subsets and link upstream licensing."
+    }
+  ],
+  "release_readiness": "READY_AFTER_MINOR_ATTRIBUTION_ERRATUM",
+  "release_sha256": "b20c049ccb1a5f57a2f583c0df7dd31db3a8276dd1642fc38c5765750cd17d44",
+  "status": "complete"
+}

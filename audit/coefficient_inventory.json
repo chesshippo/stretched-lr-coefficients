@@ -1,0 +1,16 @@
+{
+  "polynomials": 358952,
+  "rational_monomial_coefficients": 2745084,
+  "by_band": [
+    [
+      "large",
+      346537,
+      2671145
+    ],
+    [
+      "small",
+      12415,
+      73939
+    ]
+  ]
+}

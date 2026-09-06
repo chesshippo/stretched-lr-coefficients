@@ -1,0 +1,75 @@
+[
+  {
+    "all_slack_and_inverse_identities": true,
+    "array_and_inner_basis_dimension": 2,
+    "basis_plus_zero": 3,
+    "rank": 1,
+    "rhombus_counts": {}
+  },
+  {
+    "all_slack_and_inverse_identities": true,
+    "array_and_inner_basis_dimension": 5,
+    "basis_plus_zero": 6,
+    "rank": 2,
+    "rhombus_counts": {
+      "columns": 1,
+      "lattice": 1,
+      "offdiagonal_nonnegativity": 1
+    }
+  },
+  {
+    "all_slack_and_inverse_identities": true,
+    "array_and_inner_basis_dimension": 9,
+    "basis_plus_zero": 10,
+    "rank": 3,
+    "rhombus_counts": {
+      "columns": 3,
+      "lattice": 3,
+      "offdiagonal_nonnegativity": 3
+    }
+  },
+  {
+    "all_slack_and_inverse_identities": true,
+    "array_and_inner_basis_dimension": 14,
+    "basis_plus_zero": 15,
+    "rank": 4,
+    "rhombus_counts": {
+      "columns": 6,
+      "lattice": 6,
+      "offdiagonal_nonnegativity": 6
+    }
+  },
+  {
+    "all_slack_and_inverse_identities": true,
+    "array_and_inner_basis_dimension": 20,
+    "basis_plus_zero": 21,
+    "rank": 5,
+    "rhombus_counts": {
+      "columns": 10,
+      "lattice": 10,
+      "offdiagonal_nonnegativity": 10
+    }
+  },
+  {
+    "all_slack_and_inverse_identities": true,
+    "array_and_inner_basis_dimension": 27,
+    "basis_plus_zero": 28,
+    "rank": 6,
+    "rhombus_counts": {
+      "columns": 15,
+      "lattice": 15,
+      "offdiagonal_nonnegativity": 15
+    }
+  },
+  {
+    "all_slack_and_inverse_identities": true,
+    "array_and_inner_basis_dimension": 35,
+    "basis_plus_zero": 36,
+    "rank": 7,
+    "rhombus_counts": {
+      "columns": 21,
+      "lattice": 21,
+      "offdiagonal_nonnegativity": 21
+    }
+  }
+]

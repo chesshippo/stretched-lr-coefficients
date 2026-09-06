@@ -1,0 +1,59 @@
+# Supervisory accuracy review of combined final-report draft
+
+Cutoff: 2026-09-06T13:41:06.498127+00:00. Initial reviewed draft: `write_final_audit.py`, SHA-256 `c13f3e94d4aad0170d164d7a505b29a9fe5cf468f4227a80557f741b0efb72bd`. Corrected draft SHA-256 `cdc6fde2151e09720e5fea2ce8f979998574e4d9648104f3ec897aab3e9a6bd4` was then read for the two changed regions. Draft line numbers below refer to the initial version unless a corrected locator is stated. This is a bounded synthesis follow-up to the completed fresh paper audit, not another fresh-family vote. I read the draft without importing or executing it, compared the completed paper-audit and computational-audit reports/JSON, and checked the three additional primary-source descriptions below. I did not access active raw computation, launch engines, inspect the completion-gate implementation, modify the draft, or alter frozen inputs.
+
+No substantive mathematical, target, result-classification, correction, or numerical mismatch was found. Two minor reporting clarifications were identified and corrected by the parent during this review; I directly verified both corrected regions. Every full-regeneration/portable-COMPLETE statement remains prospective in this review: the parent reported that the run was still active. The eventual final report must rest on its own completed receipts; this review does not supply one.
+
+## Findings
+
+1. **RESOLVED: minor control-description error, initial draft line345.** The six actual Normaliz controls are a negative-coordinate interval, a period-two interval, a period-two rational point, a lower-dimensional diagonal segment in its full ambient integer lattice, an empty interval, and a Reeve simplex with a negative linear coefficient. The draft lists both “Negative coefficient” and “Reeve” while omitting the negative-coordinate distinction. Suggested row scope: “Negative-coordinate interval, period-two interval/rational point, lower-dimensional ambient-lattice segment, empty polytope, and negative-coefficient Reeve simplex.” Evidence: `computational_audit/actual_engine_controls.json`, the six `controls[].name` fields. This was a reporting imprecision, not a computational or mathematical failure. The corrected draft line351 now names all six actual controls accurately.
+
+2. **RESOLVED: minor paper-pass/composite scope ambiguity, initial draft line58 and generated claim table at lines107/227.** The original paper inventory correctly says that C15/C16 require separate finite replay and that E/R/P execution for C19 was outside that fresh paper pass. Copying those unchanged sentences into the final combined report's method column can suggest that its later, reportedly complete execution evidence remains unchecked. Either name that column “Original paper-pass deduction check” and add the completed computational evidence separately, or use final combined-method descriptions in the new ledger while preserving the original inventory. The conditional status VC is correct and is retained. The parent added explicit combined-evidence methods for C15/C16/C18/C19 in corrected lines53–64; I read those methods and confirm that they resolve this ambiguity without changing the original paper inventory. Their whole-computation phrasing remains prospective until final completion, as below.
+
+3. **Release precondition, not a current mathematical discrepancy, draft lines28,119–121,130,144–148,346–347.** The script calls `require_completed_audit` before writing, and its embedded final prose is clearly intended for a future completed state. I did not execute the script or certify that imported gate. The words COMPLETE, all358,952 regenerated, all2,745,084 entries matched and100% obligation attainment require the eventual source-bound completed receipts. The parent's last progress observation is not a substitute for completion. No claim in this review upgrades pending computation to completed computation.
+
+## Target and nineteen-result classification
+
+Draft lines185–199 faithfully state the finite target: every balanced triple with all lengths at most seven and outer size at most thirty has a stretched LR polynomial with nonnegative coefficients in the ordinary monomial basis. The bounds concern the original triple, while stretch t ranges through all positive integers. All-empty has P=1; a zero base multiplicity gives P=0 by saturation and polynomial uniqueness. There is no imported size23 or length4 positivity premise. The argument is a finite-box exclusion, not unrestricted KTT positivity.
+
+The split at lines213–217 matches the original paper review under the explicit typing errata: fourteen checked conventional deductions C01–C13 and C17; five explicitly conditional results C14–C16 and C18–C19. C14 is the E/R/P implication, C15/C16/C18 are finite computational obligations, and C19 is their box consequence. Counting C20/C21 as two false original prose/attribution assertions yields21 declared claims; the report correctly distinguishes that chosen coverage universe from all historical claims. The zero U count is defensible only within those stated conditions and scope; it does not certify exact software, legal title, acceptance, or Lean.
+
+The sensitive argument summary at lines236–244 agrees with the proof audit: strengthening/rectangular subtraction works at every stretch by subtracting ta; second reduction includes lost containment and zero outcomes; essential Horn uses the operative multiplicity-one catalog; the array–hive bridge preserves the full integer lattice; finite minimality needs a smaller in-box endpoint, not a globally canonical or universally terminating greedy algorithm. Out-of-box intermediate sizes therefore do not create a gap.
+
+## Corrections and bibliography
+
+The correction at line250 uses the exact Lemma6 variable: M is a nonnegative integer and M>=alpha_1, not eta_1. Line251 correctly restricts Theorem7 to integer n>=1 at least the three partition lengths and handles the all-empty case separately by P=1. These are typing clarifications with no change to any nonempty least-witness application or conclusion.
+
+The parser correction at line252 accurately distinguishes mathematical validity requirements from the old parser's behavior on arbitrary hypothetical malformed inputs. Code-audit evidence verifies every actual archived raw path strictly. Thus the original overbroad rejection sentence is false, but no invalid actual path is used and R is unaffected. The draft does not pretend that the original parser enforced every requirement.
+
+The Thawinrak correction at line253 matches frozen `spec.json:83` and the [official arXiv metadata](https://arxiv.org/abs/2211.06810). The paper was first submitted in2022 and revised in2024. [Briand–Orellana–Rosas](https://arxiv.org/pdf/1410.8017), introduction and Lemma1/Theorem1/Proposition2, directly document the rectangle/duality/determinant/S3 mechanism. The draft's N0 classification is sound; this does not attribute exclusive discovery to that paper. [Ferudun's preprint](https://arxiv.org/html/2607.22301v1), abstract and Theorems2–4, states the length-four/no-size-cutoff result and selected full-dimensional higher-rank coefficient results. The draft accurately describes its stated scope without using its proof as a dependency. I did not audit that preprint's whole proof.
+
+The KTT09 source-access caveat at line373 matches `paper_audit/ktt09_citation_followup.md`: direct original Theorem1.4 inspection remains unavailable, the exact operative CJM theorem was read, and a later authored citation corroborates the locator. The original DOI is10.1016/j.jcta.2008.06.005. No need to weaken the mathematical Horn statement follows from that direct-access limitation.
+
+Standalone shortening/domain novelty remains unresolved with zero novelty credit. The four N3 identifiers C15/C16/C18/C19 represent the specific searched finite corpus and its consequence, not four independent discoveries. The report expressly avoids double-counting C19 and scopes N3 to a documented search rather than a priority certificate. I did not independently repeat the parent's thirteen-query prior-art search, so no absence-of-prior-art guarantee is provided here.
+
+## Independent arithmetic reconciliation
+
+| Reported quantity | Reconciliation from completed evidence |
+|---|---|
+| Necessary domain1,292,758 |37,530 +1,255,228; physical large1,271,381 minus16,153 size23 overlap =1,255,228 |
+| Residual358,952 |12,415 +346,537 |
+| Exact coefficient entries2,745,084 |73,939 small +2,671,131 large excluding recovery +14 recovered degree13 entries |
+| Whole-journal computed records522,245 |13,139 small +509,105 large +one recovery |
+| Horn factor LR calls437,042 |2(200,638 +17,883) |
+| Low-base stretch controls32,918 |2(13,738 +2,602 +119), excluding the two higher-base triples |
+| Bounded paper stretching equalities529,944 |104,808 +57,666 +30,945 +192,564 +143,961 |
+| Original LattE subset23,808 |2,984 +20,824; remaining original Normaliz-only subset335,144 |
+| Symbolic identities3,787 |Completed symbolic result, including3,248 rectangular slack identities |
+
+Coefficient-entry subtotals were independently computed as sum((degree+1)*multiplicity) from `computational_audit/corpus_inventory.json`'s two degree/rank histograms. The excluded recovery has degree13 by `COMPUTATIONAL_AUDIT.md:114`, hence contributes14 entries. This verifies the expected full-corpus entry count; it does not establish that every entry has already been freshly regenerated.
+
+Strict path source counts1,255,228 and559,665, Horn counts, residual counts and full raw-partition validation agree with `corpus_inventory.json` and `horn_and_final_cover.json`. These two path counts refer to different stages and need not be disjoint; the draft does not sum them as unique triples. The1,776 and16,461 direct tableau controls also overlap, which the draft explicitly discloses. Bounded checks are never treated as proofs of all stretches. The old LattE subset and source-absent extra degree12 record are not misreported as a second complete independent-engine corpus.
+
+## Conditional progress and independence
+
+The declared subjective accounting formula is arithmetically correct:25+30+45=100 and25(0.9)+30(0.9)+45(0.8)=85.5. Its complementary remaining interval is0–14.5%. Because the report explicitly identifies these as judgmental evidence-credit choices, excludes probability/rigorous lower-bound interpretations, retains engine trust, and distinguishes Lean/community acceptance, I find no misleading mathematical interpretation imposed by the formula itself. A present-tense100% claim would be premature until the required full execution receipts exist. Changing the goal to Lean completion requires a different obligation set, as the draft states.
+
+The explicit independence qualifications are appropriate: original mathematical and code passes were fresh; this synthesis is a follow-up; the portable validator independently rebuilds literal hives and parses outputs while sharing the pinned pure catalog builder; it is not a second arithmetic engine. Reusing Normaliz for full regeneration leaves shared-engine error risk. The six fresh Fable polynomial controls versus fourteen later cached checks are carefully distinguished, but I did not independently inspect that other-family session or its cost/protocol records. Similarly,40 hostile tests, final producer/validator pins, legal conclusions, original public replay completion, new publication files and final packaging are outside what this bounded review independently certifies.
+
+The initial mathematical finding remains unchanged: no substantive deduction gap was found in the frozen finite-box argument, with E/R/P execution and exact-engine correctness retained as explicit trust dependencies. This note supplies no harness acceptance, external acceptance, new fresh-family vote or Lean-completion claim.

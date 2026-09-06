@@ -1,0 +1,8 @@
+{
+  "build_tools/fresh_evidence_gate.py": "545ad5f1710f4e986d13b245e4585791bad8761a1b0cdc63497b90bdb8517ed3",
+  "build_tools/build_fresh_supplement.py": "902fc0b2abf451853e12705469c48fdc8ed94ba0dbaa547d835bf7f5d5b5caf6",
+  "build_tools/build_release.py": "d598d97d48b50cc01d56d0073199cdcf21cc845413c1cfb014feb080a808864c",
+  "build_tools/seal_release.py": "a4a16a906cd8876ff82be9d2e3fa364fc71764770b280aae60bbd407b8b7c5b2",
+  "release_additions/audit/code/strict_corpus_audit.py": "f24f7bbe110bdc5ed8678385f2e265c7df74de76a18e0f37b12a82bcfc3413b5",
+  "release_additions/audit/code/unpack_frozen_packet.py": "3fa46dbcf51f52d971384ac212211266c5955dfc37e3fd5e8a6a64152ba4b719"
+}

@@ -1,0 +1,7 @@
+{
+  "user_request": "Do one final long and exhaustive check on the paper to make sure there are no mistakes with the proof or licensing",
+  "source_release": "runs/20260906T072602Z_author_final/stretched-lr-github-release.zip",
+  "source_release_sha256": "b20c049ccb1a5f57a2f583c0df7dd31db3a8276dd1642fc38c5765750cd17d44",
+  "manuscript_sha256": "3deebd9376714584ad6f6156d8fed5f26872bdd09541470f408f2403d664fd45",
+  "starting_commit": "40fc43d59b9ad29715b41eaa5f54549336959b99"
+}

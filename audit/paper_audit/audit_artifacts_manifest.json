@@ -1,0 +1,110 @@
+{
+  "milne.txt": {
+    "sha256": "4ede445a30ea26054110ebd1e46584f9be02606a51cc32839efd97290b8d33ee",
+    "bytes": 412268
+  },
+  "ktw.txt": {
+    "sha256": "0cd9e7fe88258436378cc426ddf394b5f10bd827b7ab85d5df70a5a8ca34a3cb",
+    "bytes": 106584
+  },
+  "buch.txt": {
+    "sha256": "a8a75d77ce535f6e36eb3a6ff6bea50d6c6b7cf50fa6863ba97829f653aea496",
+    "bytes": 37306
+  },
+  "sources.json": {
+    "sha256": "e42f8255b6fcb57e69d314416e724861f3dbc7aa4791278d68739ebdeec0b311",
+    "bytes": 1712
+  },
+  "rassart.txt": {
+    "sha256": "f484e4ab06e0e192624852540871c26096dd4947bfff64bf1d07e10faac8cf58",
+    "bytes": 59115
+  },
+  "ikenmeyer.pdf": {
+    "sha256": "6452cbd1f2b38358547e504159bd518e8c88a47bfa2547b52c0e91f8d18b72d5",
+    "bytes": 437002
+  },
+  "kt.txt": {
+    "sha256": "ca9583fa246cbbd53bf1a10f7afc2848ce5bdfc16ff1397887ac1642bea82be4",
+    "bytes": 114562
+  },
+  "horn_boundary_results.json": {
+    "sha256": "b18fd65ffeccfa96791559a1a2d3c6a52faa656dd973d4374ecedbd588bd9230",
+    "bytes": 1019
+  },
+  "cjm_fpsac.pdf": {
+    "sha256": "896975c5187f9dc3d8c93e3737d4c41375ae300f21cb0069f8795bbbbe7b0117",
+    "bytes": 160673
+  },
+  "exact_boundary_audit.py": {
+    "sha256": "81a463f65e3015d3e957f8767ed100bf028c407596e3bc61057d1d7044660e3c",
+    "bytes": 7515
+  },
+  "buch.pdf": {
+    "sha256": "61d3e6457a8d5fec024998716fe6dd0771a4eb862db88a68b654f165cf5cab86",
+    "bytes": 156675
+  },
+  "ktw.pdf": {
+    "sha256": "e1a9db86510855e2ee573ce25b57a0996f59510c7059cbc7fe8c7888bd26bec6",
+    "bytes": 388494
+  },
+  "milne.pdf": {
+    "sha256": "f5d282908082622f39627e6850395fccebd4f0ed9c47eba3209deda286235291",
+    "bytes": 1188120
+  },
+  "exact_boundary_results.json": {
+    "sha256": "e61ce6cf6f9dbdd71df5e51c886e947413b8495264664daddca291ffed8dbdfc",
+    "bytes": 4920
+  },
+  "ikenmeyer.txt": {
+    "sha256": "f2538bd90fb7a45181fd0513ed52ebc33762354636dd168903384dc699b2cc72",
+    "bytes": 82256
+  },
+  "kt.pdf": {
+    "sha256": "41accfecbd547483c8c030a7d8072cf15bc07c7c206bcf79c8aa002b9f7852c3",
+    "bytes": 401882
+  },
+  "cjm_fpsac.txt": {
+    "sha256": "3d921ebc268382f9113c646660f71f2a08a3b2d5b0b6c5c07e77cc52af6e9a2d",
+    "bytes": 55253
+  },
+  "rassart.pdf": {
+    "sha256": "07db962950e3fac55feea8c66cc061fc74b6c787accb393edbabdf32b9019807",
+    "bytes": 209231
+  },
+  "exact_boundary_execution.log": {
+    "sha256": "a694dd8ca810eda203c5af6d1f69a9e2b1e6dc8a424c178d7ee84086b48da915",
+    "bytes": 10076
+  },
+  "weakened_hypothesis_counterexamples.json": {
+    "sha256": "cd1fb64b85bdaac5559347d85a49c3a4e3f33c6a5276bbdf216575a492ee7623",
+    "bytes": 1042
+  },
+  "horn_boundary_audit.py": {
+    "sha256": "b33d3c72f1049dc0472c748161527288896beeb7e7f7aaf2f08b2c2c086cb99a",
+    "bytes": 2599
+  },
+  "symbolic_hive_audit.py": {
+    "sha256": "5e97e4988e2b308b22b0ffbd6b1ee684ef1c3f34bbcd94e502f306c8b2e2e6b4",
+    "bytes": 3138
+  },
+  "roth.pdf": {
+    "sha256": "a1b8d1705ed19218931ae2af18d17ec1d98cb3e790bc5dfe806a12b13b9f8003",
+    "bytes": 283232
+  },
+  "audit_report.md": {
+    "sha256": "82dd87b69bbda10c27a820085b9d1699b86a38cc7121ca4ea348016d7c835e89",
+    "bytes": 31978
+  },
+  "claim_inventory.json": {
+    "sha256": "7789f4df52343d525129315d3af28fd5b567ff705ed4871f24e2cc5fab57f88f",
+    "bytes": 8855
+  },
+  "roth.txt": {
+    "sha256": "24e5237bd1ff69ccec6c4715633988ccd454dce669409072b04e9121a2f1d02f",
+    "bytes": 87688
+  },
+  "symbolic_hive_results.json": {
+    "sha256": "fa6291874168cf1eda366ab7d9b891a077e3bb2e335cb955776090f35acdaf34",
+    "bytes": 129
+  }
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "name": "ktt09_crossref.json",
+    "url": "https://api.crossref.org/works/10.1016/j.jcta.2008.06.005",
+    "exit_code": 0,
+    "stderr": "",
+    "bytes": 8185
+  },
+  {
+    "name": "ktt09_publisher.html",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0097316508000939",
+    "exit_code": 22,
+    "stderr": "curl: (22) The requested URL returned error: 403\n",
+    "bytes": 0
+  },
+  {
+    "name": "ktt09_openalex.json",
+    "url": "https://api.openalex.org/works/https://doi.org/10.1016/j.jcta.2008.06.005",
+    "exit_code": 0,
+    "stderr": "",
+    "bytes": 13459
+  }
+]

@@ -1,0 +1,218 @@
+[
+  {
+    "file": "problems/stretched-lr-coefficients/manuscript/v008.tex",
+    "key": "Epoch",
+    "line": 1207,
+    "text": "Epoch AI, \\emph{A Negative Coefficient in a Stretched Littlewood--Richardson Polynomial}, FrontierMath: Open Problems (2026), accessed 6 September 2026. \\url{https://epoch.ai/frontiermath/open-problems/stretched-lr-coefficients}."
+  },
+  {
+    "file": "problems/stretched-lr-coefficients/manuscript/v008.tex",
+    "key": "Rassart",
+    "line": 1211,
+    "text": "E. Rassart, \\emph{A polynomiality property for Littlewood--Richardson coefficients}, J. Combin. Theory Ser. A 107 (2004), 161--179, Corollary 4.2. \\url{https://pi.math.cornell.edu/~rassart/pub/LRstretch.pdf}."
+  },
+  {
+    "file": "problems/stretched-lr-coefficients/manuscript/v008.tex",
+    "key": "KT",
+    "line": 1215,
+    "text": "A. Knutson and T. Tao, \\emph{The honeycomb model of $GL_n(\\mathbb C)$ tensor products I: Proof of the saturation conjecture}, J. Amer. Math. Soc. 12 (1999), 1055--1090. \\url{https://arxiv.org/abs/math/9807160}."
+  },
+  {
+    "file": "problems/stretched-lr-coefficients/manuscript/v008.tex",
+    "key": "KTW",
+    "line": 1219,
+    "text": "A. Knutson, T. Tao and C. Woodward, \\emph{The honeycomb model of $GL_n(\\mathbb C)$ tensor products II: Puzzles determine facets of the Littlewood--Richardson cone}, J. Amer. Math. Soc. 17 (2004), 19--48, Section 6.1. \\url{https://arxiv.org/abs/math/0107011}."
+  },
+  {
+    "file": "problems/stretched-lr-coefficients/manuscript/v008.tex",
+    "key": "Ikenmeyer",
+    "line": 1224,
+    "text": "C. Ikenmeyer, \\emph{Small Littlewood--Richardson coefficients}, arXiv:1209.1521 (2012), Theorem 1.1. \\url{https://arxiv.org/abs/1209.1521}."
+  },
+  {
+    "file": "problems/stretched-lr-coefficients/manuscript/v008.tex",
+    "key": "Buch",
+    "line": 1227,
+    "text": "A. S. Buch, \\emph{The saturation conjecture (after A. Knutson and T. Tao)}, with an appendix by W. Fulton, Enseign. Math. (2) 46 (2000), 43--60. \\url{https://sites.math.rutgers.edu/~asbuch/papers/sat.pdf}."
+  },
+  {
+    "file": "problems/stretched-lr-coefficients/manuscript/v008.tex",
+    "key": "Milne",
+    "line": 1231,
+    "text": "J. S. Milne, \\emph{Reductive Groups}, v2.00, 10 March 2018, 17.14 and 20.35. \\url{https://www.jmilne.org/math/CourseNotes/RG.pdf}."
+  },
+  {
+    "file": "problems/stretched-lr-coefficients/manuscript/v008.tex",
+    "key": "KTT09",
+    "line": 1234,
+    "text": "R. C. King, C. Tollu and F. Toumazet, \\emph{Factorisation of Littlewood--Richardson coefficients}, J. Combin. Theory Ser. A 116 (2009), 314--333, Theorem 1.4. \\url{https://doi.org/10.1016/j.jcta.2008.06.005}."
+  },
+  {
+    "file": "problems/stretched-lr-coefficients/manuscript/v008.tex",
+    "key": "Roth",
+    "line": 1238,
+    "text": "M. Roth, \\emph{Reduction rules for Littlewood--Richardson coefficients}, Int. Math. Res. Not. 2011 (18), 4105--4134; Reduction Theorem (3.1.1) in the cited preprint. \\url{https://arxiv.org/abs/1004.5133}."
+  },
+  {
+    "file": "problems/stretched-lr-coefficients/manuscript/v008.tex",
+    "key": "CJMsecond",
+    "line": 1242,
+    "text": "S. Cho, E.-K. Jung and D. Moon, \\emph{A bijective proof of the second reduction formula for Littlewood--Richardson coefficients}, Bull. Korean Math. Soc. 45 (2008), 485--494, Theorem 2.6. \\url{https://doi.org/10.4134/BKMS.2008.45.3.485}."
+  },
+  {
+    "file": "problems/stretched-lr-coefficients/manuscript/v008.tex",
+    "key": "CJMfpsac",
+    "line": 1247,
+    "text": "S. Cho, E.-K. Jung and D. Moon, \\emph{Reduction formulae from the factorization Theorem of Littlewood--Richardson polynomials by King, Tollu and Toumazet}, DMTCS proc. AJ (FPSAC 2008), 483--494, Definition 1.2 and Theorems 1.3, 3.1. \\url{https://dmtcs.episciences.org/3592/pdf}."
+  },
+  {
+    "file": "problems/stretched-lr-coefficients/manuscript/v008.tex",
+    "key": "Normaliz",
+    "line": 1253,
+    "text": "The Normaliz project, \\emph{Normaliz}, version 3.11.1, manual supplied with the executable; sections on inhomogeneous input, Ehrhart series and Hilbert series. \\url{https://www.normaliz.uni-osnabrueck.de/}."
+  },
+  {
+    "file": "problems/stretched-lr-coefficients/manuscript/v010.tex",
+    "key": "Epoch",
+    "line": 1241,
+    "text": "Epoch AI, \\emph{A Negative Coefficient in a Stretched Littlewood--Richardson Polynomial}, FrontierMath: Open Problems (2026), accessed 6 September 2026. \\url{https://epoch.ai/frontiermath/open-problems/stretched-lr-coefficients}."
+  },
+  {
+    "file": "problems/stretched-lr-coefficients/manuscript/v010.tex",
+    "key": "Rassart",
+    "line": 1245,
+    "text": "E. Rassart, \\emph{A polynomiality property for Littlewood--Richardson coefficients}, J. Combin. Theory Ser. A 107 (2004), 161--179, Corollary 4.2. \\url{https://pi.math.cornell.edu/~rassart/pub/LRstretch.pdf}."
+  },
+  {
+    "file": "problems/stretched-lr-coefficients/manuscript/v010.tex",
+    "key": "KT",
+    "line": 1249,
+    "text": "A. Knutson and T. Tao, \\emph{The honeycomb model of $GL_n(\\mathbb C)$ tensor products I: Proof of the saturation conjecture}, J. Amer. Math. Soc. 12 (1999), 1055--1090. \\url{https://arxiv.org/abs/math/9807160}."
+  },
+  {
+    "file": "problems/stretched-lr-coefficients/manuscript/v010.tex",
+    "key": "KTW",
+    "line": 1253,
+    "text": "A. Knutson, T. Tao and C. Woodward, \\emph{The honeycomb model of $GL_n(\\mathbb C)$ tensor products II: Puzzles determine facets of the Littlewood--Richardson cone}, J. Amer. Math. Soc. 17 (2004), 19--48, Section 6.1. \\url{https://arxiv.org/abs/math/0107011}."
+  },
+  {
+    "file": "problems/stretched-lr-coefficients/manuscript/v010.tex",
+    "key": "Ikenmeyer",
+    "line": 1258,
+    "text": "C. Ikenmeyer, \\emph{Small Littlewood--Richardson coefficients}, arXiv:1209.1521 (2012), Theorem 1.1. \\url{https://arxiv.org/abs/1209.1521}."
+  },
+  {
+    "file": "problems/stretched-lr-coefficients/manuscript/v010.tex",
+    "key": "Buch",
+    "line": 1261,
+    "text": "A. S. Buch, \\emph{The saturation conjecture (after A. Knutson and T. Tao)}, with an appendix by W. Fulton, Enseign. Math. (2) 46 (2000), 43--60. \\url{https://sites.math.rutgers.edu/~asbuch/papers/sat.pdf}."
+  },
+  {
+    "file": "problems/stretched-lr-coefficients/manuscript/v010.tex",
+    "key": "Milne",
+    "line": 1265,
+    "text": "J. S. Milne, \\emph{Reductive Groups}, v2.00, 10 March 2018, 17.14 and 20.35. \\url{https://www.jmilne.org/math/CourseNotes/RG.pdf}."
+  },
+  {
+    "file": "problems/stretched-lr-coefficients/manuscript/v010.tex",
+    "key": "KTT09",
+    "line": 1268,
+    "text": "R. C. King, C. Tollu and F. Toumazet, \\emph{Factorisation of Littlewood--Richardson coefficients}, J. Combin. Theory Ser. A 116 (2009), 314--333, Theorem 1.4. \\url{https://doi.org/10.1016/j.jcta.2008.06.005}."
+  },
+  {
+    "file": "problems/stretched-lr-coefficients/manuscript/v010.tex",
+    "key": "Roth",
+    "line": 1272,
+    "text": "M. Roth, \\emph{Reduction rules for Littlewood--Richardson coefficients}, Int. Math. Res. Not. 2011 (18), 4105--4134; Reduction Theorem (3.1.1) in the cited preprint. \\url{https://arxiv.org/abs/1004.5133}."
+  },
+  {
+    "file": "problems/stretched-lr-coefficients/manuscript/v010.tex",
+    "key": "CJMsecond",
+    "line": 1276,
+    "text": "S. Cho, E.-K. Jung and D. Moon, \\emph{A bijective proof of the second reduction formula for Littlewood--Richardson coefficients}, Bull. Korean Math. Soc. 45 (2008), 485--494, Theorem 2.6. \\url{https://doi.org/10.4134/BKMS.2008.45.3.485}."
+  },
+  {
+    "file": "problems/stretched-lr-coefficients/manuscript/v010.tex",
+    "key": "CJMfpsac",
+    "line": 1281,
+    "text": "S. Cho, E.-K. Jung and D. Moon, \\emph{Reduction formulae from the factorization Theorem of Littlewood--Richardson polynomials by King, Tollu and Toumazet}, DMTCS proc. AJ (FPSAC 2008), 483--494, Definition 1.2 and Theorems 1.3, 3.1. \\url{https://dmtcs.episciences.org/3592/pdf}."
+  },
+  {
+    "file": "problems/stretched-lr-coefficients/manuscript/v010.tex",
+    "key": "Normaliz",
+    "line": 1287,
+    "text": "The Normaliz project, \\emph{Normaliz}, version 3.11.1, manual supplied with the executable; sections on inhomogeneous input, Ehrhart series and Hilbert series. \\url{https://www.normaliz.uni-osnabrueck.de/}."
+  },
+  {
+    "file": "proof.tex",
+    "key": "Epoch",
+    "line": 1241,
+    "text": "Epoch AI, \\emph{A Negative Coefficient in a Stretched Littlewood--Richardson Polynomial}, FrontierMath: Open Problems (2026), accessed 6 September 2026. \\url{https://epoch.ai/frontiermath/open-problems/stretched-lr-coefficients}."
+  },
+  {
+    "file": "proof.tex",
+    "key": "Rassart",
+    "line": 1245,
+    "text": "E. Rassart, \\emph{A polynomiality property for Littlewood--Richardson coefficients}, J. Combin. Theory Ser. A 107 (2004), 161--179, Corollary 4.2. \\url{https://pi.math.cornell.edu/~rassart/pub/LRstretch.pdf}."
+  },
+  {
+    "file": "proof.tex",
+    "key": "KT",
+    "line": 1249,
+    "text": "A. Knutson and T. Tao, \\emph{The honeycomb model of $GL_n(\\mathbb C)$ tensor products I: Proof of the saturation conjecture}, J. Amer. Math. Soc. 12 (1999), 1055--1090. \\url{https://arxiv.org/abs/math/9807160}."
+  },
+  {
+    "file": "proof.tex",
+    "key": "KTW",
+    "line": 1253,
+    "text": "A. Knutson, T. Tao and C. Woodward, \\emph{The honeycomb model of $GL_n(\\mathbb C)$ tensor products II: Puzzles determine facets of the Littlewood--Richardson cone}, J. Amer. Math. Soc. 17 (2004), 19--48, Section 6.1. \\url{https://arxiv.org/abs/math/0107011}."
+  },
+  {
+    "file": "proof.tex",
+    "key": "Ikenmeyer",
+    "line": 1258,
+    "text": "C. Ikenmeyer, \\emph{Small Littlewood--Richardson coefficients}, arXiv:1209.1521 (2012), Theorem 1.1. \\url{https://arxiv.org/abs/1209.1521}."
+  },
+  {
+    "file": "proof.tex",
+    "key": "Buch",
+    "line": 1261,
+    "text": "A. S. Buch, \\emph{The saturation conjecture (after A. Knutson and T. Tao)}, with an appendix by W. Fulton, Enseign. Math. (2) 46 (2000), 43--60. \\url{https://sites.math.rutgers.edu/~asbuch/papers/sat.pdf}."
+  },
+  {
+    "file": "proof.tex",
+    "key": "Milne",
+    "line": 1265,
+    "text": "J. S. Milne, \\emph{Reductive Groups}, v2.00, 10 March 2018, 17.14 and 20.35. \\url{https://www.jmilne.org/math/CourseNotes/RG.pdf}."
+  },
+  {
+    "file": "proof.tex",
+    "key": "KTT09",
+    "line": 1268,
+    "text": "R. C. King, C. Tollu and F. Toumazet, \\emph{Factorisation of Littlewood--Richardson coefficients}, J. Combin. Theory Ser. A 116 (2009), 314--333, Theorem 1.4. \\url{https://doi.org/10.1016/j.jcta.2008.06.005}."
+  },
+  {
+    "file": "proof.tex",
+    "key": "Roth",
+    "line": 1272,
+    "text": "M. Roth, \\emph{Reduction rules for Littlewood--Richardson coefficients}, Int. Math. Res. Not. 2011 (18), 4105--4134; Reduction Theorem (3.1.1) in the cited preprint. \\url{https://arxiv.org/abs/1004.5133}."
+  },
+  {
+    "file": "proof.tex",
+    "key": "CJMsecond",
+    "line": 1276,
+    "text": "S. Cho, E.-K. Jung and D. Moon, \\emph{A bijective proof of the second reduction formula for Littlewood--Richardson coefficients}, Bull. Korean Math. Soc. 45 (2008), 485--494, Theorem 2.6. \\url{https://doi.org/10.4134/BKMS.2008.45.3.485}."
+  },
+  {
+    "file": "proof.tex",
+    "key": "CJMfpsac",
+    "line": 1281,
+    "text": "S. Cho, E.-K. Jung and D. Moon, \\emph{Reduction formulae from the factorization Theorem of Littlewood--Richardson polynomials by King, Tollu and Toumazet}, DMTCS proc. AJ (FPSAC 2008), 483--494, Definition 1.2 and Theorems 1.3, 3.1. \\url{https://dmtcs.episciences.org/3592/pdf}."
+  },
+  {
+    "file": "proof.tex",
+    "key": "Normaliz",
+    "line": 1287,
+    "text": "The Normaliz project, \\emph{Normaliz}, version 3.11.1, manual supplied with the executable; sections on inhomogeneous input, Ehrhart series and Hilbert series. \\url{https://www.normaliz.uni-osnabrueck.de/}."
+  }
+]

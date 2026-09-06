@@ -1,0 +1,43 @@
+{
+  "scope": "bounded publication recheck and tested proposed gate",
+  "actual_full_gate_run": false,
+  "tests_passed": 31,
+  "files": {
+    "PROPOSED_GATE_REVIEW.md": {
+      "bytes": 5022,
+      "sha256": "c588adf2522707edb0f992db47fce1b77ce77d17a0384ce94c8d72cf64982f36"
+    },
+    "RECHECK.md": {
+      "bytes": 8333,
+      "sha256": "8298cdfd708cf9764acaeffa9e4ab4f9f380d1fb4fa1fcc4cac8cb741f77e232"
+    },
+    "SOURCE_HASHES.json": {
+      "bytes": 676,
+      "sha256": "2f895a7ba79816bb641518128aeba89a2f59a2b0bb78566055d2d511bd4b843a"
+    },
+    "WORDING_USABILITY.md": {
+      "bytes": 5130,
+      "sha256": "29879c3a4e7252365a540a933970dc66a82c4ffaeeb33031fba71d27de553f78"
+    },
+    "proposed/fresh_evidence_gate.py": {
+      "bytes": 22268,
+      "sha256": "b0c24239b6446ba2cb9acf0aac89dc5accef0643f63d71bd09de1b615e537641"
+    },
+    "test_gate.py": {
+      "bytes": 17804,
+      "sha256": "120a9954c9c01d5423cbfd8923f1c65773bb24cd5729c48396686ecec955bd7e"
+    },
+    "test_result.json": {
+      "bytes": 428,
+      "sha256": "87515d9a902a7ebc26d8e944fe2c9c00d725fb91682409b209c184f2afaf79bb"
+    },
+    "tests.log": {
+      "bytes": 2959,
+      "sha256": "124f813027c22a56e378f365131f7ac73a39ef6b4cb37951e7f3c39c40cf3696"
+    },
+    "tests.stdout.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+[
+  {
+    "archived_canonical_accepts": true,
+    "case": "interior zero in malformed partition",
+    "strict_independent_check_rejects": true
+  },
+  {
+    "actual_frozen_corpus_has_no_such_selectors": true,
+    "archived_edge_checker_accepts_as_nu": true,
+    "case": "unknown inner selector"
+  },
+  {
+    "case": "wrong scale on shortening",
+    "rejected": true
+  },
+  {
+    "case": "unknown reduction rule",
+    "rejected": true
+  },
+  {
+    "actual_values": [
+      1,
+      3,
+      5,
+      7,
+      9
+    ],
+    "case": "fabricated LattE equality x=1 for interval [0,2]",
+    "meaning": "Point-mode verifies reported equalities and feasibility, not that all original points satisfy those equalities; this trust boundary is disclosed in frozen source.",
+    "paired_correct_Normaliz_would_reject": true,
+    "pure_parser_accepts_values": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "case": "missing_taylor",
+    "rejected": true
+  },
+  {
+    "case": "duplicate_taylor",
+    "rejected": true
+  },
+  {
+    "case": "nonzero_exit",
+    "rejected": true
+  }
+]

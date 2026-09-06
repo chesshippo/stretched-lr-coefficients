@@ -1,0 +1,55 @@
+{
+  "items": [
+    {
+      "attainment": 1.0,
+      "description": "Complete necessary finite domain and base-count coverage",
+      "evidence": [
+        "C15"
+      ],
+      "id": "E",
+      "lower": 0.9,
+      "normalized_weight_percent": 25.0,
+      "point_contribution_percent": 25.0,
+      "upper": 1.0,
+      "weight": 25.0
+    },
+    {
+      "attainment": 1.0,
+      "description": "Strictly valid reductions and exhaustive residual coverage",
+      "evidence": [
+        "C16"
+      ],
+      "id": "R",
+      "lower": 0.9,
+      "normalized_weight_percent": 30.0,
+      "point_contribution_percent": 30.0,
+      "upper": 1.0,
+      "weight": 30.0
+    },
+    {
+      "attainment": 1.0,
+      "description": "Entire source-bound core polynomial vectors and finite-box consequence",
+      "evidence": [
+        "C18",
+        "C19"
+      ],
+      "id": "P",
+      "lower": 0.8,
+      "normalized_weight_percent": 45.0,
+      "point_contribution_percent": 45.0,
+      "upper": 1.0,
+      "weight": 45.0
+    }
+  ],
+  "progress_percent": 100.0,
+  "progress_range_percent": [
+    85.5,
+    100.0
+  ],
+  "remaining_percent": 0.0,
+  "remaining_range_percent": [
+    0.0,
+    14.5
+  ],
+  "total_weight": 100.0
+}

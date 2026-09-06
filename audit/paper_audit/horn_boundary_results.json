@@ -1,0 +1,70 @@
+{
+  "catalog_counts": {
+    "2": 3,
+    "3": 12,
+    "4": 41,
+    "5": 142,
+    "6": 521,
+    "7": 2042
+  },
+  "scope": {
+    "outer_size_at_most": 10,
+    "length_at_most": 5,
+    "stretches": [
+      1,
+      2,
+      3
+    ]
+  },
+  "counts": {
+    "balanced_subset_tests": 5521,
+    "positive_sources": 4374,
+    "stretch_factor_equalities": 143961,
+    "factorizations": 47987
+  },
+  "examples": {
+    "first": {
+      "source": [
+        [
+          1,
+          1
+        ],
+        [],
+        [
+          1,
+          1
+        ]
+      ],
+      "I": [
+        1
+      ],
+      "J": [
+        1
+      ],
+      "K": [
+        1
+      ],
+      "factors": [
+        [
+          [
+            1
+          ],
+          [],
+          [
+            1
+          ]
+        ],
+        [
+          [
+            1
+          ],
+          [],
+          [
+            1
+          ]
+        ]
+      ]
+    }
+  },
+  "limit": "Bounded falsification and exact catalog counts, not a proof of all Horn instances or all stretches."
+}

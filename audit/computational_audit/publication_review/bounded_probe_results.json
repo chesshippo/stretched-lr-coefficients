@@ -1,0 +1,54 @@
+{
+  "scope": "Bounded code/gate probes, not an actual publication or full corpus run",
+  "engines_executed": false,
+  "sources": {
+    "builder": {
+      "path": "/Users/masee/Documents/AI_Programs/OpenMath/new_workflow/problems/stretched-lr-coefficients/runs/20260906T123424Z_exhaustive_release/build_tools/build_release.py",
+      "sha256": "9e19adf284c3bae2e0ca0534870a1d9fc6a1c6c56f8474f0cd76d7e7e5b7769c"
+    },
+    "sealer": {
+      "path": "/Users/masee/Documents/AI_Programs/OpenMath/new_workflow/problems/stretched-lr-coefficients/runs/20260906T123424Z_exhaustive_release/build_tools/seal_release.py",
+      "sha256": "8b1609800311c27a2dd3cce858e2aed3d5653edb7c2ae2f931217362393d5168"
+    },
+    "strict": {
+      "path": "/Users/masee/Documents/AI_Programs/OpenMath/new_workflow/problems/stretched-lr-coefficients/runs/20260906T123424Z_exhaustive_release/release_additions/audit/code/strict_corpus_audit.py",
+      "sha256": "8c93eb53f26ffa7851bb774bf8587d9727915d14e83dbf848756fdd83485b397"
+    },
+    "original": {
+      "path": "/Users/masee/Documents/AI_Programs/OpenMath/new_workflow/problems/stretched-lr-coefficients/runs/20260906T120333Z_exhaustive_audit/computational_audit/adversarial_checks.py",
+      "sha256": "d3072f7f7882d2e1bd912a057377801545d13f3d99ff6eef805999120886b9f6"
+    }
+  },
+  "probes": {
+    "producer_summary_without_raw_or_portable": {
+      "gate_accepted": true,
+      "raw_cases_present": 0,
+      "portable_receipt_present": false,
+      "asset_present": false,
+      "final_audit_is_placeholder": true,
+      "production_statements": 4
+    },
+    "sealer_complete_assertions_under_optimization": {
+      "0": "rejected",
+      "2": "accepted"
+    },
+    "evidence_manifest_equality_with_changed_part": {
+      "gate_accepted": true,
+      "part_changed": true,
+      "caveat": "This tests the exact isolated part-preservation assertion, not an entire seal."
+    },
+    "strict_startup_executes_unverified_packet_verifier": {
+      "untrusted_code_executed": true,
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"/Users/masee/Documents/AI_Programs/OpenMath/new_workflow/problems/stretched-lr-coefficients/runs/20260906T123424Z_exhaustive_release/release_additions/audit/code/strict_corpus_audit.py\", line 49, in <module>\n    spec.loader.exec_module(v)\n    ~~~~~~~~~~~~~~~~~~~~~~~^^^\n  File \"<frozen importlib._bootstrap_external>\", line 1022, in exec_module\n  File \"<frozen importlib._bootstrap_external>\", line 1159, in get_code\n  File \"<frozen importlib._bootstrap_external>\", line 1217, in get_data\nFileNotFoundError: [Errno 2] No such file or directory: '/Users/masee/Documents/AI_Programs/OpenMath/new_workflow/problems/stretched-lr-coefficients/runs/20260906T120333Z_exhaustive_audit/computational_audit/publication_review/fixtures_7jtv1bps/packet/problems/stretched-lr-coefficients/verifier/verify.py'\n",
+      "caveat": "Deliberately incomplete synthetic packet; it fails after the unverified verifier has already executed. No inventory ran."
+    }
+  },
+  "function_body_comparison": {
+    "same_names": true,
+    "functions_compared": 16,
+    "all_unchanged": true,
+    "changed_names": []
+  }
+}

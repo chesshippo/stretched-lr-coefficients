@@ -1,0 +1,73 @@
+{
+  "cutoff": "2026-09-06T13:41:06.498127+00:00",
+  "inputs": [
+    {
+      "path": "write_final_audit.py",
+      "sha256": "cdc6fde2151e09720e5fea2ce8f979998574e4d9648104f3ec897aab3e9a6bd4"
+    },
+    {
+      "path": "paper_audit/claim_inventory.json",
+      "sha256": "7789f4df52343d525129315d3af28fd5b567ff705ed4871f24e2cc5fab57f88f"
+    },
+    {
+      "path": "paper_audit/exact_boundary_results.json",
+      "sha256": "e61ce6cf6f9dbdd71df5e51c886e947413b8495264664daddca291ffed8dbdfc"
+    },
+    {
+      "path": "paper_audit/horn_boundary_results.json",
+      "sha256": "b18fd65ffeccfa96791559a1a2d3c6a52faa656dd973d4374ecedbd588bd9230"
+    },
+    {
+      "path": "paper_audit/symbolic_hive_results.json",
+      "sha256": "fa6291874168cf1eda366ab7d9b891a077e3bb2e335cb955776090f35acdaf34"
+    },
+    {
+      "path": "paper_audit/addendum_review.md",
+      "sha256": "6362fed2c0e0a3e1252955e87f35dd13ae6d0d50f782205b58ee459742432325"
+    },
+    {
+      "path": "paper_audit/parser_clarification_review.md",
+      "sha256": "81141da841fb7d46f68f926fd30948ccd17b423c850c2d7e039038106fc8465e"
+    },
+    {
+      "path": "paper_audit/ktt09_citation_followup.md",
+      "sha256": "5e2edbf2f51b96baa1da6a25b90a2a83f38e06209b1177fc3cc2b502c9b66fd5"
+    },
+    {
+      "path": "computational_audit/COMPUTATIONAL_AUDIT.md",
+      "sha256": "4a33396617c2a4ea3285ab94c31d8b1169014f6a10f8b7b4fb15fa2dfdd62940"
+    },
+    {
+      "path": "computational_audit/corpus_inventory.json",
+      "sha256": "b247a59bdf33313dcd206a3300c19f7e0c4630729c2b89833bcc829ee9c35f4b"
+    },
+    {
+      "path": "computational_audit/horn_and_final_cover.json",
+      "sha256": "cb1094e73f355221e2403f363ee07c8b089de4f688a3b743796ee16575d0ab58"
+    },
+    {
+      "path": "computational_audit/partition_low_c_controls.json",
+      "sha256": "f5d3f3e6418d97590c35735cb3da47974ee8fe4e5d73df3f0a11895c5ee025f5"
+    },
+    {
+      "path": "computational_audit/metadata_supplement.json",
+      "sha256": "53923c98435e8b391da3c292016611622a9033c2c65c3192c9cac36d23f95646"
+    },
+    {
+      "path": "computational_audit/actual_engine_controls.json",
+      "sha256": "222fbed4a22cc988b7fb5e3aa485a1602a1e405d0aa24aa5e111487c4f56ea5b"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "review.md",
+      "sha256": "1e5d398961018945f750d7b1a4df36184e928c14ce0136f6e84d5d12293c6477"
+    },
+    {
+      "path": "review.json",
+      "sha256": "41807f8d2fd1bb188f116ddd2aa5fd95a32c5c932c1fa470ea1d27cd6cf18d44"
+    }
+  ],
+  "initial_reviewed_draft_sha256": "c13f3e94d4aad0170d164d7a505b29a9fe5cf468f4227a80557f741b0efb72bd",
+  "corrected_reviewed_draft_sha256": "cdc6fde2151e09720e5fea2ce8f979998574e4d9648104f3ec897aab3e9a6bd4"
+}

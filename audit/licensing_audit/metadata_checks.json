@@ -1,0 +1,207 @@
+{
+  "all_outer_checksums_pass": true,
+  "archive_sha256_final": "b20c049ccb1a5f57a2f583c0df7dd31db3a8276dd1642fc38c5765750cd17d44",
+  "cff_author": [
+    {
+      "family-names": "Ghodsi",
+      "given-names": "Maseeh"
+    }
+  ],
+  "cff_date_released": "2026-09-06",
+  "cff_licenses": [
+    "CC-BY-4.0",
+    "GPL-3.0-or-later"
+  ],
+  "cff_no_doi": true,
+  "cff_parse": "PASS (YAML syntax and selected field checks; not full CFF schema validation)",
+  "cff_preferred_type": "unpublished",
+  "cff_version": "1.0.1",
+  "checksums": [
+    {
+      "actual_sha256": "445931ee07a3252c22aa3bf76a52181a97b34a9be72fb5f8b70ab974db6d7de5",
+      "expected_sha256": "445931ee07a3252c22aa3bf76a52181a97b34a9be72fb5f8b70ab974db6d7de5",
+      "pass": true,
+      "path": ".gitattributes"
+    },
+    {
+      "actual_sha256": "e3310aa8f20155e3f4bf77b64b3033e575a8a4393f765fa0ff987e0388be66e1",
+      "expected_sha256": "e3310aa8f20155e3f4bf77b64b3033e575a8a4393f765fa0ff987e0388be66e1",
+      "pass": true,
+      "path": ".gitignore"
+    },
+    {
+      "actual_sha256": "528bc1ba8826fa46865445c37b1cb813aa163fdc2ef9b932a3754a7b50fc8505",
+      "expected_sha256": "528bc1ba8826fa46865445c37b1cb813aa163fdc2ef9b932a3754a7b50fc8505",
+      "pass": true,
+      "path": "AUTHORS.md"
+    },
+    {
+      "actual_sha256": "9c05029e198f33869059b7f97a4371278a2d5bfca6ae60479d836a49496a9428",
+      "expected_sha256": "9c05029e198f33869059b7f97a4371278a2d5bfca6ae60479d836a49496a9428",
+      "pass": true,
+      "path": "CITATION.bib"
+    },
+    {
+      "actual_sha256": "3401910d7895a0cc3061d190f322ce5068bfc9173ac0dd6929d60b30708f4e95",
+      "expected_sha256": "3401910d7895a0cc3061d190f322ce5068bfc9173ac0dd6929d60b30708f4e95",
+      "pass": true,
+      "path": "CITATION.cff"
+    },
+    {
+      "actual_sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+      "expected_sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+      "pass": true,
+      "path": "LICENSE"
+    },
+    {
+      "actual_sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411",
+      "expected_sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411",
+      "pass": true,
+      "path": "LICENSES/CC-BY-4.0.txt"
+    },
+    {
+      "actual_sha256": "896a7a1c59e5120732fbc6be93637c42c14b1e85a5c08af7faef9263b01ddab4",
+      "expected_sha256": "896a7a1c59e5120732fbc6be93637c42c14b1e85a5c08af7faef9263b01ddab4",
+      "pass": true,
+      "path": "LICENSING.md"
+    },
+    {
+      "actual_sha256": "86cfe1ae7e3ae75aa8e753ae5941a4d3f7909df9cddbb90b312360784f6ec613",
+      "expected_sha256": "86cfe1ae7e3ae75aa8e753ae5941a4d3f7909df9cddbb90b312360784f6ec613",
+      "pass": true,
+      "path": "NOTICE"
+    },
+    {
+      "actual_sha256": "421cd7d05bc86f5d517fd148177c9e3af286a89b8886c9edfeeef3c4321feb2f",
+      "expected_sha256": "421cd7d05bc86f5d517fd148177c9e3af286a89b8886c9edfeeef3c4321feb2f",
+      "pass": true,
+      "path": "PUBLICATION.md"
+    },
+    {
+      "actual_sha256": "82a8caf85f20c96bffa1b9c74d6684cf161be09f34123a7ad8effbc71670a619",
+      "expected_sha256": "82a8caf85f20c96bffa1b9c74d6684cf161be09f34123a7ad8effbc71670a619",
+      "pass": true,
+      "path": "README.md"
+    },
+    {
+      "actual_sha256": "6e5dcc63a87b1794710a26474c744f6aa77993ed6f5e0c432008e332184e99cd",
+      "expected_sha256": "6e5dcc63a87b1794710a26474c744f6aa77993ed6f5e0c432008e332184e99cd",
+      "pass": true,
+      "path": "RELEASE.json"
+    },
+    {
+      "actual_sha256": "643f620f2cb6a09982a2e1e16830afb163001d83cc1e52ca1ef6df8aad88cc2d",
+      "expected_sha256": "643f620f2cb6a09982a2e1e16830afb163001d83cc1e52ca1ef6df8aad88cc2d",
+      "pass": true,
+      "path": "THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "actual_sha256": "cffaa9d0132961a873305c0e0acf173c123347a6f9a7818d62254561593878fa",
+      "expected_sha256": "cffaa9d0132961a873305c0e0acf173c123347a6f9a7818d62254561593878fa",
+      "pass": true,
+      "path": "UPLOAD_AND_REPRODUCE.md"
+    },
+    {
+      "actual_sha256": "6bff2a4490245d4929c6e3053ea1eb80c6f069d5860f5008cb7f88222ce724bd",
+      "expected_sha256": "6bff2a4490245d4929c6e3053ea1eb80c6f069d5860f5008cb7f88222ce724bd",
+      "pass": true,
+      "path": "docs/ARCHIVED_REPRODUCE.md"
+    },
+    {
+      "actual_sha256": "98da97358c6868d9a0000090c8839bc31999f2382e6bf76e20d2624615b36484",
+      "expected_sha256": "98da97358c6868d9a0000090c8839bc31999f2382e6bf76e20d2624615b36484",
+      "pass": true,
+      "path": "docs/EVIDENCE.md"
+    },
+    {
+      "actual_sha256": "736548f7dec6ef0bf100770b637c1b05d529e70226e1f79b21848c722f4402fc",
+      "expected_sha256": "736548f7dec6ef0bf100770b637c1b05d529e70226e1f79b21848c722f4402fc",
+      "pass": true,
+      "path": "docs/FORMALIZATION.md"
+    },
+    {
+      "actual_sha256": "7b0a63a7a7834a8a81014076de42039fb0c6ea39ef9288f48c0efd432ed142c0",
+      "expected_sha256": "7b0a63a7a7834a8a81014076de42039fb0c6ea39ef9288f48c0efd432ed142c0",
+      "pass": true,
+      "path": "evidence/PARTS.json"
+    },
+    {
+      "actual_sha256": "85d273e1246f48ccc3fb24cda925e346add32f8d2aceb1895e3e290dcb140a7c",
+      "expected_sha256": "85d273e1246f48ccc3fb24cda925e346add32f8d2aceb1895e3e290dcb140a7c",
+      "pass": true,
+      "path": "evidence/parts/evidence.zip.part-000"
+    },
+    {
+      "actual_sha256": "cd3b94ca3913d04f8b0b255c4323c156f45867a7de871f654cc8db022da944c9",
+      "expected_sha256": "cd3b94ca3913d04f8b0b255c4323c156f45867a7de871f654cc8db022da944c9",
+      "pass": true,
+      "path": "evidence/parts/evidence.zip.part-001"
+    },
+    {
+      "actual_sha256": "6dea5f523f202dab66bef4e9c66c51a0503585ddf0dc45d9e405dc189849c7bd",
+      "expected_sha256": "6dea5f523f202dab66bef4e9c66c51a0503585ddf0dc45d9e405dc189849c7bd",
+      "pass": true,
+      "path": "evidence/parts/evidence.zip.part-002"
+    },
+    {
+      "actual_sha256": "3cb404f4e4b69c2fedc7c9f3bc9beb3429c24c8983425b35759e6ac40ab62455",
+      "expected_sha256": "3cb404f4e4b69c2fedc7c9f3bc9beb3429c24c8983425b35759e6ac40ab62455",
+      "pass": true,
+      "path": "evidence/parts/evidence.zip.part-003"
+    },
+    {
+      "actual_sha256": "561ccb45d31d805bbb6680ccfc9140b6fb884140e5de3c56497762029f812990",
+      "expected_sha256": "561ccb45d31d805bbb6680ccfc9140b6fb884140e5de3c56497762029f812990",
+      "pass": true,
+      "path": "evidence/parts/evidence.zip.part-004"
+    },
+    {
+      "actual_sha256": "6aa0dbbe105e08084f6ea6a59dd213fecb80da2c7eede19a8a43144034354567",
+      "expected_sha256": "6aa0dbbe105e08084f6ea6a59dd213fecb80da2c7eede19a8a43144034354567",
+      "pass": true,
+      "path": "evidence/parts/evidence.zip.part-005"
+    },
+    {
+      "actual_sha256": "7f0ce6f2aeba34989e8b4a55fe827f0f5a0a7f75df466889afaaf27ab08fa45f",
+      "expected_sha256": "7f0ce6f2aeba34989e8b4a55fe827f0f5a0a7f75df466889afaaf27ab08fa45f",
+      "pass": true,
+      "path": "paper.pdf"
+    },
+    {
+      "actual_sha256": "c8f36a1f79a50e4de2d8c91c7c2e9beff178e9b6bb3d89c2935dcde3afe09dac",
+      "expected_sha256": "c8f36a1f79a50e4de2d8c91c7c2e9beff178e9b6bb3d89c2935dcde3afe09dac",
+      "pass": true,
+      "path": "paper.tex"
+    },
+    {
+      "actual_sha256": "af943049949e274712dc362dbaa10469144f779ff4b4519f27e6ebadc7b18ff6",
+      "expected_sha256": "af943049949e274712dc362dbaa10469144f779ff4b4519f27e6ebadc7b18ff6",
+      "pass": true,
+      "path": "proof/frozen-proof.pdf"
+    },
+    {
+      "actual_sha256": "3deebd9376714584ad6f6156d8fed5f26872bdd09541470f408f2403d664fd45",
+      "expected_sha256": "3deebd9376714584ad6f6156d8fed5f26872bdd09541470f408f2403d664fd45",
+      "pass": true,
+      "path": "proof/frozen-proof.tex"
+    },
+    {
+      "actual_sha256": "42ec8d08e499c0641843b0c9441861cd134feec2d190e7112a89cfb375c35aa0",
+      "expected_sha256": "42ec8d08e499c0641843b0c9441861cd134feec2d190e7112a89cfb375c35aa0",
+      "pass": true,
+      "path": "reproduce.py"
+    },
+    {
+      "actual_sha256": "453e3f3cd7e75926d0789e3d7ba4bb3bf6510b0e1b1107e03c55353b27f6cd4e",
+      "expected_sha256": "453e3f3cd7e75926d0789e3d7ba4bb3bf6510b0e1b1107e03c55353b27f6cd4e",
+      "pass": true,
+      "path": "requirements-audit.txt"
+    }
+  ],
+  "cover_has_cc_by_4_full_license_name": true,
+  "cover_has_correct_author": true,
+  "cover_has_gpl_version_3_or_later": true,
+  "cover_has_substantial_ai_disclosure": true,
+  "cover_license_predicate_note": "Cover uses full license names, not SPDX identifiers; AI provider names occur in AUTHORS.md, while cover discloses substantial AI assistance.",
+  "outer_checksum_rows": 30
+}

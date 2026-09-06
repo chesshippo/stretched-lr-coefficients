@@ -1,0 +1,122 @@
+[
+  {
+    "archived_check_accepts": true,
+    "band": "small",
+    "index": 29034,
+    "meaning": "Saved-value consistency and fresh t=1 cannot identify the full polynomial; immutable archive hashes prevent unnoticed byte substitution.",
+    "mutated_coefficients": [
+      "1",
+      "9587/2520",
+      "27211/3360",
+      "395237/45360",
+      "41761/5760",
+      "70319/17280",
+      "4577/2880",
+      "24719/60480",
+      "2503/40320",
+      "1523/362880"
+    ],
+    "mutated_values_t0_to4": [
+      1,
+      35,
+      529,
+      4439,
+      25101
+    ],
+    "mutation": "P + binomial(t,4), all coefficients still nonnegative",
+    "original_coefficients": [
+      "1",
+      "10217/2520",
+      "8557/1120",
+      "406577/45360",
+      "41521/5760",
+      "70319/17280",
+      "4577/2880",
+      "24719/60480",
+      "2503/40320",
+      "1523/362880"
+    ],
+    "original_values_t0_to4": [
+      1,
+      35,
+      529,
+      4439,
+      25100
+    ],
+    "source_checker_sha256": "29bc842f037d94fee88e8ab139328ecf25081aabd2997bbc6aaa9e832aa6d60d"
+  },
+  {
+    "band": "small",
+    "empty_values_accepted": true,
+    "index": 29034,
+    "nonsensical_hive_engine_metadata_accepted": true
+  },
+  {
+    "band": "small",
+    "index": 29034,
+    "wrong_source_triple_rejected": true
+  },
+  {
+    "archived_check_accepts": true,
+    "band": "large",
+    "index": 989721,
+    "meaning": "Saved-value consistency and fresh t=1 cannot identify the full polynomial; immutable archive hashes prevent unnoticed byte substitution.",
+    "mutated_coefficients": [
+      "1",
+      "138953/27720",
+      "7783483/554400",
+      "819215/36288",
+      "4176829/151200",
+      "6034529/241920",
+      "124367051/7257600",
+      "135253/15120",
+      "8473747/2419200",
+      "724799/725760",
+      "473839/2419200",
+      "1163/49280",
+      "104837/79833600"
+    ],
+    "mutated_values_t0_to4": [
+      1,
+      126,
+      5392,
+      100189,
+      1068802
+    ],
+    "mutation": "P + binomial(t,4), all coefficients still nonnegative",
+    "original_coefficients": [
+      "1",
+      "145883/27720",
+      "7529383/554400",
+      "828287/36288",
+      "4170529/151200",
+      "6034529/241920",
+      "124367051/7257600",
+      "135253/15120",
+      "8473747/2419200",
+      "724799/725760",
+      "473839/2419200",
+      "1163/49280",
+      "104837/79833600"
+    ],
+    "original_values_t0_to4": [
+      1,
+      126,
+      5392,
+      100189,
+      1068801
+    ],
+    "source_checker_sha256": "00c4c3056569d7eca01380ebd771dd218c0d1f0feb0b6a485a549b544163984c"
+  },
+  {
+    "band": "large",
+    "empty_values_accepted": true,
+    "index": 989721,
+    "nonsensical_hive_engine_metadata_accepted": true
+  },
+  {
+    "band": "large",
+    "index": 989721,
+    "wrong_source_triple_rejected": true
+  }
+]

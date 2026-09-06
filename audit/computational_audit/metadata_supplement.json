@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "counts": {
+    "computed_records_checked": 522245,
+    "small": 13139,
+    "large": 509105,
+    "recovery": 1
+  },
+  "strict_coefficient_text_engine_metadata_and_cross_checks": true,
+  "elapsed_s": 14.143557249997684
+}

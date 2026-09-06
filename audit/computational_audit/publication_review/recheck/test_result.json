@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "tests": 31,
+  "failures": 0,
+  "errors": 0,
+  "synthetic_zip_fixtures_not_proof_evidence": true,
+  "complete_audit_prerequisite_mocked_for_zip_tests": true,
+  "actual_full_gate_run": false,
+  "engines_run": false,
+  "original_gate_sha256": "545ad5f1710f4e986d13b245e4585791bad8761a1b0cdc63497b90bdb8517ed3",
+  "proposed_gate_sha256": "b0c24239b6446ba2cb9acf0aac89dc5accef0643f63d71bd09de1b615e537641"
+}

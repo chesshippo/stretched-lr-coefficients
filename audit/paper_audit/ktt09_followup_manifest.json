@@ -1,0 +1,66 @@
+{
+  "ktt09_soton_record.html": {
+    "sha256": "ee17f7c3ec26752352120347deade3aa889974aa0eeab0c6d20e62eed14d1c5c",
+    "bytes": 38492
+  },
+  "ktt09_locator_corroboration_chen_et_al.pdf": {
+    "sha256": "b7d7947995922d95329afd31eb30bfd1dc67c2728cfafe6616cffa27bb687e87",
+    "bytes": 375862
+  },
+  "ktt09_publisher_link_log.json": {
+    "sha256": "ce149bdb251713f0856aa857d81581eec7bc17605a60d94b9674221daf03c674",
+    "bytes": 710
+  },
+  "ktt09_author_lipn.html": {
+    "sha256": "778d53f744eb9231c16273691060bd345cd3528c4e36602ec2cadbc82df20f9c",
+    "bytes": 272377
+  },
+  "ktt09_hal_doi.json": {
+    "sha256": "316b596864c92e18c8f6688107ad49ecfc3fe632ebdc85efe82c65ed28ba8064",
+    "bytes": 116
+  },
+  "ktt09_citation_followup.md": {
+    "sha256": "5e2edbf2f51b96baa1da6a25b90a2a83f38e06209b1177fc3cc2b502c9b66fd5",
+    "bytes": 4395
+  },
+  "ktt09_locator_corroboration_chen_et_al.txt": {
+    "sha256": "767c185ca8649641670ce46587c5065a13c587958e0fc956129fb191b18621c0",
+    "bytes": 98449
+  },
+  "ktt09_author_king.html": {
+    "sha256": "a23b121da0b49922c158d076676f29883552adddfd90a9eebad0d7b41dd3da8a",
+    "bytes": 37937
+  },
+  "ktt09_publisher_advertised.xml": {
+    "sha256": "8cf37a26361e7575f450a9c927ea33fce2bc923109cff6a25abdb0894490788f",
+    "bytes": 1950
+  },
+  "ktt09_hal_query_log.json": {
+    "sha256": "e20f5bbb28e8ca7020341b0402bfaaae01e3726a534d75c1d6d866aac7a9bc9a",
+    "bytes": 726
+  },
+  "ktt09_query_evidence.json": {
+    "sha256": "ff35b29236e2eb2a157dd66189b23af28a12ce4ba7ab39ee7d8aee894abe6ac7",
+    "bytes": 28553
+  },
+  "ktt09_openalex.json": {
+    "sha256": "b8a1c7c1c221514698e3b8729967f53cca98fe076abb6e4c7466d004a5fd9cdd",
+    "bytes": 13459
+  },
+  "ktt09_hal_title.json": {
+    "sha256": "316b596864c92e18c8f6688107ad49ecfc3fe632ebdc85efe82c65ed28ba8064",
+    "bytes": 116
+  },
+  "ktt09_download_log.json": {
+    "sha256": "e9a6a8b6fd0d685f41a24202cdc6ec5746caae8c3fdba4c5151579e52e932c43",
+    "bytes": 595
+  },
+  "ktt09_crossref.json": {
+    "sha256": "351f6a12013f7d12afd74a8205e21617151d6cad3b5e9a1c6e1828cf5dbc7547",
+    "bytes": 8185
+  },
+  "ktt09_final_sources_log.json": {
+    "sha256": "91ea487bcf7d9e975a3674c6422510ee903afb7523827792d7697ca0d6e9cbb6",
+    "bytes": 630
+  }
+}

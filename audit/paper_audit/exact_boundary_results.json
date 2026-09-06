@@ -1,0 +1,353 @@
+{
+  "scope": {
+    "outer_size_at_most": 12,
+    "length_at_most": 6,
+    "stretches": [
+      1,
+      2,
+      3
+    ],
+    "direct_tableau_outer_size_at_most": 8
+  },
+  "counts": {
+    "balanced_contained_triples": 29859,
+    "independent_direct_tableau_counts": 1776,
+    "rectangular_stretch_equalities": 57666,
+    "rectangular_instances": 19222,
+    "rectangular_final_row_instances": 9556,
+    "rectangular_q1_instances": 11461,
+    "second_stretch_equalities": 30945,
+    "second_instances": 10315,
+    "six_stretch_equalities": 192564,
+    "six_instances": 64188,
+    "strengthened_stretch_equalities": 104808,
+    "strengthened_instances": 34936,
+    "second_noncontained_targets": 1164
+  },
+  "examples": {
+    "rectangular_positive": {
+      "source": [
+        [
+          1,
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "target": [
+        [],
+        [],
+        []
+      ],
+      "params": {
+        "p": 1,
+        "q": 1,
+        "a": 1,
+        "r_equals_n": true
+      },
+      "values": [
+        1,
+        1,
+        1
+      ]
+    },
+    "second_positive": {
+      "source": [
+        [
+          1,
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "target": [
+        [],
+        [],
+        []
+      ],
+      "params": {
+        "p": 1,
+        "q": 1,
+        "margin": 1
+      },
+      "values": [
+        1,
+        1,
+        1
+      ]
+    },
+    "six_positive": {
+      "source": [
+        [
+          1,
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "target": [
+        [
+          1
+        ],
+        [
+          1
+        ],
+        []
+      ],
+      "params": {
+        "dual": false,
+        "choice": 0
+      },
+      "values": [
+        1,
+        1,
+        1
+      ]
+    },
+    "strengthened_positive": {
+      "source": [
+        [
+          2,
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "target": [
+        [
+          1,
+          1
+        ],
+        [],
+        [
+          1,
+          1
+        ]
+      ],
+      "params": {
+        "k": 1,
+        "a": 1,
+        "qk": 0
+      },
+      "values": [
+        1,
+        1,
+        1
+      ]
+    },
+    "strengthened_zero": {
+      "source": [
+        [
+          2,
+          1,
+          1
+        ],
+        [
+          2
+        ],
+        [
+          2
+        ]
+      ],
+      "target": [
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ]
+      ],
+      "params": {
+        "k": 1,
+        "a": 1,
+        "qk": 2
+      },
+      "values": [
+        0,
+        0,
+        0
+      ]
+    },
+    "second_weakened_counterexample": {
+      "source": [
+        [
+          3,
+          1
+        ],
+        [
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "target": [
+        [
+          2
+        ],
+        [],
+        [
+          1,
+          1
+        ]
+      ],
+      "params": {
+        "p": 1,
+        "q": 1
+      },
+      "source_values": [
+        1,
+        1,
+        1
+      ],
+      "target_values": [
+        0,
+        0,
+        0
+      ]
+    },
+    "rectangular_zero": {
+      "source": [
+        [
+          3,
+          2,
+          1
+        ],
+        [
+          3
+        ],
+        [
+          3
+        ]
+      ],
+      "target": [
+        [
+          2,
+          1,
+          1
+        ],
+        [
+          2
+        ],
+        [
+          2
+        ]
+      ],
+      "params": {
+        "p": 1,
+        "q": 1,
+        "a": 1,
+        "r_equals_n": false
+      },
+      "values": [
+        0,
+        0,
+        0
+      ]
+    },
+    "second_zero": {
+      "source": [
+        [
+          3,
+          2,
+          1
+        ],
+        [
+          3
+        ],
+        [
+          3
+        ]
+      ],
+      "target": [
+        [
+          2,
+          1,
+          1
+        ],
+        [
+          2
+        ],
+        [
+          2
+        ]
+      ],
+      "params": {
+        "p": 1,
+        "q": 1,
+        "margin": 2
+      },
+      "values": [
+        0,
+        0,
+        0
+      ]
+    },
+    "second_noncontained": {
+      "source": [
+        [
+          3,
+          2,
+          1,
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "target": [
+        [
+          2,
+          1,
+          1,
+          1
+        ],
+        [
+          1
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "params": {
+        "p": 1,
+        "q": 1
+      },
+      "values": [
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "elapsed_seconds": 0.7437432919978164,
+  "scope_limit": "Exact bounded falsification only; no all-stretch or full-box proof claimed."
+}
